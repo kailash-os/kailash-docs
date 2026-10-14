@@ -1,0 +1,25 @@
+---
+title: "kiterunner - configuration reference"
+---
+
+# kiterunner — configuration reference
+
+Configuration surfaces for [kiterunner](../tools/kiterunner.qmd)
+(safety class: safe; category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `HOME/.kiterunner.yaml` | --config string    config file (default is $HOME/.kiterunner.yaml)   -o, --output string    output format. can be json,t |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

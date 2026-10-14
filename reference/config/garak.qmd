@@ -1,0 +1,38 @@
+---
+title: "garak - configuration reference"
+---
+
+# garak — configuration reference
+
+Configuration surfaces for [garak](../tools/garak.qmd)
+(safety class: requires-target; category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks)) —
+detected from the upstream documentation at generation
+time (16 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `OPENAI_API_KEY` | lace example value with a real OpenAI API key)   ``` export OPENAI_API_KEY="sk-123XXXXXXXXXXXX" python3 -m garak --target_type ope |
+| `HF_INFERENCE_TOKEN` | t-1.aws.endpoints.huggingface.cloud`  * (optional) set the `HF_INFERENCE_TOKEN` environment variable to a Hugging Face API token w |
+| `REPLICATE_API_TOKEN` | lease send a PR / open an issue.  ### Replicate  * set the `REPLICATE_API_TOKEN` environment variable to your Replicate API token, |
+| `COHERE_API_KEY` | ) - The specific Cohere model you'd like to test * set the `COHERE_API_KEY` environment variable to your Cohere API key, e.g. "aBc |
+| `GROQ_API_KEY` | The name of the model to access via the Groq API * set the `GROQ_API_KEY` environment variable to your Groq API key, see https://c |
+| `GGML_MAIN_PATH` | me/leon/llama.cpp/models/7B/ggml-model-q4_0.bin` * set the `GGML_MAIN_PATH` environment variable to the path to your ggml `main` e |
+| `NIM_API_KEY` | ttps://build.nvidia.com/ or other NIM endpoints. * set the `NIM_API_KEY` environment variable to your authentication API token, or |
+| `BEDROCK_API_KEY` | ude-3-sonnet-20240229-v1:0` or `claude-3-sonnet` * set the `BEDROCK_API_KEY` environment variable to your AWS Bedrock API key; see |
+| `BEDROCK_REGION` | le usage:  ``` export BEDROCK_API_KEY="your-api-key" export BEDROCK_REGION="us-east-1" garak --target_type bedrock --target_name c |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [v0.17.1.pre1-unstable-2026-10-09](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

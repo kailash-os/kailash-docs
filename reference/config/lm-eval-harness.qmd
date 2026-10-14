@@ -1,0 +1,62 @@
+---
+title: "lm-eval-harness - configuration reference"
+---
+
+# lm-eval-harness — configuration reference
+
+Configuration surfaces for [lm-eval-harness](../tools/lm-eval-harness.qmd)
+(safety class: safe; category: [d-03-assurance-evals-benchmarks](../directory.qmd#cat-d-03-assurance-evals-benchmarks)) —
+detected from the upstream documentation at generation
+time (5 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `MEGATRON_PATH` | ments:** - Megatron-LM must be installed or accessible via `MEGATRON_PATH` environment variable - PyTorch with CUDA support  **Set |
+| `OPENAI_API_KEY` | ence servers.  To call a hosted model, use:  ```bash export OPENAI_API_KEY=YOUR_KEY_HERE lm_eval --model openai-completions \      |
+| `HF_TOKEN` | rst ensure an access token with write access is set in the `HF_TOKEN` environment variable. Then, use the `--hf_hub_log_args` fl |
+| `ZENO_API_KEY` | ). Add this key as an environment variable:  ```bash export ZENO_API_KEY=[your api key] ```  You'll also need to install the `lm_e |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+import torch
+
+steer_config = {
+    "layers.3": {
+        "steering_vector": torch.randn(1, 768),
+        "bias": torch.randn(1, 768),
+        "steering_coefficient": 1,
+        "action": "add"
+    },
+}
+torch.save(steer_config, "steer_config.pt")
+```
+
+```
+import pandas as pd
+
+pd.DataFrame({
+    "loader": ["sparsify"],
+    "action": ["add"],
+    "sparse_model": ["EleutherAI/sae-pythia-70m-32k"],
+    "hookpoint": ["layers.3"],
+    "feature_index": [30],
+    "steering_coefficient": [10.0],
+}).to_csv("steer_config.csv", index=False)
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

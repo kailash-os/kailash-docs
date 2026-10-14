@@ -1,0 +1,56 @@
+---
+title: "redis-cli - configuration reference"
+---
+
+# redis-cli — configuration reference
+
+Configuration surfaces for [redis-cli](../tools/redis-cli.qmd)
+(safety class: safe; category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment)) —
+detected from the upstream documentation at generation
+time (13 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `redis.conf` | steps below tell you to run > `./src/redis-server redis.conf`. Release tarballs bake the bundled modules' > `loadmodule` |
+| `redis-full.conf` | that module config lives in the > auto-generated `redis-full.conf` produced by `make modules-update` (and > regenerated  |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `BUILD_TLS` | edis/tree/8.8#readme>.  #### 3. Build and run  ```sh export BUILD_TLS=yes            # optional — TLS support (needs OpenSSL dev |
+| `BUILD_INTEL_SVS_OPT` | ore running the build step for your platform:  ```sh export BUILD_INTEL_SVS_OPT=yes make ```   ## Code contributions  By contribut |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+docker build -f docker/Dockerfile.noble -t redis-build:noble .
+
+   # Multi-arch (requires `docker buildx` configured):
+   docker buildx build --platform linux/amd64,linux/arm64 \
+       -f docker/Dockerfile.noble -t redis-build:noble .
+
+   # Build with the working tree mounted:
+   docker run --rm -it -v "$PWD":/workspace -w /workspace redis-build:noble \
+       bash -lc 'make -j"$(nproc)" && make run'
+```
+
+```
+export BUILD_TLS=yes            # optional — TLS support (needs OpenSSL dev libs)
+make -j "$(nproc)"
+
+# Release tarball (module config is baked into redis.conf):
+./src/redis-server redis.conf
+# From a git checkout, use the auto-generated module config instead:
+./src/redis-server redis-full.conf
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

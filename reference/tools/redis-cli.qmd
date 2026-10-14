@@ -49,6 +49,7 @@ is the detection record, not the page.
 
 - Category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/redis-cli.qmd) — files, environment variables, samples.
 
 ---
 

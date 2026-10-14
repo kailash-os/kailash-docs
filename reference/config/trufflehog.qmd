@@ -1,0 +1,49 @@
+---
+title: "trufflehog - configuration reference"
+---
+
+# trufflehog — configuration reference
+
+Configuration surfaces for [trufflehog](../tools/trufflehog.qmd)
+(safety class: safe; category: [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `examples/generic_with_filters.yml` | hen the filters get applied to each regex. [Here](examples/generic_with_filters.yml) is an example of a custom detector  |
+| `examples/generic_config_secrets.yml` | verified detectors won't otherwise catch. [Here](examples/generic_config_secrets.yml) is an example tuned for that use c |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SCAN_PATH` | llow_failure: false   image: alpine:latest   variables:     SCAN_PATH: "." # Set the relative path in the repo to scan   before_s |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+trufflehog gcs --project-id=<project-ID> --cloud-environment --results=verified
+```
+
+```
+sources:
+- connection:
+    '@type': type.googleapis.com/sources.GitHub
+    repositories:
+    - https://github.com/trufflesecurity/test_keys.git
+    unauthenticated: {}
+  name: example config scan
+  type: SOURCE_TYPE_GITHUB
+  verify: true
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

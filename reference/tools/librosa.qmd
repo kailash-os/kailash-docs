@@ -23,6 +23,7 @@ title: "librosa(1) - Kailash Tool Reference"
 
 - Category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/librosa.qmd) — files, environment variables, samples.
 
 ---
 

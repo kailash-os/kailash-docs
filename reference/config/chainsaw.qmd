@@ -1,0 +1,45 @@
+---
+title: "chainsaw - configuration reference"
+---
+
+# chainsaw — configuration reference
+
+Configuration surfaces for [chainsaw](../tools/chainsaw.qmd)
+(safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —
+detected from the upstream documentation at generation
+time (6 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `mappings/sigma-event-logs-all.yml` | saw hunt EVTX-ATTACK-SAMPLES/ -s sigma/ --mapping mappings/sigma-event-logs-all.yml ```  ### Install/build with Nix  ``` |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SOFTWARE_HIVE_PATH` | USAGE:         chainsaw analyse srum [OPTIONS] --software <SOFTWARE_HIVE_PATH> <SRUM_PATH>      ARGUMENTS:         <SRUM_PATH> |
+| `SRUM_PATH` | saw analyse srum [OPTIONS] --software <SOFTWARE_HIVE_PATH> <SRUM_PATH>      ARGUMENTS:         <SRUM_PATH> |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+├───devShells
+│   └───x86_64-linux
+│       └───default: development environment 'nix-shell'
+├───formatter
+│   └───x86_64-linux: package 'alejandra-3.1.0'
+└───packages
+    └───x86_64-linux
+        ├───chainsaw: package 'chainsaw-2.10.1'
+        └───default: package 'chainsaw-2.10.1'
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

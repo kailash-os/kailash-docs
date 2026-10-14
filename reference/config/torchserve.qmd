@@ -1,0 +1,42 @@
+---
+title: "torchserve - configuration reference"
+---
+
+# torchserve — configuration reference
+
+Configuration surfaces for [torchserve](../tools/torchserve.qmd)
+(safety class: safe; category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure)) —
+detected from the upstream documentation at generation
+time (6 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `HUGGINGFACE_HUB_TOKEN` | ck Start LLM Deployment with Docker  ```bash #export token=<HUGGINGFACE_HUB_TOKEN> docker build --pull . -f docker/Dockerfile.vllm |
+| `HUGGING_FACE_HUB_TOKEN` | t ts/vllm  docker run --rm -ti --shm-size 10g --gpus all -e HUGGING_FACE_HUB_TOKEN=$token -p 8080:8080 -v data:/data ts/vllm --mod |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+# Make sure to install torchserve with python venv as described above and login with `huggingface-cli login`
+# pip install -U --use-deprecated=legacy-resolver -r requirements/trt_llm.txt
+python -m ts.llm_launcher --model_id meta-llama/Meta-Llama-3.1-8B-Instruct --engine trt_llm --disable_token_auth
+
+# Try it out
+curl -X POST -d '{"prompt":"count from 1 to 9 in french ", "max_tokens": 100}' --header "Content-Type: application/json" "http://localhost:8080/predictions/model"
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,46 @@
+---
+title: "sysmon-modular - configuration reference"
+---
+
+# sysmon-modular — configuration reference
+
+Configuration surfaces for [sysmon-modular](../tools/sysmon-modular.qmd)
+(safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+./tooling/sysmon-modular merge \
+  --base-path "$PWD" \
+  --template "$PWD/templates/sysmon_template.xml" \
+  --include-list "$PWD/0_custom_configuration/example_include_rules.txt" \
+  --exclude-list "$PWD/0_custom_configuration/example_exclude_rules.txt" \
+  --sysmon-version 15.21 \
+  --unsupported exclude \
+  --preserve-comments \
+  --output "$PWD/0_custom_configuration/sysmonconfig-example.xml"
+```
+
+```
+./tooling/sysmon-modular analyze --config 0_custom_configuration/sysmonconfig-example.xml
+./tooling/sysmon-modular diff \
+  --before old.xml --after 0_custom_configuration/sysmonconfig-example.xml
+./tooling/sysmon-modular coverage --path 0_custom_configuration/sysmonconfig-example.xml
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

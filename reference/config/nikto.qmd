@@ -1,0 +1,32 @@
+---
+title: "nikto - configuration reference"
+---
+
+# nikto — configuration reference
+
+Configuration surfaces for [nikto](../tools/nikto.qmd)
+(safety class: safe; category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis)) —
+detected from the upstream documentation at generation
+time (5 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `nikto.conf` | king (connects to ipv6.google.com or value set in nikto.conf)        -Cgidirs+           Scan these CGI dirs: "none", "a |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `DB_TYPE` | )                                Note: sqld format requires DB_TYPE, DB_HOST, DB_PORT, DB_NAME in nikto.conf |
+| `DB_HOST` | Note: sqld format requires DB_TYPE, DB_HOST, DB_PORT, DB_NAME in nikto.conf |
+| `DB_NAME` | Note: sqld format requires DB_TYPE, DB_HOST, DB_PORT, DB_NAME in nikto.conf                                      and NIKT |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -48,6 +48,7 @@ is the detection record, not the page.
 
 - Category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/garak.qmd) — files, environment variables, samples.
 
 ---
 

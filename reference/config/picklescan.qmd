@@ -1,0 +1,40 @@
+---
+title: "picklescan - configuration reference"
+---
+
+# picklescan — configuration reference
+
+Configuration surfaces for [picklescan](../tools/picklescan.qmd)
+(safety class: safe; category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `conda.yaml` | nda.html) is sufficient): ``` conda env create -f conda.yaml conda activate picklescan ```  Install the package in edita |
+| `conda.test.yaml` | the package: bump the version of `picklescan` in `conda.test.yaml` and run ``` conda env remove -n picklescan-test conda |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+conda env create -f conda.yaml
+conda activate picklescan
+```
+
+```
+conda env remove -n picklescan-test
+conda env create -f conda.test.yaml
+conda activate picklescan-test
+picklescan --huggingface ykilcher/totally-harmless-model
+```
+
+---
+
+ref: [v1.0.5-unstable-2026-09-01](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

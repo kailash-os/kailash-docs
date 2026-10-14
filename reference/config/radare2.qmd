@@ -1,0 +1,39 @@
+---
+title: "radare2 - configuration reference"
+---
+
+# radare2 — configuration reference
+
+Configuration surfaces for [radare2](../tools/radare2.qmd)
+(safety class: safe; category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering)) —
+detected from the upstream documentation at generation
+time (6 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SARIF` | (https://github.com/radareorg/r2sarif) import/extend/export SARIF documents * [r2hermes](https://github.com/radareorg/r2herme |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+preconfigure.bat       REM setup python, meson, ninja
+configure.bat          REM run meson b + vs project
+make.bat               REM run ninja -C b
+prefix\bin\radare2.exe
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

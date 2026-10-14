@@ -1,0 +1,36 @@
+---
+title: "counterfit - configuration reference"
+---
+
+# counterfit — configuration reference
+
+Configuration surfaces for [counterfit](../tools/counterfit.qmd)
+(safety class: requires-target; category: [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+sudo apt install python3.8 python3.8-venv
+python -m venv counterfit
+git clone -b main https://github.com/Azure/counterfit.git
+cd counterfit
+pip install .[dev]
+python -c "import nltk;  nltk.download('stopwords')"
+```
+
+---
+
+ref: [v1.1.0-unstable-2025-07-18](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

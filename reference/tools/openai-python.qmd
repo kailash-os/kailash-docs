@@ -60,6 +60,7 @@ is the detection record, not the page.
 
 - Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/openai-python.qmd) — files, environment variables, samples.
 
 ---
 

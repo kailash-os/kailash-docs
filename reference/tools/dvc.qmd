@@ -39,6 +39,7 @@ is the detection record, not the page.
 
 - Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/dvc.qmd) — files, environment variables, samples.
 
 ---
 

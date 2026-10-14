@@ -1,0 +1,30 @@
+---
+title: "promptfoo - configuration reference"
+---
+
+# promptfoo — configuration reference
+
+Configuration surfaces for [promptfoo](../tools/promptfoo.qmd)
+(safety class: requires-target; category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `OPENAI_API_KEY` | PI key. Set yours as an environment variable:  ```sh export OPENAI_API_KEY=sk-abc123 ```  Run an eval and view results:  ```sh cd  |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [v0.124.1-unstable-2026-10-10](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

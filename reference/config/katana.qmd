@@ -1,0 +1,55 @@
+---
+title: "katana - configuration reference"
+---
+
+# katana — configuration reference
+
+Configuration surfaces for [katana](../tools/katana.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (8 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `/etc/apt/keyrings` | install golang --classic  sudo install -d -m 0755 /etc/apt/keyrings curl -fsSL https://dl.google.com/linux/linux_signing |
+| `/etc/apt/keyrings/google-chrome.gpg` | linux_signing_key.pub \   | sudo gpg --dearmor -o /etc/apt/keyrings/google-chrome.gpg  echo "deb [arch=amd64 signed-by=/ |
+| `/etc/apt/sources.list.d/google-chrome.list` | com/linux/chrome/deb/ stable main" \   | sudo tee /etc/apt/sources.list.d/google-chrome.list > /dev/null  sudo apt updat |
+| `HOME/.config/katana/form-config.yaml` | mized as needed by updating form config file at `$HOME/.config/katana/form-config.yaml`.  Automatic form filling is expe |
+| `HOME/.config/katana/field-config.yaml` | ile and are loaded from the default location at `$HOME/.config/katana/field-config.yaml`. Alternatively, you can use the |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `YOUR_API_KEY` | katana -u https://example.com -headless -csp capsolver -csk YOUR_API_KEY ```  The provider and key can also be set via environment |
+| `CAPTCHA_SOLVER_PROVIDER` | n also be set via environment variables:  ```console export CAPTCHA_SOLVER_PROVIDER=capsolver export CAPTCHA_SOLVER_KEY=YOUR_API_K |
+| `CAPTCHA_SOLVER_KEY` | ```console export CAPTCHA_SOLVER_PROVIDER=capsolver export CAPTCHA_SOLVER_KEY=YOUR_API_KEY katana -u https://example.com -headless |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+# $HOME/.config/katana/form-config.yaml
+email: "rand_email()"
+phone: "rand_phone()"
+placeholder: "rand_first_name()"
+password: 'rand_base(16, "")'
+color: "#e66465"
+```
+
+```
+$ cat cookie.txt
+
+Cookie: PHPSESSIONID=XXXXXXXXX
+X-API-KEY: XXXXX
+TOKEN=XX
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14
