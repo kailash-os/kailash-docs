@@ -1,0 +1,33 @@
+---
+title: "kailash-verifier(1) - Kailash Tool Reference"
+---
+
+## kailash-verifier
+
+> **kailash-verifier** - Kailash verifier CLI — `kailash verifier --standard aisvs --level N`: renders per-tool standards evidence from the manifest (§3.8; planned first-party deliverable).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-07-standards-verification](../directory.qmd#cat-d-07-standards-verification) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/kailash-os/kailash-verifier](https://github.com/kailash-os/kailash-verifier) |
+
+### NAME
+
+`kailash-verifier` - Kailash verifier CLI — `kailash verifier --standard aisvs --level N`: renders per-tool standards evidence from the manifest (§3.8; planned first-party deliverable).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/kailash-verifier). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [d-07-standards-verification](../directory.qmd#cat-d-07-standards-verification) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

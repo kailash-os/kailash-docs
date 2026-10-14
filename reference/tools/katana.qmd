@@ -1,0 +1,60 @@
+---
+title: "katana(1) - Kailash Tool Reference"
+---
+
+## katana
+
+> **katana** - Next-generation crawling and spidering framework.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana) |
+
+::: {.callout-warning}
+## Stale classification
+This row is classed stale in the manifest at generation
+time - check upstream status before relying on it.
+:::
+
+### NAME
+
+`katana` - Next-generation crawling and spidering framework.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest
+```
+
+```
+docker pull projectdiscovery/katana:latest
+```
+
+### DESCRIPTION (upstream)
+
+- Fast And fully configurable web crawling - **Standard** and **Headless** mode - **JavaScript** parsing / crawling - Customizable **automatic form filling** - **Scope control** - Preconfigured field / Regex - **Knowledge base** - ML page-type / form classification (auto-downloaded model) - **Customizable output** - Preconfigured fields - INPUT - **STDIN**, **URL** and **LIST** - OUTPUT - **STDOUT**, **FILE** and **JSON** katana requires Go 1.26+ to install successfully. If you encounter any installation issues, we recommend trying with the latest available version of Go, as the minimum required version may have changed. Run the command below or download a pre-compiled binary from the [relea
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (8 matches, e.g. `/etc/apt/keyrings`, `/etc/apt/keyrings/google-chrome.gpg`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

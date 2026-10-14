@@ -1,0 +1,46 @@
+---
+title: "trl(1) - Kailash Tool Reference"
+---
+
+## trl
+
+> **trl** - Hugging Face TRL — RL training for transformers.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/huggingface/trl](https://github.com/huggingface/trl) |
+
+### NAME
+
+`trl` - Hugging Face TRL — RL training for transformers.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install trl
+```
+
+```
+pip install git+https://github.com/huggingface/trl.git
+```
+
+### DESCRIPTION (upstream)
+
+**⚡ Up to 6.9× longer sequences on the same GPU:** SFT, DPO, KTO, GRPO and RLOO now score tokens with a [fused LM head](https://huggingface.co/docs/trl/reducing_memory_usage) **by default**. At 8k tokens that is 52% to 82% less peak VRAM. TRL is a cutting-edge library designed for post-training foundation models using advanced techniques like Supervised Fine-Tuning (SFT), Group Relative Policy Optimization (GRPO), and Direct Preference Optimization (DPO). Built on top of the [🤗 Transformers](https://github.com/huggingface/transformers) ecosystem, TRL supports a variety of model architectures and modalities, and can be scaled-up across various hardware setups. - **Trainers**: Various fine-tun
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

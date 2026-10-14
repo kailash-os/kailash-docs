@@ -1,0 +1,51 @@
+---
+title: "inql(1) - Kailash Tool Reference"
+---
+
+## inql
+
+> **inql** - Security testing tool for GraphQL — query/schema analysis.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/doyensec/inql](https://github.com/doyensec/inql) |
+
+### NAME
+
+`inql` - Security testing tool for GraphQL — query/schema analysis.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+$ sudo apt install -y openjdk-17-jdk
+$ java --version
+openjdk 17.0.6 2023-01-17
+```
+
+```
+$ # Mac OS & Homebrew:
+$ brew install go-task
+$ # Debian
+$ sudo apt install -y task
+```
+
+### DESCRIPTION (upstream)
+
+Welcome to InQL, an open-source GraphQL testing tool. This tool provides features designed to enhance your GraphQL testing experience, making it more efficient and effective. We appreciate your trust in InQL. Happy testing! The InQL user interface is equipped with three primary components: the *Scanner*, the *Batch Queries*, and the *Engine Fingerprinting* tab The *Scanner* is the core of InQL, where you can analyze a GraphQL endpoint or a local introspection schema file. It auto-generates all possible queries, mutations, and subscriptions, organizing them into a structured view for your analysis. **:white_check_mark: Customizable Scans** InQL offers the flexibility to customize your scans.
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

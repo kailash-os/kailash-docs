@@ -1,0 +1,54 @@
+---
+title: "qiling(1) - Kailash Tool Reference"
+---
+
+## qiling
+
+> **qiling** - Cross-platform emulation framework built on Unicorn.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+| Upstream | [github.com/qilingframework/qiling](https://github.com/qilingframework/qiling) |
+
+### NAME
+
+`qiling` - Cross-platform emulation framework built on Unicorn.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+from qiling import Qiling
+
+if __name__ == "__main__":
+    # initialize Qiling instance, specifying the executable to emulate and the emulated system root.
+    # note that the current working directory is assumed to be Qiling home
+    ql = Qiling([r'examples/rootfs/x86_windows/bin/x86_hello.exe'], r'examples/rootfs/x86_windows')
+
+    # start emulation
+    ql.run()
+```
+
+```
+$ ./qltool code --os linux --arch arm --format hex -f examples/shellcodes/linarm32_tcp_reverse_shell.hex
+```
+
+### DESCRIPTION (upstream)
+
+Qiling is an advanced binary emulation framework, with the following features: - Emulate multi-platforms: Windows, macOS, Linux, Android, BSD, UEFI, DOS, MBR. - Emulate multi-architectures: 8086, X86, X86_64, ARM, ARM64, MIPS, RISC-V, PowerPC. - Support multiple file formats: PE, Mach-O, ELF, COM, MBR. - Support Windows Driver (.sys), Linux Kernel Module (.ko) & macOS Kernel (.kext) via [Demigod](https://groundx.io/demigod/). - Emulates & sandbox code in an isolated environment. - Provides a fully configurable sandbox. - Provides in-depth memory, register, OS level and filesystem level API. - Fine-grain instrumentation: allows hooks at various levels (instruction/basic-block/memory-access/ex
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

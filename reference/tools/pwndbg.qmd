@@ -1,0 +1,45 @@
+---
+title: "pwndbg(1) - Kailash Tool Reference"
+---
+
+## pwndbg
+
+> **pwndbg** - Exploit-development plugin for GDB with modern UX.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/pwndbg/pwndbg](https://github.com/pwndbg/pwndbg) |
+
+### NAME
+
+`pwndbg` - Exploit-development plugin for GDB with modern UX.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/pwndbg/pwndbg). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+`pwndbg` (/paʊnˈdiˌbʌɡ/) is a GDB and LLDB plug-in that makes debugging suck less, with a focus on features needed by low-level software developers, hardware hackers, reverse-engineers and exploit developers. It has a boatload of features, see our [Features page](https://pwndbg.re/stable/features/) and [CHEATSHEET][CHEATSHEET] (feel free to print it!). If you have any questions you may read the [documentation](https://pwndbg.re/stable/) or asks us in our [Discord server](https://discord.gg/x47DssnGwm). [CHEATSHEET]: https://pwndbg.re/dev/CHEATSHEET.pdf Want Pwndbg to keep moving fast, or, have us give a talk about it? [Sponsor us!](https://github.com/sponsors/pwndbg) Vanilla GDB and LLDB are
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `tests.yml`, `tests.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

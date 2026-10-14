@@ -1,0 +1,55 @@
+---
+title: "mcpoison(1) - Kailash Tool Reference"
+---
+
+## mcpoison
+
+> **mcpoison** - MCPoison — public PoC demonstrating agent trickery via poisoned MCP tool definitions (lab-gated).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | exp |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/pulkitb124/mcpoison](https://github.com/pulkitb124/mcpoison) |
+
+### NAME
+
+`mcpoison` - MCPoison — public PoC demonstrating agent trickery via poisoned MCP tool definitions (lab-gated).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e ".[analysis,dev]"
+cp .env.example .env          # then fill in your API keys
+
+python examples/run_experiment.py 5          # Phase 4 baseline sweep (rates, R=5)
+python examples/run_experiment.py --phase5 5 # Phase 5 defenses on the leaking cells
+python examples/analyze.py                   # Phase 6 figures -> results/figures/
+```
+
+```
+python examples/demo_exfil.py devops         # Door A: baseline vs. injected output
+python examples/demo_desc_poison.py devops   # Door B: clean vs. poisoned description
+python examples/sweep_payloads.py devops description   # all payload styles, one door
+```
+
+### DESCRIPTION (upstream)
+
+**Measuring and containing indirect prompt injection in MCP agents.** MCPoison is a small evaluation harness for indirect prompt injection. An autonomous tool-using agent has legitimate access to a secret, an attacker hides instructions in the data the agent reads, and the harness measures how often the agent gets tricked into leaking that secret, which delivery vectors and phrasings make it more likely, and which defenses stop it without wrecking the agent's ability to do its actual job. Every number is a rate over repeated trials, detected by an objective canary rather than by eyeballing transcripts. The design goals were the boring but important ones: a clear threat model, runs anyone can
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

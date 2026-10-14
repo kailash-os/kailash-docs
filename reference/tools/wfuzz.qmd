@@ -1,0 +1,46 @@
+---
+title: "wfuzz(1) - Kailash Tool Reference"
+---
+
+## wfuzz
+
+> **wfuzz** - Web content fuzzer for web application assessment.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+| Upstream | [github.com/xmendez/wfuzz](https://github.com/xmendez/wfuzz) |
+
+### NAME
+
+`wfuzz` - Web content fuzzer for web application assessment.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install wfuzz
+```
+
+```
+$ docker run -v $(pwd)/wordlist:/wordlist/ -it ghcr.io/xmendez/wfuzz wfuzz
+```
+
+### DESCRIPTION (upstream)
+
+Wfuzz has been created to facilitate the task in web applications assessments and it is based on a simple concept: it replaces any reference to the FUZZ keyword by the value of a given payload. A payload in Wfuzz is a source of data. This simple concept allows any input to be injected in any field of an HTTP request, allowing to perform complex web security attacks in different web application components such as: parameters, authentication, forms, directories/files, headers, etc. Wfuzz is more than a web content scanner: * Wfuzz could help you to secure your web applications by finding and exploiting web application vulnerabilities. Wfuzz’s web application vulnerability scanner is supported
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

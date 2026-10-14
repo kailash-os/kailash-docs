@@ -1,0 +1,54 @@
+---
+title: "feroxbuster(1) - Kailash Tool Reference"
+---
+
+## feroxbuster
+
+> **feroxbuster** - Recursive content discovery tool (Rust).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster) |
+
+### NAME
+
+`feroxbuster` - Recursive content discovery tool (Rust).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+sudo apt update && sudo apt install -y feroxbuster
+```
+
+```
+curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/main/install-nix.sh | bash -s $HOME/.local/bin
+```
+
+### DESCRIPTION (upstream)
+
+> [!WARNING] > **Security Notice – Domain Impersonation** > > The domain **feroxbuster.com** is **NOT affiliated** with this project, its maintainers, or any official feroxbuster releases. > > Official feroxbuster downloads are distributed **ONLY** through: > > - [https://github.com/epi052/feroxbuster](https://github.com/epi052/feroxbuster/releases) (open source) > - [https://www.feroxbuster.pro](https://www.feroxbuster.pro) (commercial) > - package repositories listed in this README > - package repositories listed in the [installation docs](https://epi052.github.io/feroxbuster-docs/installation/android/) > > We do **not** distribute software from feroxbuster.com, and we cannot vouch for the
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `check.yml`, `/etc/feroxbuster/`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

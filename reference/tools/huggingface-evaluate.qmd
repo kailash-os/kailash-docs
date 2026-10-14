@@ -1,0 +1,54 @@
+---
+title: "huggingface-evaluate(1) - Kailash Tool Reference"
+---
+
+## huggingface-evaluate
+
+> **huggingface-evaluate** - HuggingFace Evaluate — library for easily evaluating ML models and datasets (the hub `evaluate` package).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-03-assurance-evals-benchmarks](../directory.qmd#cat-d-03-assurance-evals-benchmarks) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/huggingface/evaluate](https://github.com/huggingface/evaluate) |
+
+### NAME
+
+`huggingface-evaluate` - HuggingFace Evaluate — library for easily evaluating ML models and datasets (the hub `evaluate` package).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install evaluate
+```
+
+```
+pip install evaluate[template]
+```
+
+### DESCRIPTION (upstream)
+
+> **Tip:** For more recent evaluation approaches, for example for evaluating LLMs, we recommend our newer and more actively maintained library [LightEval](https://github.com/huggingface/lighteval). 🤗 Evaluate is a library that makes evaluating and comparing models and reporting their performance easier and more standardized. It currently contains: - **implementations of dozens of popular metrics**: the existing metrics cover a variety of tasks spanning from NLP to Computer Vision, and include dataset-specific metrics for datasets. With a simple command like `accuracy = load("accuracy")`, get any of these metrics ready to use for evaluating a ML model in any framework (Numpy/Pandas/PyTorch/Te
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-03-assurance-evals-benchmarks](../directory.qmd#cat-d-03-assurance-evals-benchmarks) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,29 @@
+---
+title: "gqrx(1) - Kailash Tool Reference"
+---
+
+## gqrx
+
+> **gqrx** - Software-defined radio receiver built on GNU Radio.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+| Upstream | [github.com/gqrx-sdr/gqrx](https://github.com/gqrx-sdr/gqrx) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`gqrx` - Software-defined radio receiver built on GNU Radio.
+
+### SEE ALSO
+
+- Category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

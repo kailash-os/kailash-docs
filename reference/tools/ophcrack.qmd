@@ -1,0 +1,27 @@
+---
+title: "ophcrack(1) - Kailash Tool Reference"
+---
+
+## ophcrack
+
+> **ophcrack** - Windows password cracker based on rainbow tables.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+
+### NAME
+
+`ophcrack` - Windows password cracker based on rainbow tables.
+
+### SEE ALSO
+
+- Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

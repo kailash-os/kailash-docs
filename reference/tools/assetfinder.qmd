@@ -1,0 +1,54 @@
+---
+title: "assetfinder(1) - Kailash Tool Reference"
+---
+
+## assetfinder
+
+> **assetfinder** - Finds domains and subdomains related to a given domain.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder) |
+
+### NAME
+
+`assetfinder` - Finds domains and subdomains related to a given domain.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+go get -u github.com/tomnomnom/assetfinder
+```
+
+```
+assetfinder [--subs-only] <domain>
+```
+
+### DESCRIPTION (upstream)
+
+Find domains and subdomains potentially related to a given domain. If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PATH`): go get -u github.com/tomnomnom/assetfinder Otherwise [download a release for your platform](https://github.com/tomnomnom/assetfinder/releases). To make it easier to execute you can put the binary in your `$PATH`. assetfinder [--subs-only] <domain> Please feel free to issue pull requests with new sources! :) * crt.sh * certspotter * hackertarget * threatcrowd * wayback machine * dns.bufferover.run * facebook * Needs `FB_APP_ID` and `FB_APP_SECRET` environment variables set (https://developers.facebook.com/) * You need to be careful with your app
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `environment variables`, `environment variable`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

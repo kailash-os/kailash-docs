@@ -1,0 +1,27 @@
+---
+title: "gdb(1) - Kailash Tool Reference"
+---
+
+## gdb
+
+> **gdb** - GNU Project debugger.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+
+### NAME
+
+`gdb` - GNU Project debugger.
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

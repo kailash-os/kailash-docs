@@ -1,0 +1,45 @@
+---
+title: "zenmap(1) - Kailash Tool Reference"
+---
+
+## zenmap
+
+> **zenmap** - Official Nmap Security Scanner GUI.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+| Upstream | [github.com/nmap/nmap](https://github.com/nmap/nmap) |
+
+### NAME
+
+`zenmap` - Official Nmap Security Scanner GUI.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/nmap/nmap). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+Nmap [![Build Status](https://github.com/nmap/nmap/actions/workflows/build.yml/badge.svg)](https://github.com/nmap/nmap/actions/workflows/build.yml) ==== Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products. See [Nmap Copyright and Licensing](https://nmap.org/book/man-legal.html) for full details. The latest version of this software as well as binary installers for Windows, macOS, and Linux (RPM) are available from Full documentation is also available [on the Nmap.org website](https://nmap.or
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `build.yml`, `build.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

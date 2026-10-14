@@ -1,0 +1,67 @@
+---
+title: "cyclonedx-cli(1) - Kailash Tool Reference"
+---
+
+## cyclonedx-cli
+
+> **cyclonedx-cli** - CycloneDX CLI — SBOM validation, merging, diffs and format conversions.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/CycloneDX/cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli) |
+
+### NAME
+
+`cyclonedx-cli` - CycloneDX CLI — SBOM validation, merging, diffs and format conversions.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+analyze
+  Analyze a BOM file
+
+Usage:
+  cyclonedx analyze [options]
+
+Options:
+  --input-file <input-file>                      Input BOM filename, will read from stdin if no value provided.
+  --input-format <autodetect|json|protobuf|xml>  Specify input file format.
+  --output-format <json|text>                    Specify output format (defaults to text).
+  --multiple-component-versions                  Report components that have multiple versions in use.
+```
+
+```
+convert
+  Convert between different BOM formats
+
+Usage:
+  cyclonedx convert [options]
+
+Options:
+  --input-file <input-file>                                    Input BOM filename, will read from stdin if no value provided.
+  --output-file <output-file>                                  Output BOM filename, will write to stdout if no value provided.
+  --input-format <autodetect|csv|json|protobuf|spdxjson|xml>   Specify input file format.
+  --output-format <autodetect|csv|json|protobuf|spdxjson|xml>  Specify output file format.
+  --output-version <v1_0|v1_1|v1_2|v1_3|v1_4|v1_5|v1_6|v1_7>   Specify output BOM specification version. (ignored for CSV and SPDX formats)
+```
+
+### DESCRIPTION (upstream)
+
+______           __                 ____ _  __    ________    ____ / ____/_  _______/ /___  ____  ___  / __ \ |/ /   / ____/ /   /  _/ / /   / / / / ___/ / __ \/ __ \/ _ \/ / / /   /   / /   / /    / / / /___/ /_/ / /__/ / /_/ / / / /  __/ /_/ /   |   / /___/ /____/ / \____/\__, /\___/_/\____/_/ /_/\___/_____/_/|_|   \____/_____/___/ /____/ Usage: cyclonedx [command] [options] Options: --version         Show version information -?, -h, --help    Show help and usage information Commands: add                         Add information to a BOM (currently supports files) analyze                     Analyze a BOM file convert                     Convert between different BOM formats diff <from-file
+
+### SEE ALSO
+
+- Category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

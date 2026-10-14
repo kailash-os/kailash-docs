@@ -1,0 +1,42 @@
+---
+title: "binwalk(1) - Kailash Tool Reference"
+---
+
+## binwalk
+
+> **binwalk** - Firmware-image analysis — signature scanning and extraction.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk) |
+
+### NAME
+
+`binwalk` - Firmware-image analysis — signature scanning and extraction.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+binwalk DIR-890L_AxFW110b07.bin
+```
+
+### DESCRIPTION (upstream)
+
+This is an updated version of the Binwalk firmware analysis tool, re-written in Rust for speed and accuracy. Binwalk can identify, and optionally extract, files and data that have been embedded inside of other files. While its primary focus is firmware analysis, it supports a [wide variety](https://github.com/ReFirmLabs/binwalk/wiki/Supported-Signatures) of file and data types. Through [entropy analysis](https://github.com/ReFirmLabs/binwalk/wiki/Generating-Entropy-Graphs), it can even help to identify unknown compression or encryption! Binwalk can be customized and [integrated](https://github.com/ReFirmLabs/binwalk/wiki/Using-the-Rust-Library) into your own Rust projects. The easiest way to
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

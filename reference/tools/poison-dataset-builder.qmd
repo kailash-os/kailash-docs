@@ -1,0 +1,33 @@
+---
+title: "poison-dataset-builder(1) - Kailash Tool Reference"
+---
+
+## poison-dataset-builder
+
+> **poison-dataset-builder** - Dataset-poisoning builder — crafts poisoned training corpora (trigger-embedded samples) for attack simulations (lab-gated).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-08-data-poisoning](../directory.qmd#cat-a-08-data-poisoning) |
+| Safety class | exp |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/poison-dataset-builder](https://github.com/kailash-os/poison-dataset-builder) |
+
+### NAME
+
+`poison-dataset-builder` - Dataset-poisoning builder — crafts poisoned training corpora (trigger-embedded samples) for attack simulations (lab-gated).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/poison-dataset-builder). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-08-data-poisoning](../directory.qmd#cat-a-08-data-poisoning) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

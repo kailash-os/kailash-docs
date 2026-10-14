@@ -1,0 +1,33 @@
+---
+title: "camera-adversarial-toolkit(1) - Kailash Tool Reference"
+---
+
+## camera-adversarial-toolkit
+
+> **camera-adversarial-toolkit** - Camera adversarial toolkit — physical-channel attack evaluation against camera-fed AI systems (T0041 Physical Environment Access).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-06-multimodal-physical-ai](../directory.qmd#cat-a-06-multimodal-physical-ai) |
+| Safety class | requires-target |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/camera-adversarial-toolkit](https://github.com/kailash-os/camera-adversarial-toolkit) |
+
+### NAME
+
+`camera-adversarial-toolkit` - Camera adversarial toolkit — physical-channel attack evaluation against camera-fed AI systems (T0041 Physical Environment Access).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/camera-adversarial-toolkit). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-06-multimodal-physical-ai](../directory.qmd#cat-a-06-multimodal-physical-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

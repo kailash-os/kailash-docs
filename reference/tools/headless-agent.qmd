@@ -1,0 +1,33 @@
+---
+title: "headless-agent(1) - Kailash Tool Reference"
+---
+
+## headless-agent
+
+> **headless-agent** - headless-agent — headless agent image deliverable (grants-scoped).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) |
+| Safety class | exp |
+| Licence | MIT |
+| Upstream | [github.com/kailash-os/headless-agent](https://github.com/kailash-os/headless-agent) |
+
+### NAME
+
+`headless-agent` - headless-agent — headless agent image deliverable (grants-scoped).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/headless-agent). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,46 @@
+---
+title: "uro(1) - Kailash Tool Reference"
+---
+
+## uro
+
+> **uro** - Declutters URL lists for crawling and pentesting.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/s0md3v/uro](https://github.com/s0md3v/uro) |
+
+### NAME
+
+`uro` - Declutters URL lists for crawling and pentesting.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pipx install uro
+```
+
+```
+cat urls.txt | uro
+```
+
+### DESCRIPTION (upstream)
+
+Using a URL list for security testing can be painful as there are a lot of URLs that have uninteresting/duplicate content; **uro** aims to solve that. It doesn't make any http requests to the URLs and removes: - incremental urls e.g. `/page/1/` and `/page/2/` - blog posts and similar human written content e.g. `/posts/a-brief-history-of-time` - urls with same path but parameter value difference e.g. `/page.php?id=1` and `/page.php?id=2` - images, js, css and other "useless" files The recommended way to install uro is as follows: pipx install uro > Note: If you are using an older version of python, use `pip` instead of `pipx` The quickest way to include uro in your workflow is to feed it data
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

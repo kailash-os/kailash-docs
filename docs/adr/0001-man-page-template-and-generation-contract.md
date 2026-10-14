@@ -50,14 +50,15 @@ sections.
    never silently generated, never shipped unreviewed.
 5. FILES / DIAGNOSTICS — derived-or-stubbed: render what the tool's
    own docs/interfaces state, else an explicit stub line.
-6. **Version-lock footnote (required on every page):**
+6. **Version-lock footnote (required on every page)** — one compact
+   line, hyperlink-first (KA-WS-6.10, user 2026-10-14):
 
-   | Field | Source |
-   |---|---|
-   | `tool_version` | the pin that produced the page (lock rev or derivation revision) |
-   | `pin_source` | which record the pin came from (flake lock / nvfetcher sources / derivation) |
-   | `verified_at` | generation/verification date |
-   | `smoke_status` | whether the packaged binary was smoke-run, honestly PENDING where no build surface exists |
+   `ref: [v<pin>](<pin-url>) - verified <date>`
+
+   The link targets the pin record that produced the page
+   (nvfetcher `generated.nix` for bespoke tools, the manifest row
+   otherwise). Gate-side data (pin source, smoke status) is tracked
+   by the CI provenance check — the reader sees only the line.
 
 7. **SEE ALSO** links sister tools in the same category and the
    category page.
@@ -71,7 +72,7 @@ config surfaces get no page (no empty stubs). Detection is automated
 in the generator; policy disputes resolve on the exemplar's pattern.
 
 **Regeneration contract (red-regenerate events).** A page is stale
-when the pin named in its footnote no longer matches the lock:
+when the pin its footnote links no longer matches the lock:
 any `flake.lock` bump, lock-bump release, or per-tool renovate bump
 that moves a tool's version is a red-regenerate event — the affected
 pages regenerate **in the same change**, enforced by the coverage /

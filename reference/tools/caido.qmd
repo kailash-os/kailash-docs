@@ -1,0 +1,27 @@
+---
+title: "caido(1) - Kailash Tool Reference"
+---
+
+## caido
+
+> **caido** - Lightweight web security auditing toolkit (free tier), pinned (KA-07.1).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | LicenseRef-Proprietary |
+
+### NAME
+
+`caido` - Lightweight web security auditing toolkit (free tier), pinned (KA-07.1).
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

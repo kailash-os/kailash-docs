@@ -1,0 +1,29 @@
+---
+title: "pw-packs(1) - Kailash Tool Reference"
+---
+
+## pw-packs
+
+> **pw-packs** - Small password pack — rockyou.txt as the pw-packs DATA pack (KA-29 derivation:pkgs/pw-packs, default OFF — data packs never ride a default profile); the breach-list content licence beyond the repo MIT licence is NOT established.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`pw-packs` - Small password pack — rockyou.txt as the pw-packs DATA pack (KA-29 derivation:pkgs/pw-packs, default OFF — data packs never ride a default profile); the breach-list content licence beyond the repo MIT licence is NOT established.
+
+### SEE ALSO
+
+- Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v2026.1](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,46 @@
+---
+title: "agent-dojo(1) - Kailash Tool Reference"
+---
+
+## agent-dojo
+
+> **agent-dojo** - AgentDojo — ETH's dynamic evaluation environment for prompt-injection attacks and defenses on LLM agents (upstream repo agentdojo).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/ethz-spylab/agentdojo](https://github.com/ethz-spylab/agentdojo) |
+
+### NAME
+
+`agent-dojo` - AgentDojo — ETH's dynamic evaluation environment for prompt-injection attacks and defenses on LLM agents (upstream repo agentdojo).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install agentdojo
+```
+
+```
+pip install "agentdojo[transformers]"
+```
+
+### DESCRIPTION (upstream)
+
+[Edoardo Debenedetti](https://edoardo.science)<sup>1</sup>, [Jie Zhang](https://zj-jayzhang.github.io)<sup>1</sup>, [Mislav Balunović](https://www.sri.inf.ethz.ch/people/mislav)<sup>1,2</sup>, [Luca Beurer-Kellner](https://www.sri.inf.ethz.ch/people/luca)<sup>1,2</sup>, [Marc Fischer](https://marcfischer.at)<sup>1,2</sup>, [Florian Tramèr](https://floriantramer.com)<sup>1</sup> pip install agentdojo > [!IMPORTANT] > Note that the API of the package is still under development and might change in the future. If you want to use the prompt injection detector, you need to install the `transformers` extra: pip install "agentdojo[transformers]" The benchmark can be run with the [benchmark](src/agen
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v0.1.35-unstable-2026-06-02](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

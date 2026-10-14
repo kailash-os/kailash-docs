@@ -1,0 +1,46 @@
+---
+title: "mcp-guardian(1) - Kailash Tool Reference"
+---
+
+## mcp-guardian
+
+> **mcp-guardian** - MCP Guardian — proxy and guard layer for exercising MCP server controls (allow-lists, ratelimits) from the attacker side.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/eqtylab/mcp-guardian](https://github.com/eqtylab/mcp-guardian) |
+
+### NAME
+
+`mcp-guardian` - MCP Guardian — proxy and guard layer for exercising MCP server controls (allow-lists, ratelimits) from the attacker side.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+sudo sh -c 'echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf'
+```
+
+```
+nix develop
+```
+
+### DESCRIPTION (upstream)
+
+MCP Guardian manages your LLM assistant's access to MCP servers, handing you realtime control of your LLM's activity. **📜 Message Logging** - See traces for all of an LLM's MCP server activity **💂 Message Approvals** - Approve and deny individual tool call messages in real time **🤖 Automated Message Scans** - Realtime automated checks for safety, privacy, etc (Coming Soon) MCP Guardian also makes it a breeze to manage multiple MCP server configurations. Quickly switch between server collections without having to manually manage configuration files for your MCP host applications. This project uses [nix](https://nixos.org/) to manage a development environment that can be used on Linux and macO
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v0-unstable-2025-04-10](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

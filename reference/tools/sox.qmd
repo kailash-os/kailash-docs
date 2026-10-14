@@ -1,0 +1,29 @@
+---
+title: "sox(1) - Kailash Tool Reference"
+---
+
+## sox
+
+> **sox** - Sound eXchange — audio processing and format conversion.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+| Upstream | [github.com/sox-ng/sox](https://github.com/sox-ng/sox) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`sox` - Sound eXchange — audio processing and format conversion.
+
+### SEE ALSO
+
+- Category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

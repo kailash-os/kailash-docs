@@ -1,0 +1,27 @@
+---
+title: "guymager(1) - Kailash Tool Reference"
+---
+
+## guymager
+
+> **guymager** - Fast forensic imager with a graphical interface.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+
+### NAME
+
+`guymager` - Fast forensic imager with a graphical interface.
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

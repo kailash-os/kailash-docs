@@ -1,0 +1,48 @@
+---
+title: "bopscrk(1) - Kailash Tool Reference"
+---
+
+## bopscrk
+
+> **bopscrk** - Smart wordlist generator that combines target-related words with transformations.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/r3nt0n/bopscrk](https://github.com/r3nt0n/bopscrk) |
+
+### NAME
+
+`bopscrk` - Smart wordlist generator that combines target-related words with transformations.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install bopscrk
+```
+
+```
+git clone --recurse-submodules https://github.com/r3nt0n/bopscrk
+cd bopscrk
+pip install -r requirements.txt
+```
+
+### DESCRIPTION (upstream)
+
+This documentation was written using Best-README-Template by othneildrew https://github.com/othneildrew/ https://github.com/othneildrew/Best-README-Template/edit/master/README.md Thanks dude :) --> Generate smart and powerful wordlists for targeted attacks · · + **Targeted-attack wordlist creator**: introduce personal info related to target, combines every word and transforms results into possible passwords. The *lyricpass* module allows to **search lyrics related to artists** and include them to the wordlists. + **Customizable case** and **leet transforms**: create **custom charsets** and **transforms patterns** trough a simple **config file**. + **Interactive mode** and **one-line command
+
+### SEE ALSO
+
+- Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

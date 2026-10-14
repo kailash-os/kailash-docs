@@ -1,0 +1,27 @@
+---
+title: "searchsploit(1) - Kailash Tool Reference"
+---
+
+## searchsploit
+
+> **searchsploit** - Exploit Database search CLI (ships with the exploitdb archive).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) |
+| Safety class | safe |
+| Licence | MIT |
+
+### NAME
+
+`searchsploit` - Exploit Database search CLI (ships with the exploitdb archive).
+
+### SEE ALSO
+
+- Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

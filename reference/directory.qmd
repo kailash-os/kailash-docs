@@ -20,442 +20,442 @@ tools without a page yet are marked as pending.
 
 ### c-01-information-gathering {#cat-c-01-information-gathering}
 
-- `amass` - safety: safe - In-depth DNS enumeration and network mapping (OWASP Amass). *(reference page pending)*
-- `arjun` - safety: safe - HTTP parameter discovery suite. *(reference page pending)*
-- `arp-scan` - safety: safe - ARP scanning and fingerprinting tool (ethernet, not RF). *(reference page pending)*
-- `assetfinder` - safety: safe - Finds domains and subdomains related to a given domain. *(reference page pending)*
-- `dirb` - safety: safe - Web content scanner. *(reference page pending)*
-- `dirsearch` - safety: safe - Command-line web-path brute-forcer for directories and files. *(reference page pending)*
-- `dmitry` - safety: safe - Deepmagic information-gathering tool — whois, subdomains, emails. *(reference page pending)*
-- `dnsenum` - safety: safe - Enumerates DNS information including subdomains. *(reference page pending)*
-- `dnsmap` - safety: safe - Scans for subdomains using brute-force techniques. *(reference page pending)*
-- `dnsrecon` - safety: safe - DNS enumeration script — zone transfers, records, reverse lookups (overlay pin). *(reference page pending)*
-- `feroxbuster` - safety: safe - Recursive content discovery tool (Rust). *(reference page pending)*
-- `ffuf` - safety: safe - Fast web fuzzer written in Go. *(reference page pending)*
-- `fierce` - safety: safe - DNS reconnaissance for locating non-contiguous IP space. *(reference page pending)*
-- `findomain` - safety: safe - Fastest cross-platform subdomain enumerator. *(reference page pending)*
-- `gobuster` - safety: safe - Brute-forces URIs, DNS subdomains, virtual hosts and open ports. *(reference page pending)*
-- `gospider` - safety: safe - Fast web spider written in Go. *(reference page pending)*
-- `hakrawler` - safety: safe - Web crawler for endpoint and asset discovery. *(reference page pending)*
-- `httpx` - safety: safe - Fast and multi-purpose HTTP toolkit. *(reference page pending)*
-- `katana` - safety: safe - Next-generation crawling and spidering framework. *(reference page pending)*
-- `maltego-community` - safety: safe - OSINT graph platform — community edition, unfree licence. *(reference page pending)*
-- `masscan` - safety: safe - Mass IP port scanner — the whole internet in minutes. *(reference page pending)*
-- `massdns` - safety: safe - Resolves large amounts of domain names. *(reference page pending)*
-- `netdiscover` - safety: safe - Network address discovery via ARP — kept per the §3.2 ethernet rule. *(reference page pending)*
-- `nmap` - safety: safe - Network scanner and security mapper — host/port discovery and service enumeration. *(reference page pending)*
-- `photon` - safety: safe - Lightning-fast web crawler extracting URLs and OSINT intel. *(reference page pending)*
-- `puredns` - safety: safe - Domain resolver and subdomain brute-forcing tool. *(reference page pending)*
-- `recon-ng` - safety: safe - Full-featured reconnaissance framework with a web-style module environment. *(reference page pending)*
-- `rustscan` - safety: safe - Fast port scanner that pipes results into Nmap. *(reference page pending)*
-- `sherlock` - safety: safe - Hunts down social-media accounts by username across sites. *(reference page pending)*
-- `spiderfoot` - safety: safe - OSINT automation platform — collects intel about a target from public sources. *(reference page pending)*
-- `subfinder` - safety: safe - Subdomain discovery tool — overlay pin (pkgs/subfinder, KA-02.3). *(reference page pending)*
-- `sublist3r` - safety: safe - Subdomain enumeration using public search engines and services. *(reference page pending)*
-- `the-harvester` - safety: safe - Gathers emails, subdomains and names from public sources. *(reference page pending)*
-- `uro` - safety: safe - Declutters URL lists for crawling and pentesting. *(reference page pending)*
-- `wafw00f` - safety: safe - Identifies and fingerprints web application firewalls. *(reference page pending)*
-- `wfuzz` - safety: safe - Web content fuzzer for web application assessment. *(reference page pending)*
-- `whatweb` - safety: safe - Next-generation web scanner — technology fingerprinting. *(reference page pending)*
-- `zenmap` - safety: safe - Official Nmap Security Scanner GUI. *(reference page pending)*
+- [amass](tools/amass.qmd) - safety: safe - In-depth DNS enumeration and network mapping (OWASP Amass).
+- [arjun](tools/arjun.qmd) - safety: safe - HTTP parameter discovery suite.
+- [arp-scan](tools/arp-scan.qmd) - safety: safe - ARP scanning and fingerprinting tool (ethernet, not RF).
+- [assetfinder](tools/assetfinder.qmd) - safety: safe - Finds domains and subdomains related to a given domain.
+- [dirb](tools/dirb.qmd) - safety: safe - Web content scanner.
+- [dirsearch](tools/dirsearch.qmd) - safety: safe - Command-line web-path brute-forcer for directories and files.
+- [dmitry](tools/dmitry.qmd) - safety: safe - Deepmagic information-gathering tool — whois, subdomains, emails.
+- [dnsenum](tools/dnsenum.qmd) - safety: safe - Enumerates DNS information including subdomains.
+- [dnsmap](tools/dnsmap.qmd) - safety: safe - Scans for subdomains using brute-force techniques.
+- [dnsrecon](tools/dnsrecon.qmd) - safety: safe - DNS enumeration script — zone transfers, records, reverse lookups (overlay pin).
+- [feroxbuster](tools/feroxbuster.qmd) - safety: safe - Recursive content discovery tool (Rust).
+- [ffuf](tools/ffuf.qmd) - safety: safe - Fast web fuzzer written in Go.
+- [fierce](tools/fierce.qmd) - safety: safe - DNS reconnaissance for locating non-contiguous IP space.
+- [findomain](tools/findomain.qmd) - safety: safe - Fastest cross-platform subdomain enumerator.
+- [gobuster](tools/gobuster.qmd) - safety: safe - Brute-forces URIs, DNS subdomains, virtual hosts and open ports.
+- [gospider](tools/gospider.qmd) - safety: safe - Fast web spider written in Go.
+- [hakrawler](tools/hakrawler.qmd) - safety: safe - Web crawler for endpoint and asset discovery.
+- [httpx](tools/httpx.qmd) - safety: safe - Fast and multi-purpose HTTP toolkit.
+- [katana](tools/katana.qmd) - safety: safe - Next-generation crawling and spidering framework.
+- [maltego-community](tools/maltego-community.qmd) - safety: safe - OSINT graph platform — community edition, unfree licence.
+- [masscan](tools/masscan.qmd) - safety: safe - Mass IP port scanner — the whole internet in minutes.
+- [massdns](tools/massdns.qmd) - safety: safe - Resolves large amounts of domain names.
+- [netdiscover](tools/netdiscover.qmd) - safety: safe - Network address discovery via ARP — kept per the §3.2 ethernet rule.
+- [nmap](tools/nmap.qmd) - safety: safe - Network scanner and security mapper — host/port discovery and service enumeration.
+- [photon](tools/photon.qmd) - safety: safe - Lightning-fast web crawler extracting URLs and OSINT intel.
+- [puredns](tools/puredns.qmd) - safety: safe - Domain resolver and subdomain brute-forcing tool.
+- [recon-ng](tools/recon-ng.qmd) - safety: safe - Full-featured reconnaissance framework with a web-style module environment.
+- [rustscan](tools/rustscan.qmd) - safety: safe - Fast port scanner that pipes results into Nmap.
+- [sherlock](tools/sherlock.qmd) - safety: safe - Hunts down social-media accounts by username across sites.
+- [spiderfoot](tools/spiderfoot.qmd) - safety: safe - OSINT automation platform — collects intel about a target from public sources.
+- [subfinder](tools/subfinder.qmd) - safety: safe - Subdomain discovery tool — overlay pin (pkgs/subfinder, KA-02.3).
+- [sublist3r](tools/sublist3r.qmd) - safety: safe - Subdomain enumeration using public search engines and services.
+- [the-harvester](tools/the-harvester.qmd) - safety: safe - Gathers emails, subdomains and names from public sources.
+- [uro](tools/uro.qmd) - safety: safe - Declutters URL lists for crawling and pentesting.
+- [wafw00f](tools/wafw00f.qmd) - safety: safe - Identifies and fingerprints web application firewalls.
+- [wfuzz](tools/wfuzz.qmd) - safety: safe - Web content fuzzer for web application assessment.
+- [whatweb](tools/whatweb.qmd) - safety: safe - Next-generation web scanner — technology fingerprinting.
+- [zenmap](tools/zenmap.qmd) - safety: safe - Official Nmap Security Scanner GUI.
 
 ### c-02-vulnerability-analysis {#cat-c-02-vulnerability-analysis}
 
 - `gvm` - safety: safe - Greenbone Vulnerability Management — ships as services.kailash.gvm, not loose tools. *(reference page pending)*
-- `legion` - safety: safe - Semi-automated network pentesting framework with a GUI. *(reference page pending)*
-- `lynis` - safety: safe - Security auditing tool for Linux, macOS and UNIX systems. *(reference page pending)*
-- `nikto` - safety: safe - Web server scanner performing tests for dangerous files and misconfigurations. *(reference page pending)*
-- `nuclei` - safety: safe - Configurable targeted vulnerability scanner — overlay-currency class. *(reference page pending)*
-- `searchsploit` - safety: safe - Exploit Database search CLI (ships with the exploitdb archive). *(reference page pending)*
-- `wapiti` - safety: safe - Web application vulnerability scanner. *(reference page pending)*
+- [legion](tools/legion.qmd) - safety: safe - Semi-automated network pentesting framework with a GUI.
+- [lynis](tools/lynis.qmd) - safety: safe - Security auditing tool for Linux, macOS and UNIX systems.
+- [nikto](tools/nikto.qmd) - safety: safe - Web server scanner performing tests for dangerous files and misconfigurations.
+- [nuclei](tools/nuclei.qmd) - safety: safe - Configurable targeted vulnerability scanner — overlay-currency class.
+- [searchsploit](tools/searchsploit.qmd) - safety: safe - Exploit Database search CLI (ships with the exploitdb archive).
+- [wapiti](tools/wapiti.qmd) - safety: safe - Web application vulnerability scanner.
 
 ### c-03-web-application-assessment {#cat-c-03-web-application-assessment}
 
-- `burpsuite` - safety: safe - Integrated platform for web security testing — free edition, pinned (KA-07.1). *(reference page pending)*
-- `caido` - safety: safe - Lightweight web security auditing toolkit (free tier), pinned (KA-07.1). *(reference page pending)*
-- `clairvoyance` - safety: safe - Obtains GraphQL API schemas from introspection-disabled endpoints. *(reference page pending)*
-- `commix` - safety: safe - Automated all-in-one OS command-injection exploitation tool. *(reference page pending)*
-- `gopherus` - safety: safe - Generates serialized payloads for SSRF/gopher attacks on internal services. *(reference page pending)*
-- `graphw00f` - safety: safe - GraphQL server engine fingerprinting utility. *(reference page pending)*
-- `inql` - safety: safe - Security testing tool for GraphQL — query/schema analysis. *(reference page pending)*
-- `kiterunner` - safety: safe - Contextual content discovery tool for API routes. *(reference page pending)*
-- `sstimap` - safety: safe - SSTI detection and exploitation assistant (Server-Side Template Injection). *(reference page pending)*
-- `zaproxy` - safety: safe - OWASP ZAP — web app penetration-testing proxy. *(reference page pending)*
+- [burpsuite](tools/burpsuite.qmd) - safety: safe - Integrated platform for web security testing — free edition, pinned (KA-07.1).
+- [caido](tools/caido.qmd) - safety: safe - Lightweight web security auditing toolkit (free tier), pinned (KA-07.1).
+- [clairvoyance](tools/clairvoyance.qmd) - safety: safe - Obtains GraphQL API schemas from introspection-disabled endpoints.
+- [commix](tools/commix.qmd) - safety: safe - Automated all-in-one OS command-injection exploitation tool.
+- [gopherus](tools/gopherus.qmd) - safety: safe - Generates serialized payloads for SSRF/gopher attacks on internal services.
+- [graphw00f](tools/graphw00f.qmd) - safety: safe - GraphQL server engine fingerprinting utility.
+- [inql](tools/inql.qmd) - safety: safe - Security testing tool for GraphQL — query/schema analysis.
+- [kiterunner](tools/kiterunner.qmd) - safety: safe - Contextual content discovery tool for API routes.
+- [sstimap](tools/sstimap.qmd) - safety: safe - SSTI detection and exploitation assistant (Server-Side Template Injection).
+- [zaproxy](tools/zaproxy.qmd) - safety: safe - OWASP ZAP — web app penetration-testing proxy.
 
 ### c-04-database-assessment {#cat-c-04-database-assessment}
 
-- `mongosh` - safety: safe - MongoDB Shell — front-end enumeration support. *(reference page pending)*
-- `mssql-cli` - safety: safe - Command-line interface for SQL Server with autocompletion. *(reference page pending)*
-- `mycli` - safety: safe - Command-line interface for MySQL with autocompletion. *(reference page pending)*
-- `psql` - safety: safe - Interactive terminal for PostgreSQL — front-end enumeration support. *(reference page pending)*
-- `redis-cli` - safety: safe - Redis command-line client — front-end enumeration support. *(reference page pending)*
-- `sqlitebrowser` - safety: safe - DB Browser for SQLite — artefact inspection front-end. *(reference page pending)*
-- `sqlmap` - safety: safe - Automatic SQL injection and database takeover tool. *(reference page pending)*
+- [mongosh](tools/mongosh.qmd) - safety: safe - MongoDB Shell — front-end enumeration support.
+- [mssql-cli](tools/mssql-cli.qmd) - safety: safe - Command-line interface for SQL Server with autocompletion.
+- [mycli](tools/mycli.qmd) - safety: safe - Command-line interface for MySQL with autocompletion.
+- [psql](tools/psql.qmd) - safety: safe - Interactive terminal for PostgreSQL — front-end enumeration support.
+- [redis-cli](tools/redis-cli.qmd) - safety: safe - Redis command-line client — front-end enumeration support.
+- [sqlitebrowser](tools/sqlitebrowser.qmd) - safety: safe - DB Browser for SQLite — artefact inspection front-end.
+- [sqlmap](tools/sqlmap.qmd) - safety: safe - Automatic SQL injection and database takeover tool.
 
 ### c-05-password-offline-credential {#cat-c-05-password-offline-credential}
 
-- `bopscrk` - safety: safe - Smart wordlist generator that combines target-related words with transformations. *(reference page pending)*
-- `cewl` - safety: safe - Custom wordlist generator that spiders a target URL. *(reference page pending)*
-- `crunch` - safety: safe - Wordlist generator. *(reference page pending)*
-- `hash-identifier` - safety: safe - Identifies the hash algorithm used to encrypt data. *(reference page pending)*
-- `hashcat` - safety: safe - Fast password cracker with GPU support and a rule-based engine. *(reference page pending)*
-- `hashid` - safety: safe - Identifies hash types from their format. *(reference page pending)*
-- `john` - safety: safe - John the Ripper password cracker (Jumbo build). *(reference page pending)*
-- `johnny` - safety: safe - Open-source GUI frontend for John the Ripper. *(reference page pending)*
-- `maskgen` - safety: safe - Generates optimized hashcat masks from password lists (PACK kit). *(reference page pending)*
-- `ophcrack` - safety: safe - Windows password cracker based on rainbow tables. *(reference page pending)*
-- `policygen` - safety: safe - Generates hashcat mask policies from password-policy samples (PACK kit). *(reference page pending)*
-- `pw-packs` - safety: safe - Small password pack — rockyou.txt as the pw-packs DATA pack (KA-29 derivation:pkgs/pw-packs, default OFF — data packs never ride a default profile); the breach-list content licence beyond the repo MIT licence is NOT established. *(reference page pending)*
-- `rsmangler` - safety: safe - Performs various manipulations on wordlists (mangling). *(reference page pending)*
-- `seclists` - safety: safe - Collection of security wordlists (passwords, usernames, URLs) — rides the opt-in kailash-data.wordlists-mega DATA pack (KA-29 derivation:pkgs/seclists, default OFF — data packs never ride a default profile); per-file corpus content licences beyond the repo licence are NOT established. *(reference page pending)*
-- `statsgen` - safety: safe - Password-list statistics generator for mask analysis (PACK kit). *(reference page pending)*
-- `twofi` - safety: safe - Twofi — words of interest from Twitter for password cracking lists. *(reference page pending)*
+- [bopscrk](tools/bopscrk.qmd) - safety: safe - Smart wordlist generator that combines target-related words with transformations.
+- [cewl](tools/cewl.qmd) - safety: safe - Custom wordlist generator that spiders a target URL.
+- [crunch](tools/crunch.qmd) - safety: safe - Wordlist generator.
+- [hash-identifier](tools/hash-identifier.qmd) - safety: safe - Identifies the hash algorithm used to encrypt data.
+- [hashcat](tools/hashcat.qmd) - safety: safe - Fast password cracker with GPU support and a rule-based engine.
+- [hashid](tools/hashid.qmd) - safety: safe - Identifies hash types from their format.
+- [john](tools/john.qmd) - safety: safe - John the Ripper password cracker (Jumbo build).
+- [johnny](tools/johnny.qmd) - safety: safe - Open-source GUI frontend for John the Ripper.
+- [maskgen](tools/maskgen.qmd) - safety: safe - Generates optimized hashcat masks from password lists (PACK kit).
+- [ophcrack](tools/ophcrack.qmd) - safety: safe - Windows password cracker based on rainbow tables.
+- [policygen](tools/policygen.qmd) - safety: safe - Generates hashcat mask policies from password-policy samples (PACK kit).
+- [pw-packs](tools/pw-packs.qmd) - safety: safe - Small password pack — rockyou.txt as the pw-packs DATA pack (KA-29 derivation:pkgs/pw-packs, default OFF — data packs never ride a default profile); the breach-list content licence beyond the repo MIT licence is NOT established.
+- [rsmangler](tools/rsmangler.qmd) - safety: safe - Performs various manipulations on wordlists (mangling).
+- [seclists](tools/seclists.qmd) - safety: safe - Collection of security wordlists (passwords, usernames, URLs) — rides the opt-in kailash-data.wordlists-mega DATA pack (KA-29 derivation:pkgs/seclists, default OFF — data packs never ride a default profile); per-file corpus content licences beyond the repo licence are NOT established.
+- [statsgen](tools/statsgen.qmd) - safety: safe - Password-list statistics generator for mask analysis (PACK kit).
+- [twofi](tools/twofi.qmd) - safety: safe - Twofi — words of interest from Twitter for password cracking lists.
 
 ### c-06-reverse-engineering {#cat-c-06-reverse-engineering}
 
-- `angr` - safety: safe - Binary analysis framework — symbolic execution and emulation. *(reference page pending)*
-- `apktool` - safety: safe - Reverse-engineers Android APK files (decode/rebuild). *(reference page pending)*
-- `binwalk` - safety: safe - Firmware-image analysis — signature scanning and extraction. *(reference page pending)*
-- `bytecode-viewer` - safety: safe - Java/Android bytecode viewer, decompiler and editor. *(reference page pending)*
-- `capstone` - safety: safe - Lightweight multi-platform CPU disassembly framework. *(reference page pending)*
-- `checksec` - safety: safe - Checks security properties of executables (RELRO/canary/NX/PIE). *(reference page pending)*
-- `cstool` - safety: safe - Capstone's interactive disassembly CLI. *(reference page pending)*
-- `cutter` - safety: safe - Free and open-source reverse-engineering platform powered by rizin. *(reference page pending)*
-- `dex2jar` - safety: safe - Converts Android .dex files to Java .class (jar). *(reference page pending)*
-- `edb-debugger` - safety: safe - Cross-platform AArch32/x86/x86-64 debugger. *(reference page pending)*
-- `gdb` - safety: safe - GNU Project debugger. *(reference page pending)*
-- `gef` - safety: safe - GDB Enhanced Features — exploit-development plugin for GDB. *(reference page pending)*
-- `ghidra` - safety: safe - Software reverse-engineering suite of tools (NSA). *(reference page pending)*
-- `iaito` - safety: safe - Official radare2 GUI. *(reference page pending)*
-- `jadx` - safety: safe - Dex to Java decompiler. *(reference page pending)*
-- `javasnoop` - safety: safe - Intercepts methods and alters data in Java applications at runtime. *(reference page pending)*
-- `jd-gui` - safety: safe - Java decompiler with a standalone graphical UI. *(reference page pending)*
-- `peda` - safety: safe - Python Exploit Development Assistance for GDB (upstream has no SPDX file). *(reference page pending)*
-- `pwndbg` - safety: safe - Exploit-development plugin for GDB with modern UX. *(reference page pending)*
-- `pyinstaller-extractor` - safety: safe - Extracts packed executables from PyInstaller bundles. *(reference page pending)*
-- `qiling` - safety: safe - Cross-platform emulation framework built on Unicorn. *(reference page pending)*
-- `radare2` - safety: safe - UNIX-like reverse-engineering framework and command-line toolset. *(reference page pending)*
-- `rizin` - safety: safe - UNIX-like reverse-engineering framework (radare2 fork). *(reference page pending)*
-- `smali` - safety: safe - Assembler/disassembler for the Android dex format (upstream carries no SPDX licence file; AOSP mirror maps Apache-2.0). *(reference page pending)*
-- `unicorn` - safety: safe - Lightweight multi-architecture CPU emulator framework. *(reference page pending)*
-- `unipacker` - safety: safe - Automatic and platform-independent unpacker for Windows binaries. *(reference page pending)*
+- [angr](tools/angr.qmd) - safety: safe - Binary analysis framework — symbolic execution and emulation.
+- [apktool](tools/apktool.qmd) - safety: safe - Reverse-engineers Android APK files (decode/rebuild).
+- [binwalk](tools/binwalk.qmd) - safety: safe - Firmware-image analysis — signature scanning and extraction.
+- [bytecode-viewer](tools/bytecode-viewer.qmd) - safety: safe - Java/Android bytecode viewer, decompiler and editor.
+- [capstone](tools/capstone.qmd) - safety: safe - Lightweight multi-platform CPU disassembly framework.
+- [checksec](tools/checksec.qmd) - safety: safe - Checks security properties of executables (RELRO/canary/NX/PIE).
+- [cstool](tools/cstool.qmd) - safety: safe - Capstone's interactive disassembly CLI.
+- [cutter](tools/cutter.qmd) - safety: safe - Free and open-source reverse-engineering platform powered by rizin.
+- [dex2jar](tools/dex2jar.qmd) - safety: safe - Converts Android .dex files to Java .class (jar).
+- [edb-debugger](tools/edb-debugger.qmd) - safety: safe - Cross-platform AArch32/x86/x86-64 debugger.
+- [gdb](tools/gdb.qmd) - safety: safe - GNU Project debugger.
+- [gef](tools/gef.qmd) - safety: safe - GDB Enhanced Features — exploit-development plugin for GDB.
+- [ghidra](tools/ghidra.qmd) - safety: safe - Software reverse-engineering suite of tools (NSA).
+- [iaito](tools/iaito.qmd) - safety: safe - Official radare2 GUI.
+- [jadx](tools/jadx.qmd) - safety: safe - Dex to Java decompiler.
+- [javasnoop](tools/javasnoop.qmd) - safety: safe - Intercepts methods and alters data in Java applications at runtime.
+- [jd-gui](tools/jd-gui.qmd) - safety: safe - Java decompiler with a standalone graphical UI.
+- [peda](tools/peda.qmd) - safety: safe - Python Exploit Development Assistance for GDB (upstream has no SPDX file).
+- [pwndbg](tools/pwndbg.qmd) - safety: safe - Exploit-development plugin for GDB with modern UX.
+- [pyinstaller-extractor](tools/pyinstaller-extractor.qmd) - safety: safe - Extracts packed executables from PyInstaller bundles.
+- [qiling](tools/qiling.qmd) - safety: safe - Cross-platform emulation framework built on Unicorn.
+- [radare2](tools/radare2.qmd) - safety: safe - UNIX-like reverse-engineering framework and command-line toolset.
+- [rizin](tools/rizin.qmd) - safety: safe - UNIX-like reverse-engineering framework (radare2 fork).
+- [smali](tools/smali.qmd) - safety: safe - Assembler/disassembler for the Android dex format (upstream carries no SPDX licence file; AOSP mirror maps Apache-2.0).
+- [unicorn](tools/unicorn.qmd) - safety: safe - Lightweight multi-architecture CPU emulator framework.
+- [unipacker](tools/unipacker.qmd) - safety: safe - Automatic and platform-independent unpacker for Windows binaries.
 
 ### c-07-signal-sdr {#cat-c-07-signal-sdr}
 
-- `gnuradio` - safety: safe - GNU Radio — software-defined radio DSP framework (software-only). *(reference page pending)*
-- `gqrx` - safety: safe - Software-defined radio receiver built on GNU Radio. *(reference page pending)*
-- `hackrf-tools` - safety: safe - Command-line utilities for HackRF hardware SDR platforms. *(reference page pending)*
-- `librosa` - safety: safe - Audio and music-signal analysis library (Python). *(reference page pending)*
-- `pysox` - safety: safe - Python bindings around SoX for audio DSP pipelines. *(reference page pending)*
-- `sox` - safety: safe - Sound eXchange — audio processing and format conversion. *(reference page pending)*
+- [gnuradio](tools/gnuradio.qmd) - safety: safe - GNU Radio — software-defined radio DSP framework (software-only).
+- [gqrx](tools/gqrx.qmd) - safety: safe - Software-defined radio receiver built on GNU Radio.
+- [hackrf-tools](tools/hackrf-tools.qmd) - safety: safe - Command-line utilities for HackRF hardware SDR platforms.
+- [librosa](tools/librosa.qmd) - safety: safe - Audio and music-signal analysis library (Python).
+- [pysox](tools/pysox.qmd) - safety: safe - Python bindings around SoX for audio DSP pipelines.
+- [sox](tools/sox.qmd) - safety: safe - Sound eXchange — audio processing and format conversion.
 
 ### c-08-exploitation-post-exploitation {#cat-c-08-exploitation-post-exploitation}
 
-- `beef-xss` - safety: safe - Browser Exploitation Framework — XSS hooking and browser assessment. *(reference page pending)*
-- `laudanum` - safety: safe - Collection of ready-to-use injectable web-shell files. *(reference page pending)*
-- `metasploit-framework` - safety: safe - Exploit framework — pinned upstream (KA-07.3); web/API modules only. *(reference page pending)*
-- `msfvenom` - safety: safe - Payload generation and encoding CLI from the Metasploit suite. *(reference page pending)*
-- `peass-ng` - safety: safe - Privilege-escalation awesome scripts suite (linpeas/winpeas). *(reference page pending)*
-- `pspy` - safety: safe - Monitors Linux processes without root permissions. *(reference page pending)*
-- `unix-privesc-check` - safety: safe - Finds misconfigurations allowing local privilege escalation. *(reference page pending)*
-- `webshell-analysis-pack` - safety: safe - Reference pack of known webshell artefacts for detection and analysis. *(reference page pending)*
-- `weevely` - safety: safe - Weaponized web shell with a telnet-like console. *(reference page pending)*
+- [beef-xss](tools/beef-xss.qmd) - safety: safe - Browser Exploitation Framework — XSS hooking and browser assessment.
+- [laudanum](tools/laudanum.qmd) - safety: safe - Collection of ready-to-use injectable web-shell files.
+- [metasploit-framework](tools/metasploit-framework.qmd) - safety: safe - Exploit framework — pinned upstream (KA-07.3); web/API modules only.
+- [msfvenom](tools/msfvenom.qmd) - safety: safe - Payload generation and encoding CLI from the Metasploit suite.
+- [peass-ng](tools/peass-ng.qmd) - safety: safe - Privilege-escalation awesome scripts suite (linpeas/winpeas).
+- [pspy](tools/pspy.qmd) - safety: safe - Monitors Linux processes without root permissions.
+- [unix-privesc-check](tools/unix-privesc-check.qmd) - safety: safe - Finds misconfigurations allowing local privilege escalation.
+- [webshell-analysis-pack](tools/webshell-analysis-pack.qmd) - safety: safe - Reference pack of known webshell artefacts for detection and analysis.
+- [weevely](tools/weevely.qmd) - safety: safe - Weaponized web shell with a telnet-like console.
 
 ### c-09-forensics-ir-reporting {#cat-c-09-forensics-ir-reporting}
 
-- `autopsy` - safety: safe - Digital forensics platform and GUI for The Sleuth Kit. *(reference page pending)*
-- `bulk_extractor` - safety: safe - Extracts features (emails, URLs, cards) from disk images without parsing the filesystem. *(reference page pending)*
-- `chainsaw` - safety: safe - Rapidly searches and hunts through Windows forensic artefacts (Sigma/YARA). *(reference page pending)*
-- `chkrootkit` - safety: safe - Locally checks for signs of a rootkit. *(reference page pending)*
-- `dc3dd` - safety: safe - Forensic disk-imaging tool (DoD Cyber Crime Center fork of dd). *(reference page pending)*
-- `ewfacquire` - safety: safe - Acquires evidence in the Expert Witness Compression Format (libewf). *(reference page pending)*
+- [autopsy](tools/autopsy.qmd) - safety: safe - Digital forensics platform and GUI for The Sleuth Kit.
+- [bulk_extractor](tools/bulk_extractor.qmd) - safety: safe - Extracts features (emails, URLs, cards) from disk images without parsing the filesystem.
+- [chainsaw](tools/chainsaw.qmd) - safety: safe - Rapidly searches and hunts through Windows forensic artefacts (Sigma/YARA).
+- [chkrootkit](tools/chkrootkit.qmd) - safety: safe - Locally checks for signs of a rootkit.
+- [dc3dd](tools/dc3dd.qmd) - safety: safe - Forensic disk-imaging tool (DoD Cyber Crime Center fork of dd).
+- [ewfacquire](tools/ewfacquire.qmd) - safety: safe - Acquires evidence in the Expert Witness Compression Format (libewf).
 - `faraday` - safety: safe - Vulnerability-management and collaborative IR platform — service module. *(reference page pending)*
-- `guymager` - safety: safe - Fast forensic imager with a graphical interface. *(reference page pending)*
-- `hashdeep` - safety: safe - Hashing and audit utility with fuzzy matching (md5deep family). *(reference page pending)*
-- `hayabusa` - safety: safe - Windows event-log fast forensics timeline generator. *(reference page pending)*
-- `photorec` - safety: safe - File-carving recovery tool shipped with TestDisk. *(reference page pending)*
-- `plaso` - safety: safe - log2timeline — super-timeline generation and analysis. *(reference page pending)*
+- [guymager](tools/guymager.qmd) - safety: safe - Fast forensic imager with a graphical interface.
+- [hashdeep](tools/hashdeep.qmd) - safety: safe - Hashing and audit utility with fuzzy matching (md5deep family).
+- [hayabusa](tools/hayabusa.qmd) - safety: safe - Windows event-log fast forensics timeline generator.
+- [photorec](tools/photorec.qmd) - safety: safe - File-carving recovery tool shipped with TestDisk.
+- [plaso](tools/plaso.qmd) - safety: safe - log2timeline — super-timeline generation and analysis.
 - `pwndoc-ng` - safety: safe - Collaborative pentest reporting platform — service module. *(reference page pending)*
-- `regripper` - safety: safe - Windows registry forensics — extracting artefacts from hives. *(reference page pending)*
-- `rkhunter` - safety: safe - Rootkit Hunter — scans for rootkits, backdoors and local exploits. *(reference page pending)*
-- `sigma-cli` - safety: safe - Sigma rule conversion command-line interface. *(reference page pending)*
-- `sleuthkit` - safety: safe - Library and CLI collection for filesystem forensics analysis. *(reference page pending)*
-- `sysmon-modular` - safety: safe - A modular Sysmon configuration set for high-fidelity Windows logging. *(reference page pending)*
-- `testdisk` - safety: safe - Data-recovery tool for lost partitions and filesystems. *(reference page pending)*
+- [regripper](tools/regripper.qmd) - safety: safe - Windows registry forensics — extracting artefacts from hives.
+- [rkhunter](tools/rkhunter.qmd) - safety: safe - Rootkit Hunter — scans for rootkits, backdoors and local exploits.
+- [sigma-cli](tools/sigma-cli.qmd) - safety: safe - Sigma rule conversion command-line interface.
+- [sleuthkit](tools/sleuthkit.qmd) - safety: safe - Library and CLI collection for filesystem forensics analysis.
+- [sysmon-modular](tools/sysmon-modular.qmd) - safety: safe - A modular Sysmon configuration set for high-fidelity Windows logging.
+- [testdisk](tools/testdisk.qmd) - safety: safe - Data-recovery tool for lost partitions and filesystems.
 - `timesketch` - safety: safe - Collaborative forensic timeline analysis — ships as a service module. *(reference page pending)*
-- `volatility3` - safety: safe - Memory forensics framework (Volatility 3). *(reference page pending)*
+- [volatility3](tools/volatility3.qmd) - safety: safe - Memory forensics framework (Volatility 3).
 
 ### c-10-runtime-appsec-ai {#cat-c-10-runtime-appsec-ai}
 
-- `ais` - safety: safe - ai-scanner — AI-endpoint AppSec scanner (plan §3.2: AISVS-scoped runtime surface). *(reference page pending)*
-- `asvs-verification-toolkit` - safety: safe - ASVS verification data-pack — checklists driving the D-7 verifier. *(reference page pending)*
-- `llm-fuzzer` - safety: safe - Fuzzes LLM-backed endpoints with adversarial input corpora. *(reference page pending)*
-- `mitmproxy` - safety: safe - Man-in-the-middle HTTP(S) proxy with a Python API — AI endpoint inspection. *(reference page pending)*
-- `oauth-mcp-prober` - safety: safe - Probes OAuth flows behind AI-agent tool surfaces for broken auth patterns. *(reference page pending)*
-- `sdl3-stream-fuzzer` - safety: safe - Structure-aware stream fuzzer for media/SDK endpoints exposed by AI runtimes. *(reference page pending)*
-- `vulnerable-llm-apps` - safety: safe - Deliberately vulnerable LLM application lab for AppSec training and verification. *(reference page pending)*
+- [ais](tools/ais.qmd) - safety: safe - ai-scanner — AI-endpoint AppSec scanner (plan §3.2: AISVS-scoped runtime surface).
+- [asvs-verification-toolkit](tools/asvs-verification-toolkit.qmd) - safety: safe - ASVS verification data-pack — checklists driving the D-7 verifier.
+- [llm-fuzzer](tools/llm-fuzzer.qmd) - safety: safe - Fuzzes LLM-backed endpoints with adversarial input corpora.
+- [mitmproxy](tools/mitmproxy.qmd) - safety: safe - Man-in-the-middle HTTP(S) proxy with a Python API — AI endpoint inspection.
+- [oauth-mcp-prober](tools/oauth-mcp-prober.qmd) - safety: safe - Probes OAuth flows behind AI-agent tool surfaces for broken auth patterns.
+- [sdl3-stream-fuzzer](tools/sdl3-stream-fuzzer.qmd) - safety: safe - Structure-aware stream fuzzer for media/SDK endpoints exposed by AI runtimes.
+- [vulnerable-llm-apps](tools/vulnerable-llm-apps.qmd) - safety: safe - Deliberately vulnerable LLM application lab for AppSec training and verification.
 
 ## Layer ATTACK (a-01 .. a-08)
 
 ### a-02-prompt-injection-jailbreaks {#cat-a-02-prompt-injection-jailbreaks}
 
-- [garak](garak.qmd) - safety: requires-target - LLM vulnerability scanner — probes for jailbreaks, prompt injection, data leakage and hallucination across model providers.
-- `inj3ct-llm` - safety: requires-target - Injection harness — curates and drives prompt-injection payloads against targeted LLM deployments. *(reference page pending)*
-- `jailbreak-payloads` - safety: safe - Jailbreak payload pack — packages the L1B3RT-4S corpus (the plan's libertas-prompts twin; content use-restrictions beyond the repo licence). *(reference page pending)*
-- `libertas-prompts` - safety: safe - L1B3RT-4S prompt data pack — vendor-organized jailbreak corpus (L1B3RT-4S) for jailbreak testing. *(reference page pending)*
-- `llm-jailbreak-bench` - safety: safe - JailbreakBench harness + artifact pack — standardized jailbreak robustness evaluation corpora. *(reference page pending)*
-- `llm-red-team-col` - safety: safe - Curated red-team prompt corpus — collected real-world attack prompts with sources, for injection and jailbreak testing. *(reference page pending)*
-- `promptfoo` - safety: requires-target - promptfoo — LLM eval and red-team CLI: prompt/model/RAG evaluation, regression checks and injection probes. *(reference page pending)*
-- `pyrit` - safety: requires-target - PyRIT — Microsoft's Python Risk Identification Tool: automated adversarial-text pipelines for probing generative-AI endpoints. *(reference page pending)*
+- [garak](tools/garak.qmd) - safety: requires-target - LLM vulnerability scanner — probes for jailbreaks, prompt injection, data leakage and hallucination across model providers.
+- [inj3ct-llm](tools/inj3ct-llm.qmd) - safety: requires-target - Injection harness — curates and drives prompt-injection payloads against targeted LLM deployments.
+- [jailbreak-payloads](tools/jailbreak-payloads.qmd) - safety: safe - Jailbreak payload pack — packages the L1B3RT-4S corpus (the plan's libertas-prompts twin; content use-restrictions beyond the repo licence).
+- [libertas-prompts](tools/libertas-prompts.qmd) - safety: safe - L1B3RT-4S prompt data pack — vendor-organized jailbreak corpus (L1B3RT-4S) for jailbreak testing.
+- [llm-jailbreak-bench](tools/llm-jailbreak-bench.qmd) - safety: safe - JailbreakBench harness + artifact pack — standardized jailbreak robustness evaluation corpora.
+- [llm-red-team-col](tools/llm-red-team-col.qmd) - safety: safe - Curated red-team prompt corpus — collected real-world attack prompts with sources, for injection and jailbreak testing.
+- [promptfoo](tools/promptfoo.qmd) - safety: requires-target - promptfoo — LLM eval and red-team CLI: prompt/model/RAG evaluation, regression checks and injection probes.
+- [pyrit](tools/pyrit.qmd) - safety: requires-target - PyRIT — Microsoft's Python Risk Identification Tool: automated adversarial-text pipelines for probing generative-AI endpoints.
 
 ### a-05-model-extraction-inversion {#cat-a-05-model-extraction-inversion}
 
-- `art` - safety: requires-target - Adversarial Robustness Toolbox — IBM's ML security library: evasion, poisoning, extraction and inference attacks, defences and metrics. *(reference page pending)*
-- `cleverhans` - safety: requires-target - CleverHans — adversarial-examples library for benchmarking ML robustness (week-after: derivation pending). *(reference page pending)*
-- `counterfit` - safety: requires-target - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07). *(reference page pending)*
-- `foolbox` - safety: requires-target - Foolbox — python toolbox for adversarial attacks on ML models (week-after: derivation pending). *(reference page pending)*
-- `knockoffnets` - safety: requires-target - Knockoff Nets — black-box model functionality stealing via transfer-set queries on a substitute data budget. *(reference page pending)*
-- `model-extraction-attack` - safety: requires-target - Model-extraction harness — drives query-efficient extraction campaigns against hosted model APIs (Steal-ML class). *(reference page pending)*
-- `privacy-meter` - safety: requires-target - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics. *(reference page pending)*
-- `tf-privacy` - safety: requires-target - TensorFlow Privacy — DP-SGD training plus membership-inference/capture attack utilities (the MIA reference implementations). *(reference page pending)*
+- [art](tools/art.qmd) - safety: requires-target - Adversarial Robustness Toolbox — IBM's ML security library: evasion, poisoning, extraction and inference attacks, defences and metrics.
+- [cleverhans](tools/cleverhans.qmd) - safety: requires-target - CleverHans — adversarial-examples library for benchmarking ML robustness (week-after: derivation pending).
+- [counterfit](tools/counterfit.qmd) - safety: requires-target - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07).
+- [foolbox](tools/foolbox.qmd) - safety: requires-target - Foolbox — python toolbox for adversarial attacks on ML models (week-after: derivation pending).
+- [knockoffnets](tools/knockoffnets.qmd) - safety: requires-target - Knockoff Nets — black-box model functionality stealing via transfer-set queries on a substitute data budget.
+- [model-extraction-attack](tools/model-extraction-attack.qmd) - safety: requires-target - Model-extraction harness — drives query-efficient extraction campaigns against hosted model APIs (Steal-ML class).
+- [privacy-meter](tools/privacy-meter.qmd) - safety: requires-target - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics.
+- [tf-privacy](tools/tf-privacy.qmd) - safety: requires-target - TensorFlow Privacy — DP-SGD training plus membership-inference/capture attack utilities (the MIA reference implementations).
 
 ### a-01-ai-recon {#cat-a-01-ai-recon}
 
-- `colab-crawler` - safety: requires-target - Crawls shared compute notebooks for leaked credentials, mounted secrets and exposed model endpoints. *(reference page pending)*
-- `huggingface-org-scan` - safety: safe - Enumerates a target organization's Hugging Face presence — models, datasets, spaces and their freshness as attack surface. *(reference page pending)*
-- `llm-recon` - safety: requires-target - LLM-focused reconnaissance — enumerates LLM API endpoints, model families and provider metadata from exposed surfaces. *(reference page pending)*
-- `recon-ai` - safety: requires-target - AI-surface reconnaissance — discovers model endpoints, agentic surfaces and org-published AI artefacts on a target scope. *(reference page pending)*
-- `trufflehog` - safety: safe - Secret scanner — hunts leaked AI-provider keys in repos and paths (A-1 AI-key hunting; C-8 classic secret scanning). *(reference page pending)*
+- [colab-crawler](tools/colab-crawler.qmd) - safety: requires-target - Crawls shared compute notebooks for leaked credentials, mounted secrets and exposed model endpoints.
+- [huggingface-org-scan](tools/huggingface-org-scan.qmd) - safety: safe - Enumerates a target organization's Hugging Face presence — models, datasets, spaces and their freshness as attack surface.
+- [llm-recon](tools/llm-recon.qmd) - safety: requires-target - LLM-focused reconnaissance — enumerates LLM API endpoints, model families and provider metadata from exposed surfaces.
+- [recon-ai](tools/recon-ai.qmd) - safety: requires-target - AI-surface reconnaissance — discovers model endpoints, agentic surfaces and org-published AI artefacts on a target scope.
+- [trufflehog](tools/trufflehog.qmd) - safety: safe - Secret scanner — hunts leaked AI-provider keys in repos and paths (A-1 AI-key hunting; C-8 classic secret scanning).
 
 ### a-03-agentic-mcp-tool-use {#cat-a-03-agentic-mcp-tool-use}
 
-- `agent-dojo` - safety: safe - AgentDojo — ETH's dynamic evaluation environment for prompt-injection attacks and defenses on LLM agents (upstream repo agentdojo). *(reference page pending)*
-- `langchain-vuln-hunter` - safety: requires-target - LangChain vulnerability hunter — drives CVE probes against langchain-based agent deployments. *(reference page pending)*
-- `llm-agent-fuzzer` - safety: requires-target - Agent fuzzer — mutation-guided goal chasing across agent tool-call loops; unsafe-path discovery. *(reference page pending)*
-- `mcp-guardian` - safety: safe - MCP Guardian — proxy and guard layer for exercising MCP server controls (allow-lists, ratelimits) from the attacker side. *(reference page pending)*
-- `mcp-remote` - safety: requires-target - mcp-remote — stdio/HTTP bridge for reachability and man-in-the-middle tests of remote MCP transports. *(reference page pending)*
-- `mcp-scan` - safety: safe - mcp-scan — Invariant's scanner: detects tool poisoning, prompt injection and tool-description drift in installed MCP servers. *(reference page pending)*
-- `mcp-unsafe-deser-probe` - safety: exp - Unsafe-deserialization probe — plants maliciously crafted tool payloads to test MCP/agent parser hardening (lab-gated). *(reference page pending)*
-- `mcpoison` - safety: exp - MCPoison — public PoC demonstrating agent trickery via poisoned MCP tool definitions (lab-gated). *(reference page pending)*
-- `poisoned-skill-pack` - safety: exp - Poisoned-skill lab pack — deliberately compromised agent skill/tool definitions for red-team drills (exp-gated). *(reference page pending)*
+- [agent-dojo](tools/agent-dojo.qmd) - safety: safe - AgentDojo — ETH's dynamic evaluation environment for prompt-injection attacks and defenses on LLM agents (upstream repo agentdojo).
+- [langchain-vuln-hunter](tools/langchain-vuln-hunter.qmd) - safety: requires-target - LangChain vulnerability hunter — drives CVE probes against langchain-based agent deployments.
+- [llm-agent-fuzzer](tools/llm-agent-fuzzer.qmd) - safety: requires-target - Agent fuzzer — mutation-guided goal chasing across agent tool-call loops; unsafe-path discovery.
+- [mcp-guardian](tools/mcp-guardian.qmd) - safety: safe - MCP Guardian — proxy and guard layer for exercising MCP server controls (allow-lists, ratelimits) from the attacker side.
+- [mcp-remote](tools/mcp-remote.qmd) - safety: requires-target - mcp-remote — stdio/HTTP bridge for reachability and man-in-the-middle tests of remote MCP transports.
+- [mcp-scan](tools/mcp-scan.qmd) - safety: safe - mcp-scan — Invariant's scanner: detects tool poisoning, prompt injection and tool-description drift in installed MCP servers.
+- [mcp-unsafe-deser-probe](tools/mcp-unsafe-deser-probe.qmd) - safety: exp - Unsafe-deserialization probe — plants maliciously crafted tool payloads to test MCP/agent parser hardening (lab-gated).
+- [mcpoison](tools/mcpoison.qmd) - safety: exp - MCPoison — public PoC demonstrating agent trickery via poisoned MCP tool definitions (lab-gated).
+- [poisoned-skill-pack](tools/poisoned-skill-pack.qmd) - safety: exp - Poisoned-skill lab pack — deliberately compromised agent skill/tool definitions for red-team drills (exp-gated).
 
 ### a-04-model-supply-chain {#cat-a-04-model-supply-chain}
 
-- `gguf-template-inspector` - safety: safe - GGUF template inspector — surfaces embedded chat templates and metadata for injection vectors inside GGUF weights. *(reference page pending)*
-- `guarddog` - safety: safe - Guarddog — DataDog's scanner: identifies malicious/typosquatted PyPI and npm packages (malicious-code + secrets rules). *(reference page pending)*
-- `hf-repo-inspector` - safety: safe - HF repository inspector — artefact-level red-team review of Hugging Face repos: mixed formats, suspicious payloads, org signals. *(reference page pending)*
-- `modelscan` - safety: safe - Protect AI modelscan — serialized-model scanner covering pickle, torch, keras and other ML artefact formats. *(reference page pending)*
-- `namespace-reuse-check` - safety: safe - Namespace-reuse checker — detects model/package name squatting and abandoned-namespace re-registration risk. *(reference page pending)*
-- `picklescan` - safety: safe - Picklescan — static security scanner for pickle/PyTorch model files: flags dangerous globals and unsafe opcodes. *(reference page pending)*
-- `safetensors-checker` - safety: safe - SafeTensors checker — malformed-tensor and metadata anomaly checks on safetensors model files. *(reference page pending)*
-- `torch-load-poc` - safety: exp - torch.load PoC — demonstrates arbitrary-code execution via weights_only=False deserialization paths (lab-gated). *(reference page pending)*
+- [gguf-template-inspector](tools/gguf-template-inspector.qmd) - safety: safe - GGUF template inspector — surfaces embedded chat templates and metadata for injection vectors inside GGUF weights.
+- [guarddog](tools/guarddog.qmd) - safety: safe - Guarddog — DataDog's scanner: identifies malicious/typosquatted PyPI and npm packages (malicious-code + secrets rules).
+- [hf-repo-inspector](tools/hf-repo-inspector.qmd) - safety: safe - HF repository inspector — artefact-level red-team review of Hugging Face repos: mixed formats, suspicious payloads, org signals.
+- [modelscan](tools/modelscan.qmd) - safety: safe - Protect AI modelscan — serialized-model scanner covering pickle, torch, keras and other ML artefact formats.
+- [namespace-reuse-check](tools/namespace-reuse-check.qmd) - safety: safe - Namespace-reuse checker — detects model/package name squatting and abandoned-namespace re-registration risk.
+- [picklescan](tools/picklescan.qmd) - safety: safe - Picklescan — static security scanner for pickle/PyTorch model files: flags dangerous globals and unsafe opcodes.
+- [safetensors-checker](tools/safetensors-checker.qmd) - safety: safe - SafeTensors checker — malformed-tensor and metadata anomaly checks on safetensors model files.
+- [torch-load-poc](tools/torch-load-poc.qmd) - safety: exp - torch.load PoC — demonstrates arbitrary-code execution via weights_only=False deserialization paths (lab-gated).
 
 ### a-06-multimodal-physical-ai {#cat-a-06-multimodal-physical-ai}
 
-- `adversarial-clothing` - safety: exp - Adversarial-clothing generator — printable physical-world attack patterns for person-detection/VLM pipelines (lab experiments). *(reference page pending)*
-- `adversarial-patches-collection` - safety: safe - Adversarial-patch data pack — curated public patch corpora and generator recipes for visual-attack drills (aggregates e.g. jhayes14/adversarial-patch). *(reference page pending)*
-- `audio-voice-clone-injector` - safety: exp - Audio voice-clone injector — voice-clone injection into voice pipelines and audio-LM prompt injection (pairs with C-7's DSP pack). *(reference page pending)*
-- `camera-adversarial-toolkit` - safety: requires-target - Camera adversarial toolkit — physical-channel attack evaluation against camera-fed AI systems (T0041 Physical Environment Access). *(reference page pending)*
-- `vlm-image-injector` - safety: requires-target - VLM image injector — crafts image-channel payloads that steer vision-language model outputs (cross-modal prompt injection). *(reference page pending)*
+- [adversarial-clothing](tools/adversarial-clothing.qmd) - safety: exp - Adversarial-clothing generator — printable physical-world attack patterns for person-detection/VLM pipelines (lab experiments).
+- [adversarial-patches-collection](tools/adversarial-patches-collection.qmd) - safety: safe - Adversarial-patch data pack — curated public patch corpora and generator recipes for visual-attack drills (aggregates e.g. jhayes14/adversarial-patch).
+- [audio-voice-clone-injector](tools/audio-voice-clone-injector.qmd) - safety: exp - Audio voice-clone injector — voice-clone injection into voice pipelines and audio-LM prompt injection (pairs with C-7's DSP pack).
+- [camera-adversarial-toolkit](tools/camera-adversarial-toolkit.qmd) - safety: requires-target - Camera adversarial toolkit — physical-channel attack evaluation against camera-fed AI systems (T0041 Physical Environment Access).
+- [vlm-image-injector](tools/vlm-image-injector.qmd) - safety: requires-target - VLM image injector — crafts image-channel payloads that steer vision-language model outputs (cross-modal prompt injection).
 
 ### a-07-ai-system-exploitation {#cat-a-07-ai-system-exploitation}
 
-- `ai-gateway-bypass` - safety: exp - AI-gateway bypass — auth/quota/routing bypass probes against LLM gateways and proxies. *(reference page pending)*
-- `kserve-exploit` - safety: exp - KServe exploit — serving-runtime and knative-surface attack probes against KServe model deployments. *(reference page pending)*
-- `mlflow-bypass` - safety: exp - MLflow platform exploit — auth-bypass/RCE probes against MLflow tracking servers (pairs with the O-1 lab target). *(reference page pending)*
-- `ollama-pwn` - safety: exp - Ollama exploit — exposed-API and model-management attack probes against Ollama servers (0.0.0.0 default-bind class). *(reference page pending)*
-- `shadow-ray` - safety: exp - ShadowRay exploit — the ATLAS case study CS0023 Ray-cluster takeover class: job-API RCE on unauthenticated Ray dashboards. *(reference page pending)*
-- `torchserve-pwn` - safety: exp - TorchServe exploit — handler deserialization and management-API attack probes against TorchServe deployments. *(reference page pending)*
-- `triton-pwn` - safety: exp - Triton Inference Server exploit — unauthenticated API misuse and RCE probes (pairs with the O-2 docker-wrapper target). *(reference page pending)*
-- `vector-db-ripper` - safety: exp - Vector-store ripper — unauthenticated dump/exfiltration probes against vector databases (chroma/qdrant/weaviate classes). *(reference page pending)*
-- `vllm-pwn` - safety: exp - vLLM exploit — inference-server API attack probes: deserialization, distributed-executor and auth surfaces. *(reference page pending)*
+- [ai-gateway-bypass](tools/ai-gateway-bypass.qmd) - safety: exp - AI-gateway bypass — auth/quota/routing bypass probes against LLM gateways and proxies.
+- [kserve-exploit](tools/kserve-exploit.qmd) - safety: exp - KServe exploit — serving-runtime and knative-surface attack probes against KServe model deployments.
+- [mlflow-bypass](tools/mlflow-bypass.qmd) - safety: exp - MLflow platform exploit — auth-bypass/RCE probes against MLflow tracking servers (pairs with the O-1 lab target).
+- [ollama-pwn](tools/ollama-pwn.qmd) - safety: exp - Ollama exploit — exposed-API and model-management attack probes against Ollama servers (0.0.0.0 default-bind class).
+- [shadow-ray](tools/shadow-ray.qmd) - safety: exp - ShadowRay exploit — the ATLAS case study CS0023 Ray-cluster takeover class: job-API RCE on unauthenticated Ray dashboards.
+- [torchserve-pwn](tools/torchserve-pwn.qmd) - safety: exp - TorchServe exploit — handler deserialization and management-API attack probes against TorchServe deployments.
+- [triton-pwn](tools/triton-pwn.qmd) - safety: exp - Triton Inference Server exploit — unauthenticated API misuse and RCE probes (pairs with the O-2 docker-wrapper target).
+- [vector-db-ripper](tools/vector-db-ripper.qmd) - safety: exp - Vector-store ripper — unauthenticated dump/exfiltration probes against vector databases (chroma/qdrant/weaviate classes).
+- [vllm-pwn](tools/vllm-pwn.qmd) - safety: exp - vLLM exploit — inference-server API attack probes: deserialization, distributed-executor and auth surfaces.
 
 ### a-08-data-poisoning {#cat-a-08-data-poisoning}
 
-- `data-exfil-via-poison` - safety: exp - Exfiltration-via-poisoning — model-behavior poisoning that leaks data at inference time (lab-gated). *(reference page pending)*
-- `poison-dataset-builder` - safety: exp - Dataset-poisoning builder — crafts poisoned training corpora (trigger-embedded samples) for attack simulations (lab-gated). *(reference page pending)*
-- `prompt-backdoor-tool` - safety: exp - Prompt-backdoor tool — trigger-insertion experiments in prompt/instruction corpora (the T0043.004 class at base technique). *(reference page pending)*
-- `split-view-replay` - safety: safe - Split-view replay — dataset split-integrity attacks: train/eval contamination and poisoning-via-replay drills. *(reference page pending)*
-- `trojai-toolkit` - safety: safe - TrojAI toolkit — NIST-rounded synthetic trojaned-dataset and trojaned-model generation for backdoor research. *(reference page pending)*
-- `trojan-lm-toolkit` - safety: exp - Trojan-LM toolkit — backdoor-embedding experiments against language-model training/fine-tuning corpora (lab-gated). *(reference page pending)*
+- [data-exfil-via-poison](tools/data-exfil-via-poison.qmd) - safety: exp - Exfiltration-via-poisoning — model-behavior poisoning that leaks data at inference time (lab-gated).
+- [poison-dataset-builder](tools/poison-dataset-builder.qmd) - safety: exp - Dataset-poisoning builder — crafts poisoned training corpora (trigger-embedded samples) for attack simulations (lab-gated).
+- [prompt-backdoor-tool](tools/prompt-backdoor-tool.qmd) - safety: exp - Prompt-backdoor tool — trigger-insertion experiments in prompt/instruction corpora (the T0043.004 class at base technique).
+- [split-view-replay](tools/split-view-replay.qmd) - safety: safe - Split-view replay — dataset split-integrity attacks: train/eval contamination and poisoning-via-replay drills.
+- [trojai-toolkit](tools/trojai-toolkit.qmd) - safety: safe - TrojAI toolkit — NIST-rounded synthetic trojaned-dataset and trojaned-model generation for backdoor research.
+- [trojan-lm-toolkit](tools/trojan-lm-toolkit.qmd) - safety: exp - Trojan-LM toolkit — backdoor-embedding experiments against language-model training/fine-tuning corpora (lab-gated).
 
 ## Layer DEFENCE (d-01 .. d-07)
 
 ### d-01-runtime-defence {#cat-d-01-runtime-defence}
 
-- `gaskunk` - safety: safe - Gaskunk — runtime LLM output-gating guard (planned first-party pack, KA-06.x derivation target). *(reference page pending)*
-- `guardrails-ai` - safety: safe - Guardrails AI — validators that enforce structure, type and quality guarantees on LLM outputs. *(reference page pending)*
-- `llm-firewall` - safety: safe - LLM Firewall — policy firewall in front of LLM endpoints (planned first-party pack, Wave-5 derivation target). *(reference page pending)*
-- `llm-guard` - safety: safe - LLM Guard — input/output scanning pipeline for prompts and completions (PII, toxicity, prompt-injection scanners). *(reference page pending)*
-- `nemo-guardrails` - safety: safe - NVIDIA NeMo Guardrails — programmable guardrails (topics, rails, jailbreak defence) for LLM conversational apps. *(reference page pending)*
-- `rebuff` - safety: safe - Rebuff — prompt-injection detector with a canary-token leakage check and multi-stage defence. *(reference page pending)*
-- `whisper-gate` - safety: safe - Whisper Gate — audio-input LLM-surface gate (planned first-party pack, Wave-5 derivation target). *(reference page pending)*
+- [gaskunk](tools/gaskunk.qmd) - safety: safe - Gaskunk — runtime LLM output-gating guard (planned first-party pack, KA-06.x derivation target).
+- [guardrails-ai](tools/guardrails-ai.qmd) - safety: safe - Guardrails AI — validators that enforce structure, type and quality guarantees on LLM outputs.
+- [llm-firewall](tools/llm-firewall.qmd) - safety: safe - LLM Firewall — policy firewall in front of LLM endpoints (planned first-party pack, Wave-5 derivation target).
+- [llm-guard](tools/llm-guard.qmd) - safety: safe - LLM Guard — input/output scanning pipeline for prompts and completions (PII, toxicity, prompt-injection scanners).
+- [nemo-guardrails](tools/nemo-guardrails.qmd) - safety: safe - NVIDIA NeMo Guardrails — programmable guardrails (topics, rails, jailbreak defence) for LLM conversational apps.
+- [rebuff](tools/rebuff.qmd) - safety: safe - Rebuff — prompt-injection detector with a canary-token leakage check and multi-stage defence.
+- [whisper-gate](tools/whisper-gate.qmd) - safety: safe - Whisper Gate — audio-input LLM-surface gate (planned first-party pack, Wave-5 derivation target).
 
 ### d-02-detection-monitoring-observability {#cat-d-02-detection-monitoring-observability}
 
-- `canary-token-generator` - safety: safe - Canary-token generator — plants verifiable canary strings in prompts, system cards and datasets for leakage tracing (planned first-party pack). *(reference page pending)*
-- `evidently` - safety: safe - Evidently — ML and LLM observability framework: evals, tests and monitoring reports. *(reference page pending)*
-- `giskard` - safety: safe - Giskard — open-source evaluation and testing library for LLM agents (scan, tests, red-reporting). *(reference page pending)*
+- [canary-token-generator](tools/canary-token-generator.qmd) - safety: safe - Canary-token generator — plants verifiable canary strings in prompts, system cards and datasets for leakage tracing (planned first-party pack).
+- [evidently](tools/evidently.qmd) - safety: safe - Evidently — ML and LLM observability framework: evals, tests and monitoring reports.
+- [giskard](tools/giskard.qmd) - safety: safe - Giskard — open-source evaluation and testing library for LLM agents (scan, tests, red-reporting).
 - `langfuse` - safety: safe - Langfuse — LLM observability and eval platform: traces, scoring, prompt management (EE dirs restricted; core MIT). *(reference page pending)*
-- `otel-ai` - safety: safe - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends). *(reference page pending)*
-- `phoenix` - safety: safe - Arize Phoenix — AI observability and evaluation: traces, embeddings, evals. *(reference page pending)*
-- `prompt-injection-detector-bert` - safety: safe - Prompt-injection classifier pack — DeBERTa-class detector weights + loader for LLM-input gating (planned first-party pack). *(reference page pending)*
-- `whylogs` - safety: safe - WhyLabs whylogs — privacy-preserving data and ML/LLM logging profiles for drift and quality monitoring. *(reference page pending)*
+- [otel-ai](tools/otel-ai.qmd) - safety: safe - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends).
+- [phoenix](tools/phoenix.qmd) - safety: safe - Arize Phoenix — AI observability and evaluation: traces, embeddings, evals.
+- [prompt-injection-detector-bert](tools/prompt-injection-detector-bert.qmd) - safety: safe - Prompt-injection classifier pack — DeBERTa-class detector weights + loader for LLM-input gating (planned first-party pack).
+- [whylogs](tools/whylogs.qmd) - safety: safe - WhyLabs whylogs — privacy-preserving data and ML/LLM logging profiles for drift and quality monitoring.
 
 ### d-03-assurance-evals-benchmarks {#cat-d-03-assurance-evals-benchmarks}
 
-- `aif360` - safety: safe - AI Fairness 360 (AIF360) — comprehensive fairness-metrics and bias-mitigation toolkit. *(reference page pending)*
-- `deepeval` - safety: safe - DeepEval — LLM evaluation framework with unit-test-style metrics (G-Eval, faithfulness, bias). *(reference page pending)*
-- `fairlearn` - safety: safe - Fairlearn — fairness metrics and mitigation algorithms for ML models. *(reference page pending)*
-- `huggingface-evaluate` - safety: safe - HuggingFace Evaluate — library for easily evaluating ML models and datasets (the hub `evaluate` package). *(reference page pending)*
-- `lm-eval-harness` - safety: safe - EleutherAI Language Model Evaluation Harness — standard few-shot benchmark runner (lm-eval). *(reference page pending)*
-- `robustbench` - safety: safe - RobustBench — standardized adversarial-robustness benchmark suite (model zoo + attacks); MIT code, per-model weight licences vary. *(reference page pending)*
+- [aif360](tools/aif360.qmd) - safety: safe - AI Fairness 360 (AIF360) — comprehensive fairness-metrics and bias-mitigation toolkit.
+- [deepeval](tools/deepeval.qmd) - safety: safe - DeepEval — LLM evaluation framework with unit-test-style metrics (G-Eval, faithfulness, bias).
+- [fairlearn](tools/fairlearn.qmd) - safety: safe - Fairlearn — fairness metrics and mitigation algorithms for ML models.
+- [huggingface-evaluate](tools/huggingface-evaluate.qmd) - safety: safe - HuggingFace Evaluate — library for easily evaluating ML models and datasets (the hub `evaluate` package).
+- [lm-eval-harness](tools/lm-eval-harness.qmd) - safety: safe - EleutherAI Language Model Evaluation Harness — standard few-shot benchmark runner (lm-eval).
+- [robustbench](tools/robustbench.qmd) - safety: safe - RobustBench — standardized adversarial-robustness benchmark suite (model zoo + attacks); MIT code, per-model weight licences vary.
 
 ### d-04-provenance-signing-trust {#cat-d-04-provenance-signing-trust}
 
-- `cdxgen` - safety: safe - CycloneDX cdxgen — creates CycloneDX SBOMs for source trees and images across languages. *(reference page pending)*
-- `cosign` - safety: safe - Sigstore cosign — container and binary signing and transparency. *(reference page pending)*
-- `cyclonedx-cli` - safety: safe - CycloneDX CLI — SBOM validation, merging, diffs and format conversions. *(reference page pending)*
-- `grype` - safety: safe - Anchore Grype — vulnerability scanner for container images and filesystems. *(reference page pending)*
-- `hf-repo-auditor` - safety: safe - Hugging Face repository auditor — scans Hub repos for unsafe pickle/zip-slip artefacts and licence drift (planned first-party pack). *(reference page pending)*
-- `model-card-toolkit` - safety: safe - TensorFlow Model Card Toolkit — automates generation of model documentation cards. *(reference page pending)*
-- `modelsign` - safety: safe - Model signing CLI wrapping sigstore/model-signing — sign and verify model artefacts with Sigstore bundles. *(reference page pending)*
-- `sigstore-tools` - safety: safe - Sigstore helper CLI pack — Rekor/fulcio transparency-log queries and bundle verification recipes (planned first-party pack). *(reference page pending)*
-- `syft` - safety: safe - Anchore Syft — SBOM generation CLI for container images and filesystems. *(reference page pending)*
-- `trivy` - safety: safe - Aqua Trivy — all-in-one vulnerability/secret/misconfiguration/SBOM scanner. *(reference page pending)*
+- [cdxgen](tools/cdxgen.qmd) - safety: safe - CycloneDX cdxgen — creates CycloneDX SBOMs for source trees and images across languages.
+- [cosign](tools/cosign.qmd) - safety: safe - Sigstore cosign — container and binary signing and transparency.
+- [cyclonedx-cli](tools/cyclonedx-cli.qmd) - safety: safe - CycloneDX CLI — SBOM validation, merging, diffs and format conversions.
+- [grype](tools/grype.qmd) - safety: safe - Anchore Grype — vulnerability scanner for container images and filesystems.
+- [hf-repo-auditor](tools/hf-repo-auditor.qmd) - safety: safe - Hugging Face repository auditor — scans Hub repos for unsafe pickle/zip-slip artefacts and licence drift (planned first-party pack).
+- [model-card-toolkit](tools/model-card-toolkit.qmd) - safety: safe - TensorFlow Model Card Toolkit — automates generation of model documentation cards.
+- [modelsign](tools/modelsign.qmd) - safety: safe - Model signing CLI wrapping sigstore/model-signing — sign and verify model artefacts with Sigstore bundles.
+- [sigstore-tools](tools/sigstore-tools.qmd) - safety: safe - Sigstore helper CLI pack — Rekor/fulcio transparency-log queries and bundle verification recipes (planned first-party pack).
+- [syft](tools/syft.qmd) - safety: safe - Anchore Syft — SBOM generation CLI for container images and filesystems.
+- [trivy](tools/trivy.qmd) - safety: safe - Aqua Trivy — all-in-one vulnerability/secret/misconfiguration/SBOM scanner.
 
 ### d-05-threat-modelling {#cat-d-05-threat-modelling}
 
-- `ai-incident-playbook-packs` - safety: safe - AI incident-response playbook packs — detection/triage/rollback runbooks for AI incidents (planned first-party pack). *(reference page pending)*
-- `atlas-case-study-explorer` - safety: safe - ATLAS case-study explorer — browsable real-world AI-incident case studies (planned first-party pack). *(reference page pending)*
-- `atlas-visualiser` - safety: safe - MITRE ATLAS visualiser — renders ATLAS tactic/technique coverage over a target system map (planned first-party pack). *(reference page pending)*
-- `genai-threat-modelling-templates` - safety: safe - GenAI threat-modelling template pack — per-component worksheets for LLM/agent systems (planned first-party pack). *(reference page pending)*
-- `maestro` - safety: safe - MAESTRO threat-modelling CLI — agent-system threat elicitation keyed to the OWASP MAESTRO framework. *(reference page pending)*
-- `stride-ai-worksheet` - safety: safe - STRIDE-for-AI worksheet pack — per-trust-boundary threat elicitation sheets for AI systems (planned first-party pack). *(reference page pending)*
+- [ai-incident-playbook-packs](tools/ai-incident-playbook-packs.qmd) - safety: safe - AI incident-response playbook packs — detection/triage/rollback runbooks for AI incidents (planned first-party pack).
+- [atlas-case-study-explorer](tools/atlas-case-study-explorer.qmd) - safety: safe - ATLAS case-study explorer — browsable real-world AI-incident case studies (planned first-party pack).
+- [atlas-visualiser](tools/atlas-visualiser.qmd) - safety: safe - MITRE ATLAS visualiser — renders ATLAS tactic/technique coverage over a target system map (planned first-party pack).
+- [genai-threat-modelling-templates](tools/genai-threat-modelling-templates.qmd) - safety: safe - GenAI threat-modelling template pack — per-component worksheets for LLM/agent systems (planned first-party pack).
+- [maestro](tools/maestro.qmd) - safety: safe - MAESTRO threat-modelling CLI — agent-system threat elicitation keyed to the OWASP MAESTRO framework.
+- [stride-ai-worksheet](tools/stride-ai-worksheet.qmd) - safety: safe - STRIDE-for-AI worksheet pack — per-trust-boundary threat elicitation sheets for AI systems (planned first-party pack).
 
 ### d-06-governance-regulation-mapping {#cat-d-06-governance-regulation-mapping}
 
-- `ai-act-compliance-checker` - safety: safe - EU AI Act compliance checker — obligation inventory and gap scoring for AI deployments (planned first-party pack). *(reference page pending)*
-- `genai-vendor-review-form` - safety: safe - GenAI vendor review form — provider risk questionnaire and scoring sheet (planned first-party pack). *(reference page pending)*
-- `iso-42001-templates` - safety: safe - ISO/IEC 42001 template pack — AIMS control templates and evidence checklists (planned first-party pack). *(reference page pending)*
-- `nist-ai-rmf-toolkit` - safety: safe - NIST AI RMF toolkit — Profile templates and mapping worksheets per the AI Risk Management Framework (planned first-party pack). *(reference page pending)*
+- [ai-act-compliance-checker](tools/ai-act-compliance-checker.qmd) - safety: safe - EU AI Act compliance checker — obligation inventory and gap scoring for AI deployments (planned first-party pack).
+- [genai-vendor-review-form](tools/genai-vendor-review-form.qmd) - safety: safe - GenAI vendor review form — provider risk questionnaire and scoring sheet (planned first-party pack).
+- [iso-42001-templates](tools/iso-42001-templates.qmd) - safety: safe - ISO/IEC 42001 template pack — AIMS control templates and evidence checklists (planned first-party pack).
+- [nist-ai-rmf-toolkit](tools/nist-ai-rmf-toolkit.qmd) - safety: safe - NIST AI RMF toolkit — Profile templates and mapping worksheets per the AI Risk Management Framework (planned first-party pack).
 
 ### d-07-standards-verification {#cat-d-07-standards-verification}
 
-- `aisvs-1.0-toolkit` - safety: safe - OWASP AISVS 1.0 toolkit — verification checklists and level-mapping data driving the D-7 verifier (planned first-party pack). *(reference page pending)*
-- `kailash-verifier` - safety: safe - Kailash verifier CLI — `kailash verifier --standard aisvs --level N`: renders per-tool standards evidence from the manifest (§3.8; planned first-party deliverable). *(reference page pending)*
-- `llm-top10-toolkit` - safety: safe - OWASP LLM Top 10 toolkit — risk-mapping data for both Top-10 epochs (2026 + v2:2025) driving the verifier (planned first-party pack). *(reference page pending)*
-- `mlsvs-toolkit` - safety: safe - OWASP MLSVS toolkit — machine-learning system verification checklists (planned first-party pack). *(reference page pending)*
+- [aisvs-1.0-toolkit](tools/aisvs-1.0-toolkit.qmd) - safety: safe - OWASP AISVS 1.0 toolkit — verification checklists and level-mapping data driving the D-7 verifier (planned first-party pack).
+- [kailash-verifier](tools/kailash-verifier.qmd) - safety: safe - Kailash verifier CLI — `kailash verifier --standard aisvs --level N`: renders per-tool standards evidence from the manifest (§3.8; planned first-party deliverable).
+- [llm-top10-toolkit](tools/llm-top10-toolkit.qmd) - safety: safe - OWASP LLM Top 10 toolkit — risk-mapping data for both Top-10 epochs (2026 + v2:2025) driving the verifier (planned first-party pack).
+- [mlsvs-toolkit](tools/mlsvs-toolkit.qmd) - safety: safe - OWASP MLSVS toolkit — machine-learning system verification checklists (planned first-party pack).
 
 ## Layer OPS (o-01 .. o-07)
 
 ### o-01-mlops-ml-engineering {#cat-o-01-mlops-ml-engineering}
 
 - `airflow` - safety: safe - Apache Airflow — workflow orchestration; ships as a service module. *(reference page pending)*
-- `bentoml` - safety: safe - BentoML — model serving and inference-API packaging. *(reference page pending)*
+- [bentoml](tools/bentoml.qmd) - safety: safe - BentoML — model serving and inference-API packaging.
 - `clearml` - safety: safe - ClearML — experiment tracking and orchestration; ships as a service module. *(reference page pending)*
-- `dvc` - safety: safe - Data Version Control — pipeline and dataset versioning for ML workspaces. *(reference page pending)*
-- `feast` - safety: safe - Feast — the open-source feature store for AI/ML. *(reference page pending)*
-- `git-lfs` - safety: safe - Git Large File Storage — versioning large artefacts (weights, datasets). *(reference page pending)*
-- `kedro` - safety: safe - Kedro — production-ready data-science pipeline framework. *(reference page pending)*
-- `kedro-datasets` - safety: safe - Kedro datasets — the kedro-plugins catalogue of dataset connectors. *(reference page pending)*
-- `lightgbm` - safety: safe - LightGBM — fast gradient-boosting framework (GBDT, GBRT). *(reference page pending)*
+- [dvc](tools/dvc.qmd) - safety: safe - Data Version Control — pipeline and dataset versioning for ML workspaces.
+- [feast](tools/feast.qmd) - safety: safe - Feast — the open-source feature store for AI/ML.
+- [git-lfs](tools/git-lfs.qmd) - safety: safe - Git Large File Storage — versioning large artefacts (weights, datasets).
+- [kedro](tools/kedro.qmd) - safety: safe - Kedro — production-ready data-science pipeline framework.
+- [kedro-datasets](tools/kedro-datasets.qmd) - safety: safe - Kedro datasets — the kedro-plugins catalogue of dataset connectors.
+- [lightgbm](tools/lightgbm.qmd) - safety: safe - LightGBM — fast gradient-boosting framework (GBDT, GBRT).
 - `mlflow` - safety: safe - MLflow — the pairing-thesis lab target: experiment tracking and model registry; ships as services.kailash.mlflow. *(reference page pending)*
-- `numpy` - safety: safe - NumPy — the fundamental package for scientific computing. *(reference page pending)*
-- `pandas` - safety: safe - pandas — DataFrame analysis toolkit (the scientific-Python core). *(reference page pending)*
-- `polars` - safety: safe - Polars — extremely fast DataFrame query engine written in Rust. *(reference page pending)*
+- [numpy](tools/numpy.qmd) - safety: safe - NumPy — the fundamental package for scientific computing.
+- [pandas](tools/pandas.qmd) - safety: safe - pandas — DataFrame analysis toolkit (the scientific-Python core).
+- [polars](tools/polars.qmd) - safety: safe - Polars — extremely fast DataFrame query engine written in Rust.
 - `prefect` - safety: safe - Prefect — workflow orchestration; ships as a service module. *(reference page pending)*
-- `scikit-learn` - safety: safe - scikit-learn — classical ML toolkit on numpy/scipy. *(reference page pending)*
-- `scipy` - safety: safe - SciPy — scientific computing library (optimization, signal, stats). *(reference page pending)*
-- `wandb-cli` - safety: safe - Weights & Biases CLI — experiment logging and sweeps client. *(reference page pending)*
-- `xgboost` - safety: safe - XGBoost — distributed gradient-boosted decision trees. *(reference page pending)*
+- [scikit-learn](tools/scikit-learn.qmd) - safety: safe - scikit-learn — classical ML toolkit on numpy/scipy.
+- [scipy](tools/scipy.qmd) - safety: safe - SciPy — scientific computing library (optimization, signal, stats).
+- [wandb-cli](tools/wandb-cli.qmd) - safety: safe - Weights & Biases CLI — experiment logging and sweeps client.
+- [xgboost](tools/xgboost.qmd) - safety: safe - XGBoost — distributed gradient-boosted decision trees.
 
 ### o-02-compute-serving-infrastructure {#cat-o-02-compute-serving-infrastructure}
 
-- `k3s` - safety: safe - k3s — lightweight Kubernetes. *(reference page pending)*
-- `kind` - safety: safe - kind — Kubernetes IN Docker, local clusters for testing. *(reference page pending)*
-- `kserve` - safety: safe - KServe — model serving on Kubernetes. *(reference page pending)*
-- `minikube` - safety: safe - minikube — local Kubernetes. *(reference page pending)*
-- `nvidia-container-toolkit` - safety: safe - NVIDIA Container Toolkit — build and run GPU containers (licence Apache-2.0 per upstream metadata). *(reference page pending)*
-- `podman` - safety: safe - Podman — OCI container and pod management. *(reference page pending)*
+- [k3s](tools/k3s.qmd) - safety: safe - k3s — lightweight Kubernetes.
+- [kind](tools/kind.qmd) - safety: safe - kind — Kubernetes IN Docker, local clusters for testing.
+- [kserve](tools/kserve.qmd) - safety: safe - KServe — model serving on Kubernetes.
+- [minikube](tools/minikube.qmd) - safety: safe - minikube — local Kubernetes.
+- [nvidia-container-toolkit](tools/nvidia-container-toolkit.qmd) - safety: safe - NVIDIA Container Toolkit — build and run GPU containers (licence Apache-2.0 per upstream metadata).
+- [podman](tools/podman.qmd) - safety: safe - Podman — OCI container and pod management.
 - `ray` - safety: safe - Ray — distributed AI compute engine; ships as a service module. *(reference page pending)*
-- `tgi` - safety: safe - text-generation-inference (Hugging Face TGI) — LLM serving runtime. *(reference page pending)*
-- `torchserve` - safety: safe - TorchServe — PyTorch model serving. *(reference page pending)*
+- [tgi](tools/tgi.qmd) - safety: safe - text-generation-inference (Hugging Face TGI) — LLM serving runtime.
+- [torchserve](tools/torchserve.qmd) - safety: safe - TorchServe — PyTorch model serving.
 - `triton-inference-server` - safety: safe - NVIDIA Triton Inference Server — docker-wrapper module for optimized inferencing. *(reference page pending)*
-- `vllm` - safety: safe - vLLM — high-throughput, memory-efficient LLM inference and serving engine (native at the pin; plan Appendix A listed bespoke). *(reference page pending)*
+- [vllm](tools/vllm.qmd) - safety: safe - vLLM — high-throughput, memory-efficient LLM inference and serving engine (native at the pin; plan Appendix A listed bespoke).
 
 ### o-03-vector-stores-retrieval {#cat-o-03-vector-stores-retrieval}
 
-- `chromadb` - safety: safe - Chroma — AI-native embedding database (python package + server). *(reference page pending)*
+- [chromadb](tools/chromadb.qmd) - safety: safe - Chroma — AI-native embedding database (python package + server).
 - `elasticsearch` - safety: safe - Elasticsearch — distributed search engine; ships as a service module (AGPL-3.0 / SSPL / Elastic License 2.0 triple licence at the pin). *(reference page pending)*
-- `faiss` - safety: safe - FAISS — efficient similarity search and clustering of dense vectors. *(reference page pending)*
-- `jina-embeddings-cli` - safety: safe - jina CLI — search/embed/rank over Jina APIs as Unix commands. *(reference page pending)*
+- [faiss](tools/faiss.qmd) - safety: safe - FAISS — efficient similarity search and clustering of dense vectors.
+- [jina-embeddings-cli](tools/jina-embeddings-cli.qmd) - safety: safe - jina CLI — search/embed/rank over Jina APIs as Unix commands.
 - `milvus` - safety: safe - Milvus — cloud-native vector database; docker-wrapper module. *(reference page pending)*
 - `pgvector` - safety: safe - pgvector — open-source vector similarity search for Postgres; ships as a service module (PostgreSQL licence). *(reference page pending)*
-- `qdrant` - safety: safe - Qdrant — vector database and vector search engine. *(reference page pending)*
-- `txtai` - safety: safe - txtai — all-in-one embeddings database for semantic search and LLM orchestration. *(reference page pending)*
+- [qdrant](tools/qdrant.qmd) - safety: safe - Qdrant — vector database and vector search engine.
+- [txtai](tools/txtai.qmd) - safety: safe - txtai — all-in-one embeddings database for semantic search and LLM orchestration.
 - `weaviate` - safety: safe - Weaviate — open-source vector database; ships as a service module (wl/ dir carries the Weaviate community licence). *(reference page pending)*
 
 ### o-04-local-llm-inference-labs {#cat-o-04-local-llm-inference-labs}
 
-- `gguf-quantiser` - safety: safe - GGUF quantiser — planned first-party CLI wrapping llama.cpp quantize workflows (Wave-5 deliverable). *(reference page pending)*
-- `llama.cpp` - safety: safe - llama.cpp — LLM inference in C/C++ (CPU/GPU quantized inference). *(reference page pending)*
-- `ollama` - safety: safe - Ollama — run LLMs locally (primary home; documented tiny test model). *(reference page pending)*
-- `open-webui` - safety: safe - Open WebUI — self-hosted chat UI for local LLMs (branding-clause licence; unfree-class in nixpkgs). *(reference page pending)*
-- `text-generation-webui` - safety: safe - text-generation-webui — open-source desktop app for local LLMs. *(reference page pending)*
+- [gguf-quantiser](tools/gguf-quantiser.qmd) - safety: safe - GGUF quantiser — planned first-party CLI wrapping llama.cpp quantize workflows (Wave-5 deliverable).
+- [llama.cpp](tools/llama.cpp.qmd) - safety: safe - llama.cpp — LLM inference in C/C++ (CPU/GPU quantized inference).
+- [ollama](tools/ollama.qmd) - safety: safe - Ollama — run LLMs locally (primary home; documented tiny test model).
+- [open-webui](tools/open-webui.qmd) - safety: safe - Open WebUI — self-hosted chat UI for local LLMs (branding-clause licence; unfree-class in nixpkgs).
+- [text-generation-webui](tools/text-generation-webui.qmd) - safety: safe - text-generation-webui — open-source desktop app for local LLMs.
 
 ### o-05-ai-engineering-sdks-dev-env {#cat-o-05-ai-engineering-sdks-dev-env}
 
-- `anthropic-python` - safety: safe - Anthropic Python SDK. *(reference page pending)*
-- `autogen` - safety: safe - AutoGen — programming framework for agentic AI (v0.4+; repo licence CC-BY-4.0 per metadata + LICENCE read). *(reference page pending)*
-- `code-server` - safety: safe - VS Code in the browser. *(reference page pending)*
-- `crewai` - safety: safe - CrewAI — role-playing autonomous agent orchestration framework. *(reference page pending)*
-- `datasets` - safety: safe - Hugging Face Datasets — ready-to-use datasets library. *(reference page pending)*
-- `google-genai` - safety: safe - Google Gen AI Python SDK. *(reference page pending)*
-- `jax` - safety: safe - JAX — composable transformations of Python+NumPy programs. *(reference page pending)*
-- `langchain` - safety: safe - LangChain — the agent engineering platform (SDK core). *(reference page pending)*
-- `langgraph` - safety: safe - LangGraph — build resilient agents (LangChain graph runtime). *(reference page pending)*
-- `llama-index` - safety: safe - LlamaIndex — document processing and RAG framework. *(reference page pending)*
-- `mypy` - safety: safe - mypy — optional static typing for Python. *(reference page pending)*
-- `neovim` - safety: safe - Neovim — Vim-fork focused on extensibility. *(reference page pending)*
-- `onnxruntime` - safety: safe - ONNX Runtime — cross-platform ML inference. *(reference page pending)*
-- `openai-python` - safety: safe - OpenAI Python SDK. *(reference page pending)*
-- `peft` - safety: safe - Hugging Face PEFT — parameter-efficient fine-tuning. *(reference page pending)*
-- `python-lsp-server` - safety: safe - python-lsp-server — LSP for Python (SpyderMaintained fork). *(reference page pending)*
-- `python313` - safety: safe - CPython 3.13 (PSF-2.0 licence per upstream). *(reference page pending)*
-- `pytorch` - safety: safe - PyTorch — tensors and dynamic neural networks (CPU default; cuda variant via overlay). *(reference page pending)*
-- `ruff` - safety: safe - Ruff — fast Python linter and formatter. *(reference page pending)*
-- `tensorflow` - safety: safe - TensorFlow — end-to-end ML platform. *(reference page pending)*
-- `torchaudio` - safety: safe - TorchAudio — audio ML for PyTorch. *(reference page pending)*
-- `torchvision` - safety: safe - TorchVision — vision models/transforms for PyTorch. *(reference page pending)*
-- `transformers` - safety: safe - Hugging Face Transformers — the model-definition framework. *(reference page pending)*
-- `trl` - safety: safe - Hugging Face TRL — RL training for transformers. *(reference page pending)*
-- `uv` - safety: safe - uv — extremely fast Python package/project manager (MIT/Apache dual). *(reference page pending)*
-- `vscode` - safety: safe - Visual Studio Code (source MIT; nixpkgs build unfree-class). *(reference page pending)*
+- [anthropic-python](tools/anthropic-python.qmd) - safety: safe - Anthropic Python SDK.
+- [autogen](tools/autogen.qmd) - safety: safe - AutoGen — programming framework for agentic AI (v0.4+; repo licence CC-BY-4.0 per metadata + LICENCE read).
+- [code-server](tools/code-server.qmd) - safety: safe - VS Code in the browser.
+- [crewai](tools/crewai.qmd) - safety: safe - CrewAI — role-playing autonomous agent orchestration framework.
+- [datasets](tools/datasets.qmd) - safety: safe - Hugging Face Datasets — ready-to-use datasets library.
+- [google-genai](tools/google-genai.qmd) - safety: safe - Google Gen AI Python SDK.
+- [jax](tools/jax.qmd) - safety: safe - JAX — composable transformations of Python+NumPy programs.
+- [langchain](tools/langchain.qmd) - safety: safe - LangChain — the agent engineering platform (SDK core).
+- [langgraph](tools/langgraph.qmd) - safety: safe - LangGraph — build resilient agents (LangChain graph runtime).
+- [llama-index](tools/llama-index.qmd) - safety: safe - LlamaIndex — document processing and RAG framework.
+- [mypy](tools/mypy.qmd) - safety: safe - mypy — optional static typing for Python.
+- [neovim](tools/neovim.qmd) - safety: safe - Neovim — Vim-fork focused on extensibility.
+- [onnxruntime](tools/onnxruntime.qmd) - safety: safe - ONNX Runtime — cross-platform ML inference.
+- [openai-python](tools/openai-python.qmd) - safety: safe - OpenAI Python SDK.
+- [peft](tools/peft.qmd) - safety: safe - Hugging Face PEFT — parameter-efficient fine-tuning.
+- [python-lsp-server](tools/python-lsp-server.qmd) - safety: safe - python-lsp-server — LSP for Python (SpyderMaintained fork).
+- [python313](tools/python313.qmd) - safety: safe - CPython 3.13 (PSF-2.0 licence per upstream).
+- [pytorch](tools/pytorch.qmd) - safety: safe - PyTorch — tensors and dynamic neural networks (CPU default; cuda variant via overlay).
+- [ruff](tools/ruff.qmd) - safety: safe - Ruff — fast Python linter and formatter.
+- [tensorflow](tools/tensorflow.qmd) - safety: safe - TensorFlow — end-to-end ML platform.
+- [torchaudio](tools/torchaudio.qmd) - safety: safe - TorchAudio — audio ML for PyTorch.
+- [torchvision](tools/torchvision.qmd) - safety: safe - TorchVision — vision models/transforms for PyTorch.
+- [transformers](tools/transformers.qmd) - safety: safe - Hugging Face Transformers — the model-definition framework.
+- [trl](tools/trl.qmd) - safety: safe - Hugging Face TRL — RL training for transformers.
+- [uv](tools/uv.qmd) - safety: safe - uv — extremely fast Python package/project manager (MIT/Apache dual).
+- [vscode](tools/vscode.qmd) - safety: safe - Visual Studio Code (source MIT; nixpkgs build unfree-class).
 
 ### o-06-documentation-reporting-authoring {#cat-o-06-documentation-reporting-authoring}
 
 - `dradis` - safety: safe - Dradis Framework CE — collaboration and reporting for IT security teams; ships as a service module. *(reference page pending)*
-- `drawio` - safety: safe - draw.io — JavaScript client-side diagramming editor. *(reference page pending)*
-- `excalidraw` - safety: safe - Excalidraw — virtual whiteboard for hand-drawn-style diagrams. *(reference page pending)*
-- `mdbook` - safety: safe - mdBook — create books from markdown files (the OS docs surface). *(reference page pending)*
-- `mermaid-cli` - safety: safe - mermaid-cli — command-line rendering for the Mermaid diagram language. *(reference page pending)*
-- `obsidian` - safety: safe - Obsidian — personal knowledge base (licence proprietary-class; nixpkgs unfree). *(reference page pending)*
-- `pandoc` - safety: safe - Pandoc — universal markup converter. *(reference page pending)*
-- `quarto` - safety: safe - Quarto — open-source scientific and technical publishing system. *(reference page pending)*
-- `texlive-full` - safety: safe - TeX Live scheme-full — opt-in data pack; bundle carries a licence mix (plan Appendix A: GPL-class). *(reference page pending)*
-- `typst` - safety: safe - Typst — markup-based typesetting system. *(reference page pending)*
+- [drawio](tools/drawio.qmd) - safety: safe - draw.io — JavaScript client-side diagramming editor.
+- [excalidraw](tools/excalidraw.qmd) - safety: safe - Excalidraw — virtual whiteboard for hand-drawn-style diagrams.
+- [mdbook](tools/mdbook.qmd) - safety: safe - mdBook — create books from markdown files (the OS docs surface).
+- [mermaid-cli](tools/mermaid-cli.qmd) - safety: safe - mermaid-cli — command-line rendering for the Mermaid diagram language.
+- [obsidian](tools/obsidian.qmd) - safety: safe - Obsidian — personal knowledge base (licence proprietary-class; nixpkgs unfree).
+- [pandoc](tools/pandoc.qmd) - safety: safe - Pandoc — universal markup converter.
+- [quarto](tools/quarto.qmd) - safety: safe - Quarto — open-source scientific and technical publishing system.
+- [texlive-full](tools/texlive-full.qmd) - safety: safe - TeX Live scheme-full — opt-in data pack; bundle carries a licence mix (plan Appendix A: GPL-class).
+- [typst](tools/typst.qmd) - safety: safe - Typst — markup-based typesetting system.
 
 ### o-07-agent-mcp-operability {#cat-o-07-agent-mcp-operability}
 
-- `headless-agent` - safety: exp - headless-agent — headless agent image deliverable (grants-scoped). *(reference page pending)*
-- `hexstrike-ai` - safety: exp - HexStrike AI — MCP server letting AI agents autonomously run 100+ security tools for offensive security operations. *(reference page pending)*
-- `insecure-mcp-lab` - safety: exp - Insecure MCP lab — deliberately vulnerable MCP endpoints for scanner verification (opt-in lab pack). *(reference page pending)*
-- `kailash-container` - safety: exp - kailash-container — container image deliverable bundling the distro toolset. *(reference page pending)*
-- `kailash-mcp` - safety: exp - kailash-mcp — the distro's own MCP server, generated from the manifest; the CI dogfood target. *(reference page pending)*
-- `malicious-mcp-poc` - safety: exp - Malicious MCP server proof-of-concept pack — lab artefacts for the A-3 scanner suite (opt-in lab pack). *(reference page pending)*
-- `mcp-inspector` - safety: safe - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition). *(reference page pending)*
-- `mcp-kali-server` - safety: exp - MCP Kali Server — Kali toolchain exposed over MCP for agent operators (third-party deliverable). *(reference page pending)*
+- [headless-agent](tools/headless-agent.qmd) - safety: exp - headless-agent — headless agent image deliverable (grants-scoped).
+- [hexstrike-ai](tools/hexstrike-ai.qmd) - safety: exp - HexStrike AI — MCP server letting AI agents autonomously run 100+ security tools for offensive security operations.
+- [insecure-mcp-lab](tools/insecure-mcp-lab.qmd) - safety: exp - Insecure MCP lab — deliberately vulnerable MCP endpoints for scanner verification (opt-in lab pack).
+- [kailash-container](tools/kailash-container.qmd) - safety: exp - kailash-container — container image deliverable bundling the distro toolset.
+- [kailash-mcp](tools/kailash-mcp.qmd) - safety: exp - kailash-mcp — the distro's own MCP server, generated from the manifest; the CI dogfood target.
+- [malicious-mcp-poc](tools/malicious-mcp-poc.qmd) - safety: exp - Malicious MCP server proof-of-concept pack — lab artefacts for the A-3 scanner suite (opt-in lab pack).
+- [mcp-inspector](tools/mcp-inspector.qmd) - safety: safe - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition).
+- [mcp-kali-server](tools/mcp-kali-server.qmd) - safety: exp - MCP Kali Server — Kali toolchain exposed over MCP for agent operators (third-party deliverable).
 
 ---
 

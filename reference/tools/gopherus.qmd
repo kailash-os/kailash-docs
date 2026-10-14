@@ -1,0 +1,33 @@
+---
+title: "gopherus(1) - Kailash Tool Reference"
+---
+
+## gopherus
+
+> **gopherus** - Generates serialized payloads for SSRF/gopher attacks on internal services.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/tarlogicsecurity/gopherus](https://github.com/tarlogicsecurity/gopherus) |
+
+### NAME
+
+`gopherus` - Generates serialized payloads for SSRF/gopher attacks on internal services.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/tarlogicsecurity/gopherus). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

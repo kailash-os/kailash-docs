@@ -1,0 +1,57 @@
+---
+title: "the-harvester(1) - Kailash Tool Reference"
+---
+
+## the-harvester
+
+> **the-harvester** - Gathers emails, subdomains and names from public sources.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+| Upstream | [github.com/laramies/theharvester](https://github.com/laramies/theharvester) |
+
+### NAME
+
+`the-harvester` - Gathers emails, subdomains and names from public sources.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+git clone https://github.com/laramies/theHarvester.git
+cd theHarvester
+uv sync
+uv run theHarvester -d example.com -b crtsh,certspotter
+```
+
+```
+uv run theHarvester -d example.com -b crtsh,certspotter,commoncrawl
+```
+
+### DESCRIPTION (upstream)
+
+theHarvester gathers open-source intelligence about a domain or organization from search engines, certificate transparency logs, DNS datasets, code repositories, threat-intelligence platforms, and other public sources. It normalizes hostnames, email addresses, IP addresses, URLs, ASNs, people, breach names, and structured evidence from optional actions. Use theHarvester during the early reconnaissance stage of an authorized security assessment. Run it only against targets you own or have explicit permission to test. theHarvester requires Python 3.14 and [uv](https://docs.astral.sh/uv/getting-started/installation/). The repository's `.python-version` lets `uv` select the required Python versi
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (11 matches, e.g. `theHarvester.yml`, `theHarvester.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

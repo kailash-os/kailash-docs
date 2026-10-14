@@ -1,0 +1,47 @@
+---
+title: "sstimap(1) - Kailash Tool Reference"
+---
+
+## sstimap
+
+> **sstimap** - SSTI detection and exploitation assistant (Server-Side Template Injection).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/vladko312/SSTImap](https://github.com/vladko312/SSTImap) |
+
+### NAME
+
+`sstimap` - SSTI detection and exploitation assistant (Server-Side Template Injection).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+$ curl -g 'https://www.target.com/page?name=John'
+Hello John!<br>
+OS type: posix
+$ curl -g 'https://www.target.com/page?name={{7*7}}'
+Hello 49!<br>
+OS type: posix
+```
+
+### DESCRIPTION (upstream)
+
+SSTImap ====== > This project is based on [Tplmap](https://github.com/epinna/tplmap/). SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself. This tool was developed to be used as an interactive penetration testing tool for SSTI detection and exploitation, which allows more advanced exploitation. More payloads for SSTImap can be found [here](https://github.com/vladko312/extras). Payloads and techniques came from: - James Kettle's [Server-Side Template Injection: RCE For The Modern Web App][5] - Other public researches [\[1\]][1] [\[2\]][2] [\[8\]][8
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

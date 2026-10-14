@@ -1,0 +1,33 @@
+---
+title: "langchain-vuln-hunter(1) - Kailash Tool Reference"
+---
+
+## langchain-vuln-hunter
+
+> **langchain-vuln-hunter** - LangChain vulnerability hunter — drives CVE probes against langchain-based agent deployments.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | requires-target |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/langchain-vuln-hunter](https://github.com/kailash-os/langchain-vuln-hunter) |
+
+### NAME
+
+`langchain-vuln-hunter` - LangChain vulnerability hunter — drives CVE probes against langchain-based agent deployments.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/langchain-vuln-hunter). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

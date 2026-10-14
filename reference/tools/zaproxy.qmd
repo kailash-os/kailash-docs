@@ -1,0 +1,45 @@
+---
+title: "zaproxy(1) - Kailash Tool Reference"
+---
+
+## zaproxy
+
+> **zaproxy** - OWASP ZAP — web app penetration-testing proxy.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) |
+
+### NAME
+
+`zaproxy` - OWASP ZAP — web app penetration-testing proxy.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/zaproxy/zaproxy). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+The Zed Attack Proxy (ZAP) by Checkmarx is the world’s most widely used web app scanner. Free and open source. A community based GitHub Top 1000 project that anyone can contribute to. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing. For more details about ZAP see the website: [zaproxy.org](https://www.zaproxy.org/)
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (6 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

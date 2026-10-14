@@ -1,0 +1,45 @@
+---
+title: "commix(1) - Kailash Tool Reference"
+---
+
+## commix
+
+> **commix** - Automated all-in-one OS command-injection exploitation tool.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+| Upstream | [github.com/commixproject/commix](https://github.com/commixproject/commix) |
+
+### NAME
+
+`commix` - Automated all-in-one OS command-injection exploitation tool.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/commixproject/commix). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+`English` • [`Ελληνικά`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-gr-GR.md) • [`Español`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-es-ES.md) • [`Français`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-fr-FR.md) • [`فارسی`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-fa-FA.md) • [`Bahasa Indonesia`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-idn-IDN.md) • [`Türkçe`](https://github.com/commixproject/commix/tree/HEAD/doc/translations/README-tr-TR.md) **Commix** (short for [**comm**]and [**i**]njection e[**x**]ploiter) is an open source penet
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `builds.yml`, `builds.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

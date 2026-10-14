@@ -1,0 +1,54 @@
+---
+title: "privacy-meter(1) - Kailash Tool Reference"
+---
+
+## privacy-meter
+
+> **privacy-meter** - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion) |
+| Safety class | requires-target |
+| Licence | MIT |
+| Upstream | [github.com/privacytrustlab/ml_privacy_meter](https://github.com/privacytrustlab/ml_privacy_meter) |
+
+### NAME
+
+`privacy-meter` - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install -r requirements.txt
+```
+
+```
+conda env create -f env.yaml
+```
+
+### DESCRIPTION (upstream)
+
+[<img src="https://img.shields.io/badge/slack-@privacy_meter-blue.svg?logo=slack">](https://join.slack.com/t/privacy-meter/shared_invite/zt-2t6881rtz-gNitEpoaO7MDU4wT3n7Gyw) Privacy Meter is an open-source library to audit data privacy in a wide range of statistical and machine learning algorithms (classification, regression, computer vision, and natural language processing). The tool enables data protection impact assessment based on the state-of-the-art membership inference attacks. Machine learning is playing a central role in automated decision-making in a wide range of organizations and service providers. The data, which are used to train the models, typically contain sensitive informat
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `env.yaml`, `env.yaml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

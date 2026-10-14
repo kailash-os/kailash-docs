@@ -1,0 +1,46 @@
+---
+title: "evidently(1) - Kailash Tool Reference"
+---
+
+## evidently
+
+> **evidently** - Evidently — ML and LLM observability framework: evals, tests and monitoring reports.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/evidentlyai/evidently](https://github.com/evidentlyai/evidently) |
+
+### NAME
+
+`evidently` - Evidently — ML and LLM observability framework: evals, tests and monitoring reports.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install evidently
+```
+
+```
+conda install -c conda-forge evidently
+```
+
+### DESCRIPTION (upstream)
+
+Evidently is an open-source Python library to evaluate, test, and monitor ML and LLM systems—from experiments to production. * 🔡 Works with tabular and text data. * ✨ Supports evals for predictive and generative tasks, from classification to RAG. * 📚 100+ built-in metrics from data drift detection to LLM judges. * 🛠️ Python interface for custom metrics. * 🚦 Both offline evals and live monitoring. * 💻 Open architecture: easily export data and integrate with existing tools. Evidently is very modular. You can start with one-off evaluations or host a full monitoring service. **Reports** compute and summarize various data, ML and LLM quality evals. * Start with Presets and built-in metrics or cus
+
+### SEE ALSO
+
+- Category: [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

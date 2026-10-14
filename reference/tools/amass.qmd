@@ -1,0 +1,37 @@
+---
+title: "amass(1) - Kailash Tool Reference"
+---
+
+## amass
+
+> **amass** - In-depth DNS enumeration and network mapping (OWASP Amass).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/owasp-amass/Amass](https://github.com/owasp-amass/Amass) |
+
+### NAME
+
+`amass` - In-depth DNS enumeration and network mapping (OWASP Amass).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/owasp-amass/Amass). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques. > You can find additional installation instructions and documentation in the [Amass Docs](https://owasp-amass.github.io/docs) repo. We are always happy to get new contributors on board! Please check [CONTRIBUTING.md](https://github.com/owasp-amass/Amass/tree/HEAD/CONTRIBUTING.md) to learn how to contribute to our codebase, and join our [Discord Server](https://discord.gg/ANTyEDUXt5) to discuss current project goals. If you need help with installation and/or usage of the tool, please join our [Discord server](https://dis
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

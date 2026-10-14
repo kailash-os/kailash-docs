@@ -1,0 +1,49 @@
+---
+title: "peft(1) - Kailash Tool Reference"
+---
+
+## peft
+
+> **peft** - Hugging Face PEFT — parameter-efficient fine-tuning.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/huggingface/peft](https://github.com/huggingface/peft) |
+
+### NAME
+
+`peft` - Hugging Face PEFT — parameter-efficient fine-tuning.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install peft
+```
+
+```
+from peft import LoraConfig
+model = ...  # transformers model
+peft_config = LoraConfig(...)
+model.add_adapter(peft_config, adapter_name="lora_1")
+```
+
+### DESCRIPTION (upstream)
+
+Copyright 2023 The HuggingFace Team. All rights reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. --> Fine-tuning large pretrained models is often prohibitively costly due to their scale. Parameter-Efficient Fine-Tuning (
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,61 @@
+---
+title: "chainsaw(1) - Kailash Tool Reference"
+---
+
+## chainsaw
+
+> **chainsaw** - Rapidly searches and hunts through Windows forensic artefacts (Sigma/YARA).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/WithSecureLabs/chainsaw](https://github.com/WithSecureLabs/chainsaw) |
+
+::: {.callout-warning}
+## Stale classification
+This row is classed stale in the manifest at generation
+time - check upstream status before relying on it.
+:::
+
+### NAME
+
+`chainsaw` - Rapidly searches and hunts through Windows forensic artefacts (Sigma/YARA).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+git clone https://github.com/SigmaHQ/sigma
+git clone https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES.git
+```
+
+```
+./chainsaw hunt EVTX-ATTACK-SAMPLES/ -s sigma/ --mapping mappings/sigma-event-logs-all.yml
+```
+
+### DESCRIPTION (upstream)
+
+Rapidly Search and Hunt through Windows Forensic Artefacts Chainsaw provides a powerful ‘first-response’ capability to quickly identify threats within Windows forensic artefacts such as Event Logs and the MFT file. Chainsaw offers a generic and fast method of searching through event logs for keywords, and by identifying threats using built-in support for Sigma detection rules, and via custom Chainsaw detection rules. - :dart: Hunt for threats using [Sigma](https://github.com/SigmaHQ/sigma) detection rules and custom Chainsaw detection rules - :mag: Search and extract forensic artefacts by string matching, and regex patterns - :date: Create execution timelines by analysing Shimcache artefacts
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (6 matches, e.g. `sigma-event-logs-all.yml`, `environment variable`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

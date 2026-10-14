@@ -1,0 +1,33 @@
+---
+title: "ais(1) - Kailash Tool Reference"
+---
+
+## ais
+
+> **ais** - ai-scanner — AI-endpoint AppSec scanner (plan §3.2: AISVS-scoped runtime surface).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/gojis/ais](https://github.com/gojis/ais) |
+
+### NAME
+
+`ais` - ai-scanner — AI-endpoint AppSec scanner (plan §3.2: AISVS-scoped runtime surface).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/gojis/ais). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,58 @@
+---
+title: "radare2(1) - Kailash Tool Reference"
+---
+
+## radare2
+
+> **radare2** - UNIX-like reverse-engineering framework and command-line toolset.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | LGPL-3.0-only |
+| Upstream | [github.com/radareorg/radare2](https://github.com/radareorg/radare2) |
+
+### NAME
+
+`radare2` - UNIX-like reverse-engineering framework and command-line toolset.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+git clone https://github.com/radareorg/radare2
+radare2/sys/install.sh
+```
+
+```
+preconfigure.bat       REM setup python, meson, ninja
+configure.bat          REM run meson b + vs project
+make.bat               REM run ninja -C b
+prefix\bin\radare2.exe
+```
+
+### DESCRIPTION (upstream)
+
+Current git `master` branch is `6.2.5`, next release will be `6.2.6`. r2 is a complete rewrite of radare. It provides a set of libraries, tools and plugins to ease reverse engineering tasks. Distributed under LGPLv3, despite each plugin can have different licenses (see `r2 -Lj` for details) The **radare** project started as a simple command-line hexadecimal editor focused on forensics. Today, r2 is a full-featured low-level command-line tool with support for scripting with the embedded Javascript interpreter or via r2pipe. r2 can edit files on local hard drives, view kernel memory, and debug programs locally or via a remote gdb/windbg servers. r2's wide architecture support allows you to ana
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (6 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

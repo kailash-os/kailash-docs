@@ -1,0 +1,54 @@
+---
+title: "trufflehog(1) - Kailash Tool Reference"
+---
+
+## trufflehog
+
+> **trufflehog** - Secret scanner — hunts leaked AI-provider keys in repos and paths (A-1 AI-key hunting; C-8 classic secret scanning).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon) |
+| Safety class | safe |
+| Licence | AGPL-3.0-only |
+| Upstream | [github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) |
+
+### NAME
+
+`trufflehog` - Secret scanner — hunts leaked AI-provider keys in repos and paths (A-1 AI-key hunting; C-8 classic secret scanning).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --org=trufflesecurity
+```
+
+```
+brew install trufflehog
+```
+
+### DESCRIPTION (upstream)
+
+**...and more** To learn more about TruffleHog and its features and capabilities, visit our [product page](https://trufflesecurity.com/trufflehog?gclid=CjwKCAjwouexBhAuEiwAtW_Zx5IW87JNj97Ci7heFnA5ar6-DuNzT2Y5nIl9DuZ-FOUqx0Qg3vb9nxoClcEQAvD_BwE). Are you interested in continuously monitoring **Git, Jira, Slack, Confluence, Microsoft Teams, Sharepoint (and more)** for credentials? We have an enterprise product that can help! Learn more at <https://trufflesecurity.com/trufflehog-enterprise>. We take the revenue from the enterprise product to fund more awesome open source projects that the whole community can benefit from. TruffleHog is the most powerful secrets **Discovery, Classification, Vali
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (4 matches, e.g. `--config`, `--config`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

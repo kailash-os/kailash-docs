@@ -1,0 +1,33 @@
+---
+title: "ai-act-compliance-checker(1) - Kailash Tool Reference"
+---
+
+## ai-act-compliance-checker
+
+> **ai-act-compliance-checker** - EU AI Act compliance checker — obligation inventory and gap scoring for AI deployments (planned first-party pack).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-06-governance-regulation-mapping](../directory.qmd#cat-d-06-governance-regulation-mapping) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/ai-act-compliance-checker](https://github.com/kailash-os/ai-act-compliance-checker) |
+
+### NAME
+
+`ai-act-compliance-checker` - EU AI Act compliance checker — obligation inventory and gap scoring for AI deployments (planned first-party pack).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/ai-act-compliance-checker). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [d-06-governance-regulation-mapping](../directory.qmd#cat-d-06-governance-regulation-mapping) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

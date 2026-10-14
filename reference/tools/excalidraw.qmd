@@ -1,0 +1,44 @@
+---
+title: "excalidraw(1) - Kailash Tool Reference"
+---
+
+## excalidraw
+
+> **excalidraw** - Excalidraw — virtual whiteboard for hand-drawn-style diagrams.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) |
+
+### NAME
+
+`excalidraw` - Excalidraw — virtual whiteboard for hand-drawn-style diagrams.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+npm install react react-dom @excalidraw/excalidraw
+# or
+yarn add react react-dom @excalidraw/excalidraw
+```
+
+### DESCRIPTION (upstream)
+
+An open source virtual hand-drawn style whiteboard. </br> Collaborative and end-to-end encrypted. </br> Create beautiful hand-drawn like diagrams, wireframes, or whatever you like. The Excalidraw editor (npm package) supports: - 💯&nbsp;Free & open-source. - 🎨&nbsp;Infinite, canvas-based whiteboard. - ✍️&nbsp;Hand-drawn like style. - 🌓&nbsp;Dark mode. - 🏗️&nbsp;Customizable. - 📷&nbsp;Image support. - 😀&nbsp;Shape libraries support. - 🌐&nbsp;Localization (i18n) support. - 🖼️&nbsp;Export to PNG, SVG & clipboard. - 💾&nbsp;Open format - export drawings as an `.excalidraw` json file. - ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser... - ➡️&nbsp;Arrow-bindi
+
+### SEE ALSO
+
+- Category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,62 @@
+---
+title: "txtai(1) - Kailash Tool Reference"
+---
+
+## txtai
+
+> **txtai** - txtai — all-in-one embeddings database for semantic search and LLM orchestration.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/neuml/txtai](https://github.com/neuml/txtai) |
+
+### NAME
+
+`txtai` - txtai — all-in-one embeddings database for semantic search and LLM orchestration.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# Get started in a couple lines
+import txtai
+
+embeddings = txtai.Embeddings()
+embeddings.index(["Correct", "Not what we hoped"])
+embeddings.search("positive", 1)
+#[(0, 0.29862046241760254)]
+```
+
+```
+# app.yml
+embeddings:
+    path: sentence-transformers/all-MiniLM-L6-v2
+```
+
+### DESCRIPTION (upstream)
+
+txtai is an all-in-one AI framework for semantic search, LLM orchestration and language model workflows. The key component of txtai is an embeddings database, which is a union of vector indexes (sparse and dense), graph networks and relational databases. This foundation enables vector search and/or serves as a powerful knowledge source for large language model (LLM) applications. Build autonomous agents, retrieval augmented generation (RAG) processes, multi-model workflows and more. Summary of txtai features: - 🔎 Vector search with SQL, object storage, topic modeling, graph analysis and multimodal indexing - 📄 Create embeddings for text, documents, audio, images and video - 💡 Pipelines power
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `app.yml`, `app.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14
