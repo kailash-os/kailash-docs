@@ -1,8 +1,6 @@
 ---
-title: "bulk_extractor(1) - Kailash Tool Reference"
+title: "bulk_extractor - reference"
 ---
-
-## bulk_extractor
 
 > **bulk_extractor** - Extracts features (emails, URLs, cards) from disk images without parsing the filesystem.
 

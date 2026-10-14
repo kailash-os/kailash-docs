@@ -1,8 +1,6 @@
 ---
-title: "modelscan - configuration reference"
+title: "modelscan - configuration"
 ---
-
-# modelscan — configuration reference
 
 Configuration surfaces for [modelscan](../tools/modelscan.qmd)
 (safety class: safe; category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain)) —

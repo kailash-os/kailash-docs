@@ -1,8 +1,6 @@
 ---
-title: "kind(1) - Kailash Tool Reference"
+title: "kind - reference"
 ---
-
-## kind
 
 > **kind** - kind — Kubernetes IN Docker, local clusters for testing.
 

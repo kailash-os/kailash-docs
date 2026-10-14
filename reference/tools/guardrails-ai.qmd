@@ -1,8 +1,6 @@
 ---
-title: "guardrails-ai(1) - Kailash Tool Reference"
+title: "guardrails-ai - reference"
 ---
-
-## guardrails-ai
 
 > **guardrails-ai** - Guardrails AI — validators that enforce structure, type and quality guarantees on LLM outputs.
 

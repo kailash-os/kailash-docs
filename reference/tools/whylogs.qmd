@@ -1,8 +1,6 @@
 ---
-title: "whylogs(1) - Kailash Tool Reference"
+title: "whylogs - reference"
 ---
-
-## whylogs
 
 > **whylogs** - WhyLabs whylogs — privacy-preserving data and ML/LLM logging profiles for drift and quality monitoring.
 

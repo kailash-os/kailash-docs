@@ -1,8 +1,6 @@
 ---
-title: "art(1) - Kailash Tool Reference"
+title: "art - reference"
 ---
-
-## art
 
 > **art** - Adversarial Robustness Toolbox — IBM's ML security library: evasion, poisoning, extraction and inference attacks, defences and metrics.
 

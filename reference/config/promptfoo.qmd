@@ -1,8 +1,6 @@
 ---
-title: "promptfoo - configuration reference"
+title: "promptfoo - configuration"
 ---
-
-# promptfoo — configuration reference
 
 Configuration surfaces for [promptfoo](../tools/promptfoo.qmd)
 (safety class: requires-target; category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks)) —

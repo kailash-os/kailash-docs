@@ -1,8 +1,6 @@
 ---
-title: "recon-ng(1) - Kailash Tool Reference"
+title: "recon-ng - reference"
 ---
-
-## recon-ng
 
 > **recon-ng** - Full-featured reconnaissance framework with a web-style module environment.
 

@@ -1,8 +1,6 @@
 ---
-title: "llama.cpp - configuration reference"
+title: "llama.cpp - configuration"
 ---
-
-# llama.cpp — configuration reference
 
 Configuration surfaces for [llama.cpp](../tools/llama.cpp.qmd)
 (safety class: safe; category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs)) —

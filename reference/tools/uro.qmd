@@ -1,8 +1,6 @@
 ---
-title: "uro(1) - Kailash Tool Reference"
+title: "uro - reference"
 ---
-
-## uro
 
 > **uro** - Declutters URL lists for crawling and pentesting.
 

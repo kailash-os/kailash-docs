@@ -1,8 +1,6 @@
 ---
-title: "pwndbg(1) - Kailash Tool Reference"
+title: "pwndbg - reference"
 ---
-
-## pwndbg
 
 > **pwndbg** - Exploit-development plugin for GDB with modern UX.
 

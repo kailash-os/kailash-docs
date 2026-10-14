@@ -1,8 +1,6 @@
 ---
-title: "rebuff(1) - Kailash Tool Reference"
+title: "rebuff - reference"
 ---
-
-## rebuff
 
 > **rebuff** - Rebuff — prompt-injection detector with a canary-token leakage check and multi-stage defence.
 

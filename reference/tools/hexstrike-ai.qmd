@@ -1,8 +1,6 @@
 ---
-title: "hexstrike-ai(1) - Kailash Tool Reference"
+title: "hexstrike-ai - reference"
 ---
-
-## hexstrike-ai
 
 > **hexstrike-ai** - HexStrike AI — MCP server letting AI agents autonomously run 100+ security tools for offensive security operations.
 

@@ -1,8 +1,6 @@
 ---
-title: "counterfit - configuration reference"
+title: "counterfit - configuration"
 ---
-
-# counterfit — configuration reference
 
 Configuration surfaces for [counterfit](../tools/counterfit.qmd)
 (safety class: requires-target; category: [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion)) —

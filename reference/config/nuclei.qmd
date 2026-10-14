@@ -1,8 +1,6 @@
 ---
-title: "nuclei - configuration reference"
+title: "nuclei - configuration"
 ---
-
-# nuclei — configuration reference
 
 Configuration surfaces for [nuclei](../tools/nuclei.qmd)
 (safety class: safe; category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis)) —

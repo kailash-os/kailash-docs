@@ -1,8 +1,6 @@
 ---
-title: "pytorch(1) - Kailash Tool Reference"
+title: "pytorch - reference"
 ---
-
-## pytorch
 
 > **pytorch** - PyTorch — tensors and dynamic neural networks (CPU default; cuda variant via overlay).
 

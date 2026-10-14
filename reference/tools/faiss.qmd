@@ -1,8 +1,6 @@
 ---
-title: "faiss(1) - Kailash Tool Reference"
+title: "faiss - reference"
 ---
-
-## faiss
 
 > **faiss** - FAISS — efficient similarity search and clustering of dense vectors.
 

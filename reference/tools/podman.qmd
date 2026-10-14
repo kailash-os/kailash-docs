@@ -1,8 +1,6 @@
 ---
-title: "podman(1) - Kailash Tool Reference"
+title: "podman - reference"
 ---
-
-## podman
 
 > **podman** - Podman — OCI container and pod management.
 

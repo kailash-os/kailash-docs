@@ -1,8 +1,6 @@
 ---
-title: "fierce(1) - Kailash Tool Reference"
+title: "fierce - reference"
 ---
-
-## fierce
 
 > **fierce** - DNS reconnaissance for locating non-contiguous IP space.
 

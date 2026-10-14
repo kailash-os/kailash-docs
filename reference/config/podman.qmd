@@ -1,8 +1,6 @@
 ---
-title: "podman - configuration reference"
+title: "podman - configuration"
 ---
-
-# podman — configuration reference
 
 Configuration surfaces for [podman](../tools/podman.qmd)
 (safety class: safe; category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure)) —

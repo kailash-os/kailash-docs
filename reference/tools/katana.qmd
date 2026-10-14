@@ -1,8 +1,6 @@
 ---
-title: "katana(1) - Kailash Tool Reference"
+title: "katana - reference"
 ---
-
-## katana
 
 > **katana** - Next-generation crawling and spidering framework.
 

@@ -214,11 +214,8 @@ def build(store):
 
         lines = []
         lines.append('---')
-        lines.append(f'title: "{tid}(1) - Kailash Tool Reference"')
-        lines.append('listing: tools') if False else None
+        lines.append(f'title: "{tid} - reference"')
         lines.append('---')
-        lines.append('')
-        lines.append(f'## {tid}')
         lines.append('')
         lines.append(f'> **{tid}** - {desc}')
         lines.append('')
@@ -312,7 +309,7 @@ def build(store):
         cfg_page = os.path.join(os.path.dirname(out_dir_page), 'config',
                                 tid + '.qmd')
         if os.path.exists(cfg_page):
-            lines.append(f'- [Configuration reference]({'../config/' + tid + ".qmd"}) '
+            lines.append(f'- [Configuration reference](../config/{tid}.qmd) '
                          '— files, environment variables, samples.')
         lines.append('')
 
@@ -342,11 +339,15 @@ def build(store):
 
 
 def register_chapters(out_dir, layer_groups):
-    """Register generated pages in _quarto.yml as top-level parts:
-    Part III (directory/coverage/exemplar), tool layer parts, and a
-    config-references part for any existing reference/config pages.
-    This function is the SOLE writer of the reference region — run it
-    last in any regen (or alone); order converges."""
+    """Register generated pages in _quarto.yml as a Part III region
+    (directory + coverage), then one title-only "Layer <name> — tools"
+    header per layer, under which each tool page is either a plain
+    chapter ("tool - reference") or — when a configuration page exists
+    (ADR-0001 config-page policy) — a part-as-page opening its own
+    sub-section with "tool - configuration" nested beneath it. Tools
+    without a config page stay flat; there is no separate config part.
+    Sole writer of the reference region — run it last in any regen, or
+    alone; order converges."""
     yml_p = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                          '..', '_quarto.yml')
     yml = open(yml_p).read()
@@ -358,28 +359,36 @@ def register_chapters(out_dir, layer_groups):
     head += '        - reference/directory.qmd\n'
     head += '        - reference/coverage.qmd\n'
     head += '        - reference/garak.qmd\n'
-    n = 0
-    for layer, tids in layer_groups.items():
-        if not tids:
-            continue
-        head += f'    - part: "Tools — Layer {layer}"\n'
-        head += '      chapters:\n'
-        for tid in sorted(tids):
-            head += f'        - reference/tools/{tid}.qmd\n'
-            n += 1
     # config pages: discovered, machine-owned, idempotent
     ref_root = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             '..', 'reference')
     cfg_pages = sorted(f[:-4] for f in os.listdir(os.path.join(ref_root, 'config'))
                        if f.endswith('.qmd')) if os.path.isdir(os.path.join(ref_root, 'config')) else []
     if cfg_pages:
-        head += '    - part: "Tools — Config references"\n'
-        head += '      chapters:\n'
-        for tid in cfg_pages:
-            head += f'        - reference/config/{tid}.qmd\n'
+        cfg_set = set(cfg_pages)
+    else:
+        cfg_set = set()
+    n = 0
+    for layer, tids in layer_groups.items():
+        if not tids:
+            continue
+        head += f'    - part: "Layer {layer} — tools"\n'
+        for tid in sorted(tids):
+            if tid in cfg_set:
+                # ADR-0001 config-page policy: the config reference nests
+                # UNDER the tool ("tool - reference" opens its own
+                # sub-section; "tool - configuration" sits inside it).
+                head += f'    - part: reference/tools/{tid}.qmd\n'
+                head += '      chapters:\n'
+                head += f'        - reference/config/{tid}.qmd\n'
+                n += 1
+            else:
+                head += f'    - reference/tools/{tid}.qmd\n'
+                n += 1
     new_yml = head + yml[end:]
     open(yml_p, 'w').write(new_yml)
-    print(f'registered {n} tool chapters + {len(cfg_pages)} config chapters in _quarto.yml')
+    print(f'registered {n} tool entries '
+          f'({len(cfg_set)} with nested config pages) in _quarto.yml')
 
 
 def main():

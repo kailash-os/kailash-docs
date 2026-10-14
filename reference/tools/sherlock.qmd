@@ -1,8 +1,6 @@
 ---
-title: "sherlock(1) - Kailash Tool Reference"
+title: "sherlock - reference"
 ---
-
-## sherlock
 
 > **sherlock** - Hunts down social-media accounts by username across sites.
 

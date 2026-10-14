@@ -1,8 +1,6 @@
 ---
-title: "arp-scan - configuration reference"
+title: "arp-scan - configuration"
 ---
-
-# arp-scan — configuration reference
 
 Configuration surfaces for [arp-scan](../tools/arp-scan.qmd)
 (safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —

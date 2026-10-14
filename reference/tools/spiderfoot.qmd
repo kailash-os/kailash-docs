@@ -1,8 +1,6 @@
 ---
-title: "spiderfoot(1) - Kailash Tool Reference"
+title: "spiderfoot - reference"
 ---
-
-## spiderfoot
 
 > **spiderfoot** - OSINT automation platform — collects intel about a target from public sources.
 

@@ -1,8 +1,6 @@
 ---
-title: "chkrootkit(1) - Kailash Tool Reference"
+title: "chkrootkit - reference"
 ---
-
-## chkrootkit
 
 > **chkrootkit** - Locally checks for signs of a rootkit.
 

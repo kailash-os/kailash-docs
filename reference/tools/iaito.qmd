@@ -1,8 +1,6 @@
 ---
-title: "iaito(1) - Kailash Tool Reference"
+title: "iaito - reference"
 ---
-
-## iaito
 
 > **iaito** - Official radare2 GUI.
 

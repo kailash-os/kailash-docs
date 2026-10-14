@@ -1,8 +1,6 @@
 ---
-title: "cewl(1) - Kailash Tool Reference"
+title: "cewl - reference"
 ---
-
-## cewl
 
 > **cewl** - Custom wordlist generator that spiders a target URL.
 

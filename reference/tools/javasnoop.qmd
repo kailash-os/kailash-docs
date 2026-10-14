@@ -1,8 +1,6 @@
 ---
-title: "javasnoop(1) - Kailash Tool Reference"
+title: "javasnoop - reference"
 ---
-
-## javasnoop
 
 > **javasnoop** - Intercepts methods and alters data in Java applications at runtime.
 

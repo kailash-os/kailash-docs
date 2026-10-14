@@ -1,8 +1,6 @@
 ---
-title: "ewfacquire(1) - Kailash Tool Reference"
+title: "ewfacquire - reference"
 ---
-
-## ewfacquire
 
 > **ewfacquire** - Acquires evidence in the Expert Witness Compression Format (libewf).
 

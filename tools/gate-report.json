@@ -1,6 +1,6 @@
 {
- "manifest_rows": 337,
- "reference_pages": 321,
+ "manifest_rows": 270,
+ "reference_pages": 255,
  "config_pages": 53,
  "module_rows_reported": [
   "gvm",
@@ -28,39 +28,24 @@
   "hackrf-tools",
   "sox",
   "librosa",
-  "webshell-analysis-pack",
   "sysmon-modular",
-  "vulnerable-llm-apps",
-  "asvs-verification-toolkit",
   "texlive-full",
-  "malicious-mcp-poc",
-  "insecure-mcp-lab",
-  "genai-threat-modelling-templates",
-  "stride-ai-worksheet",
-  "atlas-case-study-explorer",
-  "ai-incident-playbook-packs",
-  "nist-ai-rmf-toolkit",
-  "iso-42001-templates",
-  "genai-vendor-review-form",
-  "aisvs-1.0-toolkit",
-  "mlsvs-toolkit",
-  "llm-top10-toolkit",
-  "llm-red-team-col",
   "jailbreak-payloads",
   "libertas-prompts",
-  "llm-jailbreak-bench",
-  "poisoned-skill-pack",
-  "adversarial-patches-collection"
+  "llm-jailbreak-bench"
  ],
  "coverage_missing_pages": [],
  "provenance_bad_footnote": [],
  "stale_pins": [],
  "dead_upstream_inventory": [],
- "orphan_pages": [],
+ "orphan_pages": [
+  "webshell-analysis-pack"
+ ],
  "orphan_without_footnote": [],
  "verdict": "GREEN",
  "fail_on": [
   "footnote",
-  "missing"
+  "missing",
+  "stale"
  ]
 }

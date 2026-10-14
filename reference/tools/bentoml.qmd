@@ -1,8 +1,6 @@
 ---
-title: "bentoml(1) - Kailash Tool Reference"
+title: "bentoml - reference"
 ---
-
-## bentoml
 
 > **bentoml** - BentoML — model serving and inference-API packaging.
 

@@ -1,8 +1,6 @@
 ---
-title: "chainsaw - configuration reference"
+title: "chainsaw - configuration"
 ---
-
-# chainsaw — configuration reference
 
 Configuration surfaces for [chainsaw](../tools/chainsaw.qmd)
 (safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —

@@ -1,8 +1,6 @@
 ---
-title: "sleuthkit(1) - Kailash Tool Reference"
+title: "sleuthkit - reference"
 ---
-
-## sleuthkit
 
 > **sleuthkit** - Library and CLI collection for filesystem forensics analysis.
 

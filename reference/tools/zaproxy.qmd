@@ -1,8 +1,6 @@
 ---
-title: "zaproxy(1) - Kailash Tool Reference"
+title: "zaproxy - reference"
 ---
-
-## zaproxy
 
 > **zaproxy** - OWASP ZAP — web app penetration-testing proxy.
 

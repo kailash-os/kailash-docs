@@ -1,8 +1,6 @@
 ---
-title: "libertas-prompts(1) - Kailash Tool Reference"
+title: "libertas-prompts - reference"
 ---
-
-## libertas-prompts
 
 > **libertas-prompts** - L1B3RT-4S prompt data pack — vendor-organized jailbreak corpus (L1B3RT-4S) for jailbreak testing.
 

@@ -1,8 +1,6 @@
 ---
-title: "wafw00f(1) - Kailash Tool Reference"
+title: "wafw00f - reference"
 ---
-
-## wafw00f
 
 > **wafw00f** - Identifies and fingerprints web application firewalls.
 

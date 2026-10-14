@@ -1,8 +1,6 @@
 ---
-title: "capstone(1) - Kailash Tool Reference"
+title: "capstone - reference"
 ---
-
-## capstone
 
 > **capstone** - Lightweight multi-platform CPU disassembly framework.
 

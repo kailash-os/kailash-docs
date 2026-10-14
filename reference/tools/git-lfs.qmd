@@ -1,8 +1,6 @@
 ---
-title: "git-lfs(1) - Kailash Tool Reference"
+title: "git-lfs - reference"
 ---
-
-## git-lfs
 
 > **git-lfs** - Git Large File Storage — versioning large artefacts (weights, datasets).
 

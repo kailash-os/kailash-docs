@@ -1,8 +1,6 @@
 ---
-title: "sqlitebrowser(1) - Kailash Tool Reference"
+title: "sqlitebrowser - reference"
 ---
-
-## sqlitebrowser
 
 > **sqlitebrowser** - DB Browser for SQLite — artefact inspection front-end.
 

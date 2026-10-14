@@ -1,8 +1,6 @@
 ---
-title: "llm-jailbreak-bench(1) - Kailash Tool Reference"
+title: "llm-jailbreak-bench - reference"
 ---
-
-## llm-jailbreak-bench
 
 > **llm-jailbreak-bench** - JailbreakBench harness + artifact pack — standardized jailbreak robustness evaluation corpora.
 

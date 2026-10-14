@@ -1,8 +1,6 @@
 ---
-title: "nvidia-container-toolkit(1) - Kailash Tool Reference"
+title: "nvidia-container-toolkit - reference"
 ---
-
-## nvidia-container-toolkit
 
 > **nvidia-container-toolkit** - NVIDIA Container Toolkit — build and run GPU containers (licence Apache-2.0 per upstream metadata).
 

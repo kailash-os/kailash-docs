@@ -1,8 +1,6 @@
 ---
-title: "hashdeep(1) - Kailash Tool Reference"
+title: "hashdeep - reference"
 ---
-
-## hashdeep
 
 > **hashdeep** - Hashing and audit utility with fuzzy matching (md5deep family).
 

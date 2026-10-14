@@ -1,8 +1,6 @@
 ---
-title: "hashid(1) - Kailash Tool Reference"
+title: "hashid - reference"
 ---
-
-## hashid
 
 > **hashid** - Identifies hash types from their format.
 

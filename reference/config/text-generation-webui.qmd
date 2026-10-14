@@ -1,8 +1,6 @@
 ---
-title: "text-generation-webui - configuration reference"
+title: "text-generation-webui - configuration"
 ---
-
-# text-generation-webui — configuration reference
 
 Configuration surfaces for [text-generation-webui](../tools/text-generation-webui.qmd)
 (safety class: safe; category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs)) —

@@ -1,8 +1,6 @@
 ---
-title: "amass(1) - Kailash Tool Reference"
+title: "amass - reference"
 ---
-
-## amass
 
 > **amass** - In-depth DNS enumeration and network mapping (OWASP Amass).
 

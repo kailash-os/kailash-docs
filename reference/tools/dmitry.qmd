@@ -1,8 +1,6 @@
 ---
-title: "dmitry(1) - Kailash Tool Reference"
+title: "dmitry - reference"
 ---
-
-## dmitry
 
 > **dmitry** - Deepmagic information-gathering tool — whois, subdomains, emails.
 

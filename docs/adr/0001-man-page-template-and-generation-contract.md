@@ -4,6 +4,11 @@
 maintainers
 *Acceptance sample:* the garak man-style page posted for review on
 [kailash-website#30 (comment)](https://github.com/kailash-os/kailash-website/issues/30#issuecomment-6122448509)
+(retired from the shipped site 2026-10-14 — the sample lives in the
+review thread and the template; generated pages are the live form).
+Page naming/layout was superseded by ADR-0002 on 2026-10-14
+(`tool - reference` / `tool - configuration`, config nested under the
+tool, no section numbering); the generation contract below stands.
 
 ## Context
 

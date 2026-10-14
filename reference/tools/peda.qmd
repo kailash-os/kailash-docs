@@ -1,8 +1,6 @@
 ---
-title: "peda(1) - Kailash Tool Reference"
+title: "peda - reference"
 ---
-
-## peda
 
 > **peda** - Python Exploit Development Assistance for GDB (upstream has no SPDX file).
 

@@ -1,8 +1,6 @@
 ---
-title: "jd-gui(1) - Kailash Tool Reference"
+title: "jd-gui - reference"
 ---
-
-## jd-gui
 
 > **jd-gui** - Java decompiler with a standalone graphical UI.
 

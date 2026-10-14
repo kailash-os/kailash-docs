@@ -1,8 +1,6 @@
 ---
-title: "laudanum(1) - Kailash Tool Reference"
+title: "laudanum - reference"
 ---
-
-## laudanum
 
 > **laudanum** - Collection of ready-to-use injectable web-shell files.
 

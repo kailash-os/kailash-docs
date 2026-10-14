@@ -1,8 +1,6 @@
 ---
-title: "binwalk(1) - Kailash Tool Reference"
+title: "binwalk - reference"
 ---
-
-## binwalk
 
 > **binwalk** - Firmware-image analysis — signature scanning and extraction.
 

@@ -1,8 +1,6 @@
 ---
-title: "trufflehog(1) - Kailash Tool Reference"
+title: "trufflehog - reference"
 ---
-
-## trufflehog
 
 > **trufflehog** - Secret scanner — hunts leaked AI-provider keys in repos and paths (A-1 AI-key hunting; C-8 classic secret scanning).
 

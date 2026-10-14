@@ -1,8 +1,6 @@
 ---
-title: "cutter(1) - Kailash Tool Reference"
+title: "cutter - reference"
 ---
-
-## cutter
 
 > **cutter** - Free and open-source reverse-engineering platform powered by rizin.
 

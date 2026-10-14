@@ -1,8 +1,6 @@
 ---
-title: "hackrf-tools(1) - Kailash Tool Reference"
+title: "hackrf-tools - reference"
 ---
-
-## hackrf-tools
 
 > **hackrf-tools** - Command-line utilities for HackRF hardware SDR platforms.
 

@@ -36,323 +36,370 @@ book:
         - reference/directory.qmd
         - reference/coverage.qmd
         - reference/garak.qmd
-    - part: "Tools — Layer CLASSIC"
-      chapters:
-        - reference/tools/amass.qmd
-        - reference/tools/angr.qmd
-        - reference/tools/apktool.qmd
-        - reference/tools/arjun.qmd
-        - reference/tools/arp-scan.qmd
-        - reference/tools/assetfinder.qmd
-        - reference/tools/autopsy.qmd
-        - reference/tools/beef-xss.qmd
-        - reference/tools/binwalk.qmd
-        - reference/tools/bopscrk.qmd
-        - reference/tools/bulk_extractor.qmd
-        - reference/tools/burpsuite.qmd
-        - reference/tools/bytecode-viewer.qmd
-        - reference/tools/caido.qmd
-        - reference/tools/capstone.qmd
-        - reference/tools/cewl.qmd
-        - reference/tools/chainsaw.qmd
-        - reference/tools/checksec.qmd
-        - reference/tools/chkrootkit.qmd
-        - reference/tools/clairvoyance.qmd
-        - reference/tools/commix.qmd
-        - reference/tools/crunch.qmd
-        - reference/tools/cstool.qmd
-        - reference/tools/cutter.qmd
-        - reference/tools/dc3dd.qmd
-        - reference/tools/dex2jar.qmd
-        - reference/tools/dirb.qmd
-        - reference/tools/dirsearch.qmd
-        - reference/tools/dmitry.qmd
-        - reference/tools/dnsenum.qmd
-        - reference/tools/dnsmap.qmd
-        - reference/tools/dnsrecon.qmd
-        - reference/tools/edb-debugger.qmd
-        - reference/tools/ewfacquire.qmd
-        - reference/tools/feroxbuster.qmd
-        - reference/tools/ffuf.qmd
-        - reference/tools/fierce.qmd
-        - reference/tools/findomain.qmd
-        - reference/tools/gdb.qmd
-        - reference/tools/gef.qmd
-        - reference/tools/ghidra.qmd
-        - reference/tools/gnuradio.qmd
-        - reference/tools/gobuster.qmd
-        - reference/tools/gopherus.qmd
-        - reference/tools/gospider.qmd
-        - reference/tools/gqrx.qmd
-        - reference/tools/graphw00f.qmd
-        - reference/tools/guymager.qmd
-        - reference/tools/hackrf-tools.qmd
-        - reference/tools/hakrawler.qmd
-        - reference/tools/hash-identifier.qmd
-        - reference/tools/hashcat.qmd
-        - reference/tools/hashdeep.qmd
-        - reference/tools/hashid.qmd
-        - reference/tools/hayabusa.qmd
-        - reference/tools/httpx.qmd
-        - reference/tools/iaito.qmd
-        - reference/tools/inql.qmd
-        - reference/tools/jadx.qmd
-        - reference/tools/javasnoop.qmd
-        - reference/tools/jd-gui.qmd
-        - reference/tools/john.qmd
-        - reference/tools/johnny.qmd
-        - reference/tools/katana.qmd
-        - reference/tools/kiterunner.qmd
-        - reference/tools/laudanum.qmd
-        - reference/tools/legion.qmd
-        - reference/tools/librosa.qmd
-        - reference/tools/lynis.qmd
-        - reference/tools/maltego-community.qmd
-        - reference/tools/maskgen.qmd
-        - reference/tools/masscan.qmd
-        - reference/tools/massdns.qmd
-        - reference/tools/metasploit-framework.qmd
-        - reference/tools/mitmproxy.qmd
-        - reference/tools/mongosh.qmd
-        - reference/tools/msfvenom.qmd
-        - reference/tools/mssql-cli.qmd
-        - reference/tools/mycli.qmd
-        - reference/tools/netdiscover.qmd
-        - reference/tools/nikto.qmd
-        - reference/tools/nmap.qmd
-        - reference/tools/nuclei.qmd
-        - reference/tools/ophcrack.qmd
-        - reference/tools/peass-ng.qmd
-        - reference/tools/peda.qmd
-        - reference/tools/photon.qmd
-        - reference/tools/photorec.qmd
-        - reference/tools/plaso.qmd
-        - reference/tools/policygen.qmd
-        - reference/tools/pspy.qmd
-        - reference/tools/psql.qmd
-        - reference/tools/puredns.qmd
-        - reference/tools/pw-packs.qmd
-        - reference/tools/pwndbg.qmd
-        - reference/tools/pyinstaller-extractor.qmd
-        - reference/tools/pysox.qmd
-        - reference/tools/qiling.qmd
-        - reference/tools/radare2.qmd
-        - reference/tools/recon-ng.qmd
-        - reference/tools/redis-cli.qmd
-        - reference/tools/regripper.qmd
-        - reference/tools/rizin.qmd
-        - reference/tools/rkhunter.qmd
-        - reference/tools/rsmangler.qmd
-        - reference/tools/rustscan.qmd
-        - reference/tools/searchsploit.qmd
-        - reference/tools/seclists.qmd
-        - reference/tools/sherlock.qmd
-        - reference/tools/sigma-cli.qmd
-        - reference/tools/sleuthkit.qmd
-        - reference/tools/smali.qmd
-        - reference/tools/sox.qmd
-        - reference/tools/spiderfoot.qmd
-        - reference/tools/sqlitebrowser.qmd
-        - reference/tools/sqlmap.qmd
-        - reference/tools/sstimap.qmd
-        - reference/tools/statsgen.qmd
-        - reference/tools/subfinder.qmd
-        - reference/tools/sublist3r.qmd
-        - reference/tools/sysmon-modular.qmd
-        - reference/tools/testdisk.qmd
-        - reference/tools/the-harvester.qmd
-        - reference/tools/twofi.qmd
-        - reference/tools/unicorn.qmd
-        - reference/tools/unipacker.qmd
-        - reference/tools/unix-privesc-check.qmd
-        - reference/tools/uro.qmd
-        - reference/tools/volatility3.qmd
-        - reference/tools/wafw00f.qmd
-        - reference/tools/wapiti.qmd
-        - reference/tools/weevely.qmd
-        - reference/tools/wfuzz.qmd
-        - reference/tools/whatweb.qmd
-        - reference/tools/zaproxy.qmd
-        - reference/tools/zenmap.qmd
-    - part: "Tools — Layer ATTACK"
-      chapters:
-        - reference/tools/agent-dojo.qmd
-        - reference/tools/art.qmd
-        - reference/tools/cleverhans.qmd
-        - reference/tools/counterfit.qmd
-        - reference/tools/foolbox.qmd
-        - reference/tools/garak.qmd
-        - reference/tools/guarddog.qmd
-        - reference/tools/jailbreak-payloads.qmd
-        - reference/tools/knockoffnets.qmd
-        - reference/tools/libertas-prompts.qmd
-        - reference/tools/llm-jailbreak-bench.qmd
-        - reference/tools/mcp-guardian.qmd
-        - reference/tools/mcp-remote.qmd
-        - reference/tools/mcp-scan.qmd
-        - reference/tools/mcpoison.qmd
-        - reference/tools/modelscan.qmd
-        - reference/tools/picklescan.qmd
-        - reference/tools/privacy-meter.qmd
-        - reference/tools/promptfoo.qmd
-        - reference/tools/pyrit.qmd
-        - reference/tools/tf-privacy.qmd
-        - reference/tools/trojai-toolkit.qmd
-        - reference/tools/trufflehog.qmd
-    - part: "Tools — Layer DEFENCE"
-      chapters:
-        - reference/tools/aif360.qmd
-        - reference/tools/cdxgen.qmd
-        - reference/tools/cosign.qmd
-        - reference/tools/cyclonedx-cli.qmd
-        - reference/tools/deepeval.qmd
-        - reference/tools/evidently.qmd
-        - reference/tools/fairlearn.qmd
-        - reference/tools/giskard.qmd
-        - reference/tools/grype.qmd
-        - reference/tools/guardrails-ai.qmd
-        - reference/tools/huggingface-evaluate.qmd
-        - reference/tools/llm-guard.qmd
-        - reference/tools/lm-eval-harness.qmd
-        - reference/tools/maestro.qmd
-        - reference/tools/model-card-toolkit.qmd
-        - reference/tools/modelsign.qmd
-        - reference/tools/nemo-guardrails.qmd
-        - reference/tools/otel-ai.qmd
-        - reference/tools/phoenix.qmd
-        - reference/tools/rebuff.qmd
-        - reference/tools/robustbench.qmd
-        - reference/tools/syft.qmd
-        - reference/tools/trivy.qmd
-        - reference/tools/whylogs.qmd
-    - part: "Tools — Layer OPS"
-      chapters:
-        - reference/tools/anthropic-python.qmd
-        - reference/tools/autogen.qmd
-        - reference/tools/bentoml.qmd
-        - reference/tools/chromadb.qmd
-        - reference/tools/code-server.qmd
-        - reference/tools/crewai.qmd
-        - reference/tools/datasets.qmd
-        - reference/tools/drawio.qmd
-        - reference/tools/dvc.qmd
-        - reference/tools/excalidraw.qmd
-        - reference/tools/faiss.qmd
-        - reference/tools/feast.qmd
-        - reference/tools/git-lfs.qmd
-        - reference/tools/google-genai.qmd
-        - reference/tools/hexstrike-ai.qmd
-        - reference/tools/jax.qmd
-        - reference/tools/jina-embeddings-cli.qmd
-        - reference/tools/k3s.qmd
-        - reference/tools/kailash-mcp.qmd
-        - reference/tools/kedro.qmd
-        - reference/tools/kedro-datasets.qmd
-        - reference/tools/kind.qmd
-        - reference/tools/kserve.qmd
-        - reference/tools/langchain.qmd
-        - reference/tools/langgraph.qmd
-        - reference/tools/lightgbm.qmd
-        - reference/tools/llama-index.qmd
-        - reference/tools/llama.cpp.qmd
-        - reference/tools/mcp-inspector.qmd
-        - reference/tools/mcp-kali-server.qmd
-        - reference/tools/mdbook.qmd
-        - reference/tools/mermaid-cli.qmd
-        - reference/tools/minikube.qmd
-        - reference/tools/mypy.qmd
-        - reference/tools/neovim.qmd
-        - reference/tools/numpy.qmd
-        - reference/tools/nvidia-container-toolkit.qmd
-        - reference/tools/obsidian.qmd
-        - reference/tools/ollama.qmd
-        - reference/tools/onnxruntime.qmd
-        - reference/tools/open-webui.qmd
-        - reference/tools/openai-python.qmd
-        - reference/tools/pandas.qmd
-        - reference/tools/pandoc.qmd
-        - reference/tools/peft.qmd
-        - reference/tools/podman.qmd
-        - reference/tools/polars.qmd
-        - reference/tools/python-lsp-server.qmd
-        - reference/tools/python313.qmd
-        - reference/tools/pytorch.qmd
-        - reference/tools/qdrant.qmd
-        - reference/tools/quarto.qmd
-        - reference/tools/ruff.qmd
-        - reference/tools/scikit-learn.qmd
-        - reference/tools/scipy.qmd
-        - reference/tools/tensorflow.qmd
-        - reference/tools/texlive-full.qmd
-        - reference/tools/text-generation-webui.qmd
-        - reference/tools/tgi.qmd
-        - reference/tools/torchaudio.qmd
-        - reference/tools/torchserve.qmd
-        - reference/tools/torchvision.qmd
-        - reference/tools/transformers.qmd
-        - reference/tools/trl.qmd
-        - reference/tools/txtai.qmd
-        - reference/tools/typst.qmd
-        - reference/tools/uv.qmd
-        - reference/tools/vllm.qmd
-        - reference/tools/vscode.qmd
-        - reference/tools/wandb-cli.qmd
-        - reference/tools/xgboost.qmd
-    - part: "Tools — Config references"
+    - part: "Layer CLASSIC — tools"
+    - reference/tools/amass.qmd
+    - reference/tools/angr.qmd
+    - reference/tools/apktool.qmd
+    - reference/tools/arjun.qmd
+    - part: reference/tools/arp-scan.qmd
       chapters:
         - reference/config/arp-scan.qmd
+    - part: reference/tools/assetfinder.qmd
+      chapters:
         - reference/config/assetfinder.qmd
-        - reference/config/bentoml.qmd
-        - reference/config/cdxgen.qmd
+    - reference/tools/autopsy.qmd
+    - reference/tools/beef-xss.qmd
+    - reference/tools/binwalk.qmd
+    - reference/tools/bopscrk.qmd
+    - reference/tools/bulk_extractor.qmd
+    - reference/tools/burpsuite.qmd
+    - reference/tools/bytecode-viewer.qmd
+    - reference/tools/caido.qmd
+    - reference/tools/capstone.qmd
+    - reference/tools/cewl.qmd
+    - part: reference/tools/chainsaw.qmd
+      chapters:
         - reference/config/chainsaw.qmd
-        - reference/config/cosign.qmd
-        - reference/config/counterfit.qmd
-        - reference/config/crewai.qmd
-        - reference/config/dvc.qmd
-        - reference/config/feast.qmd
-        - reference/config/garak.qmd
+    - reference/tools/checksec.qmd
+    - reference/tools/chkrootkit.qmd
+    - reference/tools/clairvoyance.qmd
+    - reference/tools/commix.qmd
+    - reference/tools/crunch.qmd
+    - reference/tools/cstool.qmd
+    - reference/tools/cutter.qmd
+    - reference/tools/dc3dd.qmd
+    - reference/tools/dex2jar.qmd
+    - reference/tools/dirb.qmd
+    - reference/tools/dirsearch.qmd
+    - reference/tools/dmitry.qmd
+    - reference/tools/dnsenum.qmd
+    - reference/tools/dnsmap.qmd
+    - reference/tools/dnsrecon.qmd
+    - reference/tools/edb-debugger.qmd
+    - reference/tools/ewfacquire.qmd
+    - reference/tools/feroxbuster.qmd
+    - reference/tools/ffuf.qmd
+    - reference/tools/fierce.qmd
+    - reference/tools/findomain.qmd
+    - reference/tools/gdb.qmd
+    - part: reference/tools/gef.qmd
+      chapters:
         - reference/config/gef.qmd
-        - reference/config/google-genai.qmd
-        - reference/config/guarddog.qmd
-        - reference/config/guardrails-ai.qmd
-        - reference/config/k3s.qmd
+    - reference/tools/ghidra.qmd
+    - reference/tools/gnuradio.qmd
+    - reference/tools/gobuster.qmd
+    - reference/tools/gopherus.qmd
+    - reference/tools/gospider.qmd
+    - reference/tools/gqrx.qmd
+    - reference/tools/graphw00f.qmd
+    - reference/tools/guymager.qmd
+    - reference/tools/hackrf-tools.qmd
+    - reference/tools/hakrawler.qmd
+    - reference/tools/hash-identifier.qmd
+    - reference/tools/hashcat.qmd
+    - reference/tools/hashdeep.qmd
+    - reference/tools/hashid.qmd
+    - reference/tools/hayabusa.qmd
+    - reference/tools/httpx.qmd
+    - reference/tools/iaito.qmd
+    - reference/tools/inql.qmd
+    - reference/tools/jadx.qmd
+    - reference/tools/javasnoop.qmd
+    - reference/tools/jd-gui.qmd
+    - reference/tools/john.qmd
+    - reference/tools/johnny.qmd
+    - part: reference/tools/katana.qmd
+      chapters:
         - reference/config/katana.qmd
+    - part: reference/tools/kiterunner.qmd
+      chapters:
         - reference/config/kiterunner.qmd
+    - reference/tools/laudanum.qmd
+    - reference/tools/legion.qmd
+    - part: reference/tools/librosa.qmd
+      chapters:
         - reference/config/librosa.qmd
-        - reference/config/lightgbm.qmd
-        - reference/config/llama.cpp.qmd
-        - reference/config/lm-eval-harness.qmd
+    - reference/tools/lynis.qmd
+    - reference/tools/maltego-community.qmd
+    - reference/tools/maskgen.qmd
+    - part: reference/tools/masscan.qmd
+      chapters:
         - reference/config/masscan.qmd
-        - reference/config/mcp-remote.qmd
-        - reference/config/mcp-scan.qmd
-        - reference/config/modelscan.qmd
-        - reference/config/nemo-guardrails.qmd
+    - reference/tools/massdns.qmd
+    - reference/tools/metasploit-framework.qmd
+    - reference/tools/mitmproxy.qmd
+    - reference/tools/mongosh.qmd
+    - reference/tools/msfvenom.qmd
+    - reference/tools/mssql-cli.qmd
+    - reference/tools/mycli.qmd
+    - reference/tools/netdiscover.qmd
+    - part: reference/tools/nikto.qmd
+      chapters:
         - reference/config/nikto.qmd
+    - reference/tools/nmap.qmd
+    - part: reference/tools/nuclei.qmd
+      chapters:
         - reference/config/nuclei.qmd
-        - reference/config/openai-python.qmd
-        - reference/config/pandas.qmd
-        - reference/config/picklescan.qmd
-        - reference/config/podman.qmd
-        - reference/config/promptfoo.qmd
-        - reference/config/pytorch.qmd
-        - reference/config/quarto.qmd
+    - reference/tools/ophcrack.qmd
+    - reference/tools/peass-ng.qmd
+    - reference/tools/peda.qmd
+    - reference/tools/photon.qmd
+    - reference/tools/photorec.qmd
+    - reference/tools/plaso.qmd
+    - reference/tools/policygen.qmd
+    - reference/tools/pspy.qmd
+    - reference/tools/psql.qmd
+    - reference/tools/puredns.qmd
+    - reference/tools/pw-packs.qmd
+    - reference/tools/pwndbg.qmd
+    - reference/tools/pyinstaller-extractor.qmd
+    - reference/tools/pysox.qmd
+    - reference/tools/qiling.qmd
+    - part: reference/tools/radare2.qmd
+      chapters:
         - reference/config/radare2.qmd
-        - reference/config/rebuff.qmd
+    - reference/tools/recon-ng.qmd
+    - part: reference/tools/redis-cli.qmd
+      chapters:
         - reference/config/redis-cli.qmd
-        - reference/config/scikit-learn.qmd
+    - reference/tools/regripper.qmd
+    - reference/tools/rizin.qmd
+    - reference/tools/rkhunter.qmd
+    - reference/tools/rsmangler.qmd
+    - reference/tools/rustscan.qmd
+    - reference/tools/searchsploit.qmd
+    - reference/tools/seclists.qmd
+    - reference/tools/sherlock.qmd
+    - part: reference/tools/sigma-cli.qmd
+      chapters:
         - reference/config/sigma-cli.qmd
+    - reference/tools/sleuthkit.qmd
+    - reference/tools/smali.qmd
+    - reference/tools/sox.qmd
+    - reference/tools/spiderfoot.qmd
+    - part: reference/tools/sqlitebrowser.qmd
+      chapters:
         - reference/config/sqlitebrowser.qmd
+    - part: reference/tools/sqlmap.qmd
+      chapters:
         - reference/config/sqlmap.qmd
+    - reference/tools/sstimap.qmd
+    - reference/tools/statsgen.qmd
+    - part: reference/tools/subfinder.qmd
+      chapters:
         - reference/config/subfinder.qmd
+    - reference/tools/sublist3r.qmd
+    - part: reference/tools/sysmon-modular.qmd
+      chapters:
         - reference/config/sysmon-modular.qmd
-        - reference/config/text-generation-webui.qmd
+    - reference/tools/testdisk.qmd
+    - part: reference/tools/the-harvester.qmd
+      chapters:
         - reference/config/the-harvester.qmd
-        - reference/config/torchserve.qmd
-        - reference/config/trivy.qmd
-        - reference/config/trufflehog.qmd
+    - part: reference/tools/twofi.qmd
+      chapters:
         - reference/config/twofi.qmd
-        - reference/config/wandb-cli.qmd
+    - reference/tools/unicorn.qmd
+    - reference/tools/unipacker.qmd
+    - reference/tools/unix-privesc-check.qmd
+    - reference/tools/uro.qmd
+    - reference/tools/volatility3.qmd
+    - reference/tools/wafw00f.qmd
+    - reference/tools/wapiti.qmd
+    - reference/tools/weevely.qmd
+    - reference/tools/wfuzz.qmd
+    - reference/tools/whatweb.qmd
+    - part: reference/tools/zaproxy.qmd
+      chapters:
         - reference/config/zaproxy.qmd
+    - reference/tools/zenmap.qmd
+    - part: "Layer ATTACK — tools"
+    - reference/tools/agent-dojo.qmd
+    - reference/tools/art.qmd
+    - reference/tools/cleverhans.qmd
+    - part: reference/tools/counterfit.qmd
+      chapters:
+        - reference/config/counterfit.qmd
+    - reference/tools/foolbox.qmd
+    - part: reference/tools/garak.qmd
+      chapters:
+        - reference/config/garak.qmd
+    - part: reference/tools/guarddog.qmd
+      chapters:
+        - reference/config/guarddog.qmd
+    - reference/tools/jailbreak-payloads.qmd
+    - reference/tools/knockoffnets.qmd
+    - reference/tools/libertas-prompts.qmd
+    - reference/tools/llm-jailbreak-bench.qmd
+    - reference/tools/mcp-guardian.qmd
+    - part: reference/tools/mcp-remote.qmd
+      chapters:
+        - reference/config/mcp-remote.qmd
+    - part: reference/tools/mcp-scan.qmd
+      chapters:
+        - reference/config/mcp-scan.qmd
+    - reference/tools/mcpoison.qmd
+    - part: reference/tools/modelscan.qmd
+      chapters:
+        - reference/config/modelscan.qmd
+    - part: reference/tools/picklescan.qmd
+      chapters:
+        - reference/config/picklescan.qmd
+    - reference/tools/privacy-meter.qmd
+    - part: reference/tools/promptfoo.qmd
+      chapters:
+        - reference/config/promptfoo.qmd
+    - reference/tools/pyrit.qmd
+    - reference/tools/tf-privacy.qmd
+    - reference/tools/trojai-toolkit.qmd
+    - part: reference/tools/trufflehog.qmd
+      chapters:
+        - reference/config/trufflehog.qmd
+    - part: "Layer DEFENCE — tools"
+    - reference/tools/aif360.qmd
+    - part: reference/tools/cdxgen.qmd
+      chapters:
+        - reference/config/cdxgen.qmd
+    - part: reference/tools/cosign.qmd
+      chapters:
+        - reference/config/cosign.qmd
+    - reference/tools/cyclonedx-cli.qmd
+    - reference/tools/deepeval.qmd
+    - reference/tools/evidently.qmd
+    - reference/tools/fairlearn.qmd
+    - reference/tools/giskard.qmd
+    - reference/tools/grype.qmd
+    - part: reference/tools/guardrails-ai.qmd
+      chapters:
+        - reference/config/guardrails-ai.qmd
+    - reference/tools/huggingface-evaluate.qmd
+    - reference/tools/llm-guard.qmd
+    - part: reference/tools/lm-eval-harness.qmd
+      chapters:
+        - reference/config/lm-eval-harness.qmd
+    - reference/tools/maestro.qmd
+    - reference/tools/model-card-toolkit.qmd
+    - reference/tools/modelsign.qmd
+    - part: reference/tools/nemo-guardrails.qmd
+      chapters:
+        - reference/config/nemo-guardrails.qmd
+    - reference/tools/otel-ai.qmd
+    - reference/tools/phoenix.qmd
+    - part: reference/tools/rebuff.qmd
+      chapters:
+        - reference/config/rebuff.qmd
+    - reference/tools/robustbench.qmd
+    - reference/tools/syft.qmd
+    - part: reference/tools/trivy.qmd
+      chapters:
+        - reference/config/trivy.qmd
+    - reference/tools/whylogs.qmd
+    - part: "Layer OPS — tools"
+    - reference/tools/anthropic-python.qmd
+    - reference/tools/autogen.qmd
+    - part: reference/tools/bentoml.qmd
+      chapters:
+        - reference/config/bentoml.qmd
+    - reference/tools/chromadb.qmd
+    - reference/tools/code-server.qmd
+    - part: reference/tools/crewai.qmd
+      chapters:
+        - reference/config/crewai.qmd
+    - reference/tools/datasets.qmd
+    - reference/tools/drawio.qmd
+    - part: reference/tools/dvc.qmd
+      chapters:
+        - reference/config/dvc.qmd
+    - reference/tools/excalidraw.qmd
+    - reference/tools/faiss.qmd
+    - part: reference/tools/feast.qmd
+      chapters:
+        - reference/config/feast.qmd
+    - reference/tools/git-lfs.qmd
+    - part: reference/tools/google-genai.qmd
+      chapters:
+        - reference/config/google-genai.qmd
+    - reference/tools/hexstrike-ai.qmd
+    - reference/tools/jax.qmd
+    - reference/tools/jina-embeddings-cli.qmd
+    - part: reference/tools/k3s.qmd
+      chapters:
+        - reference/config/k3s.qmd
+    - reference/tools/kailash-mcp.qmd
+    - reference/tools/kedro.qmd
+    - reference/tools/kedro-datasets.qmd
+    - reference/tools/kind.qmd
+    - reference/tools/kserve.qmd
+    - reference/tools/langchain.qmd
+    - reference/tools/langgraph.qmd
+    - part: reference/tools/lightgbm.qmd
+      chapters:
+        - reference/config/lightgbm.qmd
+    - reference/tools/llama-index.qmd
+    - part: reference/tools/llama.cpp.qmd
+      chapters:
+        - reference/config/llama.cpp.qmd
+    - reference/tools/mcp-inspector.qmd
+    - reference/tools/mcp-kali-server.qmd
+    - reference/tools/mdbook.qmd
+    - reference/tools/mermaid-cli.qmd
+    - reference/tools/minikube.qmd
+    - reference/tools/mypy.qmd
+    - reference/tools/neovim.qmd
+    - reference/tools/numpy.qmd
+    - reference/tools/nvidia-container-toolkit.qmd
+    - reference/tools/obsidian.qmd
+    - reference/tools/ollama.qmd
+    - reference/tools/onnxruntime.qmd
+    - reference/tools/open-webui.qmd
+    - part: reference/tools/openai-python.qmd
+      chapters:
+        - reference/config/openai-python.qmd
+    - part: reference/tools/pandas.qmd
+      chapters:
+        - reference/config/pandas.qmd
+    - reference/tools/pandoc.qmd
+    - reference/tools/peft.qmd
+    - part: reference/tools/podman.qmd
+      chapters:
+        - reference/config/podman.qmd
+    - reference/tools/polars.qmd
+    - reference/tools/python-lsp-server.qmd
+    - reference/tools/python313.qmd
+    - part: reference/tools/pytorch.qmd
+      chapters:
+        - reference/config/pytorch.qmd
+    - reference/tools/qdrant.qmd
+    - part: reference/tools/quarto.qmd
+      chapters:
+        - reference/config/quarto.qmd
+    - reference/tools/ruff.qmd
+    - part: reference/tools/scikit-learn.qmd
+      chapters:
+        - reference/config/scikit-learn.qmd
+    - reference/tools/scipy.qmd
+    - reference/tools/tensorflow.qmd
+    - reference/tools/texlive-full.qmd
+    - part: reference/tools/text-generation-webui.qmd
+      chapters:
+        - reference/config/text-generation-webui.qmd
+    - reference/tools/tgi.qmd
+    - reference/tools/torchaudio.qmd
+    - part: reference/tools/torchserve.qmd
+      chapters:
+        - reference/config/torchserve.qmd
+    - reference/tools/torchvision.qmd
+    - reference/tools/transformers.qmd
+    - reference/tools/trl.qmd
+    - reference/tools/txtai.qmd
+    - reference/tools/typst.qmd
+    - reference/tools/uv.qmd
+    - reference/tools/vllm.qmd
+    - reference/tools/vscode.qmd
+    - part: reference/tools/wandb-cli.qmd
+      chapters:
+        - reference/config/wandb-cli.qmd
+    - reference/tools/xgboost.qmd
     - part: "Part IV — Administrator guide"
       chapters:
         - admin/install.qmd
@@ -364,5 +411,6 @@ book:
 format:
   html:
     theme: cosmo
+    number-sections: false
     toc: true
     code-copy: true

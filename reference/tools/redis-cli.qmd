@@ -1,8 +1,6 @@
 ---
-title: "redis-cli(1) - Kailash Tool Reference"
+title: "redis-cli - reference"
 ---
-
-## redis-cli
 
 > **redis-cli** - Redis command-line client — front-end enumeration support.
 

@@ -1,8 +1,6 @@
 ---
-title: "inql(1) - Kailash Tool Reference"
+title: "inql - reference"
 ---
-
-## inql
 
 > **inql** - Security testing tool for GraphQL — query/schema analysis.
 

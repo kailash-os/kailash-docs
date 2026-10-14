@@ -1,8 +1,6 @@
 ---
-title: "plaso(1) - Kailash Tool Reference"
+title: "plaso - reference"
 ---
-
-## plaso
 
 > **plaso** - log2timeline — super-timeline generation and analysis.
 

@@ -1,8 +1,6 @@
 ---
-title: "msfvenom(1) - Kailash Tool Reference"
+title: "msfvenom - reference"
 ---
-
-## msfvenom
 
 > **msfvenom** - Payload generation and encoding CLI from the Metasploit suite.
 

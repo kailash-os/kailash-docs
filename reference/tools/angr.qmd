@@ -1,8 +1,6 @@
 ---
-title: "angr(1) - Kailash Tool Reference"
+title: "angr - reference"
 ---
-
-## angr
 
 > **angr** - Binary analysis framework — symbolic execution and emulation.
 

@@ -1,8 +1,6 @@
 ---
-title: "subfinder(1) - Kailash Tool Reference"
+title: "subfinder - reference"
 ---
-
-## subfinder
 
 > **subfinder** - Subdomain discovery tool — overlay pin (pkgs/subfinder, KA-02.3).
 

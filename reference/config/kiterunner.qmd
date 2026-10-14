@@ -1,8 +1,6 @@
 ---
-title: "kiterunner - configuration reference"
+title: "kiterunner - configuration"
 ---
-
-# kiterunner — configuration reference
 
 Configuration surfaces for [kiterunner](../tools/kiterunner.qmd)
 (safety class: safe; category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment)) —

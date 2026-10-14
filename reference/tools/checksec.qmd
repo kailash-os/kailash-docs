@@ -1,8 +1,6 @@
 ---
-title: "checksec(1) - Kailash Tool Reference"
+title: "checksec - reference"
 ---
-
-## checksec
 
 > **checksec** - Checks security properties of executables (RELRO/canary/NX/PIE).
 

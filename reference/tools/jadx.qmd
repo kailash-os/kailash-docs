@@ -1,8 +1,6 @@
 ---
-title: "jadx(1) - Kailash Tool Reference"
+title: "jadx - reference"
 ---
-
-## jadx
 
 > **jadx** - Dex to Java decompiler.
 

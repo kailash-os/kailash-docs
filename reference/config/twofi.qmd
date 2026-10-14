@@ -1,8 +1,6 @@
 ---
-title: "twofi - configuration reference"
+title: "twofi - configuration"
 ---
-
-# twofi — configuration reference
 
 Configuration surfaces for [twofi](../tools/twofi.qmd)
 (safety class: safe; category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential)) —

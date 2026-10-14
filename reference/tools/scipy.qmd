@@ -1,8 +1,6 @@
 ---
-title: "scipy(1) - Kailash Tool Reference"
+title: "scipy - reference"
 ---
-
-## scipy
 
 > **scipy** - SciPy — scientific computing library (optimization, signal, stats).
 

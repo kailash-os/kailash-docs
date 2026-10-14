@@ -1,8 +1,6 @@
 ---
-title: "pw-packs(1) - Kailash Tool Reference"
+title: "pw-packs - reference"
 ---
-
-## pw-packs
 
 > **pw-packs** - Small password pack — rockyou.txt as the pw-packs DATA pack (KA-29 derivation:pkgs/pw-packs, default OFF — data packs never ride a default profile); the breach-list content licence beyond the repo MIT licence is NOT established.
 

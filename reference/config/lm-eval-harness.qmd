@@ -1,8 +1,6 @@
 ---
-title: "lm-eval-harness - configuration reference"
+title: "lm-eval-harness - configuration"
 ---
-
-# lm-eval-harness — configuration reference
 
 Configuration surfaces for [lm-eval-harness](../tools/lm-eval-harness.qmd)
 (safety class: safe; category: [d-03-assurance-evals-benchmarks](../directory.qmd#cat-d-03-assurance-evals-benchmarks)) —

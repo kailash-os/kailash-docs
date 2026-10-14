@@ -1,8 +1,6 @@
 ---
-title: "huggingface-evaluate(1) - Kailash Tool Reference"
+title: "huggingface-evaluate - reference"
 ---
-
-## huggingface-evaluate
 
 > **huggingface-evaluate** - HuggingFace Evaluate — library for easily evaluating ML models and datasets (the hub `evaluate` package).
 

@@ -1,8 +1,6 @@
 ---
-title: "quarto - configuration reference"
+title: "quarto - configuration"
 ---
-
-# quarto — configuration reference
 
 Configuration surfaces for [quarto](../tools/quarto.qmd)
 (safety class: safe; category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring)) —

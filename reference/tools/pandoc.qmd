@@ -1,8 +1,6 @@
 ---
-title: "pandoc(1) - Kailash Tool Reference"
+title: "pandoc - reference"
 ---
-
-## pandoc
 
 > **pandoc** - Pandoc — universal markup converter.
 

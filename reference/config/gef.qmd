@@ -1,8 +1,6 @@
 ---
-title: "gef - configuration reference"
+title: "gef - configuration"
 ---
-
-# gef — configuration reference
 
 Configuration surfaces for [gef](../tools/gef.qmd)
 (safety class: safe; category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering)) —

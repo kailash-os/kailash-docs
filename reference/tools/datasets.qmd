@@ -1,8 +1,6 @@
 ---
-title: "datasets(1) - Kailash Tool Reference"
+title: "datasets - reference"
 ---
-
-## datasets
 
 > **datasets** - Hugging Face Datasets — ready-to-use datasets library.
 

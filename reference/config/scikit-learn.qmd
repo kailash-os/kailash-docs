@@ -1,8 +1,6 @@
 ---
-title: "scikit-learn - configuration reference"
+title: "scikit-learn - configuration"
 ---
-
-# scikit-learn — configuration reference
 
 Configuration surfaces for [scikit-learn](../tools/scikit-learn.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

@@ -1,8 +1,6 @@
 ---
-title: "fairlearn(1) - Kailash Tool Reference"
+title: "fairlearn - reference"
 ---
-
-## fairlearn
 
 > **fairlearn** - Fairlearn — fairness metrics and mitigation algorithms for ML models.
 

@@ -1,8 +1,6 @@
 ---
-title: "librosa - configuration reference"
+title: "librosa - configuration"
 ---
-
-# librosa — configuration reference
 
 Configuration surfaces for [librosa](../tools/librosa.qmd)
 (safety class: safe; category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr)) —

@@ -1,8 +1,6 @@
 ---
-title: "johnny(1) - Kailash Tool Reference"
+title: "johnny - reference"
 ---
-
-## johnny
 
 > **johnny** - Open-source GUI frontend for John the Ripper.
 

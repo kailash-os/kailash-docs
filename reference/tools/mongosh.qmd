@@ -1,8 +1,6 @@
 ---
-title: "mongosh(1) - Kailash Tool Reference"
+title: "mongosh - reference"
 ---
-
-## mongosh
 
 > **mongosh** - MongoDB Shell — front-end enumeration support.
 

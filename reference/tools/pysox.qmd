@@ -1,8 +1,6 @@
 ---
-title: "pysox(1) - Kailash Tool Reference"
+title: "pysox - reference"
 ---
-
-## pysox
 
 > **pysox** - Python bindings around SoX for audio DSP pipelines.
 

@@ -1,8 +1,6 @@
 ---
-title: "mycli(1) - Kailash Tool Reference"
+title: "mycli - reference"
 ---
-
-## mycli
 
 > **mycli** - Command-line interface for MySQL with autocompletion.
 

@@ -1,8 +1,6 @@
 ---
-title: "sqlmap - configuration reference"
+title: "sqlmap - configuration"
 ---
-
-# sqlmap — configuration reference
 
 Configuration surfaces for [sqlmap](../tools/sqlmap.qmd)
 (safety class: safe; category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment)) —

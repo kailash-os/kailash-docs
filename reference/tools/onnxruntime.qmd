@@ -1,8 +1,6 @@
 ---
-title: "onnxruntime(1) - Kailash Tool Reference"
+title: "onnxruntime - reference"
 ---
-
-## onnxruntime
 
 > **onnxruntime** - ONNX Runtime — cross-platform ML inference.
 

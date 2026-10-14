@@ -1,8 +1,6 @@
 ---
-title: "robustbench(1) - Kailash Tool Reference"
+title: "robustbench - reference"
 ---
-
-## robustbench
 
 > **robustbench** - RobustBench — standardized adversarial-robustness benchmark suite (model zoo + attacks); MIT code, per-model weight licences vary.
 

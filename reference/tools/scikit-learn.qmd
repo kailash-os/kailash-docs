@@ -1,8 +1,6 @@
 ---
-title: "scikit-learn(1) - Kailash Tool Reference"
+title: "scikit-learn - reference"
 ---
-
-## scikit-learn
 
 > **scikit-learn** - scikit-learn — classical ML toolkit on numpy/scipy.
 

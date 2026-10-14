@@ -1,8 +1,6 @@
 ---
-title: "cdxgen - configuration reference"
+title: "cdxgen - configuration"
 ---
-
-# cdxgen — configuration reference
 
 Configuration surfaces for [cdxgen](../tools/cdxgen.qmd)
 (safety class: safe; category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust)) —

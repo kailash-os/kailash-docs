@@ -1,8 +1,6 @@
 ---
-title: "cosign - configuration reference"
+title: "cosign - configuration"
 ---
-
-# cosign — configuration reference
 
 Configuration surfaces for [cosign](../tools/cosign.qmd)
 (safety class: safe; category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust)) —

@@ -1,8 +1,6 @@
 ---
-title: "mcp-remote(1) - Kailash Tool Reference"
+title: "mcp-remote - reference"
 ---
-
-## mcp-remote
 
 > **mcp-remote** - mcp-remote — stdio/HTTP bridge for reachability and man-in-the-middle tests of remote MCP transports.
 

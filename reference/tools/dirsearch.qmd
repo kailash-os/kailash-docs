@@ -1,8 +1,6 @@
 ---
-title: "dirsearch(1) - Kailash Tool Reference"
+title: "dirsearch - reference"
 ---
-
-## dirsearch
 
 > **dirsearch** - Command-line web-path brute-forcer for directories and files.
 

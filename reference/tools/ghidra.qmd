@@ -1,8 +1,6 @@
 ---
-title: "ghidra(1) - Kailash Tool Reference"
+title: "ghidra - reference"
 ---
-
-## ghidra
 
 > **ghidra** - Software reverse-engineering suite of tools (NSA).
 
