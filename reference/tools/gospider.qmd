@@ -18,28 +18,10 @@ title: "gospider(1) - Kailash Tool Reference"
 
 `gospider` - Fast web spider written in Go.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-GO111MODULE=on go install github.com/jaeles-project/gospider@latest
-```
-
-```
-# Clone the repo
-git clone https://github.com/jaeles-project/gospider.git
-# Build the contianer
-docker build -t gospider:latest gospider
-# Run the container
-docker run -t gospider -h
-```
-
-### DESCRIPTION (upstream)
-
-**GoSpider** - Fast web spider written in Go this project was part of Osmedeus Engine. Check out how it was integrated at <a href="https://twitter.com/OsmedeusEngine">@OsmedeusEngine</a> GO111MODULE=on go install github.com/jaeles-project/gospider@latest git clone https://github.com/jaeles-project/gospider.git docker build -t gospider:latest gospider docker run -t gospider -h * Fast web crawling * Brute force and parse sitemap.xml * Parse robots.txt * Generate and verify link from JavaScript files * Link Finder * Find AWS-S3 from response source * Find subdomains from response source * Get URLs from Wayback Machine, Common Crawl, Virus Total, Alien Vault * Format output easy to Grep * Suppor
+Not derived automatically - see [upstream documentation](https://github.com/jaeles-project/gospider). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

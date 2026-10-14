@@ -18,23 +18,10 @@ title: "deepeval(1) - Kailash Tool Reference"
 
 `deepeval` - DeepEval — LLM evaluation framework with unit-test-style metrics (G-Eval, faithfulness, bias).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install -U deepeval
-```
-
-```
-deepeval login
-```
-
-### DESCRIPTION (upstream)
-
-**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems. It is similar to Pytest but specialized for unit testing LLM apps. DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which use LLM-as-a-judge and other NLP models that run **locally on your machine**. Whether you're building AI agents, RAG pipelines, or chatbots, implemented via LangChain or OpenAI, DeepEval has you covered. With it, you can easily evaluate: - **LLM apps end-to-end** as black boxes - **Complete agent trajectories** across every decision and action - **Individual agent steps
+Not derived automatically - see [upstream documentation](https://github.com/confident-ai/deepeval). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

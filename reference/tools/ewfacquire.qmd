@@ -23,10 +23,6 @@ title: "ewfacquire(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/libyal/libewf). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-libewf is a library to access the Expert Witness Compression Format (EWF). Project information: * Status: experimental * Licence: LGPL-3.0-or-later Read or write supported EWF formats: * SMART .s01 (EWF-S01) * EnCase * .E01 (EWF-E01) * .Ex01 (EWF2-Ex01) Not supported: * .Ex01 (EWF2-Ex01) bzip2 compression (work in progress) * .Ex01 (EWF2-Ex01) encryption Read-only supported EWF formats: * Logical Evidence File (LEF) * .L01 (EWF-L01) * .Lx01 (EWF2-Lx01) Other features: * empty-block compression * read/write access using delta (or shadow) files * write resume Work in progress: * Dokan library support (experimental) * Python bindings (including Python 3 support) * write EWF2-Ex01 support * Mult
-
 ### SEE ALSO
 
 - Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the

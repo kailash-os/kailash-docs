@@ -18,32 +18,10 @@ title: "redis-cli(1) - Kailash Tool Reference"
 
 `redis-cli` - Redis command-line client — front-end enumeration support.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-  docker run -d -p 6379:6379 redis:latest
-```
-
-```
-cd src
-./redis-cli
-```
-
-### DESCRIPTION (upstream)
-
-This document serves as both a quick start guide to Redis and a detailed resource for building it from source. - New to Redis? Start with [What is Redis](#what-is-redis) and [Getting Started](#getting-started) - Ready to build from source? Jump to [Build Redis from Source](#build-redis-from-source) - Want to contribute? See the [Code contributions](#code-contributions) section and [CONTRIBUTING.md](https://github.com/redis/redis/tree/HEAD/CONTRIBUTING.md) - Looking for detailed documentation? Navigate to [redis.io/docs](https://redis.io/docs/) - [What is Redis?](#what-is-redis) - [Key use cases](#key-use-cases) - [Why choose Redis?](#why-choose-redis) - [What is Redis Open Source?](#what-is-
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (13 matches, e.g. `redis.conf`, `redis.conf`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/redis/redis). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

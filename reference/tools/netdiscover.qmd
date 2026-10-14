@@ -18,23 +18,10 @@ title: "netdiscover(1) - Kailash Tool Reference"
 
 `netdiscover` - Network address discovery via ARP — kept per the §3.2 ethernet rule.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ ./update-oui-database.sh (optional, to update the MAC addresses list)
-$ ./autogen.sh
-$ ./configure
-$ make
-# make install
-```
-
-### DESCRIPTION (upstream)
-
-by Jaime Penalba <jpenalbae@gmail.com> Welcome to official Netdiscover repository (since  Feb. 05, 2019). Netdiscover is a network address discovering tool, developed mainly for those wireless networks without dhcp server, it also works on hub/switched networks. Its based on arp packets, it will send arp requests and sniff for replies. Its my first public C tool, so don't be too hard with me, if some parts on the code looks like obfuscated or are unreadable, and feel free to send suggestions to https://github.com/netdiscover-scanner/netdiscover/issues or patches (PR) to https://github.com/netdiscover-scanner/netdiscover/pulls. Also notify me for any bug or compilation error, it must compile
+Not derived automatically - see [upstream documentation](https://github.com/netdiscover-scanner/netdiscover). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

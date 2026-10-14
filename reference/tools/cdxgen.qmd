@@ -18,47 +18,10 @@ title: "cdxgen(1) - Kailash Tool Reference"
 
 `cdxgen` - CycloneDX cdxgen — creates CycloneDX SBOMs for source trees and images across languages.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-VERSION="v13.4.0"
-ASSET="cdx-audit-linux-amd64"
-BASE_URL="https://github.com/cdxgen/cdxgen/releases/download/${VERSION}"
-
-curl -fsSLO "${BASE_URL}/${ASSET}"
-curl -fsSLO "${BASE_URL}/${ASSET}.sha256"
-sha256sum -c "${ASSET}.sha256"
-chmod +x "${ASSET}"
-./"${ASSET}" --help
-```
-
-```
-VERSION="v13.4.0"
-ASSET="cdx-audit-darwin-arm64"
-BASE_URL="https://github.com/cdxgen/cdxgen/releases/download/${VERSION}"
-
-curl -fsSLO "${BASE_URL}/${ASSET}"
-curl -fsSLO "${BASE_URL}/${ASSET}.sha256"
-shasum -a 256 -c "${ASSET}.sha256"
-chmod +x "${ASSET}"
-./"${ASSET}" --help
-```
-
-### DESCRIPTION (upstream)
-
-cdxgen is a CLI tool, library, [REPL](https://github.com/CycloneDX/cdxgen/tree/HEAD/ADVANCED.md), and server to create, validate, sign, and verify software BOMs. It generates CycloneDX JSON BOMs and supports SPDX 3.0.1 JSON-LD export. CycloneDX is a full-stack BOM specification that is easily created, human and machine-readable, and simple to parse. The tool generates BOMs targeting CycloneDX specification versions 1.6, 1.7, and 2.0, and the output can be downgraded to 1.4 or 1.5 for legacy consumers. Supported BOM formats: - Hardware (HBOM) - For supported live hosts such as Apple Silicon macOS and Linux amd64/arm64 systems. - Software (SBOM) - For many languages and container images. - Cry
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (6 matches, e.g. `environment variable`, `environment variable`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/CycloneDX/cdxgen). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

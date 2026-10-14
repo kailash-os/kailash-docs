@@ -4,7 +4,7 @@ title: "modelsign(1) - Kailash Tool Reference"
 
 ## modelsign
 
-> **modelsign** - Model signing CLI wrapping sigstore/model-signing — sign and verify model artefacts with Sigstore bundles.
+> **modelsign** - Model signing CLI wrapping sigstore/model-transparency — sign and verify model artefacts with Sigstore bundles.
 
 | | |
 |---|---|
@@ -12,15 +12,15 @@ title: "modelsign(1) - Kailash Tool Reference"
 | Category | [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) |
 | Safety class | safe |
 | Licence | Apache-2.0 |
-| Upstream | [github.com/sigstore/model-signing](https://github.com/sigstore/model-signing) |
+| Upstream | [github.com/sigstore/model-transparency](https://github.com/sigstore/model-transparency) |
 
 ### NAME
 
-`modelsign` - Model signing CLI wrapping sigstore/model-signing — sign and verify model artefacts with Sigstore bundles.
+`modelsign` - Model signing CLI wrapping sigstore/model-transparency — sign and verify model artefacts with Sigstore bundles.
 
 ### SYNOPSIS
 
-Not derived automatically - see [upstream documentation](https://github.com/sigstore/model-signing). This page does not
+Not derived automatically - see [upstream documentation](https://github.com/sigstore/model-transparency). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO

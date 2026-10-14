@@ -23,10 +23,6 @@ title: "autopsy(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/sleuthkit/autopsy). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-Autopsy 4 http://www.sleuthkit.org/ March 15, 2016 OVERVIEW Autopsy is a graphical interface to The Sleuth Kit and other open source digital forensics tools. Autopsy 3 was a complete rewrite from Autopsy 2 to make it Java-based. Autopsy 4 improves on Autopsy 3 by supporting collaboration on a single case by multiple users. Although Autopsy is designed to be cross-platform (Windows, Linux, MacOSX), the current version is fully functional and fully tested only on Windows. We have run it on XP, Vista, and Windows 7 with no problems. Autopsy 4 is released under the Apache 2.0 license. Some libraries Autopsy uses may have different, but similar, open source licenses. INSTALLATION For a Windows in
-
 ### SEE ALSO
 
 - Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the

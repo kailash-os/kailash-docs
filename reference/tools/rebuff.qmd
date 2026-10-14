@@ -18,31 +18,10 @@ title: "rebuff(1) - Kailash Tool Reference"
 
 `rebuff` - Rebuff — prompt-injection detector with a canary-token leakage check and multi-stage defence.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install rebuff
-```
-
-```
-cd server
-```
-
-### DESCRIPTION (upstream)
-
-"MD013": { "code_blocks": false, "tables": false }, "MD033": false, "MD041": false } --> Rebuff is designed to protect AI applications from prompt injection (PI) attacks through a [multi-layered defense](#features). [Playground](https://playground.rebuff.ai/) • [Discord](https://discord.gg/R3U2XVNKeE) • [Features](#features) • [Installation](#installation) • [Getting started](#getting-started) • [Self-hosting](#self-hosting) • [Contributing](#contributing) • Rebuff is still a prototype and **cannot provide 100% protection** against prompt injection attacks! Rebuff offers 4 layers of defense: - Heuristics: Filter out potentially malicious input before it reaches the LLM. - LLM-based detection
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `javascript_tests.yaml`, `javascript_tests.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/protectai/rebuff). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -18,23 +18,10 @@ title: "cleverhans(1) - Kailash Tool Reference"
 
 `cleverhans` - CleverHans — adversarial-examples library for benchmarking ML robustness (week-after: derivation pending).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install cleverhans
-```
-
-```
-pip install git+https://github.com/cleverhans-lab/cleverhans.git#egg=cleverhans
-```
-
-### DESCRIPTION (upstream)
-
-This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to [adversarial examples](http://karpathy.github.io/2015/03/30/breaking-convnets/). You can learn more about such vulnerabilities on the accompanying [blog](http://cleverhans.io). The CleverHans library is under continual development, always welcoming of the latest attacks and defenses. In particular, we always welcome help towards resolving the [issues](https://github.com/cleverhans-lab/cleverhans/issues) currently open. Since v4.0.0, CleverHans supports 3 frameworks: JAX, PyTorch, and TF2. We are currently prioritizing implementing attacks in PyTorch, but we very m
+Not derived automatically - see [upstream documentation](https://github.com/cleverhans-lab/cleverhans). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

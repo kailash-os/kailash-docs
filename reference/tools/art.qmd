@@ -23,10 +23,6 @@ title: "art(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/Trusted-AI/adversarial-robustness-toolbox). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. ART is hosted by the [Linux Foundation AI & Data Foundation](https://lfaidata.foundation) (LF AI & Data). ART provides tools that enable developers and researchers to defend and evaluate Machine Learning models and applications against the adversarial threats of Evasion, Poisoning, Extraction, and Inference. ART supports all popular machine learning frameworks (TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost, GPy, etc.), all data types (images, tables, audio, video, etc.) and machine learning tasks (classification, object detection, speech recognition, generation, certification, etc.
-
 ### SEE ALSO
 
 - Category: [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion) in the
@@ -34,4 +30,4 @@ Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Se
 
 ---
 
-ref: [v1.20.1-unstable-2026-10-08](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [v4da50bdc5a1393bd33a52f7012f4928dd68fb260](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -18,40 +18,10 @@ title: "whatweb(1) - Kailash Tool Reference"
 
 `whatweb` - Next-generation web scanner — technology fingerprinting.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ ./whatweb reddit.com
-http://reddit.com [301 Moved Permanently] Country[UNITED STATES][US], HTTPServer[snooserv], IP[151.101.65.140], RedirectLocation[https://www.reddit.com/], UncommonHeaders[retry-after,x-served-by,x-cache-hits,x-timer], Via-Proxy[1.1 varnish]
-https://www.reddit.com/ [200 OK] Cookies[edgebucket,eu_cookie_v2,loid,rabt,rseor3,session_tracker,token], Country[UNITED STATES][US], Email[banner@2x.png,snoo-home@2x.png], Frame, HTML5, HTTPServer[snooserv], HttpOnly[token], IP[151.101.37.140], Open-Graph-Protocol[website], Script[text/javascript], Strict-Transport-Security[max-age=15552000; includeSubDomains; preload], Title[reddit: the front page of the internet], UncommonHeaders[fastly-restarts,x-served-by,x-cache-hits,x-timer], Via-Proxy[1.1 varnish], X-Frame-Options[SAMEORIGIN]
-```
-
-```
-# Force real-time output to screen and logs (slower but immediate)
-./whatweb --output-sync -t 100 --log-brief=results.txt targets.txt
-
-# Custom buffer size for high-volume logging
-./whatweb --output-buffer-size=50 -t 100 --log-verbose=detailed.log targets.txt
-
-# Disable buffering entirely for immediate file writes
-./whatweb --output-buffer-size=0 -t 10 --log-json=results.json targets.txt
-```
-
-### DESCRIPTION (upstream)
-
-Developed by Andrew Horton [urbanadventurer](https://github.com/urbanadventurer/) and Brendan Coles [bcoles](https://github.com/bcoles/) Latest Release: v0.6.4. April 3, 2026 License: GPLv2 This product is subject to the terms detailed in the license agreement. For more information about WhatWeb visit https://github.com/urbanadventurer/ Wiki: https://github.com/urbanadventurer/WhatWeb/wiki/ If you have any questions, comments or concerns regarding WhatWeb, please consult the documentation prior to contacting one of the developers. Your feedback is always welcome. * About WhatWeb * Example Usage * Usage * Logging & Output * Plugins * Aggression * Performance & Stability * Optional Dependencie
-
-### OPTIONS (upstream README)
-
-| Flag | Meaning |
-|---|---|
-| `--cookie` | , -c=COOKIES`  - Set initial cookies manually |
-| `--cookie` | jar=FILE`  - Load cookies from file |
-| `--no-cookies` | Disable automatic cookie handling |
+Not derived automatically - see [upstream documentation](https://github.com/urbanadventurer/whatweb). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

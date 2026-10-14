@@ -18,23 +18,10 @@ title: "sublist3r(1) - Kailash Tool Reference"
 
 `sublist3r` - Subdomain enumeration using public search engines and services.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/aboul3la/Sublist3r.git
-```
-
-```
-c:\python27\python.exe -m pip install -r requirements.txt
-```
-
-### DESCRIPTION (upstream)
-
-Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS. [subbrute](https://github.com/TheRook/subbrute) was integrated with Sublist3r to increase the possibility of finding more subdomains using bruteforce with an improved wordlist. The credit goes to TheRook who is the author of subbrute. git clone https://github.com/aboul3la/Sublist3r.git Sublist3r
+Not derived automatically - see [upstream documentation](https://github.com/aboul3la/Sublist3r). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

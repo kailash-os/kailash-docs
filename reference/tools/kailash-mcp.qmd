@@ -12,7 +12,7 @@ title: "kailash-mcp(1) - Kailash Tool Reference"
 | Category | [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) |
 | Safety class | exp |
 | Licence | MIT |
-| Upstream | [github.com/kailash-os/kailash-mcp](https://github.com/kailash-os/kailash-mcp) |
+| Upstream | [github.com/kailash-os/kailash-packages](https://github.com/kailash-os/kailash-packages) |
 
 ### NAME
 
@@ -20,7 +20,7 @@ title: "kailash-mcp(1) - Kailash Tool Reference"
 
 ### SYNOPSIS
 
-Not derived automatically - see [upstream documentation](https://github.com/kailash-os/kailash-mcp). This page does not
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/kailash-packages). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
@@ -30,4 +30,4 @@ hand-copy flags (generation contract, ADR-0001).
 
 ---
 
-ref: [v0.1.0](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

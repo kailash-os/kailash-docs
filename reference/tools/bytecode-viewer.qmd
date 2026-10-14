@@ -18,27 +18,10 @@ title: "bytecode-viewer(1) - Kailash Tool Reference"
 
 `bytecode-viewer` - Java/Android bytecode viewer, decompiler and editor.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-	-help                         Displays the help menu
-	-clean                        Deletes the BCV directory
-	-english                      Forces English language translations
-	-list                         Displays the available decompilers
-	-decompiler <decompiler>      Selects the decompiler, procyon by default
-	-i <input file>               Selects the input file (Jar, Class, APK, ZIP, DEX all work automatically)
-	-o <output file>              Selects the output file (Java or Java-Bytecode)
-	-t <target classname>         Must either be the fully qualified classname or "all" to decompile all as zip
-	-nowait                       Doesn't wait for the user to read the CLI messages
-```
-
-### DESCRIPTION (upstream)
-
-Bytecode Viewer - a lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More. * Jump to Declaration * Draggable tabs * Patched [CVE-2022-21675](https://github.com/Konloch/bytecode-viewer/security/advisories/GHSA-3wq9-j4fc-4wmc) (Make sure to upgrade to v2.11.X) * Dark mode by default with multiple themes * Translated into over 30 languages including: Arabic, German, Japanese, Mandarin, Russian, Spanish * Plugin Writer - create and edit external plugins from within BCV * Fixed Java & Bytecode editing/compiling * Tabbed plugin console * Right-click menus on the resource and search panels * Javap disassembler * XAPK support * Latest dependencies (incl. decompilers like CFR, JD-
+Not derived automatically - see [upstream documentation](https://github.com/Konloch/bytecode-viewer). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -18,23 +18,10 @@ title: "open-webui(1) - Kailash Tool Reference"
 
 `open-webui` - Open WebUI — self-hosted chat UI for local LLMs (branding-clause licence; unfree-class in nixpkgs).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-   pip install open-webui
-```
-
-```
-   open-webui serve
-```
-
-### DESCRIPTION (upstream)
-
-Open WebUI is **a home for AI**, a self-hosted AI platform that's **[extensible](https://docs.openwebui.com/features/extensibility/plugin/)**, **[feature-rich](https://docs.openwebui.com/features/)**, user-friendly, and built to run **[entirely offline](https://openwebui.com/sovereign-ai)**. With support for **Ollama** and **OpenAI-compatible APIs**, it gives you a powerful, provider-agnostic interface for both local and cloud-based models. Passionate about open-source AI? [Join our team →](https://careers.openwebui.com/) > [!TIP] > **Looking for an [Enterprise Plan](https://docs.openwebui.com/enterprise)?** – **[Speak with Our Sales Team Today!](https://docs.openwebui.com/enterprise)** For
+Not derived automatically - see [upstream documentation](https://github.com/open-webui/open-webui). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

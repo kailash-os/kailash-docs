@@ -26,4 +26,4 @@ title: "jailbreak-payloads(1) - Kailash Tool Reference"
 
 ---
 
-ref: [vunstable-2026-02-17](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

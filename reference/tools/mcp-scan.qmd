@@ -18,41 +18,10 @@ title: "mcp-scan(1) - Kailash Tool Reference"
 
 `mcp-scan` - mcp-scan — Invariant's scanner: detects tool poisoning, prompt injection and tool-description drift in installed MCP servers.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-   export SNYK_TOKEN=your-api-token-here
-```
-
-```
-# Scan the whole machine
-uvx snyk-agent-scan@0.5.17
-
-# Scan a specific MCP configuration
-uvx snyk-agent-scan@0.5.17 ~/.vscode/mcp.json
-
-# Scan a single agent skill
-uvx snyk-agent-scan@0.5.17 ~/path/to/my/SKILL.md
-
-# Scan all Claude skills
-uvx snyk-agent-scan@0.5.17 ~/.claude/skills
-```
-
-### DESCRIPTION (upstream)
-
-Snyk Agent Scan Discover and scan agent components on your machine for prompt injections<br/> and vulnerabilities (including agents, MCP servers, skills). > **Note:** We don't publish an npm package for Agent Scan. Install it via [`uvx`](#run-with-uvx) or as a [standalone binary](#run-with-a-standalone-binary). > **Note: CLI output is experimental and subject to change** > > **Agent Scan v0.5.x (planned for deprecation)** > > The raw output of this CLI — including issue codes, field names, severity labels, and response structure — is experimental and may change without notice between releases. We do not recommend building production workflows that depend on specific CLI output fields or issu
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `environment variable`, `workspace.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/invariantlabs-ai/mcp-scan). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -62,4 +31,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v0.6.8-unstable-2026-10-06](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [v2d3ca361e33452dcfb8e74f7b7db6db0ee08d59e](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

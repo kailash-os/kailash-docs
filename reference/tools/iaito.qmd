@@ -18,26 +18,10 @@ title: "iaito(1) - Kailash Tool Reference"
 
 `iaito` - Official radare2 GUI.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub org.radare.iaito
-flatpak run org.radare.iaito
-```
-
-```
-sudo xattr -c /Applications/iaito.app
-sudo codesign --force --deep --sign - /Applications/iaito.app
-```
-
-### DESCRIPTION (upstream)
-
-iaito is the official graphical interface for radare2, a libre reverse engineering framework. * Based on radare2 and Qt-5/6 * Iaito was the original name before being forked as Cutter. * Use all your favourite r2 plugins and scripts (nothing is specific to iaito) * Focus on simplicity, parity with commands, features, keybindings * Forensics, bindiffing, binary patching, .. not just a static disassembler Get help, updates, meet the community or discuss about development in these channels: - **Discord:** [https://radare.org/discord](https://radare.org/discord) - **Telegram:** https://t.me/radare - **Mastodon:** [@radareorg](https://infosec.exchange/@radareorg) - **Translations:** [crowdin](htt
+Not derived automatically - see [upstream documentation](https://github.com/radareorg/iaito). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

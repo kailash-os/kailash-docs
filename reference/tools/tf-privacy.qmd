@@ -18,24 +18,10 @@ title: "tf-privacy(1) - Kailash Tool Reference"
 
 `tf-privacy` - TensorFlow Privacy — DP-SGD training plus membership-inference/capture attack utilities (the MIA reference implementations).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/tensorflow/privacy
-```
-
-```
-cd privacy
-pip install -e .
-```
-
-### DESCRIPTION (upstream)
-
-This repository contains the source code for TensorFlow Privacy, a Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided. The TensorFlow Privacy library is under continual development, always welcoming contributions. In particular, we always welcome help towards resolving the issues currently open. 2024-02-14: As of version 0.9.0, the TensorFlow Privacy github repository will be published as two separate PyPI packages. The first will inherit the name tensorflow-privacy and contain the parts related to training of DP
+Not derived automatically - see [upstream documentation](https://github.com/tensorflow/privacy). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

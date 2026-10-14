@@ -18,23 +18,10 @@ title: "ffuf(1) - Kailash Tool Reference"
 
 `ffuf` - Fast web fuzzer written in Go.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-ffuf -w /path/to/wordlist -u https://target/FUZZ
-```
-
-```
-ffuf -w /path/to/vhost/wordlist -u https://target -H "Host: FUZZ" -fs 4242
-```
-
-### DESCRIPTION (upstream)
-
-A fast web fuzzer written in Go. - [Installation](https://github.com/ffuf/ffuf#installation) - [Example usage](https://github.com/ffuf/ffuf#example-usage) - [Content discovery](https://github.com/ffuf/ffuf#typical-directory-discovery) - [Vhost discovery](https://github.com/ffuf/ffuf#virtual-host-discovery-without-dns-records) - [Parameter fuzzing](https://github.com/ffuf/ffuf#get-parameter-fuzzing) - [POST data fuzzing](https://github.com/ffuf/ffuf#post-data-fuzzing) - [Using external mutator](https://github.com/ffuf/ffuf#using-external-mutator-to-produce-test-cases) - [Configuration files](https://github.com/ffuf/ffuf#configuration-files) - [Help](https://github.com/ffuf/ffuf#usage) - [Inte
+Not derived automatically - see [upstream documentation](https://github.com/ffuf/ffuf). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

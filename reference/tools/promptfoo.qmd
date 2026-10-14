@@ -18,32 +18,10 @@ title: "promptfoo(1) - Kailash Tool Reference"
 
 `promptfoo` - promptfoo — LLM eval and red-team CLI: prompt/model/RAG evaluation, regression checks and injection probes.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-npm install -g promptfoo
-promptfoo init --example getting-started
-```
-
-```
-export OPENAI_API_KEY=sk-abc123
-```
-
-### DESCRIPTION (upstream)
-
-> Promptfoo is now part of OpenAI. Promptfoo remains open source and MIT licensed. Read the [company update](https://www.promptfoo.dev/blog/promptfoo-joining-openai/). npm install -g promptfoo promptfoo init --example getting-started Also available via `brew install promptfoo` and `pip install promptfoo`. Or use `npx promptfoo@latest` to run any command without installing. Most LLM providers require an API key. Set yours as an environment variable: export OPENAI_API_KEY=sk-abc123 Run an eval and view results: cd getting-started promptfoo eval promptfoo view > **See [Getting Started](https://www.promptfoo.dev/docs/getting-started/) (evals) or [Red Teaming](https://www.promptfoo.dev/docs/red-t
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `main.yml`, `main.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/promptfoo/promptfoo). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -53,4 +31,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v0.124.1-unstable-2026-10-10](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [vce5f743f1524c7d3f0308690d2325502a8772901](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

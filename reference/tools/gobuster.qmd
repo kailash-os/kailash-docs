@@ -18,27 +18,10 @@ title: "gobuster(1) - Kailash Tool Reference"
 
 `gobuster` - Brute-forces URIs, DNS subdomains, virtual hosts and open ports.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-go install github.com/OJ/gobuster/v3@latest
-```
-
-```
-# Pull the latest image
-docker pull ghcr.io/oj/gobuster:latest
-
-# Run gobuster in Docker
-docker run --rm -it ghcr.io/oj/gobuster:latest dir -u https://example.com -w /usr/share/wordlists/dirb/common.txt
-```
-
-### DESCRIPTION (upstream)
-
-> A fast and flexible brute-forcing tool written in Go **Gobuster** is a high-performance directory/file, DNS and virtual host brute-forcing tool written in Go. It's designed to be fast, reliable, and easy to use for security professionals and penetration testers. - 🚀 **High Performance**: Multi-threaded scanning with configurable concurrency - 🔍 **Multiple Modes**: Directory, DNS, virtual host, S3, GCS, TFTP, and fuzzing modes - 🛡️ **Security Focused**: Built for penetration testing and security assessments - 🐳 **Docker Support**: Available as a Docker container - 🔧 **Extensible**: Pattern-based scanning and custom wordlists - **Web Directory/File Enumeration**: Discover hidden directories
+Not derived automatically - see [upstream documentation](https://github.com/OJ/gobuster). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

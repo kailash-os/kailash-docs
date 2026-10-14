@@ -18,32 +18,10 @@ title: "aif360(1) - Kailash Tool Reference"
 
 `aif360` - AI Fairness 360 (AIF360) — comprehensive fairness-metrics and bias-mitigation toolkit.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-install.packages("aif360")
-```
-
-```
-conda create --name aif360 python=3.11
-conda activate aif360
-```
-
-### DESCRIPTION (upstream)
-
-The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle. AI Fairness 360 package is available in both Python and R. The AI Fairness 360 package includes 1) a comprehensive set of metrics for datasets and models to test for biases, 2) explanations for these metrics, and 3) algorithms to mitigate bias in datasets and models. It is designed to translate algorithmic research from the lab into the actual practice of domains as wide-ranging as finance, human capital management, healthcare, and education. We invite you to use it and i
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/Trusted-AI/AIF360). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

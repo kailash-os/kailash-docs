@@ -23,18 +23,6 @@ title: "twofi(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/digininja/twofi). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-twofi, Twitter Words of Interest ================================ Copyright(c) 2022, Robin Wood <robin@digi.ninja> When attempting to crack passwords custom word lists are very useful additions to standard dictionaries. An interesting idea originally released on the "7 Habits of Highly Effective Hackers" blog was to use Twitter to help generate those lists based on searches for keywords related to the list that is being cracked. I've expanded this idea into twofi which will take multiple search terms and return a word list sorted by most common first. The original blog post is at: http://7habitsofhighlyeffectivehackers.blogspot.com.au/2012/05/using-twitter-to-build-password.html A second opt
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `twofi.yml`, `--config`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the

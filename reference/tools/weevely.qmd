@@ -18,20 +18,10 @@ title: "weevely(1) - Kailash Tool Reference"
 
 `weevely` - Weaponized web shell with a telnet-like console.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-weevely generate <password> <path>
-weevely <URL> <password> [cmd]
-```
-
-### DESCRIPTION (upstream)
-
-Weevely is a web shell designed for post-exploitation purposes that can be extended over the network at runtime. Upload weevely PHP agent to a target web server to get remote shell access to it. It has more than 30 modules to assist administrative tasks, maintain access, provide situational awareness, elevate privileges, and spread into the target network. Read the [Install](https://github.com/epinna/weevely3/wiki/Install) page to install weevely and its dependencies. Read the [Getting Started](https://github.com/epinna/weevely3/wiki/Getting-Started) page to generate an agent and connect to it. Browse the [Wiki](https://github.com/epinna/weevely3/wiki) to read examples and use cases. weevely
+Not derived automatically - see [upstream documentation](https://github.com/epinna/weevely3). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

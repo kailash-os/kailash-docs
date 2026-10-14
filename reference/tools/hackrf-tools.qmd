@@ -12,6 +12,7 @@ title: "hackrf-tools(1) - Kailash Tool Reference"
 | Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
 | Safety class | safe |
 | Licence | GPL-2.0-or-later |
+| Upstream | [github.com/GreatScottGadgets/hackrf](https://github.com/GreatScottGadgets/hackrf) |
 | Row kind | data pack (bundle description, not an invocation surface) |
 
 ### NAME

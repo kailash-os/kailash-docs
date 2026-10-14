@@ -18,32 +18,10 @@ title: "ghidra(1) - Kailash Tool Reference"
 
 `ghidra` - Software reverse-engineering suite of tools (NSA).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-unzip ghidra-master
-cd ghidra-master
-```
-
-```
-gradle -I gradle/support/fetchDependencies.gradle
-```
-
-### DESCRIPTION (upstream)
-
-Ghidra is a software reverse engineering (SRE) framework created and maintained by the [National Security Agency][nsa] Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components and/or scripts using Java or Python. In s
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `build-ghidra.yml`, `build-ghidra.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/NationalSecurityAgency/ghidra). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

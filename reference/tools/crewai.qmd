@@ -18,33 +18,10 @@ title: "crewai(1) - Kailash Tool Reference"
 
 `crewai` - CrewAI — role-playing autonomous agent orchestration framework.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-/plugin marketplace add crewAIInc/skills
-/plugin install crewai-skills@crewai-plugins
-/reload-plugins
-```
-
-```
-npx skills add crewaiinc/skills
-```
-
-### DESCRIPTION (upstream)
-
-· · · · · > CrewAI is an open-source Python framework with high-level abstractions and low-level APIs for building production-ready multi-agent workflows. > It gives developers autonomous agent collaboration through Crews and precise, event-driven control through Flows. - **CrewAI Crews**: Optimize for autonomy and collaborative intelligence with role-based AI agents. - **CrewAI Flows**: Build event-driven automations that combine precise workflow control, single LLM calls, and native support for Crews. With over 100,000 developers certified through our community courses at [learn.crewai.com](https://learn.crewai.com), CrewAI is rapidly becoming the standard for production-ready agentic auto
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `agents.yaml`, `tasks.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/crewAIInc/crewAI). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -23,10 +23,6 @@ title: "sleuthkit(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/sleuthkit/sleuthkit). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-The Sleuth Kit is an open source forensic toolkit for analyzing Microsoft and UNIX file systems and disks.  The Sleuth Kit enables investigators to identify and recover evidence from images acquired during incident response or from live systems.  The Sleuth Kit is open source, which allows investigators to verify the actions of the tool or customize it to specific needs. The Sleuth Kit uses code from the file system analysis tools of The Coroner's Toolkit (TCT) by Wietse Venema and Dan Farmer.  The TCT code was modified for platform independence.  In addition, support was added for the NTFS (see [wiki/ntfs](http://wiki.sleuthkit.org/index.php?title=NTFS_Implementation_Notes)) and FAT (see [w
-
 ### SEE ALSO
 
 - Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the

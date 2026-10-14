@@ -18,31 +18,10 @@ title: "garak(1) - Kailash Tool Reference"
 
 `garak` - LLM vulnerability scanner — probes for jailbreaks, prompt injection, data leakage and hallucination across model providers.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-python -m pip install -U garak
-```
-
-```
-python -m pip install -U git+https://github.com/NVIDIA/garak.git@main
-```
-
-### DESCRIPTION (upstream)
-
-*Generative AI Red-teaming & Assessment Kit* `garak` checks if an LLM can be made to fail in a way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap` or `msf` / Metasploit Framework, garak does somewhat similar things to them, but for LLMs. `garak` focuses on ways of making an LLM or dialog system fail. It combines static, dynamic, and adaptive probes to explore this. `garak`'s a free tool. We love developing it and are always interested in adding functionality to support applications. currently supports: * [hugging face hub](https://huggingface.co/models) generative m
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (16 matches, e.g. `test_linux.yml`, `test_linux.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/NVIDIA/garak). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -52,4 +31,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v0.17.1.pre1-unstable-2026-10-09](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [v105164ba3f7960954cf69fb81a610fe672197eb0](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -18,42 +18,10 @@ title: "kiterunner(1) - Kailash Tool Reference"
 
 `kiterunner` - Contextual content discovery tool for API routes.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-# build the binary
-make build
-
-# symlink your binary
-ln -s $(pwd)/dist/kr /usr/local/bin/kr
-
-# compile the wordlist
-# kr kb compile <input.json> <output.kite>
-kr kb compile routes.json routes.kite
-
-# scan away
-kr scan hosts.txt -w routes.kite -x 20 -j 100 --ignore-length=1053
-```
-
-```
-yay -S kiterunner-bin
-```
-
-### DESCRIPTION (upstream)
-
-For the longest of times, content discovery has been focused on finding files and folders. While this approach is effective for legacy web servers that host static files or respond with 3xx’s upon a partial path, it is no longer effective for modern web applications, specifically APIs. Over time, we have seen a lot of time invested in making content discovery tools faster so that larger wordlists can be used, however the art of content discovery has not been innovated upon. Kiterunner is a tool that is capable of not only performing traditional content discovery at lightning fast speeds, but also bruteforcing routes/endpoints in modern applications. Modern application frameworks such as Flas
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `--config`, `.kiterunner.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/assetnote/kiterunner). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

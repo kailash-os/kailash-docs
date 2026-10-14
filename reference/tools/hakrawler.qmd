@@ -18,23 +18,10 @@ title: "hakrawler(1) - Kailash Tool Reference"
 
 `hakrawler` - Web crawler for endpoint and asset discovery.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-echo https://google.com | hakrawler
-```
-
-```
-cat urls.txt | hakrawler
-```
-
-### DESCRIPTION (upstream)
-
-Fast golang web crawler for gathering URLs and JavaScript file locations. This is basically a simple implementation of the awesome Gocolly library. Single URL: echo https://google.com | hakrawler Multiple URLs: cat urls.txt | hakrawler Timeout for each line of stdin after 5 seconds: cat urls.txt | hakrawler -timeout 5 Send all requests through a proxy: cat urls.txt | hakrawler -proxy http://localhost:8080 Include subdomains: echo https://google.com | hakrawler -subs > Note: a common issue is that the tool returns no URLs. This usually happens when a domain is specified (https://example.com), but it redirects to a subdomain (https://www.example.com). The subdomain is not included in the scope
+Not derived automatically - see [upstream documentation](https://github.com/hakluke/hakrawler). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

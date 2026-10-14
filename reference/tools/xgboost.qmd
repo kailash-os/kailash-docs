@@ -23,10 +23,6 @@ title: "xgboost(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/dmlc/xgboost). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-=========== [Blog](https://xgboost.ai/blog) | [Documentation](https://xgboost.readthedocs.io) | [Resources](https://github.com/dmlc/xgboost/tree/HEAD/demo/README.md) | [Contributors](https://github.com/dmlc/xgboost/tree/HEAD/CONTRIBUTORS.md) | XGBoost is an optimized distributed gradient boosting library designed to be highly ***efficient***, ***flexible*** and ***portable***. It implements machine learning algorithms under the [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting) framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (K
-
 ### SEE ALSO
 
 - Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the

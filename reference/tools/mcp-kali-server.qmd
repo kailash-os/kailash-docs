@@ -18,37 +18,10 @@ title: "mcp-kali-server(1) - Kailash Tool Reference"
 
 `mcp-kali-server` - MCP Kali Server — Kali toolchain exposed over MCP for agent operators (third-party deliverable).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-sudo apt install mcp-kali-server
-kali-server-mcp
-```
-
-```
-git clone https://github.com/Wh0am123/MCP-Kali-Server.git
-cd MCP-Kali-Server
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-./server.py
-```
-
-### DESCRIPTION (upstream)
-
-**MCP Kali Server (MKS)** is a lightweight API bridge that connects [MCP clients](https://modelcontextprotocol.io/clients) (e.g: [Claude Desktop](https://code.claude.com/docs/en/desktop) or [5ire](https://github.com/nanbingxyz/5ire)) to the [API server](https://modelcontextprotocol.io/examples) which allows executing commands on a Linux terminal. This MCP is able to run terminal commands as well as interacting with web applications using: - `Dirb` - `enum4linux` - `gobuster` - `Hydra` - `John the Ripper` - `Metasploit-Framework` - `Nikto` - `Nmap` - `sqlmap` - `WPScan` - As well as being able to execute raw commands. As a result, this is able to perform **AI-assisted penetration testing** an
-
-### OPTIONS (upstream README)
-
-| Flag | Meaning |
-|---|---|
-| `--ip` | <address>`: Specify the IP address to bind the server to (default: `127.0.0.1` for localhost only) |
-| `--port` | <port>`: Specify the port number (default: `5000`) |
-| `--debug` | Enable debug mode for verbose logging |
+Not derived automatically - see [upstream documentation](https://github.com/Wh0am123/MCP-Kali-Server). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -57,4 +30,4 @@ pip install -r requirements.txt
 
 ---
 
-ref: [vunstable-2026-03-17](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

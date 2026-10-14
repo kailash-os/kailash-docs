@@ -18,31 +18,10 @@ title: "datasets(1) - Kailash Tool Reference"
 
 `datasets` - Hugging Face Datasets — ready-to-use datasets library.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install datasets
-```
-
-```
-pip install "datasets @ git+https://github.com/huggingface/datasets.git"
-```
-
-### DESCRIPTION (upstream)
-
-🤗 Datasets is a lightweight library providing **two** main features: - **one-line dataloaders for many public datasets**: one-liners to download and pre-process any of the ![number of datasets](https://img.shields.io/endpoint?url=https://huggingface.co/api/shields/datasets&color=brightgreen) major public datasets (image datasets, audio datasets, text datasets in 467 languages and dialects, 3D medical images, video datasets, agent traces, etc.) provided on the [HuggingFace Datasets Hub](https://huggingface.co/datasets). With a simple command like `squad_dataset = load_dataset("rajpurkar/squad")`, get any of these datasets ready to use in a dataloader for training/evaluating a ML model (Numpy/
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/huggingface/datasets). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

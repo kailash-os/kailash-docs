@@ -18,31 +18,10 @@ title: "k3s(1) - Kailash Tool Reference"
 
 `k3s` - k3s — lightweight Kubernetes.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-curl -sfL https://get.k3s.io | sh -
-```
-
-```
-sudo kubectl get nodes
-```
-
-### DESCRIPTION (upstream)
-
-K3s - Lightweight Kubernetes =============================================== Lightweight Kubernetes.  Production ready, easy to install, half the memory, all in a binary less than 100 MB. Great for: * Edge * IoT * CI * Development * ARM * Embedding k8s * Situations where a PhD in k8s clusterology is infeasible What is this? K3s is a [fully conformant](https://github.com/cncf/k8s-conformance/pulls?q=is%3Apr+k3s) production-ready Kubernetes distribution with the following changes: 1. It is packaged as a single binary. 1. It adds support for sqlite3 as the default storage backend. Etcd3, MariaDB, MySQL, and Postgres are also supported. 1. It wraps Kubernetes and other components in a single, si
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (9 matches, e.g. `nightly-install.yaml`, `nightly-install.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/k3s-io/k3s). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

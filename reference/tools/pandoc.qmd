@@ -23,10 +23,6 @@ title: "pandoc(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/jgm/pandoc). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-README.template and MANUAL.txt via the command: pandoc --lua-filter tools/update-readme.lua README.template -o README.md --> release](https://img.shields.io/github/release/jgm/pandoc.svg?label=current+release)](https://github.com/jgm/pandoc/releases) release](https://img.shields.io/hackage/v/pandoc.svg?label=hackage)](https://hackage.haskell.org/package/pandoc) package](https://stackage.org/package/pandoc/badge/lts)](https://www.stackage.org/lts/package/pandoc) tests](https://github.com/jgm/pandoc/workflows/CI%20tests/badge.svg)](https://github.com/jgm/pandoc/actions) groups](https://img.shields.io/badge/pandoc-discuss-red.svg?style=social)](https://groups.google.com/forum/#!forum/pandoc-dis
-
 ### SEE ALSO
 
 - Category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) in the

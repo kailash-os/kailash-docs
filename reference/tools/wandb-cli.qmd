@@ -18,27 +18,10 @@ title: "wandb-cli(1) - Kailash Tool Reference"
 
 `wandb-cli` - Weights & Biases CLI — experiment logging and sweeps client.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install wandb
-```
-
-### DESCRIPTION (upstream)
-
-Use W&B to build better models faster. Track and visualize all the pieces of your machine learning pipeline, from datasets to production machine learning models. Get started with W&B today, [sign up for a W&B account](https://wandb.com?utm_source=github&utm_medium=code&utm_campaign=wandb&utm_content=readme)! Building an LLM app? Track, debug, evaluate, and monitor LLM apps with [Weave](https://wandb.github.io/weave?utm_source=github&utm_medium=code&utm_campaign=wandb&utm_content=readme), our new suite of tools for GenAI. &nbsp; See the [W&B Developer Guide](https://docs.wandb.ai?utm_source=github&utm_medium=code&utm_campaign=wandb&utm_content=documentation) and [API Reference Guide](https://
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `sdk-ci.yml`, `sdk-ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/wandb/wandb). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

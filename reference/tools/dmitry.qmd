@@ -18,23 +18,10 @@ title: "dmitry(1) - Kailash Tool Reference"
 
 `dmitry` - Deepmagic information-gathering tool — whois, subdomains, emails.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-man dmitry
-```
-
-```
-./dmitry
-```
-
-### DESCRIPTION (upstream)
-
-﻿# DMitry (Deepmagic Information Gathering Tool) DMitry is a historical UNIX/(GNU)Linux command-line information gathering utility. Conceptually created during a deepmagic brainstorming session and coded by kernel. Downloadable from: http://www.mor-pah.net Featured in "Gray Hat Hacking: The Ethical Hacker's Handbook". - [Introduction](#introduction) - [Greetz](#greetz) - [Version](#version) - [What is DMitry?](#what-is-dmitry) - [Fixes](#fixes) - [TO DO](#to-do) - [Feature Status](#feature-status) - [Usage](#usage-command-line-functionality) - [Collaborators](#collaborators) - [Contact](#contact) DMitry (Deepmagic Information Gathering Tool) Conceptual design result of deepmagic brainstormin
+Not derived automatically - see [upstream documentation](https://github.com/jaygreig86/dmitry). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

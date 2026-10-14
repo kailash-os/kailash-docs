@@ -18,19 +18,10 @@ title: "anthropic-python(1) - Kailash Tool Reference"
 
 `anthropic-python` - Anthropic Python SDK.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install anthropic
-```
-
-### DESCRIPTION (upstream)
-
-The Claude SDK for Python provides access to the [Claude API](https://docs.anthropic.com/en/api/) from Python applications. Tool helpers (`@beta_tool`, the tool runner and `ToolError`) are documented in [tools.md](https://github.com/anthropics/anthropic-sdk-python/tree/HEAD/tools.md). The browser and computer toolset classes have their own guides, [browser-toolset.md](https://github.com/anthropics/anthropic-sdk-python/tree/HEAD/browser-toolset.md) and [computer-toolset.md](https://github.com/anthropics/anthropic-sdk-python/tree/HEAD/computer-toolset.md). Full documentation is available at **[platform.claude.com/docs/en/api/sdks/python](https://platform.claude.com/docs/en/api/sdks/python)**.
+Not derived automatically - see [upstream documentation](https://github.com/anthropics/anthropic-sdk-python). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -23,10 +23,6 @@ title: "trojai-toolkit(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/trojai/trojai). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-This is the top-level TrojAI module.  It contains two submodules: `datagen` and `modelgen`. `datagen` contains the necessary API functions to quickly generate synthetic data that could be used for training machine learning models. The `modelgen` module contains the necessary API functions to quickly generate DNN models from the generated data. Check out our documentation here: <https://trojai.readthedocs.io>, and our arXiv article here: <https://arxiv.org/abs/2003.07233> trojai │   developers - information for developers │   scripts └───datagen - integration scripts showcasing datagen API functionality └───modelgen - integration scripts showcasing modelgen API functionality └───trojai - top
-
 ### SEE ALSO
 
 - Category: [a-08-data-poisoning](../directory.qmd#cat-a-08-data-poisoning) in the

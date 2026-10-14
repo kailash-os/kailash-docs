@@ -23,10 +23,6 @@ title: "nvidia-container-toolkit(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/NVIDIA/nvidia-container-toolkit). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-The NVIDIA Container Toolkit allows users to build and run GPU-accelerated containers. The toolkit includes a container runtime [library](https://github.com/NVIDIA/libnvidia-container) and utilities to automatically configure containers to leverage NVIDIA GPUs. Product documentation including an architecture overview, platform support, and installation and usage guides can be found in the [documentation repository](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/overview.html). **Make sure you have installed the [NVIDIA driver](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#nvidia-drivers) for your Linux Distribution** **Note that you d
-
 ### SEE ALSO
 
 - Category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) in the

@@ -24,34 +24,10 @@ time - check upstream status before relying on it.
 
 `puredns` - Domain resolver and subdomain brute-forcing tool.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/blechschmidt/massdns.git
-cd massdns
-make
-sudo make install
-```
-
-```
-go install github.com/d3mondev/puredns/v2@latest
-```
-
-### DESCRIPTION (upstream)
-
-Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering · · · **puredns** is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries. It uses [massdns](https://github.com/blechschmidt/massdns), a powerful stub DNS resolver, to perform bulk lookups. With the proper bandwidth and a good list of public resolvers, it can resolve millions of queries in just a few minutes. Unfortunately, the results from massdns are only as good as the answers provided by the public resolvers. The results are often polluted by wrong DNS answers and false positives from wildcard subdomains. **puredns** solves this wi
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `build.yml`, `environment variable`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/d3mondev/puredns). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

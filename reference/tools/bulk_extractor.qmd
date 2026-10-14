@@ -18,32 +18,10 @@ title: "bulk_extractor(1) - Kailash Tool Reference"
 
 `bulk_extractor` - Extracts features (emails, URLs, cards) from disk images without parsing the filesystem.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/simsong/bulk_extractor.git
-./bootstrap.sh
-./configure
-make
-make check
-make install
-```
-
-### DESCRIPTION (upstream)
-
-`bulk_extractor` is a high-performance digital forensics exploitation tool.  It is a "get evidence" button that rapidly scans any kind of input (disk images, files, directories of files, etc) and extracts structured information such as email addresses, credit card numbers, JPEGs and JSON snippets without parsing the file system or file system structures. The results are stored in text files that are easily inspected, searched, or used as inputs for other forensic processing. bulk_extractor also creates histograms of certain kinds of features that it finds, such as Google search terms and email addresses, as previous research has shown that such histograms are especially useful in investigati
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `environment variables`, `mingw.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/simsong/bulk_extractor). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

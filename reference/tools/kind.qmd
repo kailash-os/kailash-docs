@@ -18,28 +18,10 @@ title: "kind(1) - Kailash Tool Reference"
 
 `kind` - kind — Kubernetes IN Docker, local clusters for testing.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-# For AMD64 / x86_64
-[ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.33.0/kind-$(uname)-amd64
-# For ARM64
-[ $(uname -m) = aarch64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.33.0/kind-$(uname)-arm64
-chmod +x ./kind
-sudo mv ./kind /usr/local/bin/kind
-```
-
-```
-brew install kind
-```
-
-### DESCRIPTION (upstream)
-
-kind is a tool for running local Kubernetes clusters using Docker container "nodes". kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI. If you have [go] and [docker], [podman] or [nerdctl] installed `go install sigs.k8s.io/kind@v0.33.0 && kind create cluster` is all you need! kind consists of: - Go [packages][packages] implementing [cluster creation][cluster package], [image build][build package], etc. - A command line interface ([`kind`][kind cli]) built on these packages. - Docker [image(s)][images] written to run systemd, Kubernetes, etc. - [`kubetest`][kubetest] integration also built on these packages (WIP) kind bootstraps each "node"
+Not derived automatically - see [upstream documentation](https://github.com/kubernetes-sigs/kind). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

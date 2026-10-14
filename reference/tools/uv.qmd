@@ -18,25 +18,10 @@ title: "uv(1) - Kailash Tool Reference"
 
 `uv` - uv — extremely fast Python package/project manager (MIT/Apache dual).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-# On macOS and Linux.
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-```
-# On Windows.
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-### DESCRIPTION (upstream)
-
-An extremely fast Python package and project manager, written in Rust. - A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more. - [10-100x faster](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) than `pip`. - Provides [comprehensive project management](#projects), with a [universal lockfile](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile). - [Runs scripts](#scripts), with support for [inline dependency metadata](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies). - [Installs and manages](#python-versions) Python versions. - [Runs and installs](#tools) tools published as Python packages. - Include
+Not derived automatically - see [upstream documentation](https://github.com/astral-sh/uv). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

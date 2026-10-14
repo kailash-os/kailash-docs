@@ -23,18 +23,6 @@ title: "sqlmap(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/sqlmapproject/sqlmap). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections. Screenshots You can visit the [collection of screenshots](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) demonstrating some of the features on the wiki. Installation You can download the latest tarball by click
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `tests.yml`, `tests.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) in the

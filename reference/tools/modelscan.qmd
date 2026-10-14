@@ -18,31 +18,10 @@ title: "modelscan(1) - Kailash Tool Reference"
 
 `modelscan` - Protect AI modelscan — serialized-model scanner covering pickle, torch, keras and other ML artefact formats.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install modelscan
-```
-
-```
-modelscan -p /path/to/model_file.pkl
-```
-
-### DESCRIPTION (upstream)
-
-Machine Learning (ML) models are shared publicly over the internet, within teams and across teams. The rise of Foundation Models have resulted in public ML models being increasingly consumed for further training/fine tuning. ML Models are increasingly used to make critical decisions and power mission-critical applications. Despite this, models are not yet scanned with the rigor of a PDF file in your inbox. This needs to change, and proper tooling is the first step. ModelScan is an open source project from [Protect AI](https://protectai.com/?utm_campaign=Homepage&utm_source=ModelScan%20GitHub%20Page&utm_medium=cta&utm_content=Open%20Source) that scans models to determine if they contain unsaf
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (10 matches, e.g. `bandit.yml`, `bandit.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/protectai/modelscan). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

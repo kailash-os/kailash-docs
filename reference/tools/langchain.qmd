@@ -18,26 +18,10 @@ title: "langchain(1) - Kailash Tool Reference"
 
 `langchain` - LangChain — the agent engineering platform (SDK core).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-uv add langchain
-```
-
-```
-from langchain.chat_models import init_chat_model
-
-model = init_chat_model("openai:gpt-5.5")
-result = model.invoke("Hello, world!")
-```
-
-### DESCRIPTION (upstream)
-
-LangChain is a framework for building agents and LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves. > [!TIP] > Just getting started? Check out **[Deep Agents](https://docs.langchain.com/oss/python/deepagents/)** — a higher-level package built on LangChain for agents that have built-in capabilities for common usage patterns such as planning, subagents, file system usage, and more. uv add langchain from langchain.chat_models import init_chat_model model = init_chat_model("openai:gpt-5.5") result = model.invoke("Hello, world!
+Not derived automatically - see [upstream documentation](https://github.com/langchain-ai/langchain). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

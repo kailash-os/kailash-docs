@@ -18,19 +18,10 @@ title: "langgraph(1) - Kailash Tool Reference"
 
 `langgraph` - LangGraph — build resilient agents (LangChain graph runtime).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install -U langgraph
-```
-
-### DESCRIPTION (upstream)
-
-Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents. pip install -U langgraph > [!TIP] > If you're looking to quickly build agents, check out **[Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)** — a higher-level package built on LangGraph for agents that can plan, use subagents, and leverage file systems for complex tasks. For an equivalent JS/TS library, check out [LangGraph.js](https://github.com/langchain-ai/langgraphjs) and the [JS docs](https://docs.langchain.com/oss/javascript/langgraph/overview). Lang
+Not derived automatically - see [upstream documentation](https://github.com/langchain-ai/langgraph). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

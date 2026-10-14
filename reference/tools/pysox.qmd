@@ -18,31 +18,10 @@ title: "pysox(1) - Kailash Tool Reference"
 
 `pysox` - Python bindings around SoX for audio DSP pipelines.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-
-If you want support for `mp3`, `flac`, or `ogg` files, add the following flags:
-
-```
-
-```
-
-or install [from source](https://sourceforge.net/projects/sox/files/sox/).
-
-
-
-To install the most up-to-date release of this module via PyPi:
-
-```
-
-### DESCRIPTION (upstream)
-
-Python wrapper around sox. [Read the Docs here](http://pysox.readthedocs.org). This library was presented in the following paper: [R. M. Bittner](https://github.com/rabitt), [E. J. Humphrey](https://github.com/ejhumphrey) and J. P. Bello, "[pysox: Leveraging the Audio Signal Processing Power of SoX in Python](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/08/bittner-pysox.pdf)", in Proceedings of the 17th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers, New York City, USA, Aug. 2016. This requires that [SoX](http://sox.sourceforge.net/) version 14.4.2 or higher is installed. To install SoX on Mac with Homebrew: If you want suppo
+Not derived automatically - see [upstream documentation](https://github.com/rabitt/pysox). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -18,36 +18,10 @@ title: "pytorch(1) - Kailash Tool Reference"
 
 `pytorch` - PyTorch — tensors and dynamic neural networks (CPU default; cuda variant via overlay).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ source <CONDA_INSTALL_DIR>/bin/activate
-$ conda create -y -n <CONDA_NAME>
-$ conda activate <CONDA_NAME>
-```
-
-```
-$ source <CONDA_INSTALL_DIR>\Scripts\activate.bat
-$ conda create -y -n <CONDA_NAME>
-$ conda activate <CONDA_NAME>
-$ call "C:\Program Files\Microsoft Visual Studio\<VERSION>\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
-```
-
-### DESCRIPTION (upstream)
-
-PyTorch is a Python package that provides two high-level features: - Tensor computation (like NumPy) with strong GPU acceleration - Deep neural networks built on a tape-based autograd system You can reuse your favorite Python packages such as NumPy, SciPy, and Cython to extend PyTorch when needed. Our trunk health (Continuous Integration signals) can be found at [hud.pytorch.org](https://hud.pytorch.org/ci/pytorch/pytorch/main). - [More About PyTorch](#more-about-pytorch) - [A GPU-Ready Tensor Library](#a-gpu-ready-tensor-library) - [Dynamic Neural Networks: Tape-Based Autograd](#dynamic-neural-networks-tape-based-autograd) - [Python First](#python-first) - [Imperative Experiences](#imperati
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (15 matches, e.g. `environment variable`, `environment variables`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/pytorch/pytorch). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

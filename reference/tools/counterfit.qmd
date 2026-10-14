@@ -18,39 +18,10 @@ title: "counterfit(1) - Kailash Tool Reference"
 
 `counterfit` - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-                          __            _____ __
-  _________  __  ______  / /____  _____/ __(_) /_
- / ___/ __ \/ / / / __ \/ __/ _ \/ ___/ /_/ / __/
-/ /__/ /_/ / /_/ / / / / /_/  __/ /  / __/ / /
-\___/\____/\__,_/_/ /_/\__/\___/_/  /_/ /_/\__/
-
-                                        #ATML
-
----------------------------------------------------
-```
-
-```
-    az container exec --resource-group <RESOURCE_GROUP> --name counterfit --exec-command '/bin/bash'
-```
-
-### DESCRIPTION (upstream)
-
-[About](#About) | [Getting Started](#Getting-Started) | [Acknowledgments](#Acknowledgments) | [Contributing](#Contributing) | [Trademarks](#Trademarks) | [Contact Us](#Contact-Us) __            _____ __ _________  __  ______  / /____  _____/ __(_) /_ / ___/ __ \/ / / / __ \/ __/ _ \/ ___/ /_/ / __/ / /__/ /_/ / /_/ / / / / /_/  __/ /  / __/ / / \___/\____/\__,_/_/ /_/\__/\___/_/  /_/ /_/\__/ Counterfit is a generic automation layer for assessing the security of machine learning systems. It brings several existing adversarial frameworks under one tool, or allows users to create their own. To run this tool, you need to have the following softwares installed: 1. Python 3.8 or higher 2. Minicond
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `tests.yaml`, `tests.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/Azure/counterfit). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -60,4 +31,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v1.1.0-unstable-2025-07-18](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [vc00edbf595303a85a4ce0ac9d8d55d505abf4de5](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

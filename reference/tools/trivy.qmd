@@ -18,31 +18,10 @@ title: "trivy(1) - Kailash Tool Reference"
 
 `trivy` - Aqua Trivy — all-in-one vulnerability/secret/misconfiguration/SBOM scanner.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-trivy <target> [--scanners <scanner1,scanner2>] <subject>
-```
-
-```
-trivy image python:3.4-alpine
-```
-
-### DESCRIPTION (upstream)
-
-[📖 Documentation][docs] Trivy ([pronunciation][pronunciation]) is a comprehensive and versatile security scanner. Trivy has *scanners* that look for security issues, and *targets* where it can find those issues. Targets (what Trivy can scan): - Container Image - Filesystem - Git Repository (remote) - Virtual Machine Image - Kubernetes Scanners (what Trivy can find there): - OS packages and software dependencies in use (SBOM) - Known vulnerabilities (CVEs) - IaC issues and misconfigurations - Sensitive information and secrets - Software licenses Trivy supports most popular programming languages, operating systems, and platforms. For a complete list, see the [Scanning Coverage] page. To learn
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `canary.yaml`, `test.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/aquasecurity/trivy). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

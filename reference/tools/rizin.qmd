@@ -18,25 +18,10 @@ title: "rizin(1) - Kailash Tool Reference"
 
 `rizin` - UNIX-like reverse-engineering framework (radare2 fork).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ git clone https://github.com/rizinorg/rizin
-```
-
-```
-$ meson setup build
-$ meson compile -C build
-$ sudo meson install -C build
-```
-
-### DESCRIPTION (upstream)
-
-Rizin is a reverse engineering framework, born as a fork of the radare2, with a focus on usability, features and cleanliness. Rizin is portable and it can be used to analyze binaries, disassemble code, debug programs, as a forensic tool, as a scriptable command-line hexadecimal editor able to open disk files, and much more! To learn more on Rizin you may want to read the [official Rizin book](https://book.rizin.re). Look at [install instructions](https://rizin.re/install/) on our web page. Use `meson` to compile and install Rizin. Please make sure to get an updated `meson` (e.g. get it with `pip install meson` if your system does not provide one that is at least version `0.55.0`). Clone this
+Not derived automatically - see [upstream documentation](https://github.com/rizinorg/rizin). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

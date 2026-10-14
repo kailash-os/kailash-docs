@@ -18,35 +18,10 @@ title: "maestro(1) - Kailash Tool Reference"
 
 `maestro` - MAESTRO threat-modelling CLI — agent-system threat elicitation keyed to the OWASP MAESTRO framework.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/agentic-threat-modeling/MAESTRO.git
-cd MAESTRO
-# Open in Claude Code, then say:
-# "threat model my system"
-```
-
-```
-Phase 1: Business Context Analysis
-Phase 2: Architecture Analysis
-Phase 3: Threat Actor Analysis
-Phase 4: Trust Boundary Analysis
-Phase 5: Asset Flow Analysis
-Phase 6: Threat Identification
-Phase 7: Mitigation Planning
-Phase 8: Code Validation Analysis
-Phase 9: Residual Risk Analysis
-Phase 10: Output Generation and Documentation
-```
-
-### DESCRIPTION (upstream)
-
-**Version:** 1.0.0 | **License:** [CC BY-SA 4.0](LICENSE) A structured, repeatable framework for threat modeling agentic AI and multi-agent systems (MAS), based on the [OWASP Multi-Agentic System Threat Modelling Guide v1.0](https://genai.owasp.org/resource/multi-agentic-system-threat-modeling-guide-v1-0/) (April 2025) and the MAESTRO framework from the Cloud Security Alliance. This playbook doubles as an interactive threat modeling agent when opened in Claude Code. The agent walks you through the full 10-phase MAESTRO process, asks targeted questions about your system, and produces structured output files. **Quick start:** git clone https://github.com/agentic-threat-modeling/MAESTRO.git cd
+Not derived automatically - see [upstream documentation](https://github.com/agentic-threat-modeling/MAESTRO). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

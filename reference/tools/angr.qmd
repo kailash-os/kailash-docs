@@ -18,30 +18,10 @@ title: "angr(1) - Kailash Tool Reference"
 
 `angr` - Binary analysis framework — symbolic execution and emulation.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-import angr
-
-project = angr.Project("angr-doc/examples/defcamp_r100/r100", auto_load_libs=False)
-
-
-@project.hook(0x400844)
-def print_flag(state):
-    print("FLAG SHOULD BE:", state.posix.dumps(0))
-    project.terminate_execution()
-
-
-project.execute()
-```
-
-### DESCRIPTION (upstream)
-
-angr is a platform-agnostic binary analysis framework. It is brought to you by [the Computer Security Lab at UC Santa Barbara](https://seclab.cs.ucsb.edu), [SEFCOM at Arizona State University](https://sefcom.asu.edu), their associated CTF team, [Shellphish](https://shellphish.net), the open source community, and **[@rhelmot](https://github.com/rhelmot)**. Homepage: https://angr.io Project repository: https://github.com/angr/angr Documentation: https://docs.angr.io API Documentation: https://docs.angr.io/en/latest/api.html angr is a suite of Python 3 libraries that let you load a binary and do a lot of cool things to it: - Disassembly and intermediate-representation lifting - Program instrume
+Not derived automatically - see [upstream documentation](https://github.com/angr/angr). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

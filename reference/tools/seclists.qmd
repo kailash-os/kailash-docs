@@ -26,4 +26,4 @@ title: "seclists(1) - Kailash Tool Reference"
 
 ---
 
-ref: [v2026.1](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -18,31 +18,10 @@ title: "mermaid-cli(1) - Kailash Tool Reference"
 
 `mermaid-cli` - mermaid-cli — command-line rendering for the Mermaid diagram language.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-npm install -g @mermaid-js/mermaid-cli
-```
-
-```
-mmdc -i input.mmd -o output.svg
-```
-
-### DESCRIPTION (upstream)
-
-This is a command-line interface (CLI) for [mermaid](https://mermaid.js.org/). It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files. npm install -g @mermaid-js/mermaid-cli Convert Mermaid mmd Diagram File To SVG mmdc -i input.mmd -o output.svg > **Note** > > See [Alternative installations](#alternative-installations) if you don't want to install the package globally. > > Locate how to call the mmdc executable for your preferred method > i.e. Docker, Yarn, NPM, local install, etc. mmdc -i input.mmd -o output.png -t dark -b transparent `mermaid-cli` supports two different
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `compile-mermaid.yml`, `compile-mermaid.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/mermaid-js/mermaid-cli). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

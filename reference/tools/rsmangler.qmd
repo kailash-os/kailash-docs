@@ -18,21 +18,10 @@ title: "rsmangler(1) - Kailash Tool Reference"
 
 `rsmangler` - Performs various manipulations on wordlists (mangling).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-proactive
-security
-management
-```
-
-### DESCRIPTION (upstream)
-
-RSMangler: Take a wordlist and mangle it ======================================== Copyright(c) 2017, Robin Wood https://digi.ninja <robin@digi.ninja> Version 1.5 RSMangler will take a wordlist and perform various manipulations on it similar to those done by John the Ripper with a few extras. The main new feature is permutations mode which takes each word in the list and combines it with the others to produce all possible permutations (not combinations, order matters). For example the words freds, fresh, fish will produce the following list: freds fresh fish fredsfresh fredsfish freshfreds freshfish fishfreds fishfresh fredsfreshfish fredsfishfresh freshfredsfish freshfishfreds fishfredsfresh
+Not derived automatically - see [upstream documentation](https://github.com/digininja/RSMangler). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

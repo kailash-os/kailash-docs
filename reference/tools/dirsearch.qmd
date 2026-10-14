@@ -18,26 +18,10 @@ title: "dirsearch(1) - Kailash Tool Reference"
 
 `dirsearch` - Command-line web-path brute-forcer for directories and files.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/maurosoria/dirsearch.git --depth 1
-cd dirsearch
-python3 dirsearch.py -u https://example.com -e php,html,js
-```
-
-```
-pip3 install git+https://github.com/maurosoria/dirsearch.git
-dirsearch -u https://example.com -e php,html,js
-```
-
-### DESCRIPTION (upstream)
-
-> An advanced web path brute-forcer **dirsearch** is being actively developed by [@maurosoria](https://twitter.com/_maurosoria) and [@shelld3v](https://twitter.com/shells3c_). Join the [Discord server](https://discord.gg/2N22ZdAJRj) to communicate with the team. dirsearch requires Python 3.11 or higher. git clone https://github.com/maurosoria/dirsearch.git --depth 1 cd dirsearch python3 dirsearch.py -u https://example.com -e php,html,js You can also install the latest Python stack directly from GitHub with pip: pip3 install git+https://github.com/maurosoria/dirsearch.git dirsearch -u https://example.com -e php,html,js The Rust native backend is opt-in for source installs; see [Installation](
+Not derived automatically - see [upstream documentation](https://github.com/maurosoria/dirsearch). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

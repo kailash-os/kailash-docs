@@ -18,31 +18,10 @@ title: "privacy-meter(1) - Kailash Tool Reference"
 
 `privacy-meter` - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install -r requirements.txt
-```
-
-```
-conda env create -f env.yaml
-```
-
-### DESCRIPTION (upstream)
-
-[<img src="https://img.shields.io/badge/slack-@privacy_meter-blue.svg?logo=slack">](https://join.slack.com/t/privacy-meter/shared_invite/zt-2t6881rtz-gNitEpoaO7MDU4wT3n7Gyw) Privacy Meter is an open-source library to audit data privacy in a wide range of statistical and machine learning algorithms (classification, regression, computer vision, and natural language processing). The tool enables data protection impact assessment based on the state-of-the-art membership inference attacks. Machine learning is playing a central role in automated decision-making in a wide range of organizations and service providers. The data, which are used to train the models, typically contain sensitive informat
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `env.yaml`, `env.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/privacytrustlab/ml_privacy_meter). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

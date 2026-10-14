@@ -12,10 +12,16 @@ title: "chkrootkit(1) - Kailash Tool Reference"
 | Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
 | Safety class | safe |
 | Licence | GPL-2.0-or-later |
+| Upstream | [www.chkrootkit.org/](https://www.chkrootkit.org/) |
 
 ### NAME
 
 `chkrootkit` - Locally checks for signs of a rootkit.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://www.chkrootkit.org/). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

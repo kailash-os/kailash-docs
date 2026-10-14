@@ -18,33 +18,10 @@ title: "lm-eval-harness(1) - Kailash Tool Reference"
 
 `lm-eval-harness` - EleutherAI Language Model Evaluation Harness — standard few-shot benchmark runner (lm-eval).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
-cd lm-evaluation-harness
-pip install -e .
-```
-
-```
-pip install "lm_eval[hf]"
-```
-
-### DESCRIPTION (upstream)
-
-- [2026/09] **Plugins**: model backends, filters, metrics and aggregations can now be registered from your own package instead of forking — declare an `lm_eval.*` entry point for zero-config discovery, or point `--plugins` at a local module. See the [Plugin Guide](https://github.com/EleutherAI/lm-evaluation-harness/tree/HEAD/docs/plugins.md). - [2025/12] **CLI refactored** with subcommands (`run`, `ls`, `validate`) and YAML config file support via `--config`. See the [CLI Reference](https://github.com/EleutherAI/lm-evaluation-harness/tree/HEAD/docs/interface.md) and [Configuration Guide](https://github.com/EleutherAI/lm-evaluation-harness/tree/HEAD/docs/config_files.md). - [2025/12] **Lighte
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `--config`, `environment variable`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/EleutherAI/lm-evaluation-harness). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

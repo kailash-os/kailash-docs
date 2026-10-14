@@ -23,10 +23,6 @@ title: "unix-privesc-check(1) - Kailash Tool Reference"
 Not derived automatically - see [upstream documentation](https://github.com/NixOS/nixpkgs). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-[Nixpkgs](https://github.com/nixos/nixpkgs) is a collection of over 140,000 software packages that can be installed with the [Nix](https://nixos.org/nix/) package manager. It also implements [NixOS](https://nixos.org/nixos/), a purely-functional Linux distribution. * [NixOS Manual](https://nixos.org/nixos/manual) - how to install, configure, and maintain a purely-functional Linux distribution * [Nixpkgs Manual](https://nixos.org/nixpkgs/manual/) - contributing to Nixpkgs and using programming-language-specific Nix expressions * [Nix Package Manager Manual](https://nixos.org/nix/manual) - how to write Nix expressions (programs), and how to use Nix command line tools * [Discourse Forum](https:
-
 ### SEE ALSO
 
 - Category: [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) in the
