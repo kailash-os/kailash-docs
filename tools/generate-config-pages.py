@@ -14,6 +14,7 @@ register_chapters() (single-writer); per ADR-0002 the config page
 nests under its tool page — "tool - reference" opens a sub-section
 with "tool - configuration" inside.
 """
+from pathlib import Path
 import os
 import re
 import json
@@ -25,8 +26,11 @@ try:
 except ImportError:
     raise SystemExit('PyYAML required at generation time')
 
-STORE_DEFAULT = os.path.expanduser(
-    '~/.hermes/profiles/satyayuga-cloud/cache/scratch/kailash-guide-inputs')
+STORE_DEFAULT = (Path(__file__).resolve().parent.parent / 'inputs' / 'store')
+if not STORE_DEFAULT.is_dir():
+    raise SystemExit(
+        '%s: input store not found — pass --store explicitly '
+        '(generation inputs live outside the repo by design; see README)' % STORE_DEFAULT)
 
 CFG_RE = (r'(/etc/[\w./-]+|[\w.-]+\.ya?ml|[\w.-]+\.conf\b|'
           r'environment variables?|--config\b)')
