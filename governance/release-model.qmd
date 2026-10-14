@@ -1,18 +1,32 @@
 # Release model {#release-model}
 
-Kailash versions by **release train and lock**, not by date-derived
-package versions:
+Kailash versions by **release train and lock** — the lockfile is the
+version of the system, and releases are named `YYYY.NN`
+([the versioning record](https://github.com/kailash-os/kailash-os/blob/master/docs/spec.md#76-release-versioning--cadence--how-a-release-version-is-created)):
 
-- Release names follow `YYYY.NN` — `2026.01`, `2026.02` — where NN
-  counts releases within the year; a train may GA after the calendar
-  page turns and keeps its name.
-- Cuts are staged: `2026.01-alpha.1` → `-rc.1` → bare `2026.01` (GA).
-  A bare number is reserved for GA; pre-GA cuts carry their suffix.
-- A material re-cut of a GA in the same month is `2026.01.1`.
+- **`YYYY.NN` release index** — `2026.01`, `2026.02` — where NN counts
+  releases within the year, not the calendar month. A train may GA
+  after the calendar page turns (`2026.02` may GA in January 2027) and
+  keeps its name.
+- **Staged ladder** — `2026.01-alpha.1` → `-rc.1` → bare `2026.01`
+  (GA). Bare numbers are reserved for GA so a pre-GA cut is honest at
+  tag-verification time; a material re-cut of a GA in its release
+  month is `2026.01.1`.
+- **Cut discipline** — every cut runs a standing checklist: lane
+  residue swept off the train's target (leftovers re-scoped with a
+  one-line reason, never silence), both repositories eval-clean across
+  systems, manifest validation with the census snapshot in sync, VM/VM
+  acceptance evidence recorded, a lock-bump release PR whose body is
+  the release review, and a reference-hygiene pass over everything
+  about to go public. The lock-bump PR lands **before** the signed
+  tag; tag verification runs a real cache pull and the validator
+  output goes into the release notes.
 
-Every release cut is gated by a standing checklist — residue sweep of
-open lanes, both repositories eval-clean, manifest validation, VM
-acceptance evidence, a lock-bump release PR whose body is the release
-review, and reference-hygiene checks — all recorded on the cut issue.
-The lock-bump PR lands before the signed tag; verification at the tag
-runs a cache pull and records validator output in the release notes.
+## Update automation behind a release
+
+Between releases, machine-driven checks work their cadences (weekly
+for fast-moving tool classes, monthly for the `nixpkgs` refresh) but
+every outcome is a reviewed pull request — dependency automation
+proposes, a human approves, smoke gates decide what is even proposed.
+Nothing updates a user's system unprompted: an install moves forward
+when its operator rebuilds against a newer lock or adopts a release.
