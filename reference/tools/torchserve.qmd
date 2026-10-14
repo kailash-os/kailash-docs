@@ -1,0 +1,65 @@
+---
+title: "torchserve(1) - Kailash Tool Reference"
+---
+
+## torchserve
+
+> **torchserve** - TorchServe — PyTorch model serving.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/pytorch/serve](https://github.com/pytorch/serve) |
+
+### NAME
+
+`torchserve` - TorchServe — PyTorch model serving.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+curl http://127.0.0.1:8080/predictions/bert -T input.txt
+```
+
+```
+# Install dependencies
+python ./ts_scripts/install_dependencies.py
+
+# Include dependencies for accelerator support with the relevant optional flags
+python ./ts_scripts/install_dependencies.py --rocm=rocm61
+python ./ts_scripts/install_dependencies.py --cuda=cu121
+
+# Latest release
+pip install torchserve torch-model-archiver torch-workflow-archiver
+
+# Nightly build
+pip install torchserve-nightly torch-model-archiver-nightly torch-workflow-archiver-nightly
+```
+
+### DESCRIPTION (upstream)
+
+This project is no longer actively maintained. While existing releases remain available, there are no planned updates, bug fixes, new features, or security patches. Users should be aware that vulnerabilities may not be addressed. TorchServe now enforces token authorization enabled and model API control disabled by default. These security features are intended to address the concern of unauthorized API calls and to prevent potential malicious code from being introduced to the model server. Refer the following documentation for more information: [Token Authorization](https://github.com/pytorch/serve/blob/master/docs/token_authorization_api.md), [Model API control](https://github.com/pytorch/se
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (6 matches, e.g. `torchserve-nightly-build.yml`, `docker-nightly-build.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

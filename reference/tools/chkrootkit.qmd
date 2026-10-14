@@ -1,0 +1,27 @@
+---
+title: "chkrootkit(1) - Kailash Tool Reference"
+---
+
+## chkrootkit
+
+> **chkrootkit** - Locally checks for signs of a rootkit.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+
+### NAME
+
+`chkrootkit` - Locally checks for signs of a rootkit.
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

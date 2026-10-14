@@ -1,0 +1,27 @@
+---
+title: "dirb(1) - Kailash Tool Reference"
+---
+
+## dirb
+
+> **dirb** - Web content scanner.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+
+### NAME
+
+`dirb` - Web content scanner.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

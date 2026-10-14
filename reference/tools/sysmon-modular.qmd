@@ -1,0 +1,29 @@
+---
+title: "sysmon-modular(1) - Kailash Tool Reference"
+---
+
+## sysmon-modular
+
+> **sysmon-modular** - A modular Sysmon configuration set for high-fidelity Windows logging.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`sysmon-modular` - A modular Sysmon configuration set for high-fidelity Windows logging.
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

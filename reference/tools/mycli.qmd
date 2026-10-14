@@ -1,0 +1,54 @@
+---
+title: "mycli(1) - Kailash Tool Reference"
+---
+
+## mycli
+
+> **mycli** - Command-line interface for MySQL with autocompletion.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/dbcli/mycli](https://github.com/dbcli/mycli) |
+
+### NAME
+
+`mycli` - Command-line interface for MySQL with autocompletion.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install --upgrade 'mycli[all]'
+```
+
+```
+brew update && brew install mycli pygments
+```
+
+### DESCRIPTION (upstream)
+
+Rich MySQL terminal client with auto-completion, syntax highlighting, and dataframes. Homepage: [https://mycli.net](https://mycli.net) Documentation: [https://mycli.net/docs](https://mycli.net/docs) Mycli is known to be compatible with * [MySQL](https://www.mysql.com/) * [MariaDB](https://mariadb.org/) * [Percona](https://www.percona.com/) * [TiDB](https://www.pingcap.com/) * [Apache Doris](https://doris.apache.org/) Postgres equivalent * [pgcli](https://pgcli.com) Release 2.0.0 has [breaking changes](https://github.com/dbcli/mycli/blob/v2.0.0/changelog.md#breaking-changes)! If you already know how to install Python packages, then you can install mycli via `pip`.  This package is always up t
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

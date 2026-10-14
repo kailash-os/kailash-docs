@@ -1,0 +1,37 @@
+---
+title: "mitmproxy(1) - Kailash Tool Reference"
+---
+
+## mitmproxy
+
+> **mitmproxy** - Man-in-the-middle HTTP(S) proxy with a Python API — AI endpoint inspection.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) |
+
+### NAME
+
+`mitmproxy` - Man-in-the-middle HTTP(S) proxy with a Python API — AI endpoint inspection.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/mitmproxy/mitmproxy). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+``mitmproxy`` is an interactive, SSL/TLS-capable intercepting proxy with a console interface for HTTP/1, HTTP/2, and WebSockets. ``mitmdump`` is the command-line version of mitmproxy. Think tcpdump for HTTP. ``mitmweb`` is a web-based interface for mitmproxy. The installation instructions are [here](https://docs.mitmproxy.org/stable/overview-installation). If you want to install from source, see [CONTRIBUTING.md](https://github.com/mitmproxy/mitmproxy/tree/HEAD/CONTRIBUTING.md). General information, tutorials, and precompiled binaries can be found on the mitmproxy website. The documentation for mitmproxy is available on our website: If you have questions on how to use mitmproxy, please use G
+
+### SEE ALSO
+
+- Category: [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

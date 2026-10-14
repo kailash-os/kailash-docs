@@ -1,0 +1,48 @@
+---
+title: "clairvoyance(1) - Kailash Tool Reference"
+---
+
+## clairvoyance
+
+> **clairvoyance** - Obtains GraphQL API schemas from introspection-disabled endpoints.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/nikitastupin/clairvoyance](https://github.com/nikitastupin/clairvoyance) |
+
+### NAME
+
+`clairvoyance` - Obtains GraphQL API schemas from introspection-disabled endpoints.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install clairvoyance
+clairvoyance https://rickandmortyapi.com/graphql -o schema.json
+# should take about 2 minutes
+```
+
+```
+docker run --rm nikitastupin/clairvoyance --help
+```
+
+### DESCRIPTION (upstream)
+
+Obtain GraphQL API schema even if the introspection is disabled. Some GraphQL APIs have disabled introspection. For example, [Apollo Server disables introspection automatically if the `NODE_ENV` environment variable is set to `production`](https://www.apollographql.com/docs/tutorial/schema/#explore-your-schema). Clairvoyance helps to obtain GraphQL API schema even if the introspection is disabled. It produces schema in JSON format suitable for other tools like [GraphQL Voyager](https://github.com/APIs-guru/graphql-voyager), [InQL](https://github.com/doyensec/inql) or [graphql-path-enum](https://gitlab.com/dee-see/graphql-path-enum). pip install clairvoyance clairvoyance https://rickandmortya
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

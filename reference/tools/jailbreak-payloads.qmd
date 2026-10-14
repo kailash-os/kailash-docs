@@ -1,0 +1,29 @@
+---
+title: "jailbreak-payloads(1) - Kailash Tool Reference"
+---
+
+## jailbreak-payloads
+
+> **jailbreak-payloads** - Jailbreak payload pack — packages the L1B3RT-4S corpus (the plan's libertas-prompts twin; content use-restrictions beyond the repo licence).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks) |
+| Safety class | safe |
+| Licence | AGPL-3.0 |
+| Upstream | [github.com/elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`jailbreak-payloads` - Jailbreak payload pack — packages the L1B3RT-4S corpus (the plan's libertas-prompts twin; content use-restrictions beyond the repo licence).
+
+### SEE ALSO
+
+- Category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [vunstable-2026-02-17](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

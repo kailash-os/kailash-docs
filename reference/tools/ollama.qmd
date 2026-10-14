@@ -1,0 +1,46 @@
+---
+title: "ollama(1) - Kailash Tool Reference"
+---
+
+## ollama
+
+> **ollama** - Ollama — run LLMs locally (primary home; documented tiny test model).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/ollama/ollama](https://github.com/ollama/ollama) |
+
+### NAME
+
+`ollama` - Ollama — run LLMs locally (primary home; documented tiny test model).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+```
+irm https://ollama.com/install.ps1 | iex
+```
+
+### DESCRIPTION (upstream)
+
+Start building with open models. Access the latest releases locally or in the cloud with complete privacy. curl -fsSL https://ollama.com/install.sh | sh or [download manually](https://ollama.com/download/Ollama.dmg) irm https://ollama.com/install.ps1 | iex or [download manually](https://ollama.com/download/OllamaSetup.exe) curl -fsSL https://ollama.com/install.sh | sh The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub. - [ollama-python](https://github.com/ollama/ollama-python) - [ollama-js](https://github.com/ollama/ollama-js) - [Discord](https://discord.gg/ollama) - [𝕏 (Twitter)](https://x.com/ollama) - [Reddit](https://redd
+
+### SEE ALSO
+
+- Category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

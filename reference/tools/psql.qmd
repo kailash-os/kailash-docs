@@ -1,0 +1,37 @@
+---
+title: "psql(1) - Kailash Tool Reference"
+---
+
+## psql
+
+> **psql** - Interactive terminal for PostgreSQL — front-end enumeration support.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) |
+| Safety class | safe |
+| Licence | PostgreSQL |
+| Upstream | [github.com/postgres/postgres](https://github.com/postgres/postgres) |
+
+### NAME
+
+`psql` - Interactive terminal for PostgreSQL — front-end enumeration support.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/postgres/postgres). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+PostgreSQL Database Management System ===================================== This directory contains the source code distribution of the PostgreSQL database management system. PostgreSQL is an advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions.  This distribution also contains C language bindings. Copyright and license information can be found in the file COPYRIGHT. General documentation about this version of PostgreSQL can be found at about building PostgreSQL from the source code can be found at The latest version of this software, and related
+
+### SEE ALSO
+
+- Category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

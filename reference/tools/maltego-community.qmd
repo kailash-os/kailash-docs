@@ -1,0 +1,27 @@
+---
+title: "maltego-community(1) - Kailash Tool Reference"
+---
+
+## maltego-community
+
+> **maltego-community** - OSINT graph platform — community edition, unfree licence.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | LicenseRef-Proprietary |
+
+### NAME
+
+`maltego-community` - OSINT graph platform — community edition, unfree licence.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

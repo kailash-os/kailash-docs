@@ -1,0 +1,54 @@
+---
+title: "hashdeep(1) - Kailash Tool Reference"
+---
+
+## hashdeep
+
+> **hashdeep** - Hashing and audit utility with fuzzy matching (md5deep family).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+| Upstream | [github.com/jessek/hashdeep](https://github.com/jessek/hashdeep) |
+
+### NAME
+
+`hashdeep` - Hashing and audit utility with fuzzy matching (md5deep family).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+sh bootstrap.sh # runs autoconf, automake
+./configure
+make
+make install
+```
+
+```
+#ifdef _WIN32
+  _wfullpath(d_name,fn,PATH_MAX);
+#else
+  if (NULL == realpath(fn,d_name))
+    return TRUE;
+#endif
+```
+
+### DESCRIPTION (upstream)
+
+This is md5deep, a set of cross-platform tools to compute hashes, or message digests, for any number of files while optionally recursively digging through the directory structure.  It can also take a list of known hashes and display the filenames of input files whose hashes either do or do not match any of the known hashes. This version supports MD5, SHA-1, SHA-256, Tiger, and Whirlpool hashes. See the file [NEWS](NEWS) for a list of changes between releases. See the file [COPYING](COPYING) for information about the licensing for this program. See the file [INSTALL](INSTALL) for (generic) compilation and installation instructions. Here's the short version that should just work in many cases:
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

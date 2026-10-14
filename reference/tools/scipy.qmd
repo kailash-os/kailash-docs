@@ -1,0 +1,37 @@
+---
+title: "scipy(1) - Kailash Tool Reference"
+---
+
+## scipy
+
+> **scipy** - SciPy — scientific computing library (optimization, signal, stats).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/scipy/scipy](https://github.com/scipy/scipy) |
+
+### NAME
+
+`scipy` - SciPy — scientific computing library (optimization, signal, stats).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/scipy/scipy). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+.. image:: https://raw.githubusercontent.com/scipy/scipy/main/doc/source/_static/logo.svg :target: https://scipy.org :width: 110 :height: 110 :align: left .. image:: https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A :target: https://numfocus.org .. image:: https://img.shields.io/pypi/dm/scipy.svg?label=Pypi%20downloads :target: https://pypi.org/project/scipy/ .. image:: https://img.shields.io/conda/dn/conda-forge/scipy.svg?label=Conda%20downloads :target: https://anaconda.org/conda-forge/scipy .. image:: https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg? :target: https://stackoverflow.com/questions/tagged/scipy .. image:: h
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

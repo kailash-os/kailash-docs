@@ -1,0 +1,49 @@
+---
+title: "jina-embeddings-cli(1) - Kailash Tool Reference"
+---
+
+## jina-embeddings-cli
+
+> **jina-embeddings-cli** - jina CLI — search/embed/rank over Jina APIs as Unix commands.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/jina-ai/cli](https://github.com/jina-ai/cli) |
+
+### NAME
+
+`jina-embeddings-cli` - jina CLI — search/embed/rank over Jina APIs as Unix commands.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install jina-cli
+# or
+uv pip install jina-cli
+```
+
+```
+export JINA_API_KEY=your-key-here
+# Get one at https://jina.ai/?sui=apikey
+```
+
+### DESCRIPTION (upstream)
+
+All Jina AI APIs as Unix commands. Search, read, embed, rerank - with pipes. This CLI is designed for both humans and AI agents. An agent with shell access needs only `run(command="jina search ...")` instead of managing 20 separate tool definitions. The CLI supports pipes, chaining (`&&`, `||`, `;`), and `--help` for self-discovery. pip install jina-cli uv pip install jina-cli Set your API key: export JINA_API_KEY=your-key-here The point of a CLI is composability. Every command reads from stdin and writes to stdout. jina search "transformer models" | jina rerank "efficient inference" cat urls.txt | jina read jina search "attention mechanism" | jina dedup jina expand "climate change" | head -
+
+### SEE ALSO
+
+- Category: [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

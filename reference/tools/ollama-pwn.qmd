@@ -1,0 +1,33 @@
+---
+title: "ollama-pwn(1) - Kailash Tool Reference"
+---
+
+## ollama-pwn
+
+> **ollama-pwn** - Ollama exploit — exposed-API and model-management attack probes against Ollama servers (0.0.0.0 default-bind class).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-07-ai-system-exploitation](../directory.qmd#cat-a-07-ai-system-exploitation) |
+| Safety class | exp |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/ollama-pwn](https://github.com/kailash-os/ollama-pwn) |
+
+### NAME
+
+`ollama-pwn` - Ollama exploit — exposed-API and model-management attack probes against Ollama servers (0.0.0.0 default-bind class).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/ollama-pwn). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-07-ai-system-exploitation](../directory.qmd#cat-a-07-ai-system-exploitation) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

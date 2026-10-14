@@ -1,0 +1,27 @@
+---
+title: "beef-xss(1) - Kailash Tool Reference"
+---
+
+## beef-xss
+
+> **beef-xss** - Browser Exploitation Framework — XSS hooking and browser assessment.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+
+### NAME
+
+`beef-xss` - Browser Exploitation Framework — XSS hooking and browser assessment.
+
+### SEE ALSO
+
+- Category: [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,48 @@
+---
+title: "autogen(1) - Kailash Tool Reference"
+---
+
+## autogen
+
+> **autogen** - AutoGen — programming framework for agentic AI (v0.4+; repo licence CC-BY-4.0 per metadata + LICENCE read).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | CC-BY-4.0 |
+| Upstream | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) |
+
+### NAME
+
+`autogen` - AutoGen — programming framework for agentic AI (v0.4+; repo licence CC-BY-4.0 per metadata + LICENCE read).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# Install AgentChat and OpenAI client from Extensions
+pip install -U "autogen-agentchat" "autogen-ext[openai]"
+```
+
+```
+# Install AutoGen Studio for no-code GUI
+pip install -U "autogenstudio"
+```
+
+### DESCRIPTION (upstream)
+
+**AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans. > [!CAUTION] > **⚠️ Maintenance Mode** > > AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. > > New users should start with [Microsoft Agent Framework](https://github.com/microsoft/agent-framework). Existing users are encouraged to migrate using the [AutoGen → Microsoft Agent Framework migration guide](https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/). > > Microsoft Agent Framework (MAF) is the enterprise‑ready successor to AutoGen. Microsoft Agent FrameworkAF in now a
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

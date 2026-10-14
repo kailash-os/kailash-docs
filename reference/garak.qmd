@@ -54,13 +54,7 @@ packaging record ([Kailash OS #81](https://github.com/kailash-os/kailash-os/issu
 
 ---
 
-**Version-lock note.** Generated against the Kailash pin of the
-manifest row (`pkgs/garak/default.nix` + nvfetcher source), verified
-2026-10-14; smoke status: recorded on the packaging issue (the darwin
-lane box has no Linux build surface — the provenance is stated
-honestly rather than implying a verified run). If the lock moves
-garak and this note no longer matches, the page is stale —
-regeneration is required in the same change that moves the version.
+ref: [v0.17.1.pre1-unstable-2026-10-09](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
 
 *This page is the template acceptance exemplar: every generated
 reference page must render in this shape (the full template and the

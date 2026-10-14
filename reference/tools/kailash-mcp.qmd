@@ -1,0 +1,33 @@
+---
+title: "kailash-mcp(1) - Kailash Tool Reference"
+---
+
+## kailash-mcp
+
+> **kailash-mcp** - kailash-mcp — the distro's own MCP server, generated from the manifest; the CI dogfood target.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) |
+| Safety class | exp |
+| Licence | MIT |
+| Upstream | [github.com/kailash-os/kailash-mcp](https://github.com/kailash-os/kailash-mcp) |
+
+### NAME
+
+`kailash-mcp` - kailash-mcp — the distro's own MCP server, generated from the manifest; the CI dogfood target.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/kailash-mcp). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v0.1.0](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,33 @@
+---
+title: "audio-voice-clone-injector(1) - Kailash Tool Reference"
+---
+
+## audio-voice-clone-injector
+
+> **audio-voice-clone-injector** - Audio voice-clone injector — voice-clone injection into voice pipelines and audio-LM prompt injection (pairs with C-7's DSP pack).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-06-multimodal-physical-ai](../directory.qmd#cat-a-06-multimodal-physical-ai) |
+| Safety class | exp |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/audio-voice-clone-injector](https://github.com/kailash-os/audio-voice-clone-injector) |
+
+### NAME
+
+`audio-voice-clone-injector` - Audio voice-clone injector — voice-clone injection into voice pipelines and audio-LM prompt injection (pairs with C-7's DSP pack).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/audio-voice-clone-injector). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-06-multimodal-physical-ai](../directory.qmd#cat-a-06-multimodal-physical-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

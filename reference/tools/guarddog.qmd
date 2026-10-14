@@ -1,0 +1,56 @@
+---
+title: "guarddog(1) - Kailash Tool Reference"
+---
+
+## guarddog
+
+> **guarddog** - Guarddog — DataDog's scanner: identifies malicious/typosquatted PyPI and npm packages (malicious-code + secrets rules).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/DataDog/guarddog](https://github.com/DataDog/guarddog) |
+
+### NAME
+
+`guarddog` - Guarddog — DataDog's scanner: identifies malicious/typosquatted PyPI and npm packages (malicious-code + secrets rules).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+uvx guarddog pypi scan requests
+```
+
+```
+uv tool install guarddog
+# or
+pip install guarddog
+```
+
+### DESCRIPTION (upstream)
+
+GuardDog is a CLI tool that identifies malicious PyPI and npm packages, Go modules, Rust crates, RubyGems, GitHub actions, or VSCode extensions. It runs static analysis on package source code (through YARA rules) and analyzes package metadata to detect supply chain attacks. **What makes GuardDog different:** Instead of just listing suspicious patterns, GuardDog correlates findings to identify actual **risks** based on attack chains. A package needs both the **capability** to perform an action (e.g., network access) and a **threat indicator** (e.g., suspicious domain) in the same file to be flagged as high risk. It downloads and scans code from: * NPM: Packages hosted in [npmjs.org](https://w
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (5 matches, e.g. `checks.yml`, `checks.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v0.0.6](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

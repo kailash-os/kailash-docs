@@ -1,0 +1,33 @@
+---
+title: "prompt-injection-detector-bert(1) - Kailash Tool Reference"
+---
+
+## prompt-injection-detector-bert
+
+> **prompt-injection-detector-bert** - Prompt-injection classifier pack — DeBERTa-class detector weights + loader for LLM-input gating (planned first-party pack).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/prompt-injection-detector-bert](https://github.com/kailash-os/prompt-injection-detector-bert) |
+
+### NAME
+
+`prompt-injection-detector-bert` - Prompt-injection classifier pack — DeBERTa-class detector weights + loader for LLM-input gating (planned first-party pack).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/prompt-injection-detector-bert). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

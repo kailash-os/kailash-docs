@@ -1,0 +1,42 @@
+---
+title: "polars(1) - Kailash Tool Reference"
+---
+
+## polars
+
+> **polars** - Polars — extremely fast DataFrame query engine written in Rust.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/pola-rs/polars](https://github.com/pola-rs/polars) |
+
+### NAME
+
+`polars` - Polars — extremely fast DataFrame query engine written in Rust.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install polars
+```
+
+### DESCRIPTION (upstream)
+
+- - - - Polars is an analytical query engine for DataFrames, written in Rust. It is designed to be fast, easy to use and expressive. Key features are: - **Fast**: written from the ground up in Rust with multi-threaded, vectorized (SIMD) execution - **Lazy & eager execution**: with query optimization out of the box - **Larger-than-RAM**: the streaming engine processes datasets that don't fit in memory - **Expressive API**: compose complex queries with powerful expressions - **Extensible**: extend Polars natively with custom code through - **Multi-language**: bindings for Python, Rust, Node.js, R, and SQL - **GPU support**: optionally accelerate queries on NVIDIA GPUs - **Interoperable**: uses
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

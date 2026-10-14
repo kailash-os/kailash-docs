@@ -1,0 +1,45 @@
+---
+title: "podman(1) - Kailash Tool Reference"
+---
+
+## podman
+
+> **podman** - Podman — OCI container and pod management.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/containers/podman](https://github.com/containers/podman) |
+
+### NAME
+
+`podman` - Podman — OCI container and pod management.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/containers/podman). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+Podman (the POD MANager) is a tool for managing containers and images, volumes mounted into those containers, and pods made from groups of containers. Podman runs containers on Linux, but can also be used on Mac and Windows systems using a Podman-managed virtual machine. Podman is based on libpod, a library for container lifecycle management that is also contained in this repository. The libpod library provides APIs for managing containers, pods, container images, and volumes. Podman releases a new major or minor release 4 times a year, during the second week of February, May, August, and November. Patch releases are more frequent and may occur at any time to get bugfixes out to users. All r
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,28 @@
+---
+title: "webshell-analysis-pack(1) - Kailash Tool Reference"
+---
+
+## webshell-analysis-pack
+
+> **webshell-analysis-pack** - Reference pack of known webshell artefacts for detection and analysis.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`webshell-analysis-pack` - Reference pack of known webshell artefacts for detection and analysis.
+
+### SEE ALSO
+
+- Category: [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

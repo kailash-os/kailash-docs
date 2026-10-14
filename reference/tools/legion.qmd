@@ -1,0 +1,27 @@
+---
+title: "legion(1) - Kailash Tool Reference"
+---
+
+## legion
+
+> **legion** - Semi-automated network pentesting framework with a GUI.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+
+### NAME
+
+`legion` - Semi-automated network pentesting framework with a GUI.
+
+### SEE ALSO
+
+- Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,37 @@
+---
+title: "minikube(1) - Kailash Tool Reference"
+---
+
+## minikube
+
+> **minikube** - minikube — local Kubernetes.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/kubernetes/minikube](https://github.com/kubernetes/minikube) |
+
+### NAME
+
+`minikube` - minikube — local Kubernetes.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kubernetes/minikube). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+[GoReport Status]: https://goreportcard.com/report/github.com/kubernetes/minikube [GoReport Widget]: https://goreportcard.com/badge/github.com/kubernetes/minikube minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's [primary goals](https://minikube.sigs.k8s.io/docs/concepts/principles/) are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit. minikube runs the latest stable release of Kubernetes, with support for standard Kubernetes features like: * [LoadBalancer](https://minikube.sigs.k8s.io/docs/handbook/accessing/#loadbalancer-access) - using `minikube tunnel` * Multi-cluster - using `minikube
+
+### SEE ALSO
+
+- Category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

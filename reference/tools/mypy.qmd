@@ -1,0 +1,47 @@
+---
+title: "mypy(1) - Kailash Tool Reference"
+---
+
+## mypy
+
+> **mypy** - mypy — optional static typing for Python.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/python/mypy](https://github.com/python/mypy) |
+
+### NAME
+
+`mypy` - mypy — optional static typing for Python.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+number = input("What is your favourite number?")
+print("It is", number + 1)  # error: Unsupported operand types for + ("str" and "int")
+```
+
+```
+python3 -m pip install -U mypy
+```
+
+### DESCRIPTION (upstream)
+
+Mypy: Static Typing for Python ======================================= Got a question? We are always happy to answer questions! Here are some good places to ask them: - for general questions about Python typing, try [typing discussions](https://github.com/python/typing/discussions) - for anything you're curious about, try [gitter chat](https://gitter.im/python/typing) If you're just getting started, and [type hints cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) can also help answer questions. If you think you've found a bug: - check our [common issues page](https://mypy.readthedocs.io/en/stable/common_issues.html) - search our [issue tracker](https://github.com/pyth
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

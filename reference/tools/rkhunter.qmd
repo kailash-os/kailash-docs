@@ -1,0 +1,33 @@
+---
+title: "rkhunter(1) - Kailash Tool Reference"
+---
+
+## rkhunter
+
+> **rkhunter** - Rootkit Hunter — scans for rootkits, backdoors and local exploits.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+| Upstream | [github.com/Rootkit-Hunter/rkhunter](https://github.com/Rootkit-Hunter/rkhunter) |
+
+### NAME
+
+`rkhunter` - Rootkit Hunter — scans for rootkits, backdoors and local exploits.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/Rootkit-Hunter/rkhunter). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,46 @@
+---
+title: "ffuf(1) - Kailash Tool Reference"
+---
+
+## ffuf
+
+> **ffuf** - Fast web fuzzer written in Go.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/ffuf/ffuf](https://github.com/ffuf/ffuf) |
+
+### NAME
+
+`ffuf` - Fast web fuzzer written in Go.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+ffuf -w /path/to/wordlist -u https://target/FUZZ
+```
+
+```
+ffuf -w /path/to/vhost/wordlist -u https://target -H "Host: FUZZ" -fs 4242
+```
+
+### DESCRIPTION (upstream)
+
+A fast web fuzzer written in Go. - [Installation](https://github.com/ffuf/ffuf#installation) - [Example usage](https://github.com/ffuf/ffuf#example-usage) - [Content discovery](https://github.com/ffuf/ffuf#typical-directory-discovery) - [Vhost discovery](https://github.com/ffuf/ffuf#virtual-host-discovery-without-dns-records) - [Parameter fuzzing](https://github.com/ffuf/ffuf#get-parameter-fuzzing) - [POST data fuzzing](https://github.com/ffuf/ffuf#post-data-fuzzing) - [Using external mutator](https://github.com/ffuf/ffuf#using-external-mutator-to-produce-test-cases) - [Configuration files](https://github.com/ffuf/ffuf#configuration-files) - [Help](https://github.com/ffuf/ffuf#usage) - [Inte
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

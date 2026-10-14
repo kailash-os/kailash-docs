@@ -1,0 +1,33 @@
+---
+title: "llm-fuzzer(1) - Kailash Tool Reference"
+---
+
+## llm-fuzzer
+
+> **llm-fuzzer** - Fuzzes LLM-backed endpoints with adversarial input corpora.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/llm-fuzzer](https://github.com/kailash-os/llm-fuzzer) |
+
+### NAME
+
+`llm-fuzzer` - Fuzzes LLM-backed endpoints with adversarial input corpora.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/llm-fuzzer). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

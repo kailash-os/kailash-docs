@@ -1,0 +1,33 @@
+---
+title: "sdl3-stream-fuzzer(1) - Kailash Tool Reference"
+---
+
+## sdl3-stream-fuzzer
+
+> **sdl3-stream-fuzzer** - Structure-aware stream fuzzer for media/SDK endpoints exposed by AI runtimes.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/sdl3-stream-fuzzer](https://github.com/kailash-os/sdl3-stream-fuzzer) |
+
+### NAME
+
+`sdl3-stream-fuzzer` - Structure-aware stream fuzzer for media/SDK endpoints exposed by AI runtimes.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/sdl3-stream-fuzzer). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-10-runtime-appsec-ai](../directory.qmd#cat-c-10-runtime-appsec-ai) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

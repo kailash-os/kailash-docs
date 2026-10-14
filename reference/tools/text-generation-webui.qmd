@@ -1,0 +1,64 @@
+---
+title: "text-generation-webui(1) - Kailash Tool Reference"
+---
+
+## text-generation-webui
+
+> **text-generation-webui** - text-generation-webui — open-source desktop app for local LLMs.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs) |
+| Safety class | safe |
+| Licence | AGPL-3.0 |
+| Upstream | [github.com/oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) |
+
+### NAME
+
+`text-generation-webui` - text-generation-webui — open-source desktop app for local LLMs.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+textgen
+└── user_data
+    └── models
+        └── Qwen_Qwen3-8B
+            ├── config.json
+            ├── generation_config.json
+            ├── model-00001-of-00004.safetensors
+            ├── ...
+            ├── tokenizer_config.json
+            └── tokenizer.json
+```
+
+```
+curl -sL "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh" > "Miniforge3.sh"
+bash Miniforge3.sh
+```
+
+### DESCRIPTION (upstream)
+
+**A desktop app for local LLMs. Open source, no telemetry.** Text, vision, tool-calling, web search. UI + API. Download, unzip, double-click `textgen`. A window opens. **https://github.com/oobabooga/textgen/releases** Portable builds for Linux, Windows, and macOS with CUDA, Vulkan, ROCm, and CPU-only options. All dependencies included. Compatible with GGUF (llama.cpp) models. For additional backends (ExLlamaV3, Transformers), training, image generation, and extensions, see [Installation](#installation). - `instruct` mode for instruction-following (like ChatGPT), and `chat-instruct`/`chat` modes for talking to custom characters. Prompts are automatically formatted with Jinja2 templates. - **V
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (7 matches, e.g. `environment variables`, `docker-compose.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

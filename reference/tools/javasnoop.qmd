@@ -1,0 +1,33 @@
+---
+title: "javasnoop(1) - Kailash Tool Reference"
+---
+
+## javasnoop
+
+> **javasnoop** - Intercepts methods and alters data in Java applications at runtime.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/CodeMason/JavaSnoop](https://github.com/CodeMason/JavaSnoop) |
+
+### NAME
+
+`javasnoop` - Intercepts methods and alters data in Java applications at runtime.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/CodeMason/JavaSnoop). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
