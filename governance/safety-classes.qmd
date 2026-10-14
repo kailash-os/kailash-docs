@@ -2,18 +2,34 @@
 
 Every tool in the catalogue carries a safety classification in the
 manifest. The classification decides how the tool is surfaced — what
-runs by default, what asks first, what stays behind an explicit
-opt-in.
+runs by default, what asks before firing, what stays behind an
+explicit opt-in.
 
 | Class | Meaning | Default posture |
 |---|---|---|
 | `safe` | self-contained; no live firing | installable and runnable normally |
-| `requires-target` | fires requests at a target system | runs only when given an explicit target |
-| `exp` | experimental code execution surface | gated behind the lab-mode wrapper contract; opt-in |
+| `requires-target` | fires requests at a target system | runs only when given an explicit target; refuses to self-fire |
+| `exp` | experimental code execution surface | gated behind the lab-mode wrapper contract; opt-in only |
 
-The default-off posture is a design decision, recorded as an
-architecture decision record in the OS repository: tools in the
-`exp` class never become reachable through menu or CLI defaults.
-Safety class surfaces on every generated reference page, and the
-wrapper contract for `exp` tools is emitted by the same generator that
-builds the category modules.
+The default-off posture for the `exp` class is a design decision
+recorded as an architecture decision record in the OS repository
+([the safety-defaults record](https://github.com/kailash-os/kailash-os/blob/master/docs/spec.md#92-safety-defaults-module-basesafety-defaultsnix)):
+no `exp`-classified tool becomes reachable through menu or CLI
+defaults, and the wrapper contract that emits a lab-mode shell is
+generated from the manifest like every other surface.
+
+## Responsible use
+
+The distribution ships offensive AI-security tooling alongside
+defensive and platform tooling, built for **authorised security work
+only**: engagements with written authorisation, academic research, and
+defender-validation against systems the operator is authorised to
+test. Possession of a tool is not authorisation to use it. The full
+statement — the operator's responsibilities and the named legal
+provisions per jurisdiction — lives at
+[the responsible-use page](https://github.com/kailash-os/kailash-os/blob/master/docs/responsible-use.md)
+and is mirrored into every Layer-ATTACK surface of the distribution.
+
+Safety class is also surfaced on every generated reference page in
+[Part III](../reference/coverage.qmd), so a reader always sees the
+posture of a tool before its invocation forms.

@@ -1,27 +1,40 @@
 # How Kailash is built {#build-model}
 
-Kailash is built declaratively from two Nix repositories: the **OS
-repository** (the distribution flake) and the **packages repository**
-(bespoke derivations and the tool overlay). The tool manifest is the
-single source of truth — packaging, menus, CLI and generated docs all
-derive from it; nothing is hand-maintained per surface.
+Kailash is built declaratively from **two Nix repositories with a
+clean contract** ([the spec's architecture chapter](https://github.com/kailash-os/kailash-os/blob/master/docs/spec.md#31-two-repos-two-jobs)):
+
+- the **OS repository** (`kailash-os`) — the distribution flake: host
+  modules, image matrix, the CLI, the menu. It never contains tool
+  derivations.
+- the **packages repository** (`kailash-packages`) — bespoke
+  derivations, the overlay, and **the tool manifest**: the single
+  hand-maintained registry ([the manifest section](https://github.com/kailash-os/kailash-os/blob/master/docs/spec.md#42-the-tool-manifest--the-single-source-of-truth)).
+  Every other view — category modules, desktop menu, CLI listing,
+  generated docs, this guide's reference part — is generated from it.
 
 ## Pins and locks
 
 No package floats:
 
-- Bespoke tools are pinned upstream with `nvfetcher` and committed
-  with content hashes; a pin changes only together with the manifest
-  entry it belongs to.
-- The `nixpkgs` lock stays put between scheduled refreshes; tools
-  pinned inside the lock do not move.
-- **The lockfile is the version.** A system moves forward when its
-  operator pulls a newer lock, or when a release is adopted — never in
-  the background.
+- Bespoke tools are pinned upstream (`nvfetcher`) and committed with
+  content hashes. A pin changes only together with the manifest entry
+  it belongs to — never by hand in the sources directory.
+- Pins carry an **update class** (fast-moving tools are checked
+  weekly, steady ones fortnightly, nixpkgs-native packages ride the
+  nixpkgs refresh only). Automated checks open update PRs only when
+  the new revision passes its smoke check — freshness never lands
+  unreviewed.
+- The `nixpkgs` lock stays put between scheduled refreshes. **The
+  lockfile is the version**: nothing re-links, re-installs or
+  re-downloads in the background. Everything — the OS, the tools, the
+  menu, the docs — is expressed in flakes, with no state outside the
+  store and no imperative install steps to drift an environment.
 
-## Generated surfaces
+## Software-only posture
 
-Everything the distribution publishes about its tools derives from the
-manifest at build time. This guide follows the same rule: its per-tool
-reference pages (Part III) are regenerated from the manifest and the
-packaged tools' own interfaces, never hand-copied.
+The classic layer is software-only by scope: no hardware-hacking,
+wifi/RF or Bluetooth attack stacks ship (the SDR niche stays opt-in
+because signal datasets feed ML research). Network-infrastructure
+exploitation arsenals and social-engineering packs are excluded — the
+distribution re-aims the integrated-distro shape at the AI-security
+pillar set rather than porting Kali's full inventory.
