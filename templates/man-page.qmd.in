@@ -1,0 +1,74 @@
+---
+title: "{{TOOL_ID}}(1) — Kailash Tool Reference"
+params:
+  manifest_row: "{{MANIFEST_ROW_JSON}}"
+  tool_version: "{{TOOL_VERSION}}"
+  pin_source: "{{PIN_SOURCE}}"
+  verified_at: "{{VERIFIED_AT}}"
+  smoke_status: "{{SMOKE_STATUS}}"
+---
+
+# {{TOOL_ID}}(1) — Kailash Tool Reference
+
+> **{{TOOL_NAME}}** — {{DESCRIPTION}}
+
+| | |
+|---|---|
+| Layer | {{LAYER}} |
+| Category | {{CATEGORY}} |
+| Safety class | {{SAFETY_CLASS}} |
+| Licence | {{LICENCE}} |
+| Menu entry | {{MENU_ENTRY}} |
+| Upstream | {{UPSTREAM_LINKS}} |
+
+## NAME
+
+{{NAME_LINE}}
+
+## SYNOPSIS
+
+```
+{{SYNOPSIS_BLOCK}}
+```
+
+## DESCRIPTION
+
+{{DESCRIPTION_CURATED}}
+
+## OPTIONS
+
+{{OPTIONS_TABLES_DERIVED}}
+
+## COMMANDS
+
+{{COMMANDS_TABLE_DERIVED}}
+
+## CONFIGURATION
+
+{{CONFIGURATION_SUMMARY_OR_LINK}}
+
+{{CONFIG_PAGE_LINK_IF_ANY}}
+
+## FILES
+
+{{FILES_DERIVED_OR_STUB}}
+
+## DIAGNOSTICS
+
+{{DIAGNOSTICS_DERIVED_OR_STUB}}
+
+## EXAMPLES
+
+{{EXAMPLES_CURATED}}
+
+## SEE ALSO
+
+{{SEE_ALSO}}
+
+---
+
+**Version-lock note.** This page was generated against **`{{TOOL_VERSION}}`**
+(pin source: `{{PIN_SOURCE}}`), verified {{VERIFIED_AT}}; smoke status:
+{{SMOKE_STATUS}}. If the lock moves this tool and this note no longer
+matches, the page is stale — regeneration is required in the same
+change that moves the version (the CI gate enforces this).
