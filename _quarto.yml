@@ -34,6 +34,7 @@ book:
     - part: "Part III — Tool reference"
       chapters:
         - reference/coverage.qmd
+        - reference/garak.qmd
     - part: "Part IV — Administrator guide"
       chapters:
         - admin/install.qmd
