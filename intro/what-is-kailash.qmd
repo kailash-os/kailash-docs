@@ -1,33 +1,49 @@
 # What is Kailash {#what-is-kailash}
 
-Kailash OS is a **NixOS-based Linux distribution** assembled for AI
-security work. It packages, in one declaratively built environment, the
-offensive, defensive and platform tooling needed to test and operate
-AI/ML systems — the same reproducibility discipline nix gives any other
-system, applied to a security research catalogue.
+Kailash OS is a **NixOS-based Linux distribution for security
+professionals and AI engineers working on AI-native offence, defence
+and platform work** — built declaratively with Nix flakes. It keeps
+the integrated experience Kali popularised (curated tools, desktop
+menu categories, live images, generated documentation) and re-aims it
+at four pillars: **appsec, apisec, mlsec, aisec**.
 
 ## Why it exists
 
 Security work on AI systems needs tooling that is:
 
 - **Reproducible** — an experimental result only counts if it can be
-  re-run against the same tool versions; every package is pinned to an
-  exact source revision with a content hash.
+  re-run against the same tool versions. Every package is pinned to an
+  exact source revision with a content hash; the lockfile is the
+  version of the system.
 - **Declared, not implied** — the tool catalogue is a single manifest
-  that drives packaging, the desktop menu, the CLI and this guide;
-  nothing is installed ad hoc.
+  that drives packaging, the desktop menu, the CLI, and this guide's
+  reference section. Nothing is installed ad hoc; nothing drifts.
 - **Safety-aware by construction** — tools that talk to live targets
   or run experimental code are classified and gated, not silently
-  enabled.
+  enabled (see [Safety classes](../governance/safety-classes.qmd)).
 
-::: {.content-visible when-format="html"}
-*Status:* prose chapter under construction — content lands in this
-book's 2026.01-window build. See the repository issue tracker for the
-open lane.
-:::
+## What it is not
+
+Kailash inherits Kali's shape, not its full inventory. Deliberately
+out of scope: no Active Directory / lateral-movement arsenal, no
+social-engineering pack, and no wifi/RF/Bluetooth attack tooling —
+with one opt-in carve-out: software-defined radio (SDR) is kept
+because it is the substrate for signal/voice ML research, not a radio
+hacking kit. The classic layer is a smaller, opinionated, software-only
+subset of Kali's ~300 tools.
 
 ## Who it is for
 
-Practitioners and researchers doing AI security assessment: red-team
-work against LLM systems, defensive evaluation of deployed models,
-and platform engineering for AI/ML infrastructure under observation.
+Practitioners and researchers doing AI security assessment:
+
+- **Red-team work against AI systems** — LLM red teaming (jailbreaks,
+  prompt injection, multi-turn attacks), adversarial ML, agentic and
+  MCP attack surfaces.
+- **Defenders and evaluators** — guardrails, detection and
+  observability, assurance/evals, model provenance and signing.
+- **Platform engineers** — the MLOps, storage, serving and local
+  inference stack that hosts and observes the models under test.
+
+The pairing thesis behind the catalogue: an attack tool is most useful
+when the system that observes and defends against it ships alongside
+it — the distribution carries both halves of the exercise.

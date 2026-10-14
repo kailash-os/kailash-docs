@@ -1,19 +1,50 @@
 # The taxonomy {#taxonomy-overview}
 
-The Kailash catalogue is organised into **four layers**, and within
-each layer into numbered categories. The catalogue of record is the
-tool manifest — a single source of truth that drives packaging, the
-menu, the CLI, and (coming to this site) the per-tool reference pages.
-Counts below are indicative; the manifest is regenerated per release.
+The Kailash catalogue is organised into four named tool layers (plus a
+CORE substrate that hosts none of them), and within each layer into
+numbered categories. The catalogue of record is **the tool manifest** —
+a single hand-maintained registry in the packages repository; packaging,
+menus, CLI and the generated docs all derive from it.
 
-| Layer | Focus | Example categories |
-|---|---|---|
-| CLASSIC (c-01…c-10) | established security disciplines | information gathering, web assessment, forensics, reverse engineering |
-| ATTACK (a-01…a-08) | AI-specific offensive work | AI recon, prompt injection & jailbreaks, model supply chain, data poisoning |
-| DEFENCE (d-01…d-07) | evaluation, assurance, governance | runtime defence, detection & observability, evals & benchmarks, provenance & signing |
-| OPS (o-01…o-07) | engineering operations | MLOps, compute & serving, vector stores, local inference, agent operability |
+Tool counts below are the census at this guide's build (337 rows across
+32 categories; [the manifest](https://github.com/kailash-os/kailash-packages/tree/main/manifest)
+always carries the live numbers).
 
-Every tool lands in the manifest exactly once, with one primary
-category and optional secondary cross-references where dual-use is
-real. Categories map to desktop menu sections and to the CLI's
-listing — the taxonomy is one vocabulary across all surfaces.
+## Layer CLASSIC (c-01 … c-10) — 147 tools
+
+Software-only heritage security foundation: information gathering (38),
+vulnerability analysis (7), web application assessment (10), database
+assessment (7), password & offline-credential attacks (16), reverse
+engineering (26), Signal & SDR — the opt-in carve-out (6), exploitation
+& post-exploitation, software-only (9), forensics/IR & reporting (21),
+runtime AppSec for AI systems (7).
+
+## Layer ATTACK (a-01 … a-08) — 58 tools
+
+Offensive AI: AI reconnaissance & target discovery (5), LLM prompt
+injection & jailbreaking (8), agentic/MCP/tool-use attacks (9), model
+supply chain & artefact poisoning (8), model extraction/inversion &
+membership inference (8), multi-modal & physical-AI attacks (5), AI
+system exploitation (9), data poisoning & dataset attacks (6).
+
+## Layer DEFENCE (d-01 … d-07) — 45 tools
+
+Defensive AI & assurance: runtime defence & guardrails (7), detection/
+monitoring/observability & IR (8), assurance/evals/benchmarks (6),
+model provenance/signing/trust (10), AI threat modelling (6),
+governance & regulation mapping (4), standards verification (4).
+
+## Layer OPS (o-01 … o-07) — 87 tools
+
+The platform: MLOps & ML engineering (18), compute & serving
+infrastructure (11), vector stores & retrieval (9), local LLM &
+inference labs (5), AI engineering SDKs & dev environment (26),
+documentation/reporting/authoring (10), agent & MCP operability (8).
+
+## How the navigation works
+
+Categories are the navigation system on every surface: the desktop
+menu, the `kailash` CLI's listing, per-category docs, and this guide's
+reference part all use the same vocabulary — three views over one
+manifest. A tool lands exactly once, with one primary category and
+secondary cross-references only where dual-use is real.
