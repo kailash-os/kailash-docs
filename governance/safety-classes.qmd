@@ -1,0 +1,19 @@
+# Safety classes {#safety-classes}
+
+Every tool in the catalogue carries a safety classification in the
+manifest. The classification decides how the tool is surfaced — what
+runs by default, what asks first, what stays behind an explicit
+opt-in.
+
+| Class | Meaning | Default posture |
+|---|---|---|
+| `safe` | self-contained; no live firing | installable and runnable normally |
+| `requires-target` | fires requests at a target system | runs only when given an explicit target |
+| `exp` | experimental code execution surface | gated behind the lab-mode wrapper contract; opt-in |
+
+The default-off posture is a design decision, recorded as an
+architecture decision record in the OS repository: tools in the
+`exp` class never become reachable through menu or CLI defaults.
+Safety class surfaces on every generated reference page, and the
+wrapper contract for `exp` tools is emitted by the same generator that
+builds the category modules.

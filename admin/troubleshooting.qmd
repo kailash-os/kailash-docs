@@ -1,0 +1,11 @@
+# Troubleshooting {#admin-troubleshooting}
+
+::: {.content-visible when-format="html"}
+*Status:* content lands with the administrator-guide lane in this
+window.
+:::
+
+Placeholder structure: boot and imaging issues, manifest/CLI
+diagnostics (`kailash` listing and validation commands), rebuild
+failures against a moved lock, and where to report defects (the
+repository issue trackers, with the release tag in the report).

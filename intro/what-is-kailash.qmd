@@ -1,0 +1,33 @@
+# What is Kailash {#what-is-kailash}
+
+Kailash OS is a **NixOS-based Linux distribution** assembled for AI
+security work. It packages, in one declaratively built environment, the
+offensive, defensive and platform tooling needed to test and operate
+AI/ML systems — the same reproducibility discipline nix gives any other
+system, applied to a security research catalogue.
+
+## Why it exists
+
+Security work on AI systems needs tooling that is:
+
+- **Reproducible** — an experimental result only counts if it can be
+  re-run against the same tool versions; every package is pinned to an
+  exact source revision with a content hash.
+- **Declared, not implied** — the tool catalogue is a single manifest
+  that drives packaging, the desktop menu, the CLI and this guide;
+  nothing is installed ad hoc.
+- **Safety-aware by construction** — tools that talk to live targets
+  or run experimental code are classified and gated, not silently
+  enabled.
+
+::: {.content-visible when-format="html"}
+*Status:* prose chapter under construction — content lands in this
+book's 2026.01-window build. See the repository issue tracker for the
+open lane.
+:::
+
+## Who it is for
+
+Practitioners and researchers doing AI security assessment: red-team
+work against LLM systems, defensive evaluation of deployed models,
+and platform engineering for AI/ML infrastructure under observation.

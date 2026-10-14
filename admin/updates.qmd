@@ -1,0 +1,16 @@
+# Updates {#admin-updates}
+
+A Kailash installation never updates anything in the background — no
+package, lock or tool moves without an explicit action. There are
+exactly two ways a system moves forward:
+
+1. **Rebuild against a newer lock** at the operator's own cadence —
+   pull the lock delta, review what moved, rebuild.
+2. **Adopt a newer release** — take the released lock bump as-is.
+
+Upstream source pins are checked on explicit cadences by machine
+(more active tool classes are checked more often), but a check
+results in a pull request only when the new revision passes its smoke
+check — freshness never lands unreviewed. Release naming and the
+staged cut ladder are described in [the release model
+chapter](../governance/release-model.qmd).

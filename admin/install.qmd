@@ -1,0 +1,21 @@
+# Install {#admin-install}
+
+Kailash ships bootable images for x86_64 and aarch64, in two formats
+per profile: a QEMU disk image (the primary shape) and a bootable ISO.
+
+| Profile | Scope |
+|---|---|
+| `minimal` | the core substrate, no tool categories enabled |
+| `redteam-ai` | the AI red-team lab scope |
+| `full` | the everything-live lab scope |
+| `headless-agent` | base + CLI only, no desktop |
+
+Download surfaces and the per-target size budgets are documented on
+the main site's [images page](https://kailash.site); verify every
+download against the release's SHA256SUMS sheet before first boot.
+
+::: {.content-visible when-format="html"}
+*Status:* a walk-through (imaging, first boot, onboarding) lands in
+this book's 2026.01 build; the chapter keeps to verified facts until
+then.
+:::

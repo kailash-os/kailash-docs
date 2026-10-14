@@ -1,0 +1,21 @@
+# See https://pre-commit.com for more information
+# run locally with `pre-commit run --all-files`
+default_stages: [pre-commit]
+ci:
+  autofix_prs: false
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '^_site/'
+      - id: end-of-file-fixer
+        exclude: '^_site/'
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+      - id: check-json
+      - id: check-added-large-files
+        args: [--maxkb=500]
+      - id: detect-private-key

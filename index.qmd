@@ -1,0 +1,30 @@
+# Kailash OS Guide {#guide-home}
+
+This book is the user and administrator guide for **Kailash OS** — a
+NixOS-based Linux distribution for AI security work. It explains what
+the system is, how it is built and governed, how to run it, and (as the
+reference section lands) how to invoke every tool in its catalogue.
+
+The distribution's main site is [kailash.site](https://kailash.site);
+the guide you are reading lives at `docs.kailash.tools`.
+
+## How the guide is organised
+
+- **Part I — What is Kailash**: the system's purpose, the lab model it
+  embodies, and the four-layer, 32-category taxonomy that organises its
+  tool catalogue.
+- **Part II — Security & governance**: how the distribution is built —
+  declarative pins and locks, the safety classes that gate runnable
+  tooling, and the release model that versions it.
+- **Part III — Tool reference**: one man-style reference page per tool,
+  generated from the tool manifest. *In build — see the coverage page
+  for the delivery plan.*
+- **Part IV — Administrator guide**: install, profile selection,
+  updates, and regeneration of this guide itself.
+
+## Status
+
+The guide is being built in the 2026.01 release window. Prose parts
+land chapter by chapter; the per-tool reference section is generated
+last, from the same manifest that drives the distribution's packaging.
+Progress is tracked publicly on the repository's issue tracker.

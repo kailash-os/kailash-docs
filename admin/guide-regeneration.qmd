@@ -1,0 +1,19 @@
+# Regenerating this guide {#admin-guide-regeneration}
+
+This guide is generated content. Its per-tool reference pages derive
+from the tool manifest and the packaged tools' interfaces; prose parts
+are revised by pull request.
+
+The regeneration contract, in plain terms:
+
+- A page states the **exact tool version it was written against** —
+  the pin that produced it — so every page is bound to a version.
+- When a package bump or a release moves a tool's version, that
+  tool's page is **regenerated in the same change**, enforced by the
+  repository's coverage and provenance checks.
+- Nothing is hand-patched on a generated page: upstream interface
+  drift is answered by regeneration, not by editing.
+
+The pipeline pages and the CI gate that enforce these rules land in
+the 2026.01 window; until then the reference section (Part III) is
+held back rather than published unverified.

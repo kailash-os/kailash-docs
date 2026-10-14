@@ -1,0 +1,27 @@
+# How Kailash is built {#build-model}
+
+Kailash is built declaratively from two Nix repositories: the **OS
+repository** (the distribution flake) and the **packages repository**
+(bespoke derivations and the tool overlay). The tool manifest is the
+single source of truth — packaging, menus, CLI and generated docs all
+derive from it; nothing is hand-maintained per surface.
+
+## Pins and locks
+
+No package floats:
+
+- Bespoke tools are pinned upstream with `nvfetcher` and committed
+  with content hashes; a pin changes only together with the manifest
+  entry it belongs to.
+- The `nixpkgs` lock stays put between scheduled refreshes; tools
+  pinned inside the lock do not move.
+- **The lockfile is the version.** A system moves forward when its
+  operator pulls a newer lock, or when a release is adopted — never in
+  the background.
+
+## Generated surfaces
+
+Everything the distribution publishes about its tools derives from the
+manifest at build time. This guide follows the same rule: its per-tool
+reference pages (Part III) are regenerated from the manifest and the
+packaged tools' own interfaces, never hand-copied.

@@ -1,0 +1,13 @@
+# Reference coverage {#reference-coverage}
+
+Part III will hold one man-style reference page per tool in the
+catalogue, grouped under its category — generated from the tool
+manifest and each tool's packaged interface, with a version-lock note
+naming the exact tool version a page was written against.
+
+**Status: in build.** The generation pipeline and the coverage check
+that proves every tool has a page (or an explicit pending stub) are
+the next lanes in the 2026.01 window. Until they land, this part is
+deliberately empty rather than partially hand-written — the coverage
+guarantee means a tool either has a derived page, or an explained
+stub, or the section is not published at all.

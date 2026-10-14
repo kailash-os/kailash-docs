@@ -1,0 +1,49 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Kailash OS Guide"
+  author: "Kailash OS Project"
+  description: >-
+    User and administrator guide for Kailash OS — a NixOS-based Linux
+    distribution for AI security work: what it is, how it is built and
+    governed, and a per-tool reference for the whole catalogue.
+  site-url: https://docs.kailash.tools
+  repo-url: https://github.com/kailash-os/kailash-guide
+  repo-branch: main
+  repo-actions: [edit, issue]
+  open-graph: true
+  search: true
+  page-footer:
+    left: "Kailash OS Guide — BSD-3-Clause licensed."
+    right:
+      - icon: github
+        href: https://github.com/kailash-os
+  chapters:
+    - index.qmd
+    - part: "Part I — What is Kailash"
+      chapters:
+        - intro/what-is-kailash.qmd
+        - intro/taxonomy.qmd
+    - part: "Part II — Security & governance"
+      chapters:
+        - governance/build-model.qmd
+        - governance/safety-classes.qmd
+        - governance/release-model.qmd
+    - part: "Part III — Tool reference"
+      chapters:
+        - reference/coverage.qmd
+    - part: "Part IV — Administrator guide"
+      chapters:
+        - admin/install.qmd
+        - admin/profiles.qmd
+        - admin/updates.qmd
+        - admin/guide-regeneration.qmd
+        - admin/troubleshooting.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true

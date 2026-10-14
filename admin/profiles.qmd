@@ -1,0 +1,14 @@
+# Profiles {#admin-profiles}
+
+A **profile** selects which tool categories a Kailash system carries.
+The image name encodes its profile (see [Install](install.qmd)):
+`minimal` enables none of the catalogue, `redteam-ai` enables the AI
+offense/defence lab set, `full` carries the complete live catalogue,
+and `headless-agent` trades the desktop for CLI-only operation.
+
+See [Install](install.qmd) for the image/profile mapping.
+
+Categories are enabled declaratively in the system configuration —
+there is no imperative package install step that drifts a system away
+from its declaration. Rebuild against the same lock reproduces the
+same tool set; enable more categories and rebuild to move up.

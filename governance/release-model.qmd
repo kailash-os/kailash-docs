@@ -1,0 +1,18 @@
+# Release model {#release-model}
+
+Kailash versions by **release train and lock**, not by date-derived
+package versions:
+
+- Release names follow `YYYY.NN` — `2026.01`, `2026.02` — where NN
+  counts releases within the year; a train may GA after the calendar
+  page turns and keeps its name.
+- Cuts are staged: `2026.01-alpha.1` → `-rc.1` → bare `2026.01` (GA).
+  A bare number is reserved for GA; pre-GA cuts carry their suffix.
+- A material re-cut of a GA in the same month is `2026.01.1`.
+
+Every release cut is gated by a standing checklist — residue sweep of
+open lanes, both repositories eval-clean, manifest validation, VM
+acceptance evidence, a lock-bump release PR whose body is the release
+review, and reference-hygiene checks — all recorded on the cut issue.
+The lock-bump PR lands before the signed tag; verification at the tag
+runs a cache pull and records validator output in the release notes.

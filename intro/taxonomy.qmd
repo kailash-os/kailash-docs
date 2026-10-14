@@ -1,0 +1,19 @@
+# The taxonomy {#taxonomy-overview}
+
+The Kailash catalogue is organised into **four layers**, and within
+each layer into numbered categories. The catalogue of record is the
+tool manifest — a single source of truth that drives packaging, the
+menu, the CLI, and (coming to this site) the per-tool reference pages.
+Counts below are indicative; the manifest is regenerated per release.
+
+| Layer | Focus | Example categories |
+|---|---|---|
+| CLASSIC (c-01…c-10) | established security disciplines | information gathering, web assessment, forensics, reverse engineering |
+| ATTACK (a-01…a-08) | AI-specific offensive work | AI recon, prompt injection & jailbreaks, model supply chain, data poisoning |
+| DEFENCE (d-01…d-07) | evaluation, assurance, governance | runtime defence, detection & observability, evals & benchmarks, provenance & signing |
+| OPS (o-01…o-07) | engineering operations | MLOps, compute & serving, vector stores, local inference, agent operability |
+
+Every tool lands in the manifest exactly once, with one primary
+category and optional secondary cross-references where dual-use is
+real. Categories map to desktop menu sections and to the CLI's
+listing — the taxonomy is one vocabulary across all surfaces.
