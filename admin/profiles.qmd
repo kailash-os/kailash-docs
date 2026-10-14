@@ -1,14 +1,20 @@
 # Profiles {#admin-profiles}
 
-A **profile** selects which tool categories a Kailash system carries.
-The image name encodes its profile (see [Install](install.qmd)):
-`minimal` enables none of the catalogue, `redteam-ai` enables the AI
-offense/defence lab set, `full` carries the complete live catalogue,
-and `headless-agent` trades the desktop for CLI-only operation.
+A **profile** selects which tool categories a Kailash system carries;
+the image name encodes its profile (see
+[Install](install.qmd)):
 
-See [Install](install.qmd) for the image/profile mapping.
+| Profile | Carries |
+|---|---|
+| `minimal` | the CORE substrate — kernel, base userland, hardening, safety defaults, desktop, CLI & menu engines; no tool categories enabled |
+| `redteam-ai` | the AI red-team lab scope — ATTACK core plus its OPS/DEFENCE pairings |
+| `full` | the complete live catalogue ("kali-everything" lab scope) |
+| `headless-agent` | base + CLI only, no desktop; the qcow2 grows at first boot |
 
-Categories are enabled declaratively in the system configuration —
-there is no imperative package install step that drifts a system away
-from its declaration. Rebuild against the same lock reproduces the
-same tool set; enable more categories and rebuild to move up.
+Categories are enabled **declaratively** in the system configuration —
+there is no imperative install step that drifts a system away from
+its declaration. Rebuilding against the same lock reproduces the same
+tool set exactly; to move up, enable more categories (per the
+category-module contract every category is one module file) and
+rebuild. See the build-model chapter for why nothing moves in the
+background.

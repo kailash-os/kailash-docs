@@ -1,11 +1,32 @@
 # Troubleshooting {#admin-troubleshooting}
 
-::: {.content-visible when-format="html"}
-*Status:* content lands with the administrator-guide lane in this
-window.
-:::
+## Listing and diagnosing the system
 
-Placeholder structure: boot and imaging issues, manifest/CLI
-diagnostics (`kailash` listing and validation commands), rebuild
-failures against a moved lock, and where to report defects (the
-repository issue trackers, with the release tag in the report).
+- `kailash list` — the CLI's manifest-baked listing of installed
+  categories and tools. Because the listing is baked from the
+  manifest at build time (the drift-killer design), what it shows is
+  what the system declaration carries — compare it against your
+  enabled categories when diagnosing a "missing tool" report.
+- `kailash manifest validate` (via the packages flake, as the release
+  checklist runs it) — checks a manifest against the schema;
+  validators' output is the first thing a release review records.
+
+## Common situations
+
+- **Boot/imaging**: verify the checksum against the release's
+  SHA256SUMS sheet first; size-budget overruns indicate a stray
+  opt-in data derivation enabled on an image that excludes it —
+  heavy packs ride `kailash-data.*` toggles, off on default images.
+- **Rebuild against a moved lock**: a tool failing after a lock pull
+  is a pin that moved — check the pin's derivation and the bump PR's
+  smoke evidence before rolling the lock back; report defects with
+  the release tag on the repository tracker.
+- **Category smoke failures**: per-category VM smoke tests gate CI;
+  a failing smoke names the category module to look at first.
+
+## Reporting defects
+
+Track findings on the project's GitHub issue trackers with the
+release tag in the report — findings do not live only in local
+notes. The guide's own defects (broken links, stale pages) are
+reported on the kailash-guide repository.
