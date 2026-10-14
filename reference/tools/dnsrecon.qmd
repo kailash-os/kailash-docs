@@ -1,8 +1,6 @@
 ---
-title: "dnsrecon(1) - Kailash Tool Reference"
+title: "dnsrecon"
 ---
-
-## dnsrecon
 
 > **dnsrecon** - DNS enumeration script — zone transfers, records, reverse lookups (overlay pin).
 

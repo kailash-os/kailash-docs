@@ -1,8 +1,6 @@
 ---
-title: "whatweb(1) - Kailash Tool Reference"
+title: "whatweb"
 ---
-
-## whatweb
 
 > **whatweb** - Next-generation web scanner — technology fingerprinting.
 

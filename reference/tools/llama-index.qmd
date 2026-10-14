@@ -1,8 +1,6 @@
 ---
-title: "llama-index(1) - Kailash Tool Reference"
+title: "llama-index"
 ---
-
-## llama-index
 
 > **llama-index** - LlamaIndex — document processing and RAG framework.
 

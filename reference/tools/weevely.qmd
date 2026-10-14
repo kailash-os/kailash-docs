@@ -1,8 +1,6 @@
 ---
-title: "weevely(1) - Kailash Tool Reference"
+title: "weevely"
 ---
-
-## weevely
 
 > **weevely** - Weaponized web shell with a telnet-like console.
 

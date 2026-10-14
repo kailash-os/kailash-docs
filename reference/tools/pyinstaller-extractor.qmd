@@ -1,8 +1,6 @@
 ---
-title: "pyinstaller-extractor(1) - Kailash Tool Reference"
+title: "pyinstaller-extractor"
 ---
-
-## pyinstaller-extractor
 
 > **pyinstaller-extractor** - Extracts packed executables from PyInstaller bundles.
 

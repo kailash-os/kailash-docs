@@ -1,8 +1,6 @@
 ---
-title: "garak(1) - Kailash Tool Reference"
+title: "garak"
 ---
-
-## garak
 
 > **garak** - LLM vulnerability scanner — probes for jailbreaks, prompt injection, data leakage and hallucination across model providers.
 

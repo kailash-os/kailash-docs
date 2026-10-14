@@ -1,8 +1,6 @@
 ---
-title: "prompt-backdoor-tool(1) - Kailash Tool Reference"
+title: "prompt-backdoor-tool"
 ---
-
-## prompt-backdoor-tool
 
 > **prompt-backdoor-tool** - Prompt-backdoor tool — trigger-insertion experiments in prompt/instruction corpora (the T0043.004 class at base technique).
 

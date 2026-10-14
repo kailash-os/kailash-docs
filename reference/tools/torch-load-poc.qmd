@@ -1,8 +1,6 @@
 ---
-title: "torch-load-poc(1) - Kailash Tool Reference"
+title: "torch-load-poc"
 ---
-
-## torch-load-poc
 
 > **torch-load-poc** - torch.load PoC — demonstrates arbitrary-code execution via weights_only=False deserialization paths (lab-gated).
 

@@ -1,8 +1,6 @@
 ---
-title: "hashcat(1) - Kailash Tool Reference"
+title: "hashcat"
 ---
-
-## hashcat
 
 > **hashcat** - Fast password cracker with GPU support and a rule-based engine.
 

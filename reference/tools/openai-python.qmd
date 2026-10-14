@@ -1,8 +1,6 @@
 ---
-title: "openai-python(1) - Kailash Tool Reference"
+title: "openai-python"
 ---
-
-## openai-python
 
 > **openai-python** - OpenAI Python SDK.
 

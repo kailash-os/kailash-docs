@@ -1,8 +1,6 @@
 ---
-title: "model-card-toolkit(1) - Kailash Tool Reference"
+title: "model-card-toolkit"
 ---
-
-## model-card-toolkit
 
 > **model-card-toolkit** - TensorFlow Model Card Toolkit — automates generation of model documentation cards.
 

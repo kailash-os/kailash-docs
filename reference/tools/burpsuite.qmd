@@ -1,8 +1,6 @@
 ---
-title: "burpsuite(1) - Kailash Tool Reference"
+title: "burpsuite"
 ---
-
-## burpsuite
 
 > **burpsuite** - Integrated platform for web security testing — free edition, pinned (KA-07.1).
 

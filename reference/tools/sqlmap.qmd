@@ -1,8 +1,6 @@
 ---
-title: "sqlmap(1) - Kailash Tool Reference"
+title: "sqlmap"
 ---
-
-## sqlmap
 
 > **sqlmap** - Automatic SQL injection and database takeover tool.
 

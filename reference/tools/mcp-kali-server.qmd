@@ -1,8 +1,6 @@
 ---
-title: "mcp-kali-server(1) - Kailash Tool Reference"
+title: "mcp-kali-server"
 ---
-
-## mcp-kali-server
 
 > **mcp-kali-server** - MCP Kali Server — Kali toolchain exposed over MCP for agent operators (third-party deliverable).
 

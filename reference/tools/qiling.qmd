@@ -1,8 +1,6 @@
 ---
-title: "qiling(1) - Kailash Tool Reference"
+title: "qiling"
 ---
-
-## qiling
 
 > **qiling** - Cross-platform emulation framework built on Unicorn.
 

@@ -1,8 +1,6 @@
 ---
-title: "atlas-visualiser(1) - Kailash Tool Reference"
+title: "atlas-visualiser"
 ---
-
-## atlas-visualiser
 
 > **atlas-visualiser** - MITRE ATLAS visualiser — renders ATLAS tactic/technique coverage over a target system map (planned first-party pack).
 

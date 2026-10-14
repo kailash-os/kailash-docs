@@ -1,8 +1,6 @@
 ---
-title: "mcp-guardian(1) - Kailash Tool Reference"
+title: "mcp-guardian"
 ---
-
-## mcp-guardian
 
 > **mcp-guardian** - MCP Guardian — proxy and guard layer for exercising MCP server controls (allow-lists, ratelimits) from the attacker side.
 

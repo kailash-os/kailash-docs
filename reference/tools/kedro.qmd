@@ -1,8 +1,6 @@
 ---
-title: "kedro(1) - Kailash Tool Reference"
+title: "kedro"
 ---
-
-## kedro
 
 > **kedro** - Kedro — production-ready data-science pipeline framework.
 

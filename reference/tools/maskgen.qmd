@@ -1,8 +1,6 @@
 ---
-title: "maskgen(1) - Kailash Tool Reference"
+title: "maskgen"
 ---
-
-## maskgen
 
 > **maskgen** - Generates optimized hashcat masks from password lists (PACK kit).
 

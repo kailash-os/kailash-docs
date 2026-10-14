@@ -1,8 +1,6 @@
 ---
-title: "autopsy(1) - Kailash Tool Reference"
+title: "autopsy"
 ---
-
-## autopsy
 
 > **autopsy** - Digital forensics platform and GUI for The Sleuth Kit.
 

@@ -1,8 +1,6 @@
 ---
-title: "langchain-vuln-hunter(1) - Kailash Tool Reference"
+title: "langchain-vuln-hunter"
 ---
-
-## langchain-vuln-hunter
 
 > **langchain-vuln-hunter** - LangChain vulnerability hunter — drives CVE probes against langchain-based agent deployments.
 

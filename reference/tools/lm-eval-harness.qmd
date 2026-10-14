@@ -1,8 +1,6 @@
 ---
-title: "lm-eval-harness(1) - Kailash Tool Reference"
+title: "lm-eval-harness"
 ---
-
-## lm-eval-harness
 
 > **lm-eval-harness** - EleutherAI Language Model Evaluation Harness — standard few-shot benchmark runner (lm-eval).
 

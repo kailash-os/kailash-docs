@@ -1,8 +1,6 @@
 ---
-title: "the-harvester(1) - Kailash Tool Reference"
+title: "the-harvester"
 ---
-
-## the-harvester
 
 > **the-harvester** - Gathers emails, subdomains and names from public sources.
 

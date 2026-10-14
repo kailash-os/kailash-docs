@@ -1,8 +1,6 @@
 ---
-title: "gopherus(1) - Kailash Tool Reference"
+title: "gopherus"
 ---
-
-## gopherus
 
 > **gopherus** - Generates serialized payloads for SSRF/gopher attacks on internal services.
 

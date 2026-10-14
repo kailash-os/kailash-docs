@@ -1,8 +1,6 @@
 ---
-title: "foolbox(1) - Kailash Tool Reference"
+title: "foolbox"
 ---
-
-## foolbox
 
 > **foolbox** - Foolbox — python toolbox for adversarial attacks on ML models (week-after: derivation pending).
 

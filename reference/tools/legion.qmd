@@ -1,8 +1,6 @@
 ---
-title: "legion(1) - Kailash Tool Reference"
+title: "legion"
 ---
-
-## legion
 
 > **legion** - Semi-automated network pentesting framework with a GUI.
 

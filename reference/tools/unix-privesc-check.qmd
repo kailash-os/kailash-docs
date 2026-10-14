@@ -1,8 +1,6 @@
 ---
-title: "unix-privesc-check(1) - Kailash Tool Reference"
+title: "unix-privesc-check"
 ---
-
-## unix-privesc-check
 
 > **unix-privesc-check** - Finds misconfigurations allowing local privilege escalation.
 

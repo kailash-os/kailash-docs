@@ -1,8 +1,6 @@
 ---
-title: "trivy(1) - Kailash Tool Reference"
+title: "trivy"
 ---
-
-## trivy
 
 > **trivy** - Aqua Trivy — all-in-one vulnerability/secret/misconfiguration/SBOM scanner.
 

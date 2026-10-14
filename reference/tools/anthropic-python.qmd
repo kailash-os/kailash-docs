@@ -1,8 +1,6 @@
 ---
-title: "anthropic-python(1) - Kailash Tool Reference"
+title: "anthropic-python"
 ---
-
-## anthropic-python
 
 > **anthropic-python** - Anthropic Python SDK.
 

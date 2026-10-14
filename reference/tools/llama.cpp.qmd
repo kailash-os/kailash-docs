@@ -1,8 +1,6 @@
 ---
-title: "llama.cpp(1) - Kailash Tool Reference"
+title: "llama.cpp"
 ---
-
-## llama.cpp
 
 > **llama.cpp** - llama.cpp — LLM inference in C/C++ (CPU/GPU quantized inference).
 

@@ -1,8 +1,6 @@
 ---
-title: "promptfoo(1) - Kailash Tool Reference"
+title: "promptfoo"
 ---
-
-## promptfoo
 
 > **promptfoo** - promptfoo — LLM eval and red-team CLI: prompt/model/RAG evaluation, regression checks and injection probes.
 

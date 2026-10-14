@@ -1,8 +1,6 @@
 ---
-title: "feroxbuster(1) - Kailash Tool Reference"
+title: "feroxbuster"
 ---
-
-## feroxbuster
 
 > **feroxbuster** - Recursive content discovery tool (Rust).
 

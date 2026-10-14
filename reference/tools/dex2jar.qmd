@@ -1,8 +1,6 @@
 ---
-title: "dex2jar(1) - Kailash Tool Reference"
+title: "dex2jar"
 ---
-
-## dex2jar
 
 > **dex2jar** - Converts Android .dex files to Java .class (jar).
 

@@ -1,8 +1,6 @@
 ---
-title: "minikube(1) - Kailash Tool Reference"
+title: "minikube"
 ---
-
-## minikube
 
 > **minikube** - minikube — local Kubernetes.
 

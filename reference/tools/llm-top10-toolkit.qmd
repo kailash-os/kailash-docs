@@ -1,8 +1,6 @@
 ---
-title: "llm-top10-toolkit(1) - Kailash Tool Reference"
+title: "llm-top10-toolkit"
 ---
-
-## llm-top10-toolkit
 
 > **llm-top10-toolkit** - OWASP LLM Top 10 toolkit — risk-mapping data for both Top-10 epochs (2026 + v2:2025) driving the verifier (planned first-party pack).
 

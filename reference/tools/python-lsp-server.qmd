@@ -1,8 +1,6 @@
 ---
-title: "python-lsp-server(1) - Kailash Tool Reference"
+title: "python-lsp-server"
 ---
-
-## python-lsp-server
 
 > **python-lsp-server** - python-lsp-server — LSP for Python (SpyderMaintained fork).
 

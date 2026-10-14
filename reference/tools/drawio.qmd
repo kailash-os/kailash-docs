@@ -1,8 +1,6 @@
 ---
-title: "drawio(1) - Kailash Tool Reference"
+title: "drawio"
 ---
-
-## drawio
 
 > **drawio** - draw.io — JavaScript client-side diagramming editor.
 

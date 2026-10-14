@@ -1,8 +1,6 @@
 ---
-title: "asvs-verification-toolkit(1) - Kailash Tool Reference"
+title: "asvs-verification-toolkit"
 ---
-
-## asvs-verification-toolkit
 
 > **asvs-verification-toolkit** - ASVS verification data-pack — checklists driving the D-7 verifier.
 

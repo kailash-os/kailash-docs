@@ -1,8 +1,6 @@
 ---
-title: "metasploit-framework(1) - Kailash Tool Reference"
+title: "metasploit-framework"
 ---
-
-## metasploit-framework
 
 > **metasploit-framework** - Exploit framework — pinned upstream (KA-07.3); web/API modules only.
 

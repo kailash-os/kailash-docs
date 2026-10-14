@@ -1,8 +1,6 @@
 ---
-title: "ffuf(1) - Kailash Tool Reference"
+title: "ffuf"
 ---
-
-## ffuf
 
 > **ffuf** - Fast web fuzzer written in Go.
 

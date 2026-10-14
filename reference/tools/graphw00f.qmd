@@ -1,8 +1,6 @@
 ---
-title: "graphw00f(1) - Kailash Tool Reference"
+title: "graphw00f"
 ---
-
-## graphw00f
 
 > **graphw00f** - GraphQL server engine fingerprinting utility.
 

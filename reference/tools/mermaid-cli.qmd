@@ -1,8 +1,6 @@
 ---
-title: "mermaid-cli(1) - Kailash Tool Reference"
+title: "mermaid-cli"
 ---
-
-## mermaid-cli
 
 > **mermaid-cli** - mermaid-cli — command-line rendering for the Mermaid diagram language.
 

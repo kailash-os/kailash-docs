@@ -1,8 +1,6 @@
 ---
-title: "mlsvs-toolkit(1) - Kailash Tool Reference"
+title: "mlsvs-toolkit"
 ---
-
-## mlsvs-toolkit
 
 > **mlsvs-toolkit** - OWASP MLSVS toolkit — machine-learning system verification checklists (planned first-party pack).
 

@@ -1,8 +1,6 @@
 ---
-title: "camera-adversarial-toolkit(1) - Kailash Tool Reference"
+title: "camera-adversarial-toolkit"
 ---
-
-## camera-adversarial-toolkit
 
 > **camera-adversarial-toolkit** - Camera adversarial toolkit — physical-channel attack evaluation against camera-fed AI systems (T0041 Physical Environment Access).
 

@@ -1,8 +1,6 @@
 ---
-title: "ai-act-compliance-checker(1) - Kailash Tool Reference"
+title: "ai-act-compliance-checker"
 ---
-
-## ai-act-compliance-checker
 
 > **ai-act-compliance-checker** - EU AI Act compliance checker — obligation inventory and gap scoring for AI deployments (planned first-party pack).
 

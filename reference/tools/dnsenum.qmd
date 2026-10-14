@@ -1,8 +1,6 @@
 ---
-title: "dnsenum(1) - Kailash Tool Reference"
+title: "dnsenum"
 ---
-
-## dnsenum
 
 > **dnsenum** - Enumerates DNS information including subdomains.
 

@@ -1,8 +1,6 @@
 ---
-title: "psql(1) - Kailash Tool Reference"
+title: "psql"
 ---
-
-## psql
 
 > **psql** - Interactive terminal for PostgreSQL — front-end enumeration support.
 

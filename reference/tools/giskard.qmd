@@ -1,8 +1,6 @@
 ---
-title: "giskard(1) - Kailash Tool Reference"
+title: "giskard"
 ---
-
-## giskard
 
 > **giskard** - Giskard — open-source evaluation and testing library for LLM agents (scan, tests, red-reporting).
 

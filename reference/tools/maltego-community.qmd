@@ -1,8 +1,6 @@
 ---
-title: "maltego-community(1) - Kailash Tool Reference"
+title: "maltego-community"
 ---
-
-## maltego-community
 
 > **maltego-community** - OSINT graph platform — community edition, unfree licence.
 

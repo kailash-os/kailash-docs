@@ -1,8 +1,6 @@
 ---
-title: "vllm(1) - Kailash Tool Reference"
+title: "vllm"
 ---
-
-## vllm
 
 > **vllm** - vLLM — high-throughput, memory-efficient LLM inference and serving engine (native at the pin; plan Appendix A listed bespoke).
 

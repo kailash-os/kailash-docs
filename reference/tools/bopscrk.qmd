@@ -1,8 +1,6 @@
 ---
-title: "bopscrk(1) - Kailash Tool Reference"
+title: "bopscrk"
 ---
-
-## bopscrk
 
 > **bopscrk** - Smart wordlist generator that combines target-related words with transformations.
 

@@ -1,8 +1,6 @@
 ---
-title: "gospider(1) - Kailash Tool Reference"
+title: "gospider"
 ---
-
-## gospider
 
 > **gospider** - Fast web spider written in Go.
 

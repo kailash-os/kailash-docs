@@ -1,8 +1,6 @@
 ---
-title: "photorec(1) - Kailash Tool Reference"
+title: "photorec"
 ---
-
-## photorec
 
 > **photorec** - File-carving recovery tool shipped with TestDisk.
 

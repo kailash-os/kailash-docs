@@ -1,8 +1,6 @@
 ---
-title: "jax(1) - Kailash Tool Reference"
+title: "jax"
 ---
-
-## jax
 
 > **jax** - JAX — composable transformations of Python+NumPy programs.
 

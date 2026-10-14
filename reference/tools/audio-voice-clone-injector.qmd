@@ -1,8 +1,6 @@
 ---
-title: "audio-voice-clone-injector(1) - Kailash Tool Reference"
+title: "audio-voice-clone-injector"
 ---
-
-## audio-voice-clone-injector
 
 > **audio-voice-clone-injector** - Audio voice-clone injector — voice-clone injection into voice pipelines and audio-LM prompt injection (pairs with C-7's DSP pack).
 

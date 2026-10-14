@@ -1,8 +1,6 @@
 ---
-title: "polars(1) - Kailash Tool Reference"
+title: "polars"
 ---
-
-## polars
 
 > **polars** - Polars — extremely fast DataFrame query engine written in Rust.
 

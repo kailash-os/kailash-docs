@@ -1,8 +1,6 @@
 ---
-title: "texlive-full(1) - Kailash Tool Reference"
+title: "texlive-full"
 ---
-
-## texlive-full
 
 > **texlive-full** - TeX Live scheme-full — opt-in data pack; bundle carries a licence mix (plan Appendix A: GPL-class).
 

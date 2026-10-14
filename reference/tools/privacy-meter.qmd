@@ -1,8 +1,6 @@
 ---
-title: "privacy-meter(1) - Kailash Tool Reference"
+title: "privacy-meter"
 ---
-
-## privacy-meter
 
 > **privacy-meter** - Privacy Meter — audits data privacy in statistical/ML models with membership-inference leakage metrics.
 

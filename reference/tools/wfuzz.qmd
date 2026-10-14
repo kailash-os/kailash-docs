@@ -1,8 +1,6 @@
 ---
-title: "wfuzz(1) - Kailash Tool Reference"
+title: "wfuzz"
 ---
-
-## wfuzz
 
 > **wfuzz** - Web content fuzzer for web application assessment.
 

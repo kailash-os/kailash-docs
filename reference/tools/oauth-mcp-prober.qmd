@@ -1,8 +1,6 @@
 ---
-title: "oauth-mcp-prober(1) - Kailash Tool Reference"
+title: "oauth-mcp-prober"
 ---
-
-## oauth-mcp-prober
 
 > **oauth-mcp-prober** - Probes OAuth flows behind AI-agent tool surfaces for broken auth patterns.
 

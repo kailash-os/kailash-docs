@@ -1,8 +1,6 @@
 ---
-title: "edb-debugger(1) - Kailash Tool Reference"
+title: "edb-debugger"
 ---
-
-## edb-debugger
 
 > **edb-debugger** - Cross-platform AArch32/x86/x86-64 debugger.
 

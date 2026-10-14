@@ -1,8 +1,6 @@
 ---
-title: "mssql-cli(1) - Kailash Tool Reference"
+title: "mssql-cli"
 ---
-
-## mssql-cli
 
 > **mssql-cli** - Command-line interface for SQL Server with autocompletion.
 

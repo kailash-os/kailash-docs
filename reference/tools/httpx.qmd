@@ -1,8 +1,6 @@
 ---
-title: "httpx(1) - Kailash Tool Reference"
+title: "httpx"
 ---
-
-## httpx
 
 > **httpx** - Fast and multi-purpose HTTP toolkit.
 

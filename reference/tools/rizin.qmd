@@ -1,8 +1,6 @@
 ---
-title: "rizin(1) - Kailash Tool Reference"
+title: "rizin"
 ---
-
-## rizin
 
 > **rizin** - UNIX-like reverse-engineering framework (radare2 fork).
 

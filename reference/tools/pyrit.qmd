@@ -1,8 +1,6 @@
 ---
-title: "pyrit(1) - Kailash Tool Reference"
+title: "pyrit"
 ---
-
-## pyrit
 
 > **pyrit** - PyRIT — Microsoft's Python Risk Identification Tool: automated adversarial-text pipelines for probing generative-AI endpoints.
 

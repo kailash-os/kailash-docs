@@ -1,8 +1,6 @@
 ---
-title: "unipacker(1) - Kailash Tool Reference"
+title: "unipacker"
 ---
-
-## unipacker
 
 > **unipacker** - Automatic and platform-independent unpacker for Windows binaries.
 

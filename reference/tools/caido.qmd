@@ -1,8 +1,6 @@
 ---
-title: "caido(1) - Kailash Tool Reference"
+title: "caido"
 ---
-
-## caido
 
 > **caido** - Lightweight web security auditing toolkit (free tier), pinned (KA-07.1).
 

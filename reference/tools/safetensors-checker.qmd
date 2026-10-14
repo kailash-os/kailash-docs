@@ -1,8 +1,6 @@
 ---
-title: "safetensors-checker(1) - Kailash Tool Reference"
+title: "safetensors-checker"
 ---
-
-## safetensors-checker
 
 > **safetensors-checker** - SafeTensors checker — malformed-tensor and metadata anomaly checks on safetensors model files.
 

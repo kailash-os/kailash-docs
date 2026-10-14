@@ -1,8 +1,6 @@
 ---
-title: "sstimap(1) - Kailash Tool Reference"
+title: "sstimap"
 ---
-
-## sstimap
 
 > **sstimap** - SSTI detection and exploitation assistant (Server-Side Template Injection).
 

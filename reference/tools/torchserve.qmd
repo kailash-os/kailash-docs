@@ -1,8 +1,6 @@
 ---
-title: "torchserve(1) - Kailash Tool Reference"
+title: "torchserve"
 ---
-
-## torchserve
 
 > **torchserve** - TorchServe — PyTorch model serving.
 

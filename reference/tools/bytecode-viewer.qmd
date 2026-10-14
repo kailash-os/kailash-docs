@@ -1,8 +1,6 @@
 ---
-title: "bytecode-viewer(1) - Kailash Tool Reference"
+title: "bytecode-viewer"
 ---
-
-## bytecode-viewer
 
 > **bytecode-viewer** - Java/Android bytecode viewer, decompiler and editor.
 

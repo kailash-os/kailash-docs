@@ -210,11 +210,8 @@ def build(store):
 
         lines = []
         lines.append('---')
-        lines.append(f'title: "{tid}(1) - Kailash Tool Reference"')
-        lines.append('listing: tools') if False else None
+        lines.append(f'title: "{tid}"')
         lines.append('---')
-        lines.append('')
-        lines.append(f'## {tid}')
         lines.append('')
         lines.append(f'> **{tid}** - {desc}')
         lines.append('')
@@ -353,7 +350,6 @@ def register_chapters(out_dir, layer_groups):
     head += '      chapters:\n'
     head += '        - reference/directory.qmd\n'
     head += '        - reference/coverage.qmd\n'
-    head += '        - reference/garak.qmd\n'
     n = 0
     for layer, tids in layer_groups.items():
         if not tids:

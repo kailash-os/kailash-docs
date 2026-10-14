@@ -1,8 +1,6 @@
 ---
-title: "adversarial-clothing(1) - Kailash Tool Reference"
+title: "adversarial-clothing"
 ---
-
-## adversarial-clothing
 
 > **adversarial-clothing** - Adversarial-clothing generator — printable physical-world attack patterns for person-detection/VLM pipelines (lab experiments).
 

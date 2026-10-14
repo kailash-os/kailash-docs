@@ -1,8 +1,6 @@
 ---
-title: "jailbreak-payloads(1) - Kailash Tool Reference"
+title: "jailbreak-payloads"
 ---
-
-## jailbreak-payloads
 
 > **jailbreak-payloads** - Jailbreak payload pack — packages the L1B3RT-4S corpus (the plan's libertas-prompts twin; content use-restrictions beyond the repo licence).
 

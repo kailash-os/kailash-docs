@@ -1,8 +1,6 @@
 ---
-title: "text-generation-webui(1) - Kailash Tool Reference"
+title: "text-generation-webui"
 ---
-
-## text-generation-webui
 
 > **text-generation-webui** - text-generation-webui — open-source desktop app for local LLMs.
 

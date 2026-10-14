@@ -1,8 +1,6 @@
 ---
-title: "searchsploit(1) - Kailash Tool Reference"
+title: "searchsploit"
 ---
-
-## searchsploit
 
 > **searchsploit** - Exploit Database search CLI (ships with the exploitdb archive).
 

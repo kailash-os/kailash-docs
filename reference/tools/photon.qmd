@@ -1,8 +1,6 @@
 ---
-title: "photon(1) - Kailash Tool Reference"
+title: "photon"
 ---
-
-## photon
 
 > **photon** - Lightning-fast web crawler extracting URLs and OSINT intel.
 

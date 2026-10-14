@@ -1,8 +1,6 @@
 ---
-title: "apktool(1) - Kailash Tool Reference"
+title: "apktool"
 ---
-
-## apktool
 
 > **apktool** - Reverse-engineers Android APK files (decode/rebuild).
 

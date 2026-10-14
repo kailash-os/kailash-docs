@@ -1,8 +1,6 @@
 ---
-title: "open-webui(1) - Kailash Tool Reference"
+title: "open-webui"
 ---
-
-## open-webui
 
 > **open-webui** - Open WebUI — self-hosted chat UI for local LLMs (branding-clause licence; unfree-class in nixpkgs).
 

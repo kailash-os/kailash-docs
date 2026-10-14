@@ -1,8 +1,6 @@
 ---
-title: "gnuradio(1) - Kailash Tool Reference"
+title: "gnuradio"
 ---
-
-## gnuradio
 
 > **gnuradio** - GNU Radio — software-defined radio DSP framework (software-only).
 

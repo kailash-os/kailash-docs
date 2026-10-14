@@ -1,8 +1,6 @@
 ---
-title: "arjun(1) - Kailash Tool Reference"
+title: "arjun"
 ---
-
-## arjun
 
 > **arjun** - HTTP parameter discovery suite.
 

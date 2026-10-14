@@ -1,8 +1,6 @@
 ---
-title: "kiterunner(1) - Kailash Tool Reference"
+title: "kiterunner"
 ---
-
-## kiterunner
 
 > **kiterunner** - Contextual content discovery tool for API routes.
 

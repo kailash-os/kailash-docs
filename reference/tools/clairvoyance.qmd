@@ -1,8 +1,6 @@
 ---
-title: "clairvoyance(1) - Kailash Tool Reference"
+title: "clairvoyance"
 ---
-
-## clairvoyance
 
 > **clairvoyance** - Obtains GraphQL API schemas from introspection-disabled endpoints.
 

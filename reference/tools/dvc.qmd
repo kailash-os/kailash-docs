@@ -1,8 +1,6 @@
 ---
-title: "dvc(1) - Kailash Tool Reference"
+title: "dvc"
 ---
-
-## dvc
 
 > **dvc** - Data Version Control — pipeline and dataset versioning for ML workspaces.
 

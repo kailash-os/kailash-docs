@@ -1,8 +1,6 @@
 ---
-title: "trojai-toolkit(1) - Kailash Tool Reference"
+title: "trojai-toolkit"
 ---
-
-## trojai-toolkit
 
 > **trojai-toolkit** - TrojAI toolkit — NIST-rounded synthetic trojaned-dataset and trojaned-model generation for backdoor research.
 

@@ -1,8 +1,6 @@
 ---
-title: "nmap(1) - Kailash Tool Reference"
+title: "nmap"
 ---
-
-## nmap
 
 > **nmap** - Network scanner and security mapper — host/port discovery and service enumeration.
 

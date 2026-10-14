@@ -1,8 +1,6 @@
 ---
-title: "model-extraction-attack(1) - Kailash Tool Reference"
+title: "model-extraction-attack"
 ---
-
-## model-extraction-attack
 
 > **model-extraction-attack** - Model-extraction harness — drives query-efficient extraction campaigns against hosted model APIs (Steal-ML class).
 

@@ -1,8 +1,6 @@
 ---
-title: "typst(1) - Kailash Tool Reference"
+title: "typst"
 ---
-
-## typst
 
 > **typst** - Typst — markup-based typesetting system.
 

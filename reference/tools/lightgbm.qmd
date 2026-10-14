@@ -1,8 +1,6 @@
 ---
-title: "lightgbm(1) - Kailash Tool Reference"
+title: "lightgbm"
 ---
-
-## lightgbm
 
 > **lightgbm** - LightGBM — fast gradient-boosting framework (GBDT, GBRT).
 

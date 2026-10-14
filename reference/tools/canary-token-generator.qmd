@@ -1,8 +1,6 @@
 ---
-title: "canary-token-generator(1) - Kailash Tool Reference"
+title: "canary-token-generator"
 ---
-
-## canary-token-generator
 
 > **canary-token-generator** - Canary-token generator — plants verifiable canary strings in prompts, system cards and datasets for leakage tracing (planned first-party pack).
 

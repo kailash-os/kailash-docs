@@ -1,8 +1,6 @@
 ---
-title: "syft(1) - Kailash Tool Reference"
+title: "syft"
 ---
-
-## syft
 
 > **syft** - Anchore Syft — SBOM generation CLI for container images and filesystems.
 

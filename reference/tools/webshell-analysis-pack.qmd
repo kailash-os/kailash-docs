@@ -1,8 +1,6 @@
 ---
-title: "webshell-analysis-pack(1) - Kailash Tool Reference"
+title: "webshell-analysis-pack"
 ---
-
-## webshell-analysis-pack
 
 > **webshell-analysis-pack** - Reference pack of known webshell artefacts for detection and analysis.
 

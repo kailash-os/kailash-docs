@@ -1,8 +1,6 @@
 ---
-title: "agent-dojo(1) - Kailash Tool Reference"
+title: "agent-dojo"
 ---
-
-## agent-dojo
 
 > **agent-dojo** - AgentDojo — ETH's dynamic evaluation environment for prompt-injection attacks and defenses on LLM agents (upstream repo agentdojo).
 

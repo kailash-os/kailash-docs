@@ -1,8 +1,6 @@
 ---
-title: "deepeval(1) - Kailash Tool Reference"
+title: "deepeval"
 ---
-
-## deepeval
 
 > **deepeval** - DeepEval — LLM evaluation framework with unit-test-style metrics (G-Eval, faithfulness, bias).
 

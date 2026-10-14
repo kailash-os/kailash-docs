@@ -1,8 +1,6 @@
 ---
-title: "obsidian(1) - Kailash Tool Reference"
+title: "obsidian"
 ---
-
-## obsidian
 
 > **obsidian** - Obsidian — personal knowledge base (licence proprietary-class; nixpkgs unfree).
 

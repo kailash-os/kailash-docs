@@ -1,8 +1,6 @@
 ---
-title: "rustscan(1) - Kailash Tool Reference"
+title: "rustscan"
 ---
-
-## rustscan
 
 > **rustscan** - Fast port scanner that pipes results into Nmap.
 

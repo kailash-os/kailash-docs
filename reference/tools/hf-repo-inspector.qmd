@@ -1,8 +1,6 @@
 ---
-title: "hf-repo-inspector(1) - Kailash Tool Reference"
+title: "hf-repo-inspector"
 ---
-
-## hf-repo-inspector
 
 > **hf-repo-inspector** - HF repository inspector — artefact-level red-team review of Hugging Face repos: mixed formats, suspicious payloads, org signals.
 

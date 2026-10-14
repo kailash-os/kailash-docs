@@ -1,8 +1,6 @@
 ---
-title: "nikto(1) - Kailash Tool Reference"
+title: "nikto"
 ---
-
-## nikto
 
 > **nikto** - Web server scanner performing tests for dangerous files and misconfigurations.
 

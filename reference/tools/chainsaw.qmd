@@ -1,8 +1,6 @@
 ---
-title: "chainsaw(1) - Kailash Tool Reference"
+title: "chainsaw"
 ---
-
-## chainsaw
 
 > **chainsaw** - Rapidly searches and hunts through Windows forensic artefacts (Sigma/YARA).
 

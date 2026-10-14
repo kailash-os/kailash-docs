@@ -1,8 +1,6 @@
 ---
-title: "crewai(1) - Kailash Tool Reference"
+title: "crewai"
 ---
-
-## crewai
 
 > **crewai** - CrewAI — role-playing autonomous agent orchestration framework.
 

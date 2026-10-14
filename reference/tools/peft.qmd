@@ -1,8 +1,6 @@
 ---
-title: "peft(1) - Kailash Tool Reference"
+title: "peft"
 ---
-
-## peft
 
 > **peft** - Hugging Face PEFT — parameter-efficient fine-tuning.
 

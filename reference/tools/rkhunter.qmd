@@ -1,8 +1,6 @@
 ---
-title: "rkhunter(1) - Kailash Tool Reference"
+title: "rkhunter"
 ---
-
-## rkhunter
 
 > **rkhunter** - Rootkit Hunter — scans for rootkits, backdoors and local exploits.
 

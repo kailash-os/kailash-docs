@@ -1,8 +1,6 @@
 ---
-title: "sigma-cli(1) - Kailash Tool Reference"
+title: "sigma-cli"
 ---
-
-## sigma-cli
 
 > **sigma-cli** - Sigma rule conversion command-line interface.
 

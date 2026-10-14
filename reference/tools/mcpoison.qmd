@@ -1,8 +1,6 @@
 ---
-title: "mcpoison(1) - Kailash Tool Reference"
+title: "mcpoison"
 ---
-
-## mcpoison
 
 > **mcpoison** - MCPoison — public PoC demonstrating agent trickery via poisoned MCP tool definitions (lab-gated).
 

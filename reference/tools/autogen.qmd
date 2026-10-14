@@ -1,8 +1,6 @@
 ---
-title: "autogen(1) - Kailash Tool Reference"
+title: "autogen"
 ---
-
-## autogen
 
 > **autogen** - AutoGen — programming framework for agentic AI (v0.4+; repo licence CC-BY-4.0 per metadata + LICENCE read).
 

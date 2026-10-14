@@ -1,8 +1,6 @@
 ---
-title: "mypy(1) - Kailash Tool Reference"
+title: "mypy"
 ---
-
-## mypy
 
 > **mypy** - mypy — optional static typing for Python.
 

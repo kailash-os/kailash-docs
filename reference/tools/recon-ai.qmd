@@ -1,8 +1,6 @@
 ---
-title: "recon-ai(1) - Kailash Tool Reference"
+title: "recon-ai"
 ---
-
-## recon-ai
 
 > **recon-ai** - AI-surface reconnaissance — discovers model endpoints, agentic surfaces and org-published AI artefacts on a target scope.
 

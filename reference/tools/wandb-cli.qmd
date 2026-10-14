@@ -1,8 +1,6 @@
 ---
-title: "wandb-cli(1) - Kailash Tool Reference"
+title: "wandb-cli"
 ---
-
-## wandb-cli
 
 > **wandb-cli** - Weights & Biases CLI — experiment logging and sweeps client.
 

@@ -1,8 +1,6 @@
 ---
-title: "findomain(1) - Kailash Tool Reference"
+title: "findomain"
 ---
-
-## findomain
 
 > **findomain** - Fastest cross-platform subdomain enumerator.
 

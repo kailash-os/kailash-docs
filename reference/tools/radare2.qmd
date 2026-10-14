@@ -1,8 +1,6 @@
 ---
-title: "radare2(1) - Kailash Tool Reference"
+title: "radare2"
 ---
-
-## radare2
 
 > **radare2** - UNIX-like reverse-engineering framework and command-line toolset.
 

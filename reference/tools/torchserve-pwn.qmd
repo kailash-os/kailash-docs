@@ -1,8 +1,6 @@
 ---
-title: "torchserve-pwn(1) - Kailash Tool Reference"
+title: "torchserve-pwn"
 ---
-
-## torchserve-pwn
 
 > **torchserve-pwn** - TorchServe exploit — handler deserialization and management-API attack probes against TorchServe deployments.
 

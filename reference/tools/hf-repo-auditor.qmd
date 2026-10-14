@@ -1,8 +1,6 @@
 ---
-title: "hf-repo-auditor(1) - Kailash Tool Reference"
+title: "hf-repo-auditor"
 ---
-
-## hf-repo-auditor
 
 > **hf-repo-auditor** - Hugging Face repository auditor — scans Hub repos for unsafe pickle/zip-slip artefacts and licence drift (planned first-party pack).
 

@@ -1,8 +1,6 @@
 ---
-title: "kailash-mcp(1) - Kailash Tool Reference"
+title: "kailash-mcp"
 ---
-
-## kailash-mcp
 
 > **kailash-mcp** - kailash-mcp — the distro's own MCP server, generated from the manifest; the CI dogfood target.
 

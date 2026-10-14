@@ -1,8 +1,6 @@
 ---
-title: "cstool(1) - Kailash Tool Reference"
+title: "cstool"
 ---
-
-## cstool
 
 > **cstool** - Capstone's interactive disassembly CLI.
 

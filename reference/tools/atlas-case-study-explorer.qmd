@@ -1,8 +1,6 @@
 ---
-title: "atlas-case-study-explorer(1) - Kailash Tool Reference"
+title: "atlas-case-study-explorer"
 ---
-
-## atlas-case-study-explorer
 
 > **atlas-case-study-explorer** - ATLAS case-study explorer — browsable real-world AI-incident case studies (planned first-party pack).
 

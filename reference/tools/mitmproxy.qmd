@@ -1,8 +1,6 @@
 ---
-title: "mitmproxy(1) - Kailash Tool Reference"
+title: "mitmproxy"
 ---
-
-## mitmproxy
 
 > **mitmproxy** - Man-in-the-middle HTTP(S) proxy with a Python API — AI endpoint inspection.
 

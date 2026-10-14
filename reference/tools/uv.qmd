@@ -1,8 +1,6 @@
 ---
-title: "uv(1) - Kailash Tool Reference"
+title: "uv"
 ---
-
-## uv
 
 > **uv** - uv — extremely fast Python package/project manager (MIT/Apache dual).
 

@@ -1,8 +1,6 @@
 ---
-title: "smali(1) - Kailash Tool Reference"
+title: "smali"
 ---
-
-## smali
 
 > **smali** - Assembler/disassembler for the Android dex format (upstream carries no SPDX licence file; AOSP mirror maps Apache-2.0).
 

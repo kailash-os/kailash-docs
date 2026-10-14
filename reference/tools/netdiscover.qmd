@@ -1,8 +1,6 @@
 ---
-title: "netdiscover(1) - Kailash Tool Reference"
+title: "netdiscover"
 ---
-
-## netdiscover
 
 > **netdiscover** - Network address discovery via ARP — kept per the §3.2 ethernet rule.
 

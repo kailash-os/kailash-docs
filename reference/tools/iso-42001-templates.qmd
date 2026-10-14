@@ -1,8 +1,6 @@
 ---
-title: "iso-42001-templates(1) - Kailash Tool Reference"
+title: "iso-42001-templates"
 ---
-
-## iso-42001-templates
 
 > **iso-42001-templates** - ISO/IEC 42001 template pack — AIMS control templates and evidence checklists (planned first-party pack).
 

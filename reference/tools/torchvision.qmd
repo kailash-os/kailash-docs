@@ -1,8 +1,6 @@
 ---
-title: "torchvision(1) - Kailash Tool Reference"
+title: "torchvision"
 ---
-
-## torchvision
 
 > **torchvision** - TorchVision — vision models/transforms for PyTorch.
 

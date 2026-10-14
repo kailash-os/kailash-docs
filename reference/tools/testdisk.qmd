@@ -1,8 +1,6 @@
 ---
-title: "testdisk(1) - Kailash Tool Reference"
+title: "testdisk"
 ---
-
-## testdisk
 
 > **testdisk** - Data-recovery tool for lost partitions and filesystems.
 

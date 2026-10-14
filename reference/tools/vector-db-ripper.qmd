@@ -1,8 +1,6 @@
 ---
-title: "vector-db-ripper(1) - Kailash Tool Reference"
+title: "vector-db-ripper"
 ---
-
-## vector-db-ripper
 
 > **vector-db-ripper** - Vector-store ripper — unauthenticated dump/exfiltration probes against vector databases (chroma/qdrant/weaviate classes).
 

@@ -1,8 +1,6 @@
 ---
-title: "pspy(1) - Kailash Tool Reference"
+title: "pspy"
 ---
-
-## pspy
 
 > **pspy** - Monitors Linux processes without root permissions.
 

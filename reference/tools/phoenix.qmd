@@ -1,8 +1,6 @@
 ---
-title: "phoenix(1) - Kailash Tool Reference"
+title: "phoenix"
 ---
-
-## phoenix
 
 > **phoenix** - Arize Phoenix — AI observability and evaluation: traces, embeddings, evals.
 

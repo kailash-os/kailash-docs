@@ -1,8 +1,6 @@
 ---
-title: "ophcrack(1) - Kailash Tool Reference"
+title: "ophcrack"
 ---
-
-## ophcrack
 
 > **ophcrack** - Windows password cracker based on rainbow tables.
 

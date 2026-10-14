@@ -4,6 +4,8 @@
 maintainers
 *Acceptance sample:* the garak man-style page posted for review on
 [kailash-website#30 (comment)](https://github.com/kailash-os/kailash-website/issues/30#issuecomment-6122448509)
+(retired from the shipped site 2026-10-14 — the sample lives in the
+review thread and the template; generated pages are the live form)
 
 ## Context
 
@@ -104,5 +106,6 @@ hand-written section.
 - Every lock-bump PR now carries a page-regen obligation — accepted
   as the standing cost of version-locked documentation
   (small: only version-moved tools regenerate).
-- The exemplar (garak) defines the acceptance shape; template
-  wording/layout tweaks resolve against it in review.
+- Template wording/layout tweaks resolve against the acceptance
+  sample in its review thread; generated pages are the deliverable,
+  never hand-patched copies of it.

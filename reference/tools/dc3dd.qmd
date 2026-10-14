@@ -1,8 +1,6 @@
 ---
-title: "dc3dd(1) - Kailash Tool Reference"
+title: "dc3dd"
 ---
-
-## dc3dd
 
 > **dc3dd** - Forensic disk-imaging tool (DoD Cyber Crime Center fork of dd).
 

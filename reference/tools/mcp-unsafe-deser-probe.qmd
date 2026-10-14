@@ -1,8 +1,6 @@
 ---
-title: "mcp-unsafe-deser-probe(1) - Kailash Tool Reference"
+title: "mcp-unsafe-deser-probe"
 ---
-
-## mcp-unsafe-deser-probe
 
 > **mcp-unsafe-deser-probe** - Unsafe-deserialization probe — plants maliciously crafted tool payloads to test MCP/agent parser hardening (lab-gated).
 

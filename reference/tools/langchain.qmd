@@ -1,8 +1,6 @@
 ---
-title: "langchain(1) - Kailash Tool Reference"
+title: "langchain"
 ---
-
-## langchain
 
 > **langchain** - LangChain — the agent engineering platform (SDK core).
 

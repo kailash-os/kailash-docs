@@ -1,8 +1,6 @@
 ---
-title: "trojan-lm-toolkit(1) - Kailash Tool Reference"
+title: "trojan-lm-toolkit"
 ---
-
-## trojan-lm-toolkit
 
 > **trojan-lm-toolkit** - Trojan-LM toolkit — backdoor-embedding experiments against language-model training/fine-tuning corpora (lab-gated).
 

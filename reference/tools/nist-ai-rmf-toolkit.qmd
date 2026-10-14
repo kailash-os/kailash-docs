@@ -1,8 +1,6 @@
 ---
-title: "nist-ai-rmf-toolkit(1) - Kailash Tool Reference"
+title: "nist-ai-rmf-toolkit"
 ---
-
-## nist-ai-rmf-toolkit
 
 > **nist-ai-rmf-toolkit** - NIST AI RMF toolkit — Profile templates and mapping worksheets per the AI Risk Management Framework (planned first-party pack).
 

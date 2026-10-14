@@ -1,8 +1,6 @@
 ---
-title: "namespace-reuse-check(1) - Kailash Tool Reference"
+title: "namespace-reuse-check"
 ---
-
-## namespace-reuse-check
 
 > **namespace-reuse-check** - Namespace-reuse checker — detects model/package name squatting and abandoned-namespace re-registration risk.
 

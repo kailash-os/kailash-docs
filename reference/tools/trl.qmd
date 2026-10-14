@@ -1,8 +1,6 @@
 ---
-title: "trl(1) - Kailash Tool Reference"
+title: "trl"
 ---
-
-## trl
 
 > **trl** - Hugging Face TRL — RL training for transformers.
 

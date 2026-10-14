@@ -1,8 +1,6 @@
 ---
-title: "sublist3r(1) - Kailash Tool Reference"
+title: "sublist3r"
 ---
-
-## sublist3r
 
 > **sublist3r** - Subdomain enumeration using public search engines and services.
 

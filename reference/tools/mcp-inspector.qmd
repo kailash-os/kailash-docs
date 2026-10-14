@@ -1,8 +1,6 @@
 ---
-title: "mcp-inspector(1) - Kailash Tool Reference"
+title: "mcp-inspector"
 ---
-
-## mcp-inspector
 
 > **mcp-inspector** - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition).
 

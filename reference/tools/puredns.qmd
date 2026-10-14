@@ -1,8 +1,6 @@
 ---
-title: "puredns(1) - Kailash Tool Reference"
+title: "puredns"
 ---
-
-## puredns
 
 > **puredns** - Domain resolver and subdomain brute-forcing tool.
 

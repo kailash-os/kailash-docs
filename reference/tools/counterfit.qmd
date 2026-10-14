@@ -1,8 +1,6 @@
 ---
-title: "counterfit(1) - Kailash Tool Reference"
+title: "counterfit"
 ---
-
-## counterfit
 
 > **counterfit** - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07).
 

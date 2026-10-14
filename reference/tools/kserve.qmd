@@ -1,8 +1,6 @@
 ---
-title: "kserve(1) - Kailash Tool Reference"
+title: "kserve"
 ---
-
-## kserve
 
 > **kserve** - KServe — model serving on Kubernetes.
 

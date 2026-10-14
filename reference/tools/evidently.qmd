@@ -1,8 +1,6 @@
 ---
-title: "evidently(1) - Kailash Tool Reference"
+title: "evidently"
 ---
-
-## evidently
 
 > **evidently** - Evidently — ML and LLM observability framework: evals, tests and monitoring reports.
 

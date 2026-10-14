@@ -1,8 +1,6 @@
 ---
-title: "inj3ct-llm(1) - Kailash Tool Reference"
+title: "inj3ct-llm"
 ---
-
-## inj3ct-llm
 
 > **inj3ct-llm** - Injection harness — curates and drives prompt-injection payloads against targeted LLM deployments.
 

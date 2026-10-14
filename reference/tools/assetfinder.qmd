@@ -1,8 +1,6 @@
 ---
-title: "assetfinder(1) - Kailash Tool Reference"
+title: "assetfinder"
 ---
-
-## assetfinder
 
 > **assetfinder** - Finds domains and subdomains related to a given domain.
 

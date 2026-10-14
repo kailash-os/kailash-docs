@@ -1,8 +1,6 @@
 ---
-title: "txtai(1) - Kailash Tool Reference"
+title: "txtai"
 ---
-
-## txtai
 
 > **txtai** - txtai — all-in-one embeddings database for semantic search and LLM orchestration.
 

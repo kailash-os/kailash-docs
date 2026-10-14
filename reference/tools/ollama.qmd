@@ -1,8 +1,6 @@
 ---
-title: "ollama(1) - Kailash Tool Reference"
+title: "ollama"
 ---
-
-## ollama
 
 > **ollama** - Ollama — run LLMs locally (primary home; documented tiny test model).
 

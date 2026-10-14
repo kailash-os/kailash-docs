@@ -1,8 +1,6 @@
 ---
-title: "llm-red-team-col(1) - Kailash Tool Reference"
+title: "llm-red-team-col"
 ---
-
-## llm-red-team-col
 
 > **llm-red-team-col** - Curated red-team prompt corpus — collected real-world attack prompts with sources, for injection and jailbreak testing.
 

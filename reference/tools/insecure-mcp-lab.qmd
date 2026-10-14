@@ -1,8 +1,6 @@
 ---
-title: "insecure-mcp-lab(1) - Kailash Tool Reference"
+title: "insecure-mcp-lab"
 ---
-
-## insecure-mcp-lab
 
 > **insecure-mcp-lab** - Insecure MCP lab — deliberately vulnerable MCP endpoints for scanner verification (opt-in lab pack).
 

@@ -1,8 +1,6 @@
 ---
-title: "cleverhans(1) - Kailash Tool Reference"
+title: "cleverhans"
 ---
-
-## cleverhans
 
 > **cleverhans** - CleverHans — adversarial-examples library for benchmarking ML robustness (week-after: derivation pending).
 

@@ -1,8 +1,6 @@
 ---
-title: "llm-fuzzer(1) - Kailash Tool Reference"
+title: "llm-fuzzer"
 ---
-
-## llm-fuzzer
 
 > **llm-fuzzer** - Fuzzes LLM-backed endpoints with adversarial input corpora.
 

@@ -1,8 +1,6 @@
 ---
-title: "statsgen(1) - Kailash Tool Reference"
+title: "statsgen"
 ---
-
-## statsgen
 
 > **statsgen** - Password-list statistics generator for mask analysis (PACK kit).
 

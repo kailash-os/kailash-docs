@@ -1,8 +1,6 @@
 ---
-title: "volatility3(1) - Kailash Tool Reference"
+title: "volatility3"
 ---
-
-## volatility3
 
 > **volatility3** - Memory forensics framework (Volatility 3).
 

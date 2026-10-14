@@ -1,8 +1,6 @@
 ---
-title: "genai-vendor-review-form(1) - Kailash Tool Reference"
+title: "genai-vendor-review-form"
 ---
-
-## genai-vendor-review-form
 
 > **genai-vendor-review-form** - GenAI vendor review form — provider risk questionnaire and scoring sheet (planned first-party pack).
 

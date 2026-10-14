@@ -1,8 +1,6 @@
 ---
-title: "librosa(1) - Kailash Tool Reference"
+title: "librosa"
 ---
-
-## librosa
 
 > **librosa** - Audio and music-signal analysis library (Python).
 

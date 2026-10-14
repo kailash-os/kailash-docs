@@ -1,8 +1,6 @@
 ---
-title: "poisoned-skill-pack(1) - Kailash Tool Reference"
+title: "poisoned-skill-pack"
 ---
-
-## poisoned-skill-pack
 
 > **poisoned-skill-pack** - Poisoned-skill lab pack — deliberately compromised agent skill/tool definitions for red-team drills (exp-gated).
 

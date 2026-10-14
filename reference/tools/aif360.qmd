@@ -1,8 +1,6 @@
 ---
-title: "aif360(1) - Kailash Tool Reference"
+title: "aif360"
 ---
-
-## aif360
 
 > **aif360** - AI Fairness 360 (AIF360) — comprehensive fairness-metrics and bias-mitigation toolkit.
 

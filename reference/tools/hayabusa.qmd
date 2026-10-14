@@ -1,8 +1,6 @@
 ---
-title: "hayabusa(1) - Kailash Tool Reference"
+title: "hayabusa"
 ---
-
-## hayabusa
 
 > **hayabusa** - Windows event-log fast forensics timeline generator.
 
