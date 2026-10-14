@@ -1,0 +1,21 @@
+name: site-check
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  site-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render (fail on broken refs)
+        run: quarto render
+      - name: HTML present
+        run: test -s index.html || test -s _site/index.html
