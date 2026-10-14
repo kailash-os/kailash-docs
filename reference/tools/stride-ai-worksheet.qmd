@@ -1,0 +1,29 @@
+---
+title: "stride-ai-worksheet(1) - Kailash Tool Reference"
+---
+
+## stride-ai-worksheet
+
+> **stride-ai-worksheet** - STRIDE-for-AI worksheet pack — per-trust-boundary threat elicitation sheets for AI systems (planned first-party pack).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-05-threat-modelling](../directory.qmd#cat-d-05-threat-modelling) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/stride-ai-worksheet](https://github.com/kailash-os/stride-ai-worksheet) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`stride-ai-worksheet` - STRIDE-for-AI worksheet pack — per-trust-boundary threat elicitation sheets for AI systems (planned first-party pack).
+
+### SEE ALSO
+
+- Category: [d-05-threat-modelling](../directory.qmd#cat-d-05-threat-modelling) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

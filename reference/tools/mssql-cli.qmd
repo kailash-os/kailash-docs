@@ -1,0 +1,46 @@
+---
+title: "mssql-cli(1) - Kailash Tool Reference"
+---
+
+## mssql-cli
+
+> **mssql-cli** - Command-line interface for SQL Server with autocompletion.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/dbcli/mssql-cli](https://github.com/dbcli/mssql-cli) |
+
+### NAME
+
+`mssql-cli` - Command-line interface for SQL Server with autocompletion.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+python -m pip install mssql-cli
+```
+
+```
+mssql-cli -S <server URL> -d <database name> -U <username> -P <password>
+```
+
+### DESCRIPTION (upstream)
+
+> **DEPRECATION NOTICE** mssql-cli is on the path to deprecation, and will be fully replaced by the new [go-sqlcmd](https://learn.microsoft.com/sql/tools/sqlcmd/go-sqlcmd-utility) utility once it becomes generally available. We are actively in development for the new sqlcmd, and would love to hear feedback on it [here](https://github.com/microsoft/go-sqlcmd/issues)! [**mssql-cli**](https://github.com/dbcli/mssql-cli) is an interactive command line query tool for SQL Server. This open source tool works cross-platform and proud to be a part of the [dbcli](https://github.com/dbcli) community. mssql-cli supports a rich interactive command line experience, with features such as: - **Auto-completi
+
+### SEE ALSO
+
+- Category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

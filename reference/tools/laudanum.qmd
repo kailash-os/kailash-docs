@@ -1,0 +1,37 @@
+---
+title: "laudanum(1) - Kailash Tool Reference"
+---
+
+## laudanum
+
+> **laudanum** - Collection of ready-to-use injectable web-shell files.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+| Upstream | [github.com/junk13/laudanum](https://github.com/junk13/laudanum) |
+
+### NAME
+
+`laudanum` - Collection of ready-to-use injectable web-shell files.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/junk13/laudanum). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+Laudanum: Injectable Web Exploit Code v1.0 By Kevin Johnson <kjohnson@secureideas.com> and the Laudanum Development Team Project Website: http://laudanum.professionallyevil.com Sourceforge Site: http://sourceforge.net/projects/laudanum SVN     :  svn co https://laudanum.svn.sourceforge.net/svnroot/laudanum laudanum ** Copyright (C) 2015 Kevin Johnson and the Laudanum Project Team ** ** This program is free software; you can redistribute it and/or modify ** it under the terms of the GNU General Public License as published by ** the Free Software Foundation; either version 2 of the License, or ** (at your option) any later version. ** ** This program is distributed in the hope that it will be
+
+### SEE ALSO
+
+- Category: [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

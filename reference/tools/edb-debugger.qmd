@@ -1,0 +1,45 @@
+---
+title: "edb-debugger(1) - Kailash Tool Reference"
+---
+
+## edb-debugger
+
+> **edb-debugger** - Cross-platform AArch32/x86/x86-64 debugger.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | GPL-2.0-or-later |
+| Upstream | [github.com/eteran/edb-debugger](https://github.com/eteran/edb-debugger) |
+
+### NAME
+
+`edb-debugger` - Cross-platform AArch32/x86/x86-64 debugger.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/eteran/edb-debugger). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+edb is a cross platform AArch32/x86/x86-64 debugger. It was inspired by [Ollydbg](http://www.ollydbg.de/ "Ollydbg"), but aims to function on AArch32, x86, and x86-64 as well as multiple OS's. **Linux is the only officially supported platform at the moment**, but FreeBSD, OpenBSD, OSX and Windows ports are underway with varying degrees of functionality. edb is available under the GPL 2 license, see the COPYING for details. **NOTE**: version 1.5.0 is the last version to support linux kernels older than 3.0. New development will target 3.0 and newer, and will be 2.0.0 when released. **NOTE**: This README now only covers the most essential documentation, for more complete documentation see the [
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `build.yaml`, `build.yaml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

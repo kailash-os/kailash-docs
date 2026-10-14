@@ -1,0 +1,37 @@
+---
+title: "numpy(1) - Kailash Tool Reference"
+---
+
+## numpy
+
+> **numpy** - NumPy — the fundamental package for scientific computing.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/numpy/numpy](https://github.com/numpy/numpy) |
+
+### NAME
+
+`numpy` - NumPy — the fundamental package for scientific computing.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/numpy/numpy). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+https://numfocus.org) https://pypi.org/project/numpy/) https://anaconda.org/conda-forge/numpy) https://stackoverflow.com/questions/tagged/numpy) https://doi.org/10.1038/s41586-020-2649-2) NumPy is the fundamental package for scientific computing with Python. - **Website:** https://numpy.org - **Documentation:** https://numpy.org/doc - **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion - **Source code:** https://github.com/numpy/numpy - **Contributing:** https://numpy.org/devdocs/dev/index.html - **Bug reports:** https://github.com/numpy/numpy/issues - **Report a security vulnerability:** https://github.com/numpy/numpy/security/policy (via Tidelift) It provides: - a p
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

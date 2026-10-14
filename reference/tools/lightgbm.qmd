@@ -1,0 +1,45 @@
+---
+title: "lightgbm(1) - Kailash Tool Reference"
+---
+
+## lightgbm
+
+> **lightgbm** - LightGBM — fast gradient-boosting framework (GBDT, GBRT).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) |
+
+### NAME
+
+`lightgbm` - LightGBM — fast gradient-boosting framework (GBDT, GBRT).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/microsoft/LightGBM). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### DESCRIPTION (upstream)
+
+> [!NOTE] > This project moved from `Microsoft/LightGBM` to `lightgbm-org/LightGBM` in March 2026. > This repository is still the official LightGBM source code, managed by the same maintainers (including the creator of LightGBM). > For details, see https://github.com/lightgbm-org/LightGBM/issues/7187 Light Gradient Boosting Machine =============================== LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages: - Faster training speed and higher efficiency. - Lower memory usage. - Better accuracy. - Support of parallel, distributed, and GPU learning. - Capable of handling large-sc
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (14 matches, e.g. `cpp.yml`, `cpp.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

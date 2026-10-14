@@ -1,0 +1,63 @@
+---
+title: "puredns(1) - Kailash Tool Reference"
+---
+
+## puredns
+
+> **puredns** - Domain resolver and subdomain brute-forcing tool.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/d3mondev/puredns](https://github.com/d3mondev/puredns) |
+
+::: {.callout-warning}
+## Stale classification
+This row is classed stale in the manifest at generation
+time - check upstream status before relying on it.
+:::
+
+### NAME
+
+`puredns` - Domain resolver and subdomain brute-forcing tool.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+git clone https://github.com/blechschmidt/massdns.git
+cd massdns
+make
+sudo make install
+```
+
+```
+go install github.com/d3mondev/puredns/v2@latest
+```
+
+### DESCRIPTION (upstream)
+
+Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering · · · **puredns** is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries. It uses [massdns](https://github.com/blechschmidt/massdns), a powerful stub DNS resolver, to perform bulk lookups. With the proper bandwidth and a good list of public resolvers, it can resolve millions of queries in just a few minutes. Unfortunately, the results from massdns are only as good as the answers provided by the public resolvers. The results are often polluted by wrong DNS answers and false positives from wildcard subdomains. **puredns** solves this wi
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `build.yml`, `environment variable`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

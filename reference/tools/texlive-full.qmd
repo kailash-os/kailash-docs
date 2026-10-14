@@ -1,0 +1,29 @@
+---
+title: "texlive-full(1) - Kailash Tool Reference"
+---
+
+## texlive-full
+
+> **texlive-full** - TeX Live scheme-full — opt-in data pack; bundle carries a licence mix (plan Appendix A: GPL-class).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+| Upstream | [github.com/TeX-Live/texlive-source](https://github.com/TeX-Live/texlive-source) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`texlive-full` - TeX Live scheme-full — opt-in data pack; bundle carries a licence mix (plan Appendix A: GPL-class).
+
+### SEE ALSO
+
+- Category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

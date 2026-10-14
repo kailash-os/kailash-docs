@@ -1,0 +1,54 @@
+---
+title: "subfinder(1) - Kailash Tool Reference"
+---
+
+## subfinder
+
+> **subfinder** - Subdomain discovery tool — overlay pin (pkgs/subfinder, KA-02.3).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/projectdiscovery/subfinder](https://github.com/projectdiscovery/subfinder) |
+
+### NAME
+
+`subfinder` - Subdomain discovery tool — overlay pin (pkgs/subfinder, KA-02.3).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+subfinder -h
+```
+
+```
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
+
+### DESCRIPTION (upstream)
+
+`subfinder` is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. `subfinder` is built for doing one thing only - passive subdomain enumeration, and it does that very well. We have made it to comply with all the used passive source licenses and usage restrictions. The passive model guarantees speed and stealthiness that can be leveraged by both penetration testers and bug bounty hunters alike. - Fast and powerful resolution and wildcard elimination modules - **Curated** passive sources to maximize results - Multiple output formats supported (JSON, file, stdout) - Optimized for
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (7 matches, e.g. `config.yaml`, `provider-config.yaml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v2.17.0-unstable-2026-10-08](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

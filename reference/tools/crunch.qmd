@@ -1,0 +1,27 @@
+---
+title: "crunch(1) - Kailash Tool Reference"
+---
+
+## crunch
+
+> **crunch** - Wordlist generator.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) |
+| Safety class | safe |
+| Licence | GPL-2.0-only |
+
+### NAME
+
+`crunch` - Wordlist generator.
+
+### SEE ALSO
+
+- Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

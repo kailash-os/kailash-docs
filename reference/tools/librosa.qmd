@@ -1,0 +1,29 @@
+---
+title: "librosa(1) - Kailash Tool Reference"
+---
+
+## librosa
+
+> **librosa** - Audio and music-signal analysis library (Python).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
+| Safety class | safe |
+| Licence | ISC |
+| Upstream | [github.com/librosa/librosa](https://github.com/librosa/librosa) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`librosa` - Audio and music-signal analysis library (Python).
+
+### SEE ALSO
+
+- Category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

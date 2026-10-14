@@ -1,0 +1,49 @@
+---
+title: "torchvision(1) - Kailash Tool Reference"
+---
+
+## torchvision
+
+> **torchvision** - TorchVision — vision models/transforms for PyTorch.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/pytorch/vision](https://github.com/pytorch/vision) |
+
+### NAME
+
+`torchvision` - TorchVision — vision models/transforms for PyTorch.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+@software{torchvision2016,
+    title        = {TorchVision: PyTorch's Computer Vision library},
+    author       = {TorchVision maintainers and contributors},
+    year         = 2016,
+    journal      = {GitHub repository},
+    publisher    = {GitHub},
+    howpublished = {\url{https://github.com/pytorch/vision}}
+}
+```
+
+### DESCRIPTION (upstream)
+
+The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision. Please refer to the [official instructions](https://pytorch.org/get-started/locally/) to install the stable versions of `torch` and `torchvision` on your system. To build source, refer to our [contributing page](https://github.com/pytorch/vision/blob/main/CONTRIBUTING.md#development-installation). The following is the corresponding `torchvision` versions and supported Python versions. Torchvision currently supports the following image backends: - torch tensors - PIL images: - [Pillow](https://python-pillow.org/) - [Pillow-SIMD](https://github.com/uploadcare/pillow-
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

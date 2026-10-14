@@ -1,0 +1,33 @@
+---
+title: "llm-agent-fuzzer(1) - Kailash Tool Reference"
+---
+
+## llm-agent-fuzzer
+
+> **llm-agent-fuzzer** - Agent fuzzer — mutation-guided goal chasing across agent tool-call loops; unsafe-path discovery.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | requires-target |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/llm-agent-fuzzer](https://github.com/kailash-os/llm-agent-fuzzer) |
+
+### NAME
+
+`llm-agent-fuzzer` - Agent fuzzer — mutation-guided goal chasing across agent tool-call loops; unsafe-path discovery.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/llm-agent-fuzzer). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,54 @@
+---
+title: "datasets(1) - Kailash Tool Reference"
+---
+
+## datasets
+
+> **datasets** - Hugging Face Datasets — ready-to-use datasets library.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/huggingface/datasets](https://github.com/huggingface/datasets) |
+
+### NAME
+
+`datasets` - Hugging Face Datasets — ready-to-use datasets library.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install datasets
+```
+
+```
+pip install "datasets @ git+https://github.com/huggingface/datasets.git"
+```
+
+### DESCRIPTION (upstream)
+
+🤗 Datasets is a lightweight library providing **two** main features: - **one-line dataloaders for many public datasets**: one-liners to download and pre-process any of the ![number of datasets](https://img.shields.io/endpoint?url=https://huggingface.co/api/shields/datasets&color=brightgreen) major public datasets (image datasets, audio datasets, text datasets in 467 languages and dialects, 3D medical images, video datasets, agent traces, etc.) provided on the [HuggingFace Datasets Hub](https://huggingface.co/datasets). With a simple command like `squad_dataset = load_dataset("rajpurkar/squad")`, get any of these datasets ready to use in a dataloader for training/evaluating a ML model (Numpy/
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

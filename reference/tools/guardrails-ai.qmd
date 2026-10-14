@@ -1,0 +1,55 @@
+---
+title: "guardrails-ai(1) - Kailash Tool Reference"
+---
+
+## guardrails-ai
+
+> **guardrails-ai** - Guardrails AI — validators that enforce structure, type and quality guarantees on LLM outputs.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) |
+
+### NAME
+
+`guardrails-ai` - Guardrails AI — validators that enforce structure, type and quality guarantees on LLM outputs.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install guardrails-ai
+```
+
+```
+    pip install guardrails-ai
+    guardrails configure
+```
+
+### DESCRIPTION (upstream)
+
+- **[July 6, 2026]** Guardrails validators are moving to standard PyPI packages you install directly with `pip`, and Guardrails is discontinuing its hosted remote inferencing. See [How to Migrate](https://github.com/guardrails-ai/guardrails/issues/1560) for what to do. **Planned cutoff: August 25, 2026.** - **[Feb 12, 2025]** We just launched Guardrails Index -- the first of its kind benchmark comparing the performance and latency of 24 guardrails across 6 most common categories! Check out the index at index.guardrailsai.com Guardrails is a Python framework that helps build reliable AI applications by performing two key functions: 1. Guardrails runs Input/Output Guards in your application th
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

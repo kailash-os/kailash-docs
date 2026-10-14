@@ -1,0 +1,44 @@
+---
+title: "chromadb(1) - Kailash Tool Reference"
+---
+
+## chromadb
+
+> **chromadb** - Chroma — AI-native embedding database (python package + server).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/chroma-core/chroma](https://github.com/chroma-core/chroma) |
+
+### NAME
+
+`chromadb` - Chroma — AI-native embedding database (python package + server).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install chromadb # python client
+# for javascript, npm install chromadb!
+# for client-server mode, chroma run --path /chroma_db_path
+```
+
+### DESCRIPTION (upstream)
+
+Docs Homepage pip install chromadb # python client Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless. Create a DB and try it out in under 30 seconds with $5 of free credits. The core API is only 4 functions (run our [💡 Google Colab](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv?usp=sharing)): import chromadb client = chromadb.Client() collection = client.create_collection("all-my-documents") collection.add( documents=["This is document1", "This is document2"], # we handle tokenization, embedding, and indexing automatically. You can skip that and add your own embeddin
+
+### SEE ALSO
+
+- Category: [o-03-vector-stores-retrieval](../directory.qmd#cat-o-03-vector-stores-retrieval) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

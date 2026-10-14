@@ -1,0 +1,33 @@
+---
+title: "whisper-gate(1) - Kailash Tool Reference"
+---
+
+## whisper-gate
+
+> **whisper-gate** - Whisper Gate — audio-input LLM-surface gate (planned first-party pack, Wave-5 derivation target).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) |
+| Safety class | safe |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/whisper-gate](https://github.com/kailash-os/whisper-gate) |
+
+### NAME
+
+`whisper-gate` - Whisper Gate — audio-input LLM-surface gate (planned first-party pack, Wave-5 derivation target).
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/whisper-gate). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

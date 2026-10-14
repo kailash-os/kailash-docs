@@ -1,0 +1,33 @@
+---
+title: "recon-ai(1) - Kailash Tool Reference"
+---
+
+## recon-ai
+
+> **recon-ai** - AI-surface reconnaissance — discovers model endpoints, agentic surfaces and org-published AI artefacts on a target scope.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon) |
+| Safety class | requires-target |
+| Licence | LicenseRef-Unknown |
+| Upstream | [github.com/kailash-os/recon-ai](https://github.com/kailash-os/recon-ai) |
+
+### NAME
+
+`recon-ai` - AI-surface reconnaissance — discovers model endpoints, agentic surfaces and org-published AI artefacts on a target scope.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/kailash-os/recon-ai). This page does not
+hand-copy flags (generation contract, ADR-0001).
+
+### SEE ALSO
+
+- Category: [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

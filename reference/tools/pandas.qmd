@@ -1,0 +1,56 @@
+---
+title: "pandas(1) - Kailash Tool Reference"
+---
+
+## pandas
+
+> **pandas** - pandas — DataFrame analysis toolkit (the scientific-Python core).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/pandas-dev/pandas](https://github.com/pandas-dev/pandas) |
+
+### NAME
+
+`pandas` - pandas — DataFrame analysis toolkit (the scientific-Python core).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# conda
+conda install -c conda-forge pandas
+```
+
+```
+# or PyPI
+pip install pandas
+```
+
+### DESCRIPTION (upstream)
+
+**pandas** is a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, **real-world** data analysis in Python. Additionally, it has the broader goal of becoming **the most powerful and flexible open-source data analysis/manipulation tool available in any language**. It is already well on its way towards this goal. - [Main Features](#main-features) - [Where to get it](#where-to-get-it) - [Dependencies](#dependencies) - [Installation from sources](#installation-from-sources) - [License](#license) - [Documentation
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `unit-tests.yml`, `unit-tests.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,51 @@
+---
+title: "masscan(1) - Kailash Tool Reference"
+---
+
+## masscan
+
+> **masscan** - Mass IP port scanner — the whole internet in minutes.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | AGPL-3.0-only |
+| Upstream | [github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) |
+
+### NAME
+
+`masscan` - Mass IP port scanner — the whole internet in minutes.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+	<port state> <protocol> <port number> <IP address> <POSIX timestamp>
+	open tcp 80 XXX.XXX.XXX.XXX 1390380064
+```
+
+### DESCRIPTION (upstream)
+
+This is an Internet-scale port scanner. It can scan the entire Internet in under 5 minutes, transmitting 10 million packets per second, from a single machine. Its usage (parameters, output) is similar to `nmap`, the most famous port scanner. When in doubt, try one of those features -- features that support widespread scanning of many machines are supported, while in-depth scanning of single machines aren't. Internally, it uses asynchronous transmission, similar to port scanners like  `scanrand`, `unicornscan`, and `ZMap`. It's more flexible, allowing arbitrary port and address ranges. NOTE: masscan uses its own **ad hoc TCP/IP stack**. Anything other than simple port scans may cause conflict
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (8 matches, e.g. `unittests.yml`, `unittests.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

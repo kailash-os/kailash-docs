@@ -1,0 +1,42 @@
+---
+title: "arjun(1) - Kailash Tool Reference"
+---
+
+## arjun
+
+> **arjun** - HTTP parameter discovery suite.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/s0md3v/Arjun](https://github.com/s0md3v/Arjun) |
+
+### NAME
+
+`arjun` - HTTP parameter discovery suite.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pipx install arjun
+```
+
+### DESCRIPTION (upstream)
+
+Arjun Arjun can find query parameters for URL endpoints. If you don't get what that means, it's okay, read along. Web applications use parameters (or queries) to accept user input, take the following example into consideration `http://api.example.com/v1/userinfo?id=751634589` This URL seems to load user information for a specific user id, but what if there exists a parameter named `admin` which when set to `True` makes the endpoint provide more information about the user?\ This is what Arjun does, it finds valid HTTP parameters with a huge default dictionary of 25,890 parameter names. The best part? It takes less than 10 seconds to go through this huge list while making just 50-60 requests t
+
+### SEE ALSO
+
+- Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

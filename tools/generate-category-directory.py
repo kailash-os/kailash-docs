@@ -27,7 +27,7 @@ LAYER_TITLES = OrderedDict([
 ])
 
 
-def build(manifest_path, manifest_sha, out_path, ref_pages):
+def build(manifest_path, manifest_sha, out_path, tool_pages, sibling_pages):
     with open(manifest_path, encoding='utf-8') as fh:
         tools = yaml.safe_load(fh)['tools']
 
@@ -72,8 +72,13 @@ def build(manifest_path, manifest_sha, out_path, ref_pages):
                 tid = t['id']
                 desc = t.get('description') or t.get('name') or tid
                 safety = (t.get('safety') or {}).get('level', '?')
-                if tid in ref_pages:
-                    lines.append(f'- [{tid}]({tid}.qmd) - safety: {safety} - {desc}')
+                href = None
+                if tid in tool_pages:
+                    href = f'tools/{tid}.qmd'
+                elif tid in sibling_pages:
+                    href = f'{tid}.qmd'
+                if href:
+                    lines.append(f'- [{tid}]({href}) - safety: {safety} - {desc}')
                 else:
                     lines.append(f'- `{tid}` - safety: {safety} - {desc} *(reference page pending)*')
             lines.append('')
@@ -103,10 +108,16 @@ def main():
     ap.add_argument('--out', default=os.path.join(here, '..', 'reference', 'directory.qmd'))
     ap.add_argument('--ref-dir', default=os.path.join(here, '..', 'reference'))
     a = ap.parse_args()
-    ref_pages = set()
+    # detect generated tool pages (reference/tools/*.qmd) AND sibling pages
+    tool_pages = set()
+    tools_dir = os.path.join(os.path.dirname(a.out), 'tools')
+    if os.path.isdir(tools_dir):
+        tool_pages = {f[:-4] for f in os.listdir(tools_dir) if f.endswith('.qmd')}
+    sibling_pages = set()
     if os.path.isdir(a.ref_dir):
-        ref_pages = {f[:-4] for f in os.listdir(a.ref_dir) if f.endswith('.qmd')}
-    build(a.manifest, a.sha, a.out, ref_pages)
+        sibling_pages = {f[:-4] for f in os.listdir(a.ref_dir) if f.endswith('.qmd')}
+    sibling_pages -= {'directory', 'coverage', os.path.splitext(os.path.basename(a.out))[0]}
+    build(a.manifest, a.sha, a.out, tool_pages, sibling_pages)
 
 
 if __name__ == '__main__':

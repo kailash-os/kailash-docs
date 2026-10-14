@@ -1,0 +1,48 @@
+---
+title: "neovim(1) - Kailash Tool Reference"
+---
+
+## neovim
+
+> **neovim** - Neovim — Vim-fork focused on extensibility.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/neovim/neovim](https://github.com/neovim/neovim) |
+
+### NAME
+
+`neovim` - Neovim — Vim-fork focused on extensibility.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+```
+
+```
+make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=/full/path/
+make install
+```
+
+### DESCRIPTION (upstream)
+
+Neovim is a project that seeks to aggressively refactor [Vim](https://www.vim.org/) in order to: - Simplify maintenance and encourage [contributions](https://github.com/neovim/neovim/tree/HEAD/CONTRIBUTING.md) - Split the work between multiple developers - Enable [advanced UIs] without modifications to the core - Maximize [extensibility](https://neovim.io/doc/user/api-ui-events.html#api-ui-events) See the [Introduction](https://github.com/neovim/neovim/wiki/Introduction) wiki page and [Roadmap] for more information. Features - Modern [GUIs](https://github.com/neovim/neovim/wiki/Related-projects#gui) - [API access](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) from any l
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

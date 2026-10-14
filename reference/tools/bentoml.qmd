@@ -1,0 +1,55 @@
+---
+title: "bentoml(1) - Kailash Tool Reference"
+---
+
+## bentoml
+
+> **bentoml** - BentoML — model serving and inference-API packaging.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/bentoml/BentoML](https://github.com/bentoml/BentoML) |
+
+### NAME
+
+`bentoml` - BentoML — model serving and inference-API packaging.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# Requires Python≥3.9
+pip install -U bentoml
+```
+
+```
+pip install torch transformers  # additional dependencies for local run
+```
+
+### DESCRIPTION (upstream)
+
+🍱 Build model inference APIs and multi-model serving systems with any open-source or custom AI models. 👉 [Join our forum](https://forum.modular.com/c/bento/31)! BentoML is a Python library for building online serving systems optimized for AI apps and model inference. - **🍱 Easily build APIs for Any AI/ML Model.** Turn any model inference script into a REST API server with just a few lines of code and standard Python type hints. - **🐳 Docker Containers made simple.** No more dependency hell! Manage your environments, dependencies and model versions with a simple config file. BentoML automatically generates Docker images, ensures reproducibility, and simplifies how you deploy to different envi
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

@@ -1,0 +1,56 @@
+---
+title: "otel-ai(1) - Kailash Tool Reference"
+---
+
+## otel-ai
+
+> **otel-ai** - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/traceloop/openllmetry](https://github.com/traceloop/openllmetry) |
+
+### NAME
+
+`otel-ai` - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install traceloop-sdk
+```
+
+```
+from traceloop.sdk import Traceloop
+
+Traceloop.init()
+```
+
+### DESCRIPTION (upstream)
+
+**🎉 New**: Our semantic conventions are now part of OpenTelemetry! Join the [discussion](https://github.com/open-telemetry/community/blob/1c71595874e5d125ca92ec3b0e948c4325161c8a/projects/llm-semconv.md) and help us shape the future of LLM observability. Looking for the JS/TS version? Check out [OpenLLMetry-JS](https://github.com/traceloop/openllmetry-js). OpenLLMetry is a set of extensions built on top of [OpenTelemetry](https://opentelemetry.io/) that gives you complete observability over your LLM application. Because it uses OpenTelemetry under the hood, [it can be connected to your existing observability solutions](https://www.traceloop.com/docs/openllmetry/integrations/introduction) - D
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

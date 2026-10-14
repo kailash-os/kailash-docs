@@ -1,0 +1,75 @@
+---
+title: "mcp-remote(1) - Kailash Tool Reference"
+---
+
+## mcp-remote
+
+> **mcp-remote** - mcp-remote — stdio/HTTP bridge for reachability and man-in-the-middle tests of remote MCP transports.
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) |
+| Safety class | requires-target |
+| Licence | MIT |
+| Upstream | [github.com/geelen/mcp-remote](https://github.com/geelen/mcp-remote) |
+
+### NAME
+
+`mcp-remote` - mcp-remote — stdio/HTTP bridge for reachability and man-in-the-middle tests of remote MCP transports.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+{
+  "mcpServers": {
+    "remote-example": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://remote.mcp.server/sse"
+      ]
+    }
+  }
+}
+```
+
+```
+{
+  // rest of config...
+  "args": [
+    "mcp-remote",
+    "https://remote.mcp.server/sse",
+    "--header",
+    "Authorization:${AUTH_HEADER}" // note no spaces around ':'
+  ],
+  "env": {
+    "AUTH_HEADER": "Bearer <auth-token>" // spaces OK in env vars
+  }
+},
+```
+
+### DESCRIPTION (upstream)
+
+Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server, with auth support: So far, the majority of MCP servers in the wild are installed locally, using the stdio transport. This has some benefits: both the client and the server can implicitly trust each other as the user has granted them both permission to run. Adding secrets like API keys can be done using environment variables and never leave your machine. And building on `npx` and `uvx` has allowed users to avoid explicit install steps, too. But there's a reason most software that _could_ be moved to the web _did_ get moved to the web: it's so much easier to find and fix bugs & iterate on new features when y
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `environment variables`, `environment variables`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v0.1.38-unstable-2026-09-20](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

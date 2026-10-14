@@ -1,0 +1,46 @@
+---
+title: "graphw00f(1) - Kailash Tool Reference"
+---
+
+## graphw00f
+
+> **graphw00f** - GraphQL server engine fingerprinting utility.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) |
+| Safety class | safe |
+| Licence | BSD-3-Clause |
+| Upstream | [github.com/dolevf/graphw00f](https://github.com/dolevf/graphw00f) |
+
+### NAME
+
+`graphw00f` - GraphQL server engine fingerprinting utility.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# Custom Headers
+HEADERS = {'User-Agent':'graphw00f'}
+
+# Custom Cookies
+COOKIES = {"PHPSESS":"DEADBEEF"}
+```
+
+### DESCRIPTION (upstream)
+
+graphw00f - GraphQL Server Fingerprinting * [How does it work?](#how-does-it-work) * [Detections](#detections) * [GraphQL Threat Matrix](#graphql-threat-matrix) * [Prerequisites](#prerequisites) * [Installation](#installation) * [Configuration](#configuration) * [Example Usage](#example) * [Fingerprinting GraphQL](#fingerprinting-graphql) * [Detecting & Fingerprinting GraphQL](#detecting-and-fingerprinting-graphql) * [Support & Issues](#support-and-issues) * [Resources](#resources) graphw00f (inspired by [wafw00f](https://github.com/EnableSecurity/wafw00f)) is the GraphQL fingerprinting tool for GQL endpoints, it sends a mix of benign and malformed queries to determine the GraphQL engine run
+
+### SEE ALSO
+
+- Category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

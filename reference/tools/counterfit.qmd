@@ -1,0 +1,62 @@
+---
+title: "counterfit(1) - Kailash Tool Reference"
+---
+
+## counterfit
+
+> **counterfit** - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07).
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion) |
+| Safety class | requires-target |
+| Licence | MIT |
+| Upstream | [github.com/Azure/counterfit](https://github.com/Azure/counterfit) |
+
+### NAME
+
+`counterfit` - Counterfit — CLI automation layer for assessing the security of ML models (pinned reference posture; upstream dormant since 2025-07).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+                          __            _____ __
+  _________  __  ______  / /____  _____/ __(_) /_
+ / ___/ __ \/ / / / __ \/ __/ _ \/ ___/ /_/ / __/
+/ /__/ /_/ / /_/ / / / / /_/  __/ /  / __/ / /
+\___/\____/\__,_/_/ /_/\__/\___/_/  /_/ /_/\__/
+
+                                        #ATML
+
+---------------------------------------------------
+```
+
+```
+    az container exec --resource-group <RESOURCE_GROUP> --name counterfit --exec-command '/bin/bash'
+```
+
+### DESCRIPTION (upstream)
+
+[About](#About) | [Getting Started](#Getting-Started) | [Acknowledgments](#Acknowledgments) | [Contributing](#Contributing) | [Trademarks](#Trademarks) | [Contact Us](#Contact-Us) __            _____ __ _________  __  ______  / /____  _____/ __(_) /_ / ___/ __ \/ / / / __ \/ __/ _ \/ ___/ /_/ / __/ / /__/ /_/ / /_/ / / / / /_/  __/ /  / __/ / / \___/\____/\__,_/_/ /_/\__/\___/_/  /_/ /_/\__/ Counterfit is a generic automation layer for assessing the security of machine learning systems. It brings several existing adversarial frameworks under one tool, or allows users to create their own. To run this tool, you need to have the following softwares installed: 1. Python 3.8 or higher 2. Minicond
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (3 matches, e.g. `tests.yaml`, `tests.yaml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [a-05-model-extraction-inversion](../directory.qmd#cat-a-05-model-extraction-inversion) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v1.1.0-unstable-2025-07-18](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

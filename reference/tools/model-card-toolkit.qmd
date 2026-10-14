@@ -1,0 +1,54 @@
+---
+title: "model-card-toolkit(1) - Kailash Tool Reference"
+---
+
+## model-card-toolkit
+
+> **model-card-toolkit** - TensorFlow Model Card Toolkit — automates generation of model documentation cards.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/tensorflow/model-card-toolkit](https://github.com/tensorflow/model-card-toolkit) |
+
+### NAME
+
+`model-card-toolkit` - TensorFlow Model Card Toolkit — automates generation of model documentation cards.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install model-card-toolkit
+```
+
+```
+pip install model-card-toolkit[tensorflow]
+```
+
+### DESCRIPTION (upstream)
+
+The Model Card Toolkit (MCT) streamlines and automates generation of [Model Cards](https://modelcards.withgoogle.com/about) [1], machine learning documents that provide context and transparency into a model's development and performance. Integrating the MCT into your ML pipeline enables you to share model metadata and metrics with researchers, developers, reporters, and more. Some use cases of model cards include: * Facilitating the exchange of information between model builders and product developers. * Informing users of ML models to make better-informed decisions about how to use them (or how not to use them). * Providing model information required for effective public oversight and accou
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci.yml`, `ci.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

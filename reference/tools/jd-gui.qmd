@@ -1,0 +1,48 @@
+---
+title: "jd-gui(1) - Kailash Tool Reference"
+---
+
+## jd-gui
+
+> **jd-gui** - Java decompiler with a standalone graphical UI.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui) |
+
+### NAME
+
+`jd-gui` - Java decompiler with a standalone graphical UI.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+> git clone https://github.com/java-decompiler/jd-gui.git
+> cd jd-gui
+> ./gradlew build
+```
+
+```
+> ./gradlew idea
+```
+
+### DESCRIPTION (upstream)
+
+JD-GUI, a standalone graphical utility that displays Java sources from CLASS files. - Java Decompiler projects home page: [http://java-decompiler.github.io](http://java-decompiler.github.io) - JD-GUI source code: [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui) JD-GUI is a standalone graphical utility that displays Java source codes of ".class" files. You can browse the reconstructed source code with the JD-GUI for instant access to methods and fields. > git clone https://github.com/java-decompiler/jd-gui.git > cd jd-gui > ./gradlew build generate : - _"build/libs/jd-gui-x.y.z.jar"_ - _"build/libs/jd-gui-x.y.z-min.jar"_ - _"build/distributions/jd-gui-win
+
+### SEE ALSO
+
+- Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

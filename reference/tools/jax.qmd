@@ -1,0 +1,64 @@
+---
+title: "jax(1) - Kailash Tool Reference"
+---
+
+## jax
+
+> **jax** - JAX — composable transformations of Python+NumPy programs.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/google/jax](https://github.com/google/jax) |
+
+### NAME
+
+`jax` - JAX — composable transformations of Python+NumPy programs.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+import jax
+import jax.numpy as jnp
+
+def tanh(x):
+  y = jnp.exp(-2.0 * x)
+  return (1.0 - y) / (1.0 + y)
+
+grad_tanh = jax.grad(tanh)
+print(grad_tanh(1.0))
+# prints 0.4199743
+```
+
+```
+print(jax.grad(jax.grad(jax.grad(tanh)))(1.0))
+# prints 0.62162673
+```
+
+### DESCRIPTION (upstream)
+
+JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning. JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. It supports reverse-mode differentiation (a.k.a. backpropagation) via [`jax.grad`](#automatic-differentiation-with-grad) as well as forward-mode differentiation, and the two can be composed arbitrarily to any order. JAX uses [XLA](https://www.openxla.org/xla) to compile and scale your NumPy programs on TPUs, GPUs, and
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `ci-build.yaml`, `ci-build.yaml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

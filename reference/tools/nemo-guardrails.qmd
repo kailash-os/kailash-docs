@@ -1,0 +1,62 @@
+---
+title: "nemo-guardrails(1) - Kailash Tool Reference"
+---
+
+## nemo-guardrails
+
+> **nemo-guardrails** - NVIDIA NeMo Guardrails — programmable guardrails (topics, rails, jailbreak defence) for LLM conversational apps.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/NVIDIA-NeMo/Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) |
+
+### NAME
+
+`nemo-guardrails` - NVIDIA NeMo Guardrails — programmable guardrails (topics, rails, jailbreak defence) for LLM conversational apps.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+> pip install nemoguardrails
+```
+
+```
+from nemoguardrails import LLMRails, RailsConfig
+
+# Load a guardrails configuration from the specified path.
+config = RailsConfig.from_path("PATH/TO/CONFIG")
+rails = LLMRails(config)
+
+completion = rails.generate(
+    messages=[{"role": "user", "content": "Hello world!"}]
+)
+```
+
+### DESCRIPTION (upstream)
+
+> **LATEST RELEASE / DEVELOPMENT VERSION**: The [develop](https://github.com/NVIDIA-NeMo/Guardrails/tree/develop) branch tracks the latest top of tree development. The latest released version is [0.24.1](https://github.com/NVIDIA-NeMo/Guardrails/tree/v0.24.1). ✨✨✨ 📌 **The official NeMo Guardrails library documentation is available at [docs.nvidia.com/nemo/guardrails](https://docs.nvidia.com/nemo/guardrails).** ✨✨✨ NVIDIA NeMo Guardrails library is an open-source toolkit for easily adding *programmable guardrails* to LLM-based conversational applications. Guardrails (or "rails" for short) are specific ways of controlling the output of a large language model, such as not talking about politics
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (16 matches, e.g. `pr-tests.yml`, `pr-tests.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

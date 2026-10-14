@@ -1,0 +1,58 @@
+---
+title: "hexstrike-ai(1) - Kailash Tool Reference"
+---
+
+## hexstrike-ai
+
+> **hexstrike-ai** - HexStrike AI — MCP server letting AI agents autonomously run 100+ security tools for offensive security operations.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) |
+| Safety class | exp |
+| Licence | MIT |
+| Upstream | [github.com/0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) |
+
+### NAME
+
+`hexstrike-ai` - HexStrike AI — MCP server letting AI agents autonomously run 100+ security tools for offensive security operations.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+# 1. Clone the repository
+git clone https://github.com/0x4m4/hexstrike-ai.git
+cd hexstrike-ai
+
+# 2. Create virtual environment
+python3 -m venv hexstrike-env
+source hexstrike-env/bin/activate  # Linux/Mac
+# hexstrike-env\Scripts\activate   # Windows
+
+# 3. Install Python dependencies
+pip3 install -r requirements.txt
+
+```
+
+```
+prowler scout-suite trivy
+kube-hunter kube-bench docker-bench-security
+```
+
+### DESCRIPTION (upstream)
+
+**Advanced AI-powered penetration testing MCP framework with 150+ security tools and 12+ autonomous AI agents** **Owned & developed by [OTT Cybersecurity LLC](https://overthetop.ae/)** [📋 What's New](#whats-new-in-v60) • [🏗️ Architecture](#architecture-overview) • [🚀 Installation](#installation) • [🛠️ Features](#features) • [🤖 AI Agents](#ai-agents) • [📡 API Reference](#api-reference) &nbsp;&nbsp; HexStrike AI MCP v6.0 features a multi-agent architecture with autonomous AI agents, intelligent decision-making, and vulnerability intelligence. %%{init: {"themeVariables": { "primaryColor": "#b71c1c", "secondaryColor": "#ff5252", "tertiaryColor": "#ff8a80", "background": "#2d0000", "edgeLabelBack
+
+### SEE ALSO
+
+- Category: [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [vunstable-2026-08-03](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

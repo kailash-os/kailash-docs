@@ -1,0 +1,43 @@
+---
+title: "weevely(1) - Kailash Tool Reference"
+---
+
+## weevely
+
+> **weevely** - Weaponized web shell with a telnet-like console.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+| Upstream | [github.com/epinna/weevely3](https://github.com/epinna/weevely3) |
+
+### NAME
+
+`weevely` - Weaponized web shell with a telnet-like console.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+weevely generate <password> <path>
+weevely <URL> <password> [cmd]
+```
+
+### DESCRIPTION (upstream)
+
+Weevely is a web shell designed for post-exploitation purposes that can be extended over the network at runtime. Upload weevely PHP agent to a target web server to get remote shell access to it. It has more than 30 modules to assist administrative tasks, maintain access, provide situational awareness, elevate privileges, and spread into the target network. Read the [Install](https://github.com/epinna/weevely3/wiki/Install) page to install weevely and its dependencies. Read the [Getting Started](https://github.com/epinna/weevely3/wiki/Getting-Started) page to generate an agent and connect to it. Browse the [Wiki](https://github.com/epinna/weevely3/wiki) to read examples and use cases. weevely
+
+### SEE ALSO
+
+- Category: [c-08-exploitation-post-exploitation](../directory.qmd#cat-c-08-exploitation-post-exploitation) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

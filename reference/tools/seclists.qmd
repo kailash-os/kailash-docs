@@ -1,0 +1,29 @@
+---
+title: "seclists(1) - Kailash Tool Reference"
+---
+
+## seclists
+
+> **seclists** - Collection of security wordlists (passwords, usernames, URLs) — rides the opt-in kailash-data.wordlists-mega DATA pack (KA-29 derivation:pkgs/seclists, default OFF — data packs never ride a default profile); per-file corpus content licences beyond the repo licence are NOT established.
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`seclists` - Collection of security wordlists (passwords, usernames, URLs) — rides the opt-in kailash-data.wordlists-mega DATA pack (KA-29 derivation:pkgs/seclists, default OFF — data packs never ride a default profile); per-file corpus content licences beyond the repo licence are NOT established.
+
+### SEE ALSO
+
+- Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v2026.1](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

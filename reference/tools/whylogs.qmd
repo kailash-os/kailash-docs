@@ -1,0 +1,64 @@
+---
+title: "whylogs(1) - Kailash Tool Reference"
+---
+
+## whylogs
+
+> **whylogs** - WhyLabs whylogs — privacy-preserving data and ML/LLM logging profiles for drift and quality monitoring.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/whylabs/whylogs](https://github.com/whylabs/whylogs) |
+
+### NAME
+
+`whylogs` - WhyLabs whylogs — privacy-preserving data and ML/LLM logging profiles for drift and quality monitoring.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+import whylogs as why
+import pandas as pd
+
+#dataframe
+df = pd.read_csv("path/to/file.csv")
+results = why.log(df)
+```
+
+```
+import whylogs as why
+import pandas as pd
+
+#dataframe
+df = pd.read_csv("path/to/file.csv")
+results = why.log(df)
+```
+
+### DESCRIPTION (upstream)
+
+whylogs is an open source library for logging any kind of data. With whylogs, users are able to generate summaries of their datasets (called _whylogs profiles_) which they can use to: 1. Track changes in their dataset 2. Create _data constraints_ to know whether their data looks the way it should 3. Quickly visualize key summary statistics about their datasets These three functionalities enable a variety of use cases for data scientists, machine learning engineers, and data engineers: - Detect data drift in model input features - Detect training-serving skew, concept drift, and model performance degradation - Validate data quality in model inputs or in a data pipeline - Perform exploratory d
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `whylogs-ci.yml`, `environment variable`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

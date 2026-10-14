@@ -1,0 +1,58 @@
+---
+title: "mcp-inspector(1) - Kailash Tool Reference"
+---
+
+## mcp-inspector
+
+> **mcp-inspector** - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition).
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) |
+
+### NAME
+
+`mcp-inspector` - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+npx @modelcontextprotocol/inspector                   # web UI (default)
+npx @modelcontextprotocol/inspector --cli             # CLI
+npx @modelcontextprotocol/inspector --tui             # TUI
+npx -p @modelcontextprotocol/inspector mcpdo --help   # mcpdo
+```
+
+```
+npm install          # at the repo root; postinstall cascades into every client
+npm run build        # web → cli → tui → launcher
+```
+
+### DESCRIPTION (upstream)
+
+A developer tool for inspecting [Model Context Protocol](https://modelcontextprotocol.io) (MCP) servers. It ships as a single package, `@modelcontextprotocol/inspector`, that provides four ways to inspect a server: - **Web** — a Vite + React + [Mantine](https://mantine.dev) single-page app with a Node backend. - **CLI** — a scriptable command-line client for automation, CI, and fast agent feedback loops. - **TUI** — an interactive terminal UI built with [Ink](https://github.com/vadimdemedes/ink). - **mcpdo** _(experimental)_ — a connection CLI: connect once, then run many commands against the named connection through an implicit local daemon. See [`clients/mcpdo`](https://github.com/modelcon
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (2 matches, e.g. `--config`, `--config`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-07-agent-mcp-operability](../directory.qmd#cat-o-07-agent-mcp-operability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [v2.10.1](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

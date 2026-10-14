@@ -1,0 +1,42 @@
+---
+title: "llm-guard(1) - Kailash Tool Reference"
+---
+
+## llm-guard
+
+> **llm-guard** - LLM Guard — input/output scanning pipeline for prompts and completions (PII, toxicity, prompt-injection scanners).
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) |
+| Safety class | safe |
+| Licence | MIT |
+| Upstream | [github.com/protectai/llm-guard](https://github.com/protectai/llm-guard) |
+
+### NAME
+
+`llm-guard` - LLM Guard — input/output scanning pipeline for prompts and completions (PII, toxicity, prompt-injection scanners).
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install llm-guard
+```
+
+### DESCRIPTION (upstream)
+
+> [!WARNING] > **THIS PROJECT HAS BEEN ARCHIVED.** > > This project and its associated models on [Hugging Face](https://huggingface.co/protectai) are no longer under active development or maintained. LLM Guard by [Protect AI](https://protectai.com/llm-guard) is a comprehensive tool designed to fortify the security of Large Language Models (LLMs). [**Documentation**](https://protectai.github.io/llm-guard/) | [**Playground**](https://huggingface.co/spaces/ProtectAI/llm-guard-playground) | [**Changelog**](https://protectai.github.io/llm-guard/changelog/) stars](https://img.shields.io/github/stars/protectai/llm-guard.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/protectai/llm-g
+
+### SEE ALSO
+
+- Category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

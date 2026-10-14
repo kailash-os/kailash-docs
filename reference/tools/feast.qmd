@@ -1,0 +1,55 @@
+---
+title: "feast(1) - Kailash Tool Reference"
+---
+
+## feast
+
+> **feast** - Feast — the open-source feature store for AI/ML.
+
+| | |
+|---|---|
+| Layer | OPS |
+| Category | [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/feast-dev/feast](https://github.com/feast-dev/feast) |
+
+### NAME
+
+`feast` - Feast — the open-source feature store for AI/ML.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install feast
+```
+
+```
+feast init my_feature_repo
+cd my_feature_repo/feature_repo
+```
+
+### DESCRIPTION (upstream)
+
+👋👋👋 [Come say hi on Slack!](https://slack.feast.dev/) Feast (**Fea**ture **St**ore) is an open source feature store for machine learning. Feast is the fastest path to manage existing infrastructure to productionize analytic data for model training and online inference. Feast allows ML platform teams to: * **Make features consistently available for training and serving** by managing an _offline store_ (to process historical data for scale-out batch scoring or model training), a low-latency _online store_ (to power real-time prediction)_,_ and a battle-tested _feature server_ (to serve pre-computed features online). * **Avoid data leakage** by generating point-in-time correct feature sets so d
+
+### CONFIGURATION (detected)
+
+Config-surface markers detected in the upstream
+README (6 matches, e.g. `unit_tests.yml`, `unit_tests.yml`).
+A full config reference page for this tool is
+queued under the config-page policy — this line
+is the detection record, not the page.
+
+### SEE ALSO
+
+- Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

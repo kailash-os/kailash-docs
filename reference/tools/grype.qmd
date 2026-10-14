@@ -1,0 +1,50 @@
+---
+title: "grype(1) - Kailash Tool Reference"
+---
+
+## grype
+
+> **grype** - Anchore Grype — vulnerability scanner for container images and filesystems.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) |
+| Safety class | safe |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/anchore/grype](https://github.com/anchore/grype) |
+
+### NAME
+
+`grype` - Anchore Grype — vulnerability scanner for container images and filesystems.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+curl -sSfL https://get.anchore.io/grype | sudo sh -s -- -b /usr/local/bin
+```
+
+```
+# container image
+grype alpine:latest
+
+# directory
+grype ./my-project
+```
+
+### DESCRIPTION (upstream)
+
+**A vulnerability scanner for container images and filesystems.** &nbsp;<a href="https://github.com/anchore/grype/actions?query=workflow%3A%22Static+Analysis+%2B+Unit+%2B+Integration%22"><img src="https://github.com/anchore/grype/workflows/Static%20Analysis%20+%20Unit%20+%20Integration/badge.svg" alt="Static Analysis + Unit + Integration"></a>&nbsp; &nbsp;<a href="https://github.com/anchore/grype/actions/workflows/validations.yaml"><img src="https://github.com/anchore/grype/workflows/Validations/badge.svg" alt="Validations"></a>&nbsp; &nbsp;<a href="https://goreportcard.com/report/github.com/anchore/grype"><img src="https://goreportcard.com/badge/github.com/anchore/grype" alt="Go Report Card
+
+### SEE ALSO
+
+- Category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

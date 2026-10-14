@@ -1,0 +1,27 @@
+---
+title: "dc3dd(1) - Kailash Tool Reference"
+---
+
+## dc3dd
+
+> **dc3dd** - Forensic disk-imaging tool (DoD Cyber Crime Center fork of dd).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) |
+| Safety class | safe |
+| Licence | GPL-3.0-or-later |
+
+### NAME
+
+`dc3dd` - Forensic disk-imaging tool (DoD Cyber Crime Center fork of dd).
+
+### SEE ALSO
+
+- Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

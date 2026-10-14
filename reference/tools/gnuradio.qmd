@@ -1,0 +1,29 @@
+---
+title: "gnuradio(1) - Kailash Tool Reference"
+---
+
+## gnuradio
+
+> **gnuradio** - GNU Radio — software-defined radio DSP framework (software-only).
+
+| | |
+|---|---|
+| Layer | CLASSIC |
+| Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
+| Safety class | safe |
+| Licence | GPL-3.0-only |
+| Upstream | [github.com/gnuradio/gnuradio](https://github.com/gnuradio/gnuradio) |
+| Row kind | data pack (bundle description, not an invocation surface) |
+
+### NAME
+
+`gnuradio` - GNU Radio — software-defined radio DSP framework (software-only).
+
+### SEE ALSO
+
+- Category: [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

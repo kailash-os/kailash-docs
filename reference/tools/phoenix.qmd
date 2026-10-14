@@ -1,0 +1,47 @@
+---
+title: "phoenix(1) - Kailash Tool Reference"
+---
+
+## phoenix
+
+> **phoenix** - Arize Phoenix — AI observability and evaluation: traces, embeddings, evals.
+
+| | |
+|---|---|
+| Layer | DEFENCE |
+| Category | [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) |
+| Safety class | safe |
+| Licence | LicenseRef-ELv2 |
+| Upstream | [github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) |
+
+### NAME
+
+`phoenix` - Arize Phoenix — AI observability and evaluation: traces, embeddings, evals.
+
+### SYNOPSIS & usage
+
+*Derived from the upstream README at generation
+time; verify against `--help` where the tool is
+installed.*
+
+```
+pip install arize-phoenix
+phoenix serve
+```
+
+```
+uvx arize-phoenix serve
+```
+
+### DESCRIPTION (upstream)
+
+Arize Phoenix is Arize's open-source AI observability platform designed for experimentation, evaluation, and troubleshooting. For managed production workflows, Arize also offers [Arize AX](https://arize.com/products/ax/). Phoenix provides: - [**_Tracing_**](https://arize.com/docs/phoenix/tracing/llm-traces) - Trace your LLM application's runtime using OpenTelemetry-based instrumentation. - [**_Evaluation_**](https://arize.com/docs/phoenix/evaluation/llm-evals) - Leverage LLMs to benchmark your application's performance using response and retrieval evals. - [**_Datasets_**](https://arize.com/docs/phoenix/datasets-and-experiments/overview-datasets) - Create versioned datasets of examples for e
+
+### SEE ALSO
+
+- Category: [d-02-detection-monitoring-observability](../directory.qmd#cat-d-02-detection-monitoring-observability) in the
+  category directory (sister tools listed there).
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
