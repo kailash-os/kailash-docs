@@ -1,8 +1,6 @@
 ---
-title: "adversarial-patches-collection(1) - Kailash Tool Reference"
+title: "adversarial-patches-collection - reference"
 ---
-
-## adversarial-patches-collection
 
 > **adversarial-patches-collection** - Adversarial-patch data pack — curated public patch corpora and generator recipes for visual-attack drills (aggregates e.g. jhayes14/adversarial-patch).
 

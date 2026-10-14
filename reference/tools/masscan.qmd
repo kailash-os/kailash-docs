@@ -1,8 +1,6 @@
 ---
-title: "masscan(1) - Kailash Tool Reference"
+title: "masscan - reference"
 ---
-
-## masscan
 
 > **masscan** - Mass IP port scanner — the whole internet in minutes.
 

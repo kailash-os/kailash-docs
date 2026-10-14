@@ -1,8 +1,6 @@
 ---
-title: "sysmon-modular - configuration reference"
+title: "sysmon-modular - configuration"
 ---
-
-# sysmon-modular — configuration reference
 
 Configuration surfaces for [sysmon-modular](../tools/sysmon-modular.qmd)
 (safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —

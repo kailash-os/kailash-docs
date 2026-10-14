@@ -1,8 +1,6 @@
 ---
-title: "gaskunk(1) - Kailash Tool Reference"
+title: "gaskunk - reference"
 ---
-
-## gaskunk
 
 > **gaskunk** - Gaskunk — runtime LLM output-gating guard (planned first-party pack, KA-06.x derivation target).
 

@@ -1,8 +1,6 @@
 ---
-title: "vlm-image-injector(1) - Kailash Tool Reference"
+title: "vlm-image-injector - reference"
 ---
-
-## vlm-image-injector
 
 > **vlm-image-injector** - VLM image injector — crafts image-channel payloads that steer vision-language model outputs (cross-modal prompt injection).
 

@@ -1,8 +1,6 @@
 ---
-title: "mcp-scan - configuration reference"
+title: "mcp-scan - configuration"
 ---
-
-# mcp-scan — configuration reference
 
 Configuration surfaces for [mcp-scan](../tools/mcp-scan.qmd)
 (safety class: safe; category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use)) —

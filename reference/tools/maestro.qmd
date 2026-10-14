@@ -1,8 +1,6 @@
 ---
-title: "maestro(1) - Kailash Tool Reference"
+title: "maestro - reference"
 ---
-
-## maestro
 
 > **maestro** - MAESTRO threat-modelling CLI — agent-system threat elicitation keyed to the OWASP MAESTRO framework.
 

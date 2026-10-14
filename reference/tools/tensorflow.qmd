@@ -1,8 +1,6 @@
 ---
-title: "tensorflow(1) - Kailash Tool Reference"
+title: "tensorflow - reference"
 ---
-
-## tensorflow
 
 > **tensorflow** - TensorFlow — end-to-end ML platform.
 

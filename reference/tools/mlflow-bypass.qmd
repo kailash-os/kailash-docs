@@ -1,8 +1,6 @@
 ---
-title: "mlflow-bypass(1) - Kailash Tool Reference"
+title: "mlflow-bypass - reference"
 ---
-
-## mlflow-bypass
 
 > **mlflow-bypass** - MLflow platform exploit — auth-bypass/RCE probes against MLflow tracking servers (pairs with the O-1 lab target).
 

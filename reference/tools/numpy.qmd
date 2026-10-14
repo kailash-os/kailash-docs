@@ -1,8 +1,6 @@
 ---
-title: "numpy(1) - Kailash Tool Reference"
+title: "numpy - reference"
 ---
-
-## numpy
 
 > **numpy** - NumPy — the fundamental package for scientific computing.
 

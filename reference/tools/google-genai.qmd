@@ -1,8 +1,6 @@
 ---
-title: "google-genai(1) - Kailash Tool Reference"
+title: "google-genai - reference"
 ---
-
-## google-genai
 
 > **google-genai** - Google Gen AI Python SDK.
 

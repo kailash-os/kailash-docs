@@ -1,8 +1,6 @@
 ---
-title: "arp-scan(1) - Kailash Tool Reference"
+title: "arp-scan - reference"
 ---
-
-## arp-scan
 
 > **arp-scan** - ARP scanning and fingerprinting tool (ethernet, not RF).
 

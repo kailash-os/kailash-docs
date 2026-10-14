@@ -1,8 +1,6 @@
 ---
-title: "kailash-container(1) - Kailash Tool Reference"
+title: "kailash-container - reference"
 ---
-
-## kailash-container
 
 > **kailash-container** - kailash-container — container image deliverable bundling the distro toolset.
 

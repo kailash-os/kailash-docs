@@ -1,8 +1,6 @@
 ---
-title: "chromadb(1) - Kailash Tool Reference"
+title: "chromadb - reference"
 ---
-
-## chromadb
 
 > **chromadb** - Chroma — AI-native embedding database (python package + server).
 

@@ -1,8 +1,6 @@
 ---
-title: "cosign(1) - Kailash Tool Reference"
+title: "cosign - reference"
 ---
-
-## cosign
 
 > **cosign** - Sigstore cosign — container and binary signing and transparency.
 

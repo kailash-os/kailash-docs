@@ -1,8 +1,6 @@
 ---
-title: "wapiti(1) - Kailash Tool Reference"
+title: "wapiti - reference"
 ---
-
-## wapiti
 
 > **wapiti** - Web application vulnerability scanner.
 

@@ -1,8 +1,6 @@
 ---
-title: "modelscan(1) - Kailash Tool Reference"
+title: "modelscan - reference"
 ---
-
-## modelscan
 
 > **modelscan** - Protect AI modelscan — serialized-model scanner covering pickle, torch, keras and other ML artefact formats.
 

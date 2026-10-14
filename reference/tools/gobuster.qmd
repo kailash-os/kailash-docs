@@ -1,8 +1,6 @@
 ---
-title: "gobuster(1) - Kailash Tool Reference"
+title: "gobuster - reference"
 ---
-
-## gobuster
 
 > **gobuster** - Brute-forces URIs, DNS subdomains, virtual hosts and open ports.
 

@@ -1,8 +1,6 @@
 ---
-title: "guymager(1) - Kailash Tool Reference"
+title: "guymager - reference"
 ---
-
-## guymager
 
 > **guymager** - Fast forensic imager with a graphical interface.
 

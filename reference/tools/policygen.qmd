@@ -1,8 +1,6 @@
 ---
-title: "policygen(1) - Kailash Tool Reference"
+title: "policygen - reference"
 ---
-
-## policygen
 
 > **policygen** - Generates hashcat mask policies from password-policy samples (PACK kit).
 

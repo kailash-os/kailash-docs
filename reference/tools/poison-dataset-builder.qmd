@@ -1,8 +1,6 @@
 ---
-title: "poison-dataset-builder(1) - Kailash Tool Reference"
+title: "poison-dataset-builder - reference"
 ---
-
-## poison-dataset-builder
 
 > **poison-dataset-builder** - Dataset-poisoning builder — crafts poisoned training corpora (trigger-embedded samples) for attack simulations (lab-gated).
 

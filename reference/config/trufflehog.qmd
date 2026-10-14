@@ -1,8 +1,6 @@
 ---
-title: "trufflehog - configuration reference"
+title: "trufflehog - configuration"
 ---
-
-# trufflehog — configuration reference
 
 Configuration surfaces for [trufflehog](../tools/trufflehog.qmd)
 (safety class: safe; category: [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon)) —

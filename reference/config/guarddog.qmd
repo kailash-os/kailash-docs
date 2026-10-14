@@ -1,8 +1,6 @@
 ---
-title: "guarddog - configuration reference"
+title: "guarddog - configuration"
 ---
-
-# guarddog — configuration reference
 
 Configuration surfaces for [guarddog](../tools/guarddog.qmd)
 (safety class: safe; category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain)) —

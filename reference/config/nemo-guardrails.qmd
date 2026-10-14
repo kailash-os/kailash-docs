@@ -1,8 +1,6 @@
 ---
-title: "nemo-guardrails - configuration reference"
+title: "nemo-guardrails - configuration"
 ---
-
-# nemo-guardrails — configuration reference
 
 Configuration surfaces for [nemo-guardrails](../tools/nemo-guardrails.qmd)
 (safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —

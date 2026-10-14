@@ -1,8 +1,6 @@
 ---
-title: "quarto(1) - Kailash Tool Reference"
+title: "quarto - reference"
 ---
-
-## quarto
 
 > **quarto** - Quarto — open-source scientific and technical publishing system.
 

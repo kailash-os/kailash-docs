@@ -1,8 +1,6 @@
 ---
-title: "vllm-pwn(1) - Kailash Tool Reference"
+title: "vllm-pwn - reference"
 ---
-
-## vllm-pwn
 
 > **vllm-pwn** - vLLM exploit — inference-server API attack probes: deserialization, distributed-executor and auth surfaces.
 

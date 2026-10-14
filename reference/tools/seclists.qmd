@@ -1,8 +1,6 @@
 ---
-title: "seclists(1) - Kailash Tool Reference"
+title: "seclists - reference"
 ---
-
-## seclists
 
 > **seclists** - Collection of security wordlists (passwords, usernames, URLs) — rides the opt-in kailash-data.wordlists-mega DATA pack (KA-29 derivation:pkgs/seclists, default OFF — data packs never ride a default profile); per-file corpus content licences beyond the repo licence are NOT established.
 

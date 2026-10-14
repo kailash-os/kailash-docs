@@ -1,8 +1,6 @@
 ---
-title: "gef(1) - Kailash Tool Reference"
+title: "gef - reference"
 ---
-
-## gef
 
 > **gef** - GDB Enhanced Features — exploit-development plugin for GDB.
 

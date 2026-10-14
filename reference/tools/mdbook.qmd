@@ -1,8 +1,6 @@
 ---
-title: "mdbook(1) - Kailash Tool Reference"
+title: "mdbook - reference"
 ---
-
-## mdbook
 
 > **mdbook** - mdBook — create books from markdown files (the OS docs surface).
 

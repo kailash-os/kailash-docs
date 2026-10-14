@@ -1,8 +1,6 @@
 ---
-title: "shadow-ray(1) - Kailash Tool Reference"
+title: "shadow-ray - reference"
 ---
-
-## shadow-ray
 
 > **shadow-ray** - ShadowRay exploit — the ATLAS case study CS0023 Ray-cluster takeover class: job-API RCE on unauthenticated Ray dashboards.
 

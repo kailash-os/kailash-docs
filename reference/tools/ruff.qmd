@@ -1,8 +1,6 @@
 ---
-title: "ruff(1) - Kailash Tool Reference"
+title: "ruff - reference"
 ---
-
-## ruff
 
 > **ruff** - Ruff — fast Python linter and formatter.
 

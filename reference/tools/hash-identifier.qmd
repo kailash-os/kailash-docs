@@ -1,8 +1,6 @@
 ---
-title: "hash-identifier(1) - Kailash Tool Reference"
+title: "hash-identifier - reference"
 ---
-
-## hash-identifier
 
 > **hash-identifier** - Identifies the hash algorithm used to encrypt data.
 

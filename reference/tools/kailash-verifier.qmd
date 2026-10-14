@@ -1,8 +1,6 @@
 ---
-title: "kailash-verifier(1) - Kailash Tool Reference"
+title: "kailash-verifier - reference"
 ---
-
-## kailash-verifier
 
 > **kailash-verifier** - Kailash verifier CLI — `kailash verifier --standard aisvs --level N`: renders per-tool standards evidence from the manifest (§3.8; planned first-party deliverable).
 

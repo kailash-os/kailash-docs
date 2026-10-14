@@ -1,8 +1,6 @@
 ---
-title: "sysmon-modular(1) - Kailash Tool Reference"
+title: "sysmon-modular - reference"
 ---
-
-## sysmon-modular
 
 > **sysmon-modular** - A modular Sysmon configuration set for high-fidelity Windows logging.
 

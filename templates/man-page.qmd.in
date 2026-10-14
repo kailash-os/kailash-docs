@@ -1,5 +1,5 @@
 ---
-title: "{{TOOL_ID}}(1) — Kailash Tool Reference"
+title: "{{TOOL_ID}} - reference"
 params:
   manifest_row: "{{MANIFEST_ROW_JSON}}"
   tool_version: "{{TOOL_VERSION}}"
@@ -7,8 +7,6 @@ params:
   verified_at: "{{VERIFIED_AT}}"
   smoke_status: "{{SMOKE_STATUS}}"
 ---
-
-# {{TOOL_ID}}(1) — Kailash Tool Reference
 
 > **{{TOOL_NAME}}** — {{DESCRIPTION}}
 

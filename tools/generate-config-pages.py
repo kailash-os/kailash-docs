@@ -9,8 +9,10 @@ context, and README-derived sample blocks. The man page stays
 invocation-only and links here (the tool-pages generator emits that
 link when the config page exists).
 
-Also registers the pages as a 'Tools — Config references' part in
-_quarto.yml (machine-owned region), mirroring register_chapters.
+Page yml registration is owned by generate-tool-pages.py
+register_chapters() (single-writer); per ADR-0002 the config page
+nests under its tool page — "tool - reference" opens a sub-section
+with "tool - configuration" inside.
 """
 import os
 import re
@@ -159,9 +161,7 @@ def main():
         pin_url = PKG_URL_T if status == 'bespoke' else MANIFEST_ROW_URL
         version = versions.get(tid)
 
-        lines = ['---', f'title: "{tid} - configuration reference"', '---', '']
-        lines.append(f'# {tid} — configuration reference')
-        lines.append('')
+        lines = ['---', f'title: "{tid} - configuration"', '---', '']
         lines.append(f'Configuration surfaces for [{tid}](../tools/{tid}.qmd)')
         lines.append(f'(safety class: {safety}; category: [{cat}](../directory.qmd#cat-{cat})) —')
         lines.append(f'detected from the upstream documentation at generation')

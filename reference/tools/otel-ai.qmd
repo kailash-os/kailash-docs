@@ -1,8 +1,6 @@
 ---
-title: "otel-ai(1) - Kailash Tool Reference"
+title: "otel-ai - reference"
 ---
-
-## otel-ai
 
 > **otel-ai** - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends).
 

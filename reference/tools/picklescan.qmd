@@ -1,8 +1,6 @@
 ---
-title: "picklescan(1) - Kailash Tool Reference"
+title: "picklescan - reference"
 ---
-
-## picklescan
 
 > **picklescan** - Picklescan — static security scanner for pickle/PyTorch model files: flags dangerous globals and unsafe opcodes.
 

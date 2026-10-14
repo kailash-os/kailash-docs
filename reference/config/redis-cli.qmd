@@ -1,8 +1,6 @@
 ---
-title: "redis-cli - configuration reference"
+title: "redis-cli - configuration"
 ---
-
-# redis-cli — configuration reference
 
 Configuration surfaces for [redis-cli](../tools/redis-cli.qmd)
 (safety class: safe; category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment)) —

@@ -1,8 +1,6 @@
 ---
-title: "torchaudio(1) - Kailash Tool Reference"
+title: "torchaudio - reference"
 ---
-
-## torchaudio
 
 > **torchaudio** - TorchAudio — audio ML for PyTorch.
 

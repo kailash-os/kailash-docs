@@ -1,8 +1,6 @@
 ---
-title: "sigstore-tools(1) - Kailash Tool Reference"
+title: "sigstore-tools - reference"
 ---
-
-## sigstore-tools
 
 > **sigstore-tools** - Sigstore helper CLI pack — Rekor/fulcio transparency-log queries and bundle verification recipes (planned first-party pack).
 

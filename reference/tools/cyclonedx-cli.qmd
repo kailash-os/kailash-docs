@@ -1,8 +1,6 @@
 ---
-title: "cyclonedx-cli(1) - Kailash Tool Reference"
+title: "cyclonedx-cli - reference"
 ---
-
-## cyclonedx-cli
 
 > **cyclonedx-cli** - CycloneDX CLI — SBOM validation, merging, diffs and format conversions.
 

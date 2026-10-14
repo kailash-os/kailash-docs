@@ -1,8 +1,6 @@
 ---
-title: "gqrx(1) - Kailash Tool Reference"
+title: "gqrx - reference"
 ---
-
-## gqrx
 
 > **gqrx** - Software-defined radio receiver built on GNU Radio.
 

@@ -1,8 +1,6 @@
 ---
-title: "nemo-guardrails(1) - Kailash Tool Reference"
+title: "nemo-guardrails - reference"
 ---
-
-## nemo-guardrails
 
 > **nemo-guardrails** - NVIDIA NeMo Guardrails — programmable guardrails (topics, rails, jailbreak defence) for LLM conversational apps.
 

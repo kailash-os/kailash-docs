@@ -1,8 +1,6 @@
 ---
-title: "llm-firewall(1) - Kailash Tool Reference"
+title: "llm-firewall - reference"
 ---
-
-## llm-firewall
 
 > **llm-firewall** - LLM Firewall — policy firewall in front of LLM endpoints (planned first-party pack, Wave-5 derivation target).
 

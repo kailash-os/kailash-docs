@@ -1,8 +1,6 @@
 ---
-title: "feast - configuration reference"
+title: "feast - configuration"
 ---
-
-# feast — configuration reference
 
 Configuration surfaces for [feast](../tools/feast.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

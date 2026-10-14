@@ -1,8 +1,6 @@
 ---
-title: "dirb(1) - Kailash Tool Reference"
+title: "dirb - reference"
 ---
-
-## dirb
 
 > **dirb** - Web content scanner.
 

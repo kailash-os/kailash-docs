@@ -1,8 +1,6 @@
 ---
-title: "k3s - configuration reference"
+title: "k3s - configuration"
 ---
-
-# k3s — configuration reference
 
 Configuration surfaces for [k3s](../tools/k3s.qmd)
 (safety class: safe; category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure)) —

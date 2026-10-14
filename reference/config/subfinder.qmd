@@ -1,8 +1,6 @@
 ---
-title: "subfinder - configuration reference"
+title: "subfinder - configuration"
 ---
-
-# subfinder — configuration reference
 
 Configuration surfaces for [subfinder](../tools/subfinder.qmd)
 (safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —

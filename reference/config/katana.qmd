@@ -1,8 +1,6 @@
 ---
-title: "katana - configuration reference"
+title: "katana - configuration"
 ---
-
-# katana — configuration reference
 
 Configuration surfaces for [katana](../tools/katana.qmd)
 (safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —

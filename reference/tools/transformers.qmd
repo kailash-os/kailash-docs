@@ -1,8 +1,6 @@
 ---
-title: "transformers(1) - Kailash Tool Reference"
+title: "transformers - reference"
 ---
-
-## transformers
 
 > **transformers** - Hugging Face Transformers — the model-definition framework.
 

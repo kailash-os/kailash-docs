@@ -1,8 +1,6 @@
 ---
-title: "langgraph(1) - Kailash Tool Reference"
+title: "langgraph - reference"
 ---
-
-## langgraph
 
 > **langgraph** - LangGraph — build resilient agents (LangChain graph runtime).
 

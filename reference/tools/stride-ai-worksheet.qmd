@@ -1,8 +1,6 @@
 ---
-title: "stride-ai-worksheet(1) - Kailash Tool Reference"
+title: "stride-ai-worksheet - reference"
 ---
-
-## stride-ai-worksheet
 
 > **stride-ai-worksheet** - STRIDE-for-AI worksheet pack — per-trust-boundary threat elicitation sheets for AI systems (planned first-party pack).
 

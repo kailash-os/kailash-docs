@@ -1,8 +1,6 @@
 ---
-title: "mcp-scan(1) - Kailash Tool Reference"
+title: "mcp-scan - reference"
 ---
-
-## mcp-scan
 
 > **mcp-scan** - mcp-scan — Invariant's scanner: detects tool poisoning, prompt injection and tool-description drift in installed MCP servers.
 

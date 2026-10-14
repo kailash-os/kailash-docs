@@ -1,8 +1,6 @@
 ---
-title: "split-view-replay(1) - Kailash Tool Reference"
+title: "split-view-replay - reference"
 ---
-
-## split-view-replay
 
 > **split-view-replay** - Split-view replay — dataset split-integrity attacks: train/eval contamination and poisoning-via-replay drills.
 

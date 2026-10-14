@@ -1,8 +1,6 @@
 ---
-title: "sqlitebrowser - configuration reference"
+title: "sqlitebrowser - configuration"
 ---
-
-# sqlitebrowser — configuration reference
 
 Configuration surfaces for [sqlitebrowser](../tools/sqlitebrowser.qmd)
 (safety class: safe; category: [c-04-database-assessment](../directory.qmd#cat-c-04-database-assessment)) —

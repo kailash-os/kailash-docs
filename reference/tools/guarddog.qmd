@@ -1,8 +1,6 @@
 ---
-title: "guarddog(1) - Kailash Tool Reference"
+title: "guarddog - reference"
 ---
-
-## guarddog
 
 > **guarddog** - Guarddog — DataDog's scanner: identifies malicious/typosquatted PyPI and npm packages (malicious-code + secrets rules).
 

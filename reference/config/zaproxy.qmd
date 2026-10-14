@@ -1,8 +1,6 @@
 ---
-title: "zaproxy - configuration reference"
+title: "zaproxy - configuration"
 ---
-
-# zaproxy — configuration reference
 
 Configuration surfaces for [zaproxy](../tools/zaproxy.qmd)
 (safety class: safe; category: [c-03-web-application-assessment](../directory.qmd#cat-c-03-web-application-assessment)) —

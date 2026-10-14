@@ -1,8 +1,6 @@
 ---
-title: "john(1) - Kailash Tool Reference"
+title: "john - reference"
 ---
-
-## john
 
 > **john** - John the Ripper password cracker (Jumbo build).
 

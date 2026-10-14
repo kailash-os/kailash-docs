@@ -1,8 +1,6 @@
 ---
-title: "gguf-template-inspector(1) - Kailash Tool Reference"
+title: "gguf-template-inspector - reference"
 ---
-
-## gguf-template-inspector
 
 > **gguf-template-inspector** - GGUF template inspector — surfaces embedded chat templates and metadata for injection vectors inside GGUF weights.
 

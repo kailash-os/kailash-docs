@@ -1,8 +1,6 @@
 ---
-title: "tf-privacy(1) - Kailash Tool Reference"
+title: "tf-privacy - reference"
 ---
-
-## tf-privacy
 
 > **tf-privacy** - TensorFlow Privacy — DP-SGD training plus membership-inference/capture attack utilities (the MIA reference implementations).
 

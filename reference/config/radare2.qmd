@@ -1,8 +1,6 @@
 ---
-title: "radare2 - configuration reference"
+title: "radare2 - configuration"
 ---
-
-# radare2 — configuration reference
 
 Configuration surfaces for [radare2](../tools/radare2.qmd)
 (safety class: safe; category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering)) —

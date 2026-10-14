@@ -1,13 +1,27 @@
+---
+title: "Coverage"
+---
+
 # Reference coverage {#reference-coverage}
 
-Part III will hold one man-style reference page per tool in the
-catalogue, grouped under its category — generated from the tool
-manifest and each tool's packaged interface, with a version-lock note
-naming the exact tool version a page was written against.
+Every tool in the catalogue has a generated man-style page under
+`reference/tools/`, produced from the manifest and each tool's upstream
+README (generation contract, ADR-0001). The [category
+directory](directory.qmd) lists all categories and links every tool
+page; the sidebar groups the pages under their layer header
+("Layer CLASSIC — tools" etc.).
 
-**Status: in build.** The generation pipeline and the coverage check
-that proves every tool has a page (or an explicit pending stub) are
-the next lanes in the 2026.01 window. Until they land, this part is
-deliberately empty rather than partially hand-written — the coverage
-guarantee means a tool either has a derived page, or an explained
-stub, or the section is not published at all.
+**Configuration pages** — tools whose upstream docs show real config
+surfaces get a second page (`reference/config/<tool>.qmd`, "tool -
+configuration") nested under the tool's own page in the sidebar
+("tool - reference" → "tool - configuration"), per ADR-0002. The
+detection pass and the 53 pages shipped with
+[PR #20](https://github.com/kailash-os/kailash-docs/pull/20); the
+layout change (nesting, no separate config part) is recorded in
+ADR-0002.
+
+Every page carries the compact version-lock footnote
+(`ref: [pin](url) - verified <date>`, [#16](https://github.com/kailash-os/kailash-docs/issues/16)).
+Regeneration obligations for version-moved tools are the red-regenerate
+events of the generation contract (ADR-0001); the enforcement gate is
+[KA-WS-6.7](https://github.com/kailash-os/kailash-docs/issues/8).

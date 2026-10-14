@@ -1,8 +1,6 @@
 ---
-title: "jina-embeddings-cli(1) - Kailash Tool Reference"
+title: "jina-embeddings-cli - reference"
 ---
-
-## jina-embeddings-cli
 
 > **jina-embeddings-cli** - jina CLI — search/embed/rank over Jina APIs as Unix commands.
 

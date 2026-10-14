@@ -1,8 +1,6 @@
 ---
-title: "excalidraw(1) - Kailash Tool Reference"
+title: "excalidraw - reference"
 ---
-
-## excalidraw
 
 > **excalidraw** - Excalidraw — virtual whiteboard for hand-drawn-style diagrams.
 

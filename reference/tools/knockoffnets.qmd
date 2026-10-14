@@ -1,8 +1,6 @@
 ---
-title: "knockoffnets(1) - Kailash Tool Reference"
+title: "knockoffnets - reference"
 ---
-
-## knockoffnets
 
 > **knockoffnets** - Knockoff Nets — black-box model functionality stealing via transfer-set queries on a substitute data budget.
 

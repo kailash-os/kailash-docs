@@ -1,8 +1,6 @@
 ---
-title: "cdxgen(1) - Kailash Tool Reference"
+title: "cdxgen - reference"
 ---
-
-## cdxgen
 
 > **cdxgen** - CycloneDX cdxgen — creates CycloneDX SBOMs for source trees and images across languages.
 

@@ -1,8 +1,6 @@
 ---
-title: "peass-ng(1) - Kailash Tool Reference"
+title: "peass-ng - reference"
 ---
-
-## peass-ng
 
 > **peass-ng** - Privilege-escalation awesome scripts suite (linpeas/winpeas).
 
