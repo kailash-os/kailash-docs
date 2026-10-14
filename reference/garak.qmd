@@ -1,0 +1,67 @@
+---
+title: "garak(1) — exemplar reference page"
+---
+
+# garak(1) — exemplar reference page
+
+> **garak** — Generative AI Red-teaming & Assessment Kit (LLM
+> vulnerability scanner)
+
+| | |
+|---|---|
+| Layer | ATTACK |
+| Category | A-2 — LLM Prompt Injection & Jailbreaking |
+| Safety class | **requires-target** (refuses to run bare) |
+| Licence | Apache-2.0 |
+| Upstream | [github.com/NVIDIA/garak](https://github.com/NVIDIA/garak) |
+
+## NAME
+
+`garak` — probes LLMs and dialog systems for hallucination, data
+leakage, prompt injection, misinformation, toxicity generation and
+jailbreaks: probes, detectors and buffs against a target model.
+
+## SYNOPSIS
+
+```
+garak --target_type TYPE --target_name NAME [-S SPEC] [OPTIONS]
+garak --list_probes [-v] [--spec SPEC]
+garak --plugin_info TYPE.PLUGIN.CLASS
+garak --version
+```
+
+## DESCRIPTION
+
+`garak` scans a target model with static, dynamic and adaptive
+**probes**, scores outputs with **detectors**, and modifies probe
+behaviour with **buffs**. All runs require a target generator —
+consistent with its `requires-target` safety class; the tool does
+not self-fire.
+
+## EXAMPLES
+
+```
+garak --target_type ollama --target_name llama3.2:latest --spec tag:owasp:llm01
+garak --target_type openai --target_name gpt-4o-mini --spec probes.dan
+garak --list_probes -v
+```
+
+## SEE ALSO
+
+Sister A-2 tools in the same category; the A-2 category page; the
+packaging record ([Kailash OS #81](https://github.com/kailash-os/kailash-os/issues/81)); the full sample this exemplar condenses lives in the
+[kailash-website#30 review thread](https://github.com/kailash-os/kailash-website/issues/30#issuecomment-6122448509).
+
+---
+
+**Version-lock note.** Generated against the Kailash pin of the
+manifest row (`pkgs/garak/default.nix` + nvfetcher source), verified
+2026-10-14; smoke status: recorded on the packaging issue (the darwin
+lane box has no Linux build surface — the provenance is stated
+honestly rather than implying a verified run). If the lock moves
+garak and this note no longer matches, the page is stale —
+regeneration is required in the same change that moves the version.
+
+*This page is the template acceptance exemplar: every generated
+reference page must render in this shape (the full template and the
+generation contract are ADR-0001 in this repository).*
