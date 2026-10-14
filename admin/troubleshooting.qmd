@@ -29,4 +29,4 @@
 Track findings on the project's GitHub issue trackers with the
 release tag in the report — findings do not live only in local
 notes. The guide's own defects (broken links, stale pages) are
-reported on the kailash-guide repository.
+reported on the kailash-docs repository.

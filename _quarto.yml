@@ -3,20 +3,20 @@ project:
   output-dir: _site
 
 book:
-  title: "Kailash OS Guide"
+  title: "Kailash OS Documentation"
   author: "Kailash OS Project"
   description: >-
     User and administrator guide for Kailash OS — a NixOS-based Linux
     distribution for AI security work: what it is, how it is built and
     governed, and a per-tool reference for the whole catalogue.
   site-url: https://docs.kailash.tools
-  repo-url: https://github.com/kailash-os/kailash-guide
+  repo-url: https://github.com/kailash-os/kailash-docs
   repo-branch: main
   repo-actions: [edit, issue]
   open-graph: true
   search: true
   page-footer:
-    left: "Kailash OS Guide — BSD-3-Clause licensed."
+    left: "Kailash OS Documentation — BSD-3-Clause licensed."
     right:
       - icon: github
         href: https://github.com/kailash-os
