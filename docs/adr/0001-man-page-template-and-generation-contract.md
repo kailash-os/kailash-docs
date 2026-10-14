@@ -1,6 +1,6 @@
 # ADR-0001 — reference-page template & the generation contract
 
-*Status:* accepted · *Date:* 2026-10-14 · *Deciders:* kailash-guide
+*Status:* accepted · *Date:* 2026-10-14 · *Deciders:* kailash-docs
 maintainers
 *Acceptance sample:* the garak man-style page posted for review on
 [kailash-website#30 (comment)](https://github.com/kailash-os/kailash-website/issues/30#issuecomment-6122448509)

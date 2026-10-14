@@ -1,6 +1,6 @@
-# Regenerating this guide {#admin-guide-regeneration}
+# Regenerating the documentation {#admin-guide-regeneration}
 
-This guide is generated content, held to the same discipline as every
+This documentation is generated content, held to the same discipline as every
 other manifest-derived surface:
 
 - Each reference page states the **exact tool version it was written

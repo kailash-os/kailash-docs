@@ -1,6 +1,6 @@
-# kailash-guide
+# kailash-docs
 
-Kailash OS user & administrator guide — a Quarto book published at
+Kailash OS documentation — a Quarto book (user & administrator guide sections + per-tool reference) published at
 **docs.kailash.tools** via GitHub Pages.
 
 - Prose parts: what Kailash is, security & governance of the build,
