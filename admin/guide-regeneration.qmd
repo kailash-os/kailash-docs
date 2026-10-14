@@ -1,19 +1,23 @@
 # Regenerating this guide {#admin-guide-regeneration}
 
-This guide is generated content. Its per-tool reference pages derive
-from the tool manifest and the packaged tools' interfaces; prose parts
-are revised by pull request.
+This guide is generated content, held to the same discipline as every
+other manifest-derived surface:
 
-The regeneration contract, in plain terms:
-
-- A page states the **exact tool version it was written against** —
-  the pin that produced it — so every page is bound to a version.
+- Each reference page states the **exact tool version it was written
+  against** — a version-lock note naming the pin — so every page is
+  bound to a tool version.
 - When a package bump or a release moves a tool's version, that
-  tool's page is **regenerated in the same change**, enforced by the
-  repository's coverage and provenance checks.
-- Nothing is hand-patched on a generated page: upstream interface
-  drift is answered by regeneration, not by editing.
+  tool's page is **regenerated in the same change**; the repository's
+  coverage and provenance checks enforce this (a page whose recorded
+  pin no longer matches the lock blocks merge). Upstream interface
+  drift is answered by regeneration — never by hand-editing a
+  generated page.
+- **Coverage invariant**: every enabled tool has a complete page or an
+  explicit pending stub with a stated reason — the check that proves
+  it is the same CI gate, and tools never vanish silently from the
+  reference.
 
-The pipeline pages and the CI gate that enforce these rules land in
-the 2026.01 window; until then the reference section (Part III) is
-held back rather than published unverified.
+The generation pipeline and enforcement gate are the tool-section
+lanes of this window ([the coverage page](../reference/coverage.qmd)
+tracks their status); per-release and per-bump regen obligations are
+ledgered on the standing upkeep issue.

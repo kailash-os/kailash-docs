@@ -1,16 +1,23 @@
 # Updates {#admin-updates}
 
-A Kailash installation never updates anything in the background — no
-package, lock or tool moves without an explicit action. There are
-exactly two ways a system moves forward:
+A Kailash installation **never updates anything in the background**:
+no package, tool, lock or nix component re-links, re-installs or
+re-downloads unprompted. The `nixpkgs` lock stays put between
+scheduled refreshes; tools pinned inside the lock do not move.
+A system moves forward in exactly two ways:
 
 1. **Rebuild against a newer lock** at the operator's own cadence —
    pull the lock delta, review what moved, rebuild.
 2. **Adopt a newer release** — take the released lock bump as-is.
 
-Upstream source pins are checked on explicit cadences by machine
-(more active tool classes are checked more often), but a check
-results in a pull request only when the new revision passes its smoke
-check — freshness never lands unreviewed. Release naming and the
-staged cut ladder are described in [the release model
-chapter](../governance/release-model.qmd).
+This is the anti-churn posture: the lockfile is the version. Rolling
+changes merge between releases when required, but a system pinned to
+last month's lock keeps rebuilding it reproducibly until its operator
+deliberately pulls a newer one.
+
+Behind the scenes, upstream source pins are re-checked on class-based
+cadences (weekly for fast-moving tools, fortnightly for steady ones;
+nixpkgs refreshed monthly) — but a check results in a pull request
+**only when** the new revision passes its smoke check, and merge is
+human-approved. Release naming and the staged ladder: the
+[release model chapter](../governance/release-model.qmd).

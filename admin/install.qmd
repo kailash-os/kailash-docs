@@ -1,21 +1,41 @@
 # Install {#admin-install}
 
-Kailash ships bootable images for x86_64 and aarch64, in two formats
-per profile: a QEMU disk image (the primary shape) and a bootable ISO.
+Kailash ships bootable images in two formats per profile: a **QEMU
+disk image** (the primary deliverable shape) and a **bootable ISO**.
+Each image is a row of one declared table — every flake attribute,
+size budget, CI leg and release asset name derives from that single
+declaration, and a check leg fails CI if a table row loses its build
+surface, so the download list cannot silently drift.
 
-| Profile | Scope |
-|---|---|
-| `minimal` | the core substrate, no tool categories enabled |
-| `redteam-ai` | the AI red-team lab scope |
-| `full` | the everything-live lab scope |
-| `headless-agent` | base + CLI only, no desktop |
+## The image matrix
 
-Download surfaces and the per-target size budgets are documented on
-the main site's [images page](https://kailash.site); verify every
-download against the release's SHA256SUMS sheet before first boot.
+| Ref (`nix build .#<ref>`) | Profile | Format | System | Budget |
+|---|---|---|---|---|
+| `kailash-images-qemu-minimal` | minimal | qcow2 | x86_64 | ≤4 GB |
+| `kailash-images-iso-minimal` | minimal | ISO | x86_64 | ≤4 GB |
+| `kailash-images-qemu-redteam-ai` | redteam-ai | qcow2 | x86_64 | ≤8 GB |
+| `kailash-images-iso-redteam-ai` | redteam-ai | ISO | x86_64 | ≤8 GB |
+| `kailash-images-qemu-full` | full | qcow2 | x86_64 | ≤10 GB |
+| `kailash-images-iso-full` | full | ISO | x86_64 | ≤10 GB |
+| `kailash-images-qemu-headless-agent` | headless-agent | qcow2 | x86_64 | ≤1.5 GB |
+| `kailash-images-iso-headless-agent` | headless-agent | ISO | x86_64 | ≤1.5 GB |
+| `kailash-images-qemu-aarch64-minimal` | minimal | qcow2 | aarch64 | ≤4 GB |
+| `kailash-images-iso-aarch64-minimal` | minimal | ISO | aarch64 | ≤4 GB |
+| `kailash-images-qemu-aarch64-headless-agent` | headless-agent | qcow2 | aarch64 | ≤1.5 GB |
+| `kailash-images-iso-aarch64-headless-agent` | headless-agent | ISO | aarch64 | ≤1.5 GB |
 
-::: {.content-visible when-format="html"}
-*Status:* a walk-through (imaging, first boot, onboarding) lands in
-this book's 2026.01 build; the chapter keeps to verified facts until
-then.
-:::
+x86_64 images are built by hosted CI; aarch64 rows are built on the
+project's Apple Silicon builder. The `aarch64` `redteam-ai` rows are
+the newest slice of the matrix (tracked on the OS repository's issue
+tracker — the table above reflects the declared matrix, which is the
+truth CI holds images to).
+
+## Getting an image
+
+Release assets (per the release's SHA256SUMS sheet, mirrored to the
+main site), then verify the checksum before first boot — the release
+notes name where the sums sheet and validator output are recorded.
+The size budgets are enforced by construction: heavy data packs
+(texlive, gnuradio, wordlist/SDR corpora) never enter a default
+image — they ride opt-in `kailash-data.*` derivations, which is why
+the `full` image stays inside its budget.
