@@ -1,6 +1,6 @@
 {
  "manifest_rows": 270,
- "reference_pages": 255,
+ "reference_pages": 254,
  "config_pages": 53,
  "module_rows_reported": [
   "gvm",
@@ -38,9 +38,7 @@
  "provenance_bad_footnote": [],
  "stale_pins": [],
  "dead_upstream_inventory": [],
- "orphan_pages": [
-  "webshell-analysis-pack"
- ],
+ "orphan_pages": [],
  "orphan_without_footnote": [],
  "verdict": "GREEN",
  "fail_on": [
