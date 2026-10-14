@@ -1,8 +1,6 @@
 ---
-title: "tgi(1) - Kailash Tool Reference"
+title: "tgi - reference"
 ---
-
-## tgi
 
 > **tgi** - text-generation-inference (Hugging Face TGI) — LLM serving runtime.
 

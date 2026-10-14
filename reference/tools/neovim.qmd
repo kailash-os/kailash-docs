@@ -1,8 +1,6 @@
 ---
-title: "neovim(1) - Kailash Tool Reference"
+title: "neovim - reference"
 ---
-
-## neovim
 
 > **neovim** - Neovim — Vim-fork focused on extensibility.
 

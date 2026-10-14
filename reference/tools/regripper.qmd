@@ -1,8 +1,6 @@
 ---
-title: "regripper(1) - Kailash Tool Reference"
+title: "regripper - reference"
 ---
-
-## regripper
 
 > **regripper** - Windows registry forensics — extracting artefacts from hives.
 

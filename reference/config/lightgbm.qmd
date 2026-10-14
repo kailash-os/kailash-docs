@@ -1,8 +1,6 @@
 ---
-title: "lightgbm - configuration reference"
+title: "lightgbm - configuration"
 ---
-
-# lightgbm — configuration reference
 
 Configuration surfaces for [lightgbm](../tools/lightgbm.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

@@ -1,8 +1,6 @@
 ---
-title: "garak - configuration reference"
+title: "garak - configuration"
 ---
-
-# garak — configuration reference
 
 Configuration surfaces for [garak](../tools/garak.qmd)
 (safety class: requires-target; category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks)) —

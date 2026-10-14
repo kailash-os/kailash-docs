@@ -1,8 +1,6 @@
 ---
-title: "data-exfil-via-poison(1) - Kailash Tool Reference"
+title: "data-exfil-via-poison - reference"
 ---
-
-## data-exfil-via-poison
 
 > **data-exfil-via-poison** - Exfiltration-via-poisoning — model-behavior poisoning that leaks data at inference time (lab-gated).
 

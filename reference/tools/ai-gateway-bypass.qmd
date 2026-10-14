@@ -1,8 +1,6 @@
 ---
-title: "ai-gateway-bypass(1) - Kailash Tool Reference"
+title: "ai-gateway-bypass - reference"
 ---
-
-## ai-gateway-bypass
 
 > **ai-gateway-bypass** - AI-gateway bypass — auth/quota/routing bypass probes against LLM gateways and proxies.
 

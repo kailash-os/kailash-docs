@@ -1,8 +1,6 @@
 ---
-title: "twofi(1) - Kailash Tool Reference"
+title: "twofi - reference"
 ---
-
-## twofi
 
 > **twofi** - Twofi — words of interest from Twitter for password cracking lists.
 

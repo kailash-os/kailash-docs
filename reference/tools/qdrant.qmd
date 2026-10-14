@@ -1,8 +1,6 @@
 ---
-title: "qdrant(1) - Kailash Tool Reference"
+title: "qdrant - reference"
 ---
-
-## qdrant
 
 > **qdrant** - Qdrant — vector database and vector search engine.
 

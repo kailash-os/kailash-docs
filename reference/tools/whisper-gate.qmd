@@ -1,8 +1,6 @@
 ---
-title: "whisper-gate(1) - Kailash Tool Reference"
+title: "whisper-gate - reference"
 ---
-
-## whisper-gate
 
 > **whisper-gate** - Whisper Gate — audio-input LLM-surface gate (planned first-party pack, Wave-5 derivation target).
 

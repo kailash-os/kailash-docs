@@ -1,8 +1,6 @@
 ---
-title: "python313(1) - Kailash Tool Reference"
+title: "python313 - reference"
 ---
-
-## python313
 
 > **python313** - CPython 3.13 (PSF-2.0 licence per upstream).
 

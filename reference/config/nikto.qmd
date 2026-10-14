@@ -1,8 +1,6 @@
 ---
-title: "nikto - configuration reference"
+title: "nikto - configuration"
 ---
-
-# nikto — configuration reference
 
 Configuration surfaces for [nikto](../tools/nikto.qmd)
 (safety class: safe; category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis)) —

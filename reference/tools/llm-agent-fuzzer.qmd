@@ -1,8 +1,6 @@
 ---
-title: "llm-agent-fuzzer(1) - Kailash Tool Reference"
+title: "llm-agent-fuzzer - reference"
 ---
-
-## llm-agent-fuzzer
 
 > **llm-agent-fuzzer** - Agent fuzzer — mutation-guided goal chasing across agent tool-call loops; unsafe-path discovery.
 

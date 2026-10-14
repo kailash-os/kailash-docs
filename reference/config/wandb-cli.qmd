@@ -1,8 +1,6 @@
 ---
-title: "wandb-cli - configuration reference"
+title: "wandb-cli - configuration"
 ---
-
-# wandb-cli — configuration reference
 
 Configuration surfaces for [wandb-cli](../tools/wandb-cli.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

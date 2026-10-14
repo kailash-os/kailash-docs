@@ -1,8 +1,6 @@
 ---
-title: "commix(1) - Kailash Tool Reference"
+title: "commix - reference"
 ---
-
-## commix
 
 > **commix** - Automated all-in-one OS command-injection exploitation tool.
 

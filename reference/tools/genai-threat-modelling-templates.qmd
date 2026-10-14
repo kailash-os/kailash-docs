@@ -1,8 +1,6 @@
 ---
-title: "genai-threat-modelling-templates(1) - Kailash Tool Reference"
+title: "genai-threat-modelling-templates - reference"
 ---
-
-## genai-threat-modelling-templates
 
 > **genai-threat-modelling-templates** - GenAI threat-modelling template pack — per-component worksheets for LLM/agent systems (planned first-party pack).
 

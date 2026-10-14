@@ -1,8 +1,6 @@
 ---
-title: "sdl3-stream-fuzzer(1) - Kailash Tool Reference"
+title: "sdl3-stream-fuzzer - reference"
 ---
-
-## sdl3-stream-fuzzer
 
 > **sdl3-stream-fuzzer** - Structure-aware stream fuzzer for media/SDK endpoints exposed by AI runtimes.
 

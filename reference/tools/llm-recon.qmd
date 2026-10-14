@@ -1,8 +1,6 @@
 ---
-title: "llm-recon(1) - Kailash Tool Reference"
+title: "llm-recon - reference"
 ---
-
-## llm-recon
 
 > **llm-recon** - LLM-focused reconnaissance — enumerates LLM API endpoints, model families and provider metadata from exposed surfaces.
 

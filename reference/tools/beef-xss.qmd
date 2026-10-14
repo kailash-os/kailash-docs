@@ -1,8 +1,6 @@
 ---
-title: "beef-xss(1) - Kailash Tool Reference"
+title: "beef-xss - reference"
 ---
-
-## beef-xss
 
 > **beef-xss** - Browser Exploitation Framework — XSS hooking and browser assessment.
 

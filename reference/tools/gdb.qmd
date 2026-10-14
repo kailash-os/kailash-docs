@@ -1,8 +1,6 @@
 ---
-title: "gdb(1) - Kailash Tool Reference"
+title: "gdb - reference"
 ---
-
-## gdb
 
 > **gdb** - GNU Project debugger.
 

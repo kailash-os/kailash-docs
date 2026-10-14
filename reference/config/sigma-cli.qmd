@@ -1,8 +1,6 @@
 ---
-title: "sigma-cli - configuration reference"
+title: "sigma-cli - configuration"
 ---
-
-# sigma-cli — configuration reference
 
 Configuration surfaces for [sigma-cli](../tools/sigma-cli.qmd)
 (safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —

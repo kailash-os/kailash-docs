@@ -1,8 +1,6 @@
 ---
-title: "torchserve - configuration reference"
+title: "torchserve - configuration"
 ---
-
-# torchserve — configuration reference
 
 Configuration surfaces for [torchserve](../tools/torchserve.qmd)
 (safety class: safe; category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure)) —

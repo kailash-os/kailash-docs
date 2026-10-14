@@ -1,8 +1,6 @@
 ---
-title: "huggingface-org-scan(1) - Kailash Tool Reference"
+title: "huggingface-org-scan - reference"
 ---
-
-## huggingface-org-scan
 
 > **huggingface-org-scan** - Enumerates a target organization's Hugging Face presence — models, datasets, spaces and their freshness as attack surface.
 

@@ -1,8 +1,6 @@
 ---
-title: "pandas(1) - Kailash Tool Reference"
+title: "pandas - reference"
 ---
-
-## pandas
 
 > **pandas** - pandas — DataFrame analysis toolkit (the scientific-Python core).
 

@@ -1,8 +1,6 @@
 ---
-title: "guardrails-ai - configuration reference"
+title: "guardrails-ai - configuration"
 ---
-
-# guardrails-ai — configuration reference
 
 Configuration surfaces for [guardrails-ai](../tools/guardrails-ai.qmd)
 (safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —

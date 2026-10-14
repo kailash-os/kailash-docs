@@ -1,8 +1,6 @@
 ---
-title: "llm-guard(1) - Kailash Tool Reference"
+title: "llm-guard - reference"
 ---
-
-## llm-guard
 
 > **llm-guard** - LLM Guard — input/output scanning pipeline for prompts and completions (PII, toxicity, prompt-injection scanners).
 

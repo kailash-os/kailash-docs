@@ -1,8 +1,6 @@
 ---
-title: "sox(1) - Kailash Tool Reference"
+title: "sox - reference"
 ---
-
-## sox
 
 > **sox** - Sound eXchange — audio processing and format conversion.
 

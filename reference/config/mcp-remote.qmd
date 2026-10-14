@@ -1,8 +1,6 @@
 ---
-title: "mcp-remote - configuration reference"
+title: "mcp-remote - configuration"
 ---
-
-# mcp-remote — configuration reference
 
 Configuration surfaces for [mcp-remote](../tools/mcp-remote.qmd)
 (safety class: requires-target; category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use)) —

@@ -1,8 +1,6 @@
 ---
-title: "trivy - configuration reference"
+title: "trivy - configuration"
 ---
-
-# trivy — configuration reference
 
 Configuration surfaces for [trivy](../tools/trivy.qmd)
 (safety class: safe; category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust)) —

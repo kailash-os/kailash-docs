@@ -1,8 +1,6 @@
 ---
-title: "pytorch - configuration reference"
+title: "pytorch - configuration"
 ---
-
-# pytorch — configuration reference
 
 Configuration surfaces for [pytorch](../tools/pytorch.qmd)
 (safety class: safe; category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env)) —

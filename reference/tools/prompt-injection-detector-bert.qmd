@@ -1,8 +1,6 @@
 ---
-title: "prompt-injection-detector-bert(1) - Kailash Tool Reference"
+title: "prompt-injection-detector-bert - reference"
 ---
-
-## prompt-injection-detector-bert
 
 > **prompt-injection-detector-bert** - Prompt-injection classifier pack — DeBERTa-class detector weights + loader for LLM-input gating (planned first-party pack).
 

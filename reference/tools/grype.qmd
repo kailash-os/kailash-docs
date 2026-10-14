@@ -1,8 +1,6 @@
 ---
-title: "grype(1) - Kailash Tool Reference"
+title: "grype - reference"
 ---
-
-## grype
 
 > **grype** - Anchore Grype — vulnerability scanner for container images and filesystems.
 

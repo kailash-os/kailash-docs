@@ -1,8 +1,6 @@
 ---
-title: "crewai - configuration reference"
+title: "crewai - configuration"
 ---
-
-# crewai — configuration reference
 
 Configuration surfaces for [crewai](../tools/crewai.qmd)
 (safety class: safe; category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env)) —

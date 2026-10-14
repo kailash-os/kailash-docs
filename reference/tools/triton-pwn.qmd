@@ -1,8 +1,6 @@
 ---
-title: "triton-pwn(1) - Kailash Tool Reference"
+title: "triton-pwn - reference"
 ---
-
-## triton-pwn
 
 > **triton-pwn** - Triton Inference Server exploit — unauthenticated API misuse and RCE probes (pairs with the O-2 docker-wrapper target).
 

@@ -1,8 +1,6 @@
 ---
-title: "colab-crawler(1) - Kailash Tool Reference"
+title: "colab-crawler - reference"
 ---
-
-## colab-crawler
 
 > **colab-crawler** - Crawls shared compute notebooks for leaked credentials, mounted secrets and exposed model endpoints.
 

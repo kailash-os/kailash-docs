@@ -1,8 +1,6 @@
 ---
-title: "assetfinder - configuration reference"
+title: "assetfinder - configuration"
 ---
-
-# assetfinder — configuration reference
 
 Configuration surfaces for [assetfinder](../tools/assetfinder.qmd)
 (safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —

@@ -1,8 +1,6 @@
 ---
-title: "dvc - configuration reference"
+title: "dvc - configuration"
 ---
-
-# dvc — configuration reference
 
 Configuration surfaces for [dvc](../tools/dvc.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

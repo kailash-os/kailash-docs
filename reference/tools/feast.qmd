@@ -1,8 +1,6 @@
 ---
-title: "feast(1) - Kailash Tool Reference"
+title: "feast - reference"
 ---
-
-## feast
 
 > **feast** - Feast — the open-source feature store for AI/ML.
 

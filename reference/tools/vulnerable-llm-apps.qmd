@@ -1,8 +1,6 @@
 ---
-title: "vulnerable-llm-apps(1) - Kailash Tool Reference"
+title: "vulnerable-llm-apps - reference"
 ---
-
-## vulnerable-llm-apps
 
 > **vulnerable-llm-apps** - Deliberately vulnerable LLM application lab for AppSec training and verification.
 

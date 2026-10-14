@@ -1,8 +1,6 @@
 ---
-title: "picklescan - configuration reference"
+title: "picklescan - configuration"
 ---
-
-# picklescan — configuration reference
 
 Configuration surfaces for [picklescan](../tools/picklescan.qmd)
 (safety class: safe; category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain)) —

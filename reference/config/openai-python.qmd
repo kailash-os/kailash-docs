@@ -1,8 +1,6 @@
 ---
-title: "openai-python - configuration reference"
+title: "openai-python - configuration"
 ---
-
-# openai-python — configuration reference
 
 Configuration surfaces for [openai-python](../tools/openai-python.qmd)
 (safety class: safe; category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env)) —

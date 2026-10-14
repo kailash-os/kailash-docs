@@ -1,8 +1,6 @@
 ---
-title: "gguf-quantiser(1) - Kailash Tool Reference"
+title: "gguf-quantiser - reference"
 ---
-
-## gguf-quantiser
 
 > **gguf-quantiser** - GGUF quantiser — planned first-party CLI wrapping llama.cpp quantize workflows (Wave-5 deliverable).
 

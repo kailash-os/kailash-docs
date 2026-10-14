@@ -1,8 +1,6 @@
 ---
-title: "vscode(1) - Kailash Tool Reference"
+title: "vscode - reference"
 ---
-
-## vscode
 
 > **vscode** - Visual Studio Code (source MIT; nixpkgs build unfree-class).
 

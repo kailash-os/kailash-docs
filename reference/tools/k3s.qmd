@@ -1,8 +1,6 @@
 ---
-title: "k3s(1) - Kailash Tool Reference"
+title: "k3s - reference"
 ---
-
-## k3s
 
 > **k3s** - k3s — lightweight Kubernetes.
 

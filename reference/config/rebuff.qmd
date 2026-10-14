@@ -1,8 +1,6 @@
 ---
-title: "rebuff - configuration reference"
+title: "rebuff - configuration"
 ---
-
-# rebuff — configuration reference
 
 Configuration surfaces for [rebuff](../tools/rebuff.qmd)
 (safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —

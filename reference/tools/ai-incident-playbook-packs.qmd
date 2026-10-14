@@ -1,8 +1,6 @@
 ---
-title: "ai-incident-playbook-packs(1) - Kailash Tool Reference"
+title: "ai-incident-playbook-packs - reference"
 ---
-
-## ai-incident-playbook-packs
 
 > **ai-incident-playbook-packs** - AI incident-response playbook packs — detection/triage/rollback runbooks for AI incidents (planned first-party pack).
 

@@ -1,8 +1,6 @@
 ---
-title: "xgboost(1) - Kailash Tool Reference"
+title: "xgboost - reference"
 ---
-
-## xgboost
 
 > **xgboost** - XGBoost — distributed gradient-boosted decision trees.
 

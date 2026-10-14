@@ -1,8 +1,6 @@
 ---
-title: "ollama-pwn(1) - Kailash Tool Reference"
+title: "ollama-pwn - reference"
 ---
-
-## ollama-pwn
 
 > **ollama-pwn** - Ollama exploit — exposed-API and model-management attack probes against Ollama servers (0.0.0.0 default-bind class).
 

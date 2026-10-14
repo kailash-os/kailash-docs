@@ -1,8 +1,6 @@
 ---
-title: "masscan - configuration reference"
+title: "masscan - configuration"
 ---
-
-# masscan — configuration reference
 
 Configuration surfaces for [masscan](../tools/masscan.qmd)
 (safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —

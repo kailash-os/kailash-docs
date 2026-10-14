@@ -1,8 +1,6 @@
 ---
-title: "kedro-datasets(1) - Kailash Tool Reference"
+title: "kedro-datasets - reference"
 ---
-
-## kedro-datasets
 
 > **kedro-datasets** - Kedro datasets — the kedro-plugins catalogue of dataset connectors.
 

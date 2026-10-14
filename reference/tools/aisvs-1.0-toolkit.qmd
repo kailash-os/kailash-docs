@@ -1,8 +1,6 @@
 ---
-title: "aisvs-1.0-toolkit(1) - Kailash Tool Reference"
+title: "aisvs-1.0-toolkit - reference"
 ---
-
-## aisvs-1.0-toolkit
 
 > **aisvs-1.0-toolkit** - OWASP AISVS 1.0 toolkit — verification checklists and level-mapping data driving the D-7 verifier (planned first-party pack).
 

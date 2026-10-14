@@ -1,8 +1,6 @@
 ---
-title: "dnsmap(1) - Kailash Tool Reference"
+title: "dnsmap - reference"
 ---
-
-## dnsmap
 
 > **dnsmap** - Scans for subdomains using brute-force techniques.
 

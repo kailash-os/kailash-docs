@@ -1,8 +1,6 @@
 ---
-title: "code-server(1) - Kailash Tool Reference"
+title: "code-server - reference"
 ---
-
-## code-server
 
 > **code-server** - VS Code in the browser.
 

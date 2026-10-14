@@ -1,8 +1,6 @@
 ---
-title: "malicious-mcp-poc(1) - Kailash Tool Reference"
+title: "malicious-mcp-poc - reference"
 ---
-
-## malicious-mcp-poc
 
 > **malicious-mcp-poc** - Malicious MCP server proof-of-concept pack — lab artefacts for the A-3 scanner suite (opt-in lab pack).
 

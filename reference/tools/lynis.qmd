@@ -1,8 +1,6 @@
 ---
-title: "lynis(1) - Kailash Tool Reference"
+title: "lynis - reference"
 ---
-
-## lynis
 
 > **lynis** - Security auditing tool for Linux, macOS and UNIX systems.
 

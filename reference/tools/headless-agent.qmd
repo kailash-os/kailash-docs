@@ -1,8 +1,6 @@
 ---
-title: "headless-agent(1) - Kailash Tool Reference"
+title: "headless-agent - reference"
 ---
-
-## headless-agent
 
 > **headless-agent** - headless-agent — headless agent image deliverable (grants-scoped).
 

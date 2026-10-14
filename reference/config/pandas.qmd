@@ -1,8 +1,6 @@
 ---
-title: "pandas - configuration reference"
+title: "pandas - configuration"
 ---
-
-# pandas — configuration reference
 
 Configuration surfaces for [pandas](../tools/pandas.qmd)
 (safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —

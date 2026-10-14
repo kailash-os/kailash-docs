@@ -1,8 +1,6 @@
 ---
-title: "modelsign(1) - Kailash Tool Reference"
+title: "modelsign - reference"
 ---
-
-## modelsign
 
 > **modelsign** - Model signing CLI wrapping sigstore/model-signing — sign and verify model artefacts with Sigstore bundles.
 
