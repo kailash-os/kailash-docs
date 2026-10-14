@@ -50,6 +50,7 @@ is the detection record, not the page.
 
 - Category: [a-04-model-supply-chain](../directory.qmd#cat-a-04-model-supply-chain) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/guarddog.qmd) — files, environment variables, samples.
 
 ---
 

@@ -1,0 +1,48 @@
+---
+title: "cosign - configuration reference"
+---
+
+# cosign — configuration reference
+
+Configuration surfaces for [cosign](../tools/cosign.qmd)
+(safety class: safe; category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust)) —
+detected from the upstream documentation at generation
+time (6 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `task-output-image.yaml` | push us.gcr.io/dlorenc-vmtest2/pipeline:latest -f task-output-image.yaml Creating Tekton Bundle:         - Added TaskRun |
+| `com/sigstore/cosign/blob/ac999344eb381ae91455b0a9c5c267e747608d76/.goreleaser.yml` | dle files produced by [GoReleaser](https://github.com/sigstore/cosign/blob/ac999344eb381ae91455b0a9c5c267e747608d76/.gor |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `IMAGE_NAME` | ialize # This will pull in the latest TUF root cosign save $IMAGE_NAME --dir ./path/to/dir ```  Now, in an air-gapped environment, |
+| `BLOB_NAME` | 98b55258f9026f984e4656f0e9fd3ef024ea3fac1d7e5c7e6249f1626 $ BLOB_NAME=my-artifact-$(uuidgen | head -c 8 | tr 'A-Z' 'a-z') $ BLOB_ |
+| `COSIGN_REPOSITORY` | he repo in the provided image like this:  ```shell $ export COSIGN_REPOSITORY=gcr.io/my-new-repo $ cosign sign --key cosign.key $I |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+$ git clone https://github.com/sigstore/cosign
+$ cd cosign
+$ go install ./cmd/cosign
+$ $(go env GOPATH)/bin/cosign
+```
+
+```
+$ cosign sign --key cosign.key $BLOB_URI_DIGEST
+Enter password for private key:
+Pushing signature to: ttl.sh/my-artifact-f42c22e0
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

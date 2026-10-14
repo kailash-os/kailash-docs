@@ -1,0 +1,37 @@
+---
+title: "guardrails-ai - configuration reference"
+---
+
+# guardrails-ai — configuration reference
+
+Configuration surfaces for [guardrails-ai](../tools/guardrails-ai.qmd)
+(safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `OPENAI_API_KEY` | ocalhost:8000/guards/two-word-guard/openai/v1/" os.environ["OPENAI_API_KEY"] = "youropenaikey"  messages = [         {             |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+pip install guardrails-ai
+    guardrails configure
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

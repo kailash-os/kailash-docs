@@ -69,6 +69,7 @@ is the detection record, not the page.
 
 - Category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/mcp-remote.qmd) — files, environment variables, samples.
 
 ---
 

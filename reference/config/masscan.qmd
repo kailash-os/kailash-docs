@@ -1,0 +1,28 @@
+---
+title: "masscan - configuration reference"
+---
+
+# masscan — configuration reference
+
+Configuration surfaces for [masscan](../tools/masscan.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (8 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `xxx.conf` | 100 10.0.0.0/8 2603:3001:2d00:da00::/112 --echo > xxx.conf 	# masscan -c xxx.conf --rate 1000   ## Banner checking  Mass |
+| `/etc/pf.conf` | e the `pf` packet-filter utility.  Edit the file `/etc/pf.conf` to add a line like the following:      block in proto tc |
+| `myscan.conf` | configuration file, use the `-c`:  	# masscan -c myscan.conf  This also makes things easier when you repeat a scan.  By  |
+| `/etc/masscan/masscan.conf` | ult, masscan first loads the configuration file  `/etc/masscan/masscan.conf`. Any later configuration parameters overrid |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

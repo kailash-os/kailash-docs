@@ -1,0 +1,31 @@
+---
+title: "assetfinder - configuration reference"
+---
+
+# assetfinder — configuration reference
+
+Configuration surfaces for [assetfinder](../tools/assetfinder.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `VT_API_KEY` | reful with your app's rate limits * virustotal     * Needs `VT_API_KEY` environment variable set (https://developers.virustotal.co |
+| `SPYSE_API_TOKEN` | ers.virustotal.com/reference) * findsubdomains     * Needs `SPYSE_API_TOKEN` environment variable set (the free version always giv |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

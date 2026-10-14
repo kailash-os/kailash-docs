@@ -1,0 +1,52 @@
+---
+title: "rebuff - configuration reference"
+---
+
+# rebuff — configuration reference
+
+Configuration surfaces for [rebuff](../tools/rebuff.qmd)
+(safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —
+detected from the upstream documentation at generation
+time (5 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `OPENAI_API_KEY` | cal` file and add the following environment variables:  ``` OPENAI_API_KEY=<your_openai_api_key> MASTER_API_KEY=12345 BILLING_RATE |
+| `MASTER_API_KEY` | onment variables:  ``` OPENAI_API_KEY=<your_openai_api_key> MASTER_API_KEY=12345 BILLING_RATE_INT_10K=<your_billing_rate_int_10k>  |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | e_int_10k> MASTER_CREDIT_AMOUNT=<your_master_credit_amount> NEXT_PUBLIC_SUPABASE_ANON_KEY=<your_next_public_supabase_anon_key> NEX |
+| `NEXT_PUBLIC_SUPABASE_URL` | BLIC_SUPABASE_ANON_KEY=<your_next_public_supabase_anon_key> NEXT_PUBLIC_SUPABASE_URL=<your_next_public_supabase_url> PINECONE_API_ |
+| `PINECONE_API_KEY` | y> NEXT_PUBLIC_SUPABASE_URL=<your_next_public_supabase_url> PINECONE_API_KEY=<your_pinecone_api_key> PINECONE_ENVIRONMENT=<your_pi |
+| `PINECONE_INDEX_NAME` | e_api_key> PINECONE_ENVIRONMENT=<your_pinecone_environment> PINECONE_INDEX_NAME=<your_pinecone_index_name> SUPABASE_SERVICE_KEY=<y |
+| `SUPABASE_SERVICE_KEY` | environment> PINECONE_INDEX_NAME=<your_pinecone_index_name> SUPABASE_SERVICE_KEY=<your_supabase_service_key> REBUFF_API=http://loc |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+OPENAI_API_KEY=<your_openai_api_key>
+MASTER_API_KEY=12345
+BILLING_RATE_INT_10K=<your_billing_rate_int_10k>
+MASTER_CREDIT_AMOUNT=<your_master_credit_amount>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<your_next_public_supabase_anon_key>
+NEXT_PUBLIC_SUPABASE_URL=<your_next_public_supabase_url>
+PINECONE_API_KEY=<your_pinecone_api_key>
+PINECONE_ENVIRONMENT=<your_pinecone_environment>
+PINECONE_INDEX_NAME=<your_pinecone_index_name>
+SUPABASE_SERVICE_KEY=<your_supabase_service_key>
+REBUFF_API=http://localhost:3000
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

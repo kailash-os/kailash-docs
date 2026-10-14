@@ -1,0 +1,61 @@
+---
+title: "mcp-scan - configuration reference"
+---
+
+# mcp-scan — configuration reference
+
+Configuration surfaces for [mcp-scan](../tools/mcp-scan.qmd)
+(safety class: safe; category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `/workspace.yaml` | the per-session project roots in `session-state/*/workspace.yaml`. Copilot's user-level paths are also listed under VS C |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SNYK_TOKEN` | nt variable** before running any scan:    ```bash    export SNYK_TOKEN=your-api-token-here    ```  ### Run with `uvx`  Have [uv](h |
+| `COPILOT_HOME` | etected from that home rather than from a VS Code install. `COPILOT_HOME` relocations are honored when scanning your own home. Pro |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+# Scan the whole machine
+uvx snyk-agent-scan@0.5.17
+
+# Scan a specific MCP configuration
+uvx snyk-agent-scan@0.5.17 ~/.vscode/mcp.json
+
+# Scan a single agent skill
+uvx snyk-agent-scan@0.5.17 ~/path/to/my/SKILL.md
+
+# Scan all Claude skills
+uvx snyk-agent-scan@0.5.17 ~/.claude/skills
+```
+
+```
+# Scan the whole machine
+uvx snyk-agent-scan@latest
+
+# Scan a specific MCP configuration
+uvx snyk-agent-scan@latest ~/.vscode/mcp.json
+
+# Scan a single agent skill
+uvx snyk-agent-scan@latest ~/path/to/my/SKILL.md
+
+# Scan all Claude skills
+uvx snyk-agent-scan@latest ~/.claude/skills
+```
+
+---
+
+ref: [v0.6.8-unstable-2026-10-06](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

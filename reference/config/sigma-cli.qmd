@@ -1,0 +1,35 @@
+---
+title: "sigma-cli - configuration reference"
+---
+
+# sigma-cli — configuration reference
+
+Configuration surfaces for [sigma-cli](../tools/sigma-cli.qmd)
+(safety class: safe; category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting)) —
+detected from the upstream documentation at generation
+time (7 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `savedsearches.conf` | a convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation ```  Outputs a |
+| `rules/windows/rule.yml` | ative source directory path (e.g., `windows` for `rules/windows/rule.yml`) - `{stem}`: Filename without extension (e.g., |
+| `rule.yml` | }`: Filename without extension (e.g., `rule` for `rule.yml`) - `{index}`: Query index for rules that generate multiple q |
+| `rule_1.yml` | input structure: ``` rules/ ├── windows/ │   └── rule_1.yml ├── linux/ │   └── rule_2.yml ```  With `--output-filename-t |
+| `rule_2.yml` | ── windows/ │   └── rule_1.yml ├── linux/ │   └── rule_2.yml ```  With `--output-filename-template "{path}/{stem}.esql"` |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

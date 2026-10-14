@@ -1,0 +1,37 @@
+---
+title: "nuclei - configuration reference"
+---
+
+# nuclei — configuration reference
+
+Configuration surfaces for [nuclei](../tools/nuclei.qmd)
+(safety class: safe; category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `/path/to/your-template.yaml` | follows.  ```sh nuclei -u https://example.com -t /path/to/your-template.yaml ```  ### Connect Nuclei to ProjectDiscovery |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `NUCLEI_SIGNATURE_PRIVATE_KEY` | signs the templates with the private key defined in NUCLEI_SIGNATURE_PRIVATE_KEY env variable    -code                             |
+| `MARKDOWN_EXPORT_SORT_MODE` | th sorted Markdown outputs (with environment variables): 	$ MARKDOWN_EXPORT_SORT_MODE=template nuclei -target example.com -markdow |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+nuclei -u https://example.com -t /path/to/your-template.yaml
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

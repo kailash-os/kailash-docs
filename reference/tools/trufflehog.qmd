@@ -48,6 +48,7 @@ is the detection record, not the page.
 
 - Category: [a-01-ai-recon](../directory.qmd#cat-a-01-ai-recon) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/trufflehog.qmd) — files, environment variables, samples.
 
 ---
 

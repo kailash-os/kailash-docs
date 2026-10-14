@@ -1,0 +1,32 @@
+---
+title: "the-harvester - configuration reference"
+---
+
+# the-harvester — configuration reference
+
+Configuration surfaces for [the-harvester](../tools/the-harvester.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (11 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `api-keys.yaml` | `API key` column refers to provider settings in `api-keys.yaml`; some providers require more than one value. `Optional`  |
+| `/etc/theHarvester` | ester/`. It also reads system configuration from `/etc/theHarvester/` and `/usr/local/etc/theHarvester/`.  - `api-keys.y |
+| `proxies.yaml` | s and related values such as organization IDs. - `proxies.yaml` configures HTTP and SOCKS5 proxies used with `-p`. - The |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `THEHARVESTER_API_KEY` | ion and API on `127.0.0.1:5000` by default:  ```bash export THEHARVESTER_API_KEY='replace-with-a-long-random-value' uv run harvest |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

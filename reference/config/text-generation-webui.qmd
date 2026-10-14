@@ -1,0 +1,80 @@
+---
+title: "text-generation-webui - configuration reference"
+---
+
+# text-generation-webui — configuration reference
+
+Configuration surfaces for [text-generation-webui](../tools/text-generation-webui.qmd)
+(safety class: safe; category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs)) —
+detected from the upstream documentation at generation
+time (7 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `nvidia/docker-compose.yml` | ` For NVIDIA GPU: ln -s docker/{nvidia/Dockerfile,nvidia/docker-compose.yml,.dockerignore} . For AMD GPU: ln -s docker/{ |
+| `amd/docker-compose.yml` | nore} . For AMD GPU: ln -s docker/{amd/Dockerfile,amd/docker-compose.yml,.dockerignore} . For Intel GPU: ln -s docker/{i |
+| `intel/docker-compose.yml` | } . For Intel GPU: ln -s docker/{intel/Dockerfile,intel/docker-compose.yml,.dockerignore} . For CPU only ln -s docker/{c |
+| `cpu/docker-compose.yml` | nore} . For CPU only ln -s docker/{cpu/Dockerfile,cpu/docker-compose.yml,.dockerignore} . cp docker/.env.example .env #C |
+| `user_data/settings-template.yaml` | fault interface settings from this yaml file. See user_data/settings-template.yaml for an example. If you create a file  |
+| `user_data/settings.yaml` | user_data/settings.yaml, this file will be loaded by default without the need to use the --se |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `USER_DATA_DIR` | st</summary>  ```txt usage: server.py [-h] [--user-data-dir USER_DATA_DIR] [--multi-user] [--model MODEL] [--lora LORA [LORA ...]] |
+| `MODEL_DIR` | user] [--model MODEL] [--lora LORA [LORA ...]] [--model-dir MODEL_DIR] [--lora-dir LORA_DIR] [--model-menu] [--settings SETTINGS] |
+| `LORA_DIR` | --lora LORA [LORA ...]] [--model-dir MODEL_DIR] [--lora-dir LORA_DIR] [--model-menu] [--settings SETTINGS]                  [--e |
+| `IMAGE_MODEL_DIR` | DLE_TIMEOUT] [--image-model IMAGE_MODEL] [--image-model-dir IMAGE_MODEL_DIR] [--image-dtype {bfloat16,float16}]                  [ |
+| `DISK_CACHE_DIR` | ory CPU_MEMORY] [--disk]                  [--disk-cache-dir DISK_CACHE_DIR] [--load-in-8bit] [--bf16] [--no-cache] [--trust-remote |
+| `QUANT_TYPE` | double_quant] [--compute_dtype COMPUTE_DTYPE] [--quant_type QUANT_TYPE] [--gpu-split GPU_SPLIT] [--enable-tp] [--tp-backend TP_BAC |
+| `LISTEN_HOST` | [--listen] [--listen-port LISTEN_PORT] [--listen-host LISTEN_HOST] [--share] [--auto-launch] [--gradio-auth GRADIO_AUTH] [--g |
+| `GRADIO_AUTH_PATH` | uto-launch] [--gradio-auth GRADIO_AUTH] [--gradio-auth-path GRADIO_AUTH_PATH]                  [--ssl-keyfile SSL_KEYFILE] [--ssl- |
+| `API_KEY` | C_API_ID] [--api-port API_PORT]                  [--api-key API_KEY] [--admin-key ADMIN_KEY] [--api-enable-ipv6] [--api-disable |
+| `ADMIN_KEY` | API_PORT]                  [--api-key API_KEY] [--admin-key ADMIN_KEY] [--api-enable-ipv6] [--api-disable-ipv4] [--nowebui] [--te |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+textgen
+└── user_data
+    └── models
+        └── Qwen_Qwen3-8B
+            ├── config.json
+            ├── generation_config.json
+            ├── model-00001-of-00004.safetensors
+            ├── ...
+            ├── tokenizer_config.json
+            └── tokenizer.json
+```
+
+```
+For NVIDIA GPU:
+ln -s docker/{nvidia/Dockerfile,nvidia/docker-compose.yml,.dockerignore} .
+For AMD GPU:
+ln -s docker/{amd/Dockerfile,amd/docker-compose.yml,.dockerignore} .
+For Intel GPU:
+ln -s docker/{intel/Dockerfile,intel/docker-compose.yml,.dockerignore} .
+For CPU only
+ln -s docker/{cpu/Dockerfile,cpu/docker-compose.yml,.dockerignore} .
+cp docker/.env.example .env
+#Create logs/cache dir :
+mkdir -p user_data/logs user_data/cache
+# Edit .env and set:
+#   TORCH_CUDA_ARCH_LIST based on your GPU model
+#   APP_RUNTIME_GID      your host user's group id (run `id -g` in a terminal)
+#   BUILD_EXTENIONS      optionally add comma separated list of extensions to build
+# Edit user_data/CMD_FLAGS.txt and add in it the options you want to execute (like --listen --cpu)
+#
+docker compose up --build
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

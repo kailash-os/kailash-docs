@@ -54,6 +54,7 @@ is the detection record, not the page.
 
 - Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/nuclei.qmd) — files, environment variables, samples.
 
 ---
 

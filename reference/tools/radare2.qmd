@@ -52,6 +52,7 @@ is the detection record, not the page.
 
 - Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/radare2.qmd) — files, environment variables, samples.
 
 ---
 

@@ -1,0 +1,59 @@
+---
+title: "pytorch - configuration reference"
+---
+
+# pytorch — configuration reference
+
+Configuration surfaces for [pytorch](../tools/pytorch.qmd)
+(safety class: safe; category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env)) —
+detected from the upstream documentation at generation
+time (15 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `CONDA_INSTALL_DIR` | ironment setup is shown below:  * Linux:  ```bash $ source <CONDA_INSTALL_DIR>/bin/activate $ conda create -y -n <CONDA_NAME> $ co |
+| `CONDA_NAME` | urce <CONDA_INSTALL_DIR>/bin/activate $ conda create -y -n <CONDA_NAME> $ conda activate <CONDA_NAME> ``` * Windows:  ```bash $ so |
+| `ROCM_PATH` | /rocm`. If ROCm is installed in a different directory, the `ROCM_PATH` environment variable must be set to the ROCm installation |
+| `USE_XPU` | cloning # For Intel GPU support, please explicitly `export USE_XPU=1` before running command. make triton ```  **On Windows** |
+| `CMAKE_PREFIX_PATH` | ch  ```bash # the CMake prefix for conda environment export CMAKE_PREFIX_PATH="${CONDA_PREFIX:-'$(dirname $(which conda))/../'}:${ |
+| `CMAKE_INCLUDE_PATH` | he library and set up the building environment by tweaking `CMAKE_INCLUDE_PATH` and `LIB`. The instruction [here](https://docs.pyt |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+pip install mkl-static mkl-include
+# CUDA only: Add LAPACK support for the GPU if needed
+# magma installation: run with active conda environment. specify CUDA version to install
+.ci/docker/common/install_magma_conda.sh 12.4
+
+# (optional) If using torch.compile with inductor/triton, install the matching version of triton
+# Run from the pytorch directory after cloning
+# For Intel GPU support, please explicitly `export USE_XPU=1` before running command.
+make triton
+```
+
+```
+# the CMake prefix for conda environment
+export CMAKE_PREFIX_PATH="${CONDA_PREFIX:-'$(dirname $(which conda))/../'}:${CMAKE_PREFIX_PATH}"
+python -m pip install --no-build-isolation -v -e .
+
+# the CMake prefix for non-conda environment, e.g. Python venv
+# call following after activating the venv
+export CMAKE_PREFIX_PATH="${VIRTUAL_ENV}:${CMAKE_PREFIX_PATH}"
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

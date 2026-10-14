@@ -1,0 +1,55 @@
+---
+title: "nemo-guardrails - configuration reference"
+---
+
+# nemo-guardrails — configuration reference
+
+Configuration surfaces for [nemo-guardrails](../tools/nemo-guardrails.qmd)
+(safety class: safe; category: [d-01-runtime-defence](../directory.qmd#cat-d-01-runtime-defence)) —
+detected from the upstream documentation at generation
+time (16 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `config.yml` | nfig │   ├── actions.py │   ├── config.py │   ├── config.yml │   ├── rails.co │   ├── ... ```  The `config.yml` contains |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `NEMO_GUARDRAILS_NO_USAGE_STATS` | the following options to disable telemetry:  ```bash export NEMO_GUARDRAILS_NO_USAGE_STATS=1 # or export DO_NOT_TRACK=1 # or mkdir |
+| `DO_NOT_TRACK` | ```bash export NEMO_GUARDRAILS_NO_USAGE_STATS=1 # or export DO_NOT_TRACK=1 # or mkdir -p ~/.config/nemoguardrails && touch ~/.conf |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+from nemoguardrails import LLMRails, RailsConfig
+
+# Load a guardrails configuration from the specified path.
+config = RailsConfig.from_path("PATH/TO/CONFIG")
+rails = LLMRails(config)
+
+completion = rails.generate(
+    messages=[{"role": "user", "content": "Hello world!"}]
+)
+```
+
+```
+.
+├── config
+│   ├── actions.py
+│   ├── config.py
+│   ├── config.yml
+│   ├── rails.co
+│   ├── ...
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

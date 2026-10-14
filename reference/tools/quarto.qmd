@@ -51,6 +51,7 @@ is the detection record, not the page.
 
 - Category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/quarto.qmd) — files, environment variables, samples.
 
 ---
 

@@ -1,0 +1,25 @@
+---
+title: "twofi - configuration reference"
+---
+
+# twofi — configuration reference
+
+Configuration surfaces for [twofi](../tools/twofi.qmd)
+(safety class: safe; category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `twofi.yml` | pair of keys which you then need to put into the twofi.yml config file.   At the moment the script expects the config fi |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

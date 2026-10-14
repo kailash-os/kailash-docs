@@ -1,0 +1,31 @@
+---
+title: "pandas - configuration reference"
+---
+
+# pandas — configuration reference
+
+Configuration surfaces for [pandas](../tools/pandas.qmd)
+(safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+python -m pip install -ve . --no-build-isolation --config-settings editable-verbose=true
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

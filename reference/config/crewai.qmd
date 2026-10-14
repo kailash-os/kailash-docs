@@ -1,0 +1,47 @@
+---
+title: "crewai - configuration reference"
+---
+
+# crewai — configuration reference
+
+Configuration surfaces for [crewai](../tools/crewai.qmd)
+(safety class: safe; category: [o-05-ai-engineering-sdks-dev-env](../directory.qmd#cat-o-05-ai-engineering-sdks-dev-env)) —
+detected from the upstream documentation at generation
+time (5 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `config/agents.yaml` | d the older Python/YAML scaffold with `crew.py`, `config/agents.yaml`, and `config/tasks.yaml`, run:  ```shell crewai cr |
+| `config/tasks.yaml` | affold with `crew.py`, `config/agents.yaml`, and `config/tasks.yaml`, run:  ```shell crewai create crew <project_name> - |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SERPER_API_KEY` | r.dev](https://serper.dev/) API key if you use web search: `SERPER_API_KEY=YOUR_KEY_HERE`  Then install dependencies and run from  |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+my_project/
+├── .gitignore
+├── .env
+├── agents/
+│   └── researcher.jsonc
+├── crew.jsonc
+├── knowledge/
+├── pyproject.toml
+├── README.md
+├── skills/
+└── tools/
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

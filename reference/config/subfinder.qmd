@@ -1,0 +1,28 @@
+---
+title: "subfinder - configuration reference"
+---
+
+# subfinder — configuration reference
+
+Configuration surfaces for [subfinder](../tools/subfinder.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (7 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `CONFIG/subfinder/config.yaml` | string                flag config file (default "$CONFIG/subfinder/config.yaml")   -pc, -provider-config string  provide |
+| `CONFIG/subfinder/provider-config.yaml` | er-config string  provider config file (default "$CONFIG/subfinder/provider-config.yaml")   -r string[]                  |
+| `config.yaml` | figuration files:  - `SUBFINDER_CONFIG` - Path to config.yaml file (overrides default `$CONFIG/subfinder/config.yaml`) - |
+| `provider-config.yaml` | ig.yaml`) - `SUBFINDER_PROVIDER_CONFIG` - Path to provider-config.yaml file (overrides default `$CONFIG/subfinder/provid |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [v2.17.0-unstable-2026-10-08](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

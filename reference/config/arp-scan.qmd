@@ -1,0 +1,25 @@
+---
+title: "arp-scan - configuration reference"
+---
+
+# arp-scan — configuration reference
+
+Configuration surfaces for [arp-scan](../tools/arp-scan.qmd)
+(safety class: safe; category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering)) —
+detected from the upstream documentation at generation
+time (4 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

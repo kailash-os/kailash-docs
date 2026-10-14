@@ -1,0 +1,30 @@
+---
+title: "bentoml - configuration reference"
+---
+
+# bentoml — configuration reference
+
+Configuration surfaces for [bentoml](../tools/bentoml.qmd)
+(safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `BENTOML_DO_NOT_TRACK` | ``  Or by setting the environment variable:  ```bash export BENTOML_DO_NOT_TRACK=True ```  ### License  [Apache License 2.0](https |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

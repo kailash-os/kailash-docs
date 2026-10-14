@@ -1,0 +1,25 @@
+---
+title: "podman - configuration reference"
+---
+
+# podman — configuration reference
+
+Configuration surfaces for [podman](../tools/podman.qmd)
+(safety class: safe; category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `/etc/passwd` | hem. If you run Podman as your user and mount in `/etc/passwd` from the host, you still won't be able to change it, sinc |
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,48 @@
+---
+title: "wandb-cli - configuration reference"
+---
+
+# wandb-cli — configuration reference
+
+Configuration surfaces for [wandb-cli](../tools/wandb-cli.qmd)
+(safety class: safe; category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+None surfaced in the upstream README at generation time.
+
+## Sample configuration (upstream)
+
+```
+import wandb
+
+# Project that the run is recorded to
+project = "my-awesome-project"
+
+# Dictionary with hyperparameters
+config = {"epochs": 1337, "lr": 3e-4}
+
+# The `with` syntax marks the run as finished upon exiting the `with` block,
+# and it marks the run "failed" if there's an exception.
+#
+# In a notebook, it may be more convenient to write `run = wandb.init()`
+# and manually call `run.finish()` instead of using a `with` block.
+with wandb.init(project=project, config=config) as run:
+    # Training code here
+
+    # Log values to W&B with run.log()
+    run.log({"accuracy": 0.9, "loss": 0.1})
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

@@ -1,0 +1,69 @@
+---
+title: "mcp-remote - configuration reference"
+---
+
+# mcp-remote — configuration reference
+
+Configuration surfaces for [mcp-remote](../tools/mcp-remote.qmd)
+(safety class: requires-target; category: [a-03-agentic-mcp-tool-use](../directory.qmd#cat-a-03-agentic-mcp-tool-use)) —
+detected from the upstream documentation at generation
+time (3 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+No config-file paths surfaced in the upstream README
+at generation time — the tool likely takes options
+through flags or environment instead; see upstream.
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `AUTH_TOKEN` | /sse",         "--header",         "Authorization: Bearer ${AUTH_TOKEN}"       ],       "env": {         "AUTH_TOKEN": "..." |
+| `MCP_REMOTE_CLIENT_ID` | with the `--static-oauth-client-info` flag:  ```bash export MCP_REMOTE_CLIENT_ID=xxx export MCP_REMOTE_CLIENT_SECRET=yyy npx mcp-r |
+| `MCP_REMOTE_CLIENT_SECRET` | info` flag:  ```bash export MCP_REMOTE_CLIENT_ID=xxx export MCP_REMOTE_CLIENT_SECRET=yyy npx mcp-remote https://example.remote/ser |
+| `MCP_REMOTE_CONFIG_DIR` | dential information inside `~/.mcp-auth` (or wherever your `MCP_REMOTE_CONFIG_DIR` points to). If you're having persistent issues, |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+{
+  "mcpServers": {
+    "remote-example": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://remote.mcp.server/sse",
+        "--header",
+        "Authorization: Bearer ${AUTH_TOKEN}"
+      ],
+      "env": {
+        "AUTH_TOKEN": "..."
+      }
+    },
+  }
+}
+```
+
+```
+{
+  // rest of config...
+  "args": [
+    "mcp-remote",
+    "https://remote.mcp.server/sse",
+    "--header",
+    "Authorization:${AUTH_HEADER}" // note no spaces around ':'
+  ],
+  "env": {
+    "AUTH_HEADER": "Bearer <auth-token>" // spaces OK in env vars
+  }
+},
+```
+
+---
+
+ref: [v0.1.38-unstable-2026-09-20](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

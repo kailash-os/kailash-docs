@@ -365,6 +365,61 @@ book:
         - reference/tools/vscode.qmd
         - reference/tools/wandb-cli.qmd
         - reference/tools/xgboost.qmd
+    - part: "Tools — Config references"
+      chapters:
+        - reference/config/arp-scan.qmd
+        - reference/config/assetfinder.qmd
+        - reference/config/bentoml.qmd
+        - reference/config/cdxgen.qmd
+        - reference/config/chainsaw.qmd
+        - reference/config/cosign.qmd
+        - reference/config/counterfit.qmd
+        - reference/config/crewai.qmd
+        - reference/config/dvc.qmd
+        - reference/config/feast.qmd
+        - reference/config/garak.qmd
+        - reference/config/gef.qmd
+        - reference/config/google-genai.qmd
+        - reference/config/guarddog.qmd
+        - reference/config/guardrails-ai.qmd
+        - reference/config/k3s.qmd
+        - reference/config/katana.qmd
+        - reference/config/kiterunner.qmd
+        - reference/config/librosa.qmd
+        - reference/config/lightgbm.qmd
+        - reference/config/llama.cpp.qmd
+        - reference/config/lm-eval-harness.qmd
+        - reference/config/masscan.qmd
+        - reference/config/mcp-remote.qmd
+        - reference/config/mcp-scan.qmd
+        - reference/config/modelscan.qmd
+        - reference/config/nemo-guardrails.qmd
+        - reference/config/nikto.qmd
+        - reference/config/nuclei.qmd
+        - reference/config/openai-python.qmd
+        - reference/config/pandas.qmd
+        - reference/config/picklescan.qmd
+        - reference/config/podman.qmd
+        - reference/config/promptfoo.qmd
+        - reference/config/pytorch.qmd
+        - reference/config/quarto.qmd
+        - reference/config/radare2.qmd
+        - reference/config/rebuff.qmd
+        - reference/config/redis-cli.qmd
+        - reference/config/scikit-learn.qmd
+        - reference/config/sigma-cli.qmd
+        - reference/config/sqlitebrowser.qmd
+        - reference/config/sqlmap.qmd
+        - reference/config/subfinder.qmd
+        - reference/config/sysmon-modular.qmd
+        - reference/config/text-generation-webui.qmd
+        - reference/config/the-harvester.qmd
+        - reference/config/torchserve.qmd
+        - reference/config/trivy.qmd
+        - reference/config/trufflehog.qmd
+        - reference/config/twofi.qmd
+        - reference/config/wandb-cli.qmd
+        - reference/config/zaproxy.qmd
     - part: "Part IV — Administrator guide"
       chapters:
         - admin/install.qmd

@@ -1,0 +1,63 @@
+---
+title: "cdxgen - configuration reference"
+---
+
+# cdxgen — configuration reference
+
+Configuration surfaces for [cdxgen](../tools/cdxgen.qmd)
+(safety class: safe; category: [d-04-provenance-signing-trust](../directory.qmd#cat-d-04-provenance-signing-trust)) —
+detected from the upstream documentation at generation
+time (6 config-surface markers). The invocation
+reference stays on the main tool page.
+
+## Configuration files
+
+| Path | Context |
+|---|---|
+| `pnpm-lock.yaml` | ly limited to:  - package-lock.json - yarn.lock - pnpm-lock.yaml - Maven (pom.xml) - Gradle - Scala SBT - Python (requir |
+
+## Environment variables
+
+| Variable | Upstream context |
+|---|---|
+| `SPDX` | | Validate BOM quality, check SCVS/CRA posture, and export SPDX deliverables                                           | `c |
+| `BASE_URL` | ux  ```bash VERSION="v13.4.0" ASSET="cdx-audit-linux-amd64" BASE_URL="https://github.com/cdxgen/cdxgen/releases/download/${VERSI |
+| `GH_TOKEN` | - name: Download cdx-audit release binary     env:       GH_TOKEN: ${{ github.token }}     run: |       gh release download v |
+| `CDXGEN_DEBUG_MODE` | default version uses Node.js 24  ```bash docker run --rm -e CDXGEN_DEBUG_MODE=debug -v /tmp:/tmp -v $(pwd):/app:rw -t ghcr.io/cdxg |
+| `JAVA_HOME` | 8 or 11, so ensure a suitable version is installed and the JAVA_HOME environment variable is configured correctly. If in doubt, |
+| `GITHUB_TOKEN` | variable `FETCH_LICENSE` to `true`, as shown. Ensure that `GITHUB_TOKEN` is set or provided by [built-in GITHUB_TOKEN in GitHub Ac |
+| `FETCH_LICENSE` | e limiting might prevent license resolving.  ```bash export FETCH_LICENSE=true ```  ## Dependency Tree  cdxgen can retain the depe |
+| `SBOM_SIGN_PRIVATE_KEY` | `ES256`, `Ed25519`, `HS256`. It must match the key type. - `SBOM_SIGN_PRIVATE_KEY`: Location of the private key (PEM format), or o |
+| `SBOM_SIGN_PUBLIC_KEY` | r of the shared secret for `HS256`, `HS384`, and `HS512` - `SBOM_SIGN_PUBLIC_KEY`: Optional. Location of the public key to embed.  |
+| `SBOM_SIGN_MODE` | public key to embed. It must belong to the private key. - `SBOM_SIGN_MODE`: Optional. Signature mode (`replace`, `signers`, `chain |
+
+*Names extracted heuristically from upstream docs —
+verify each against the tool's own docs before use.*
+
+## Sample configuration (upstream)
+
+```
+permissions:
+  contents: read
+
+steps:
+  - name: Download cdx-audit release binary
+    env:
+      GH_TOKEN: ${{ github.token }}
+    run: |
+      gh release download v13.4.0 \
+        --repo cdxgen/cdxgen \
+        --pattern 'cdx-audit-linux-amd64' \
+        --pattern 'cdx-audit-linux-amd64.sha256'
+      sha256sum -c cdx-audit-linux-amd64.sha256
+      chmod +x cdx-audit-linux-amd64
+      ./cdx-audit-linux-amd64 --help
+```
+
+```
+deno install --allow-read --allow-env --allow-run --allow-sys=uid,systemMemoryInfo,gid,homedir --allow-write --allow-net -n cdxgen "npm:@cdxgen/cdxgen/cdxgen"
+```
+
+---
+
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/manifest/tools.yaml) - verified 2026-10-14

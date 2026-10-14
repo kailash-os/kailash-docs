@@ -23,6 +23,7 @@ title: "sysmon-modular(1) - Kailash Tool Reference"
 
 - Category: [c-09-forensics-ir-reporting](../directory.qmd#cat-c-09-forensics-ir-reporting) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/sysmon-modular.qmd) — files, environment variables, samples.
 
 ---
 

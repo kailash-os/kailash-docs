@@ -56,6 +56,7 @@ is the detection record, not the page.
 
 - Category: [o-04-local-llm-inference-labs](../directory.qmd#cat-o-04-local-llm-inference-labs) in the
   category directory (sister tools listed there).
+- [Configuration reference](../config/llama.cpp.qmd) — files, environment variables, samples.
 
 ---
 
