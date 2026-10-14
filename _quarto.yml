@@ -33,6 +33,7 @@ book:
         - governance/release-model.qmd
     - part: "Part III — Tool reference"
       chapters:
+        - reference/directory.qmd
         - reference/coverage.qmd
         - reference/garak.qmd
     - part: "Part IV — Administrator guide"
