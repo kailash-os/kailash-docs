@@ -16,31 +16,10 @@ title: "google-genai - reference"
 
 `google-genai` - Google Gen AI Python SDK.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install google-genai
-```
-
-```
-uv pip install google-genai
-```
-
-### DESCRIPTION (upstream)
-
-**Documentation:** https://googleapis.github.io/python-genai/ Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications. It supports the [Gemini Developer API](https://ai.google.dev/gemini-api/docs) and APIs. > [!WARNING] > **Updates to Automatic Function Calling (AFC) in upcoming SDK version:** > We are changing AFC behavior in the next major version. > Specifically, users will not be able to > invoke AFC from direct calls to `Models.generate_content` or its stream and > async variants. Instead, users should invoke AFC from `Chats` modules. > > | Methods/fields to be removed | migration guide | > | --- | --- | > | `L
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `environment variables`, `environment variables`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/googleapis/python-genai). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

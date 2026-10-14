@@ -16,25 +16,10 @@ title: "clairvoyance - reference"
 
 `clairvoyance` - Obtains GraphQL API schemas from introspection-disabled endpoints.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install clairvoyance
-clairvoyance https://rickandmortyapi.com/graphql -o schema.json
-# should take about 2 minutes
-```
-
-```
-docker run --rm nikitastupin/clairvoyance --help
-```
-
-### DESCRIPTION (upstream)
-
-Obtain GraphQL API schema even if the introspection is disabled. Some GraphQL APIs have disabled introspection. For example, [Apollo Server disables introspection automatically if the `NODE_ENV` environment variable is set to `production`](https://www.apollographql.com/docs/tutorial/schema/#explore-your-schema). Clairvoyance helps to obtain GraphQL API schema even if the introspection is disabled. It produces schema in JSON format suitable for other tools like [GraphQL Voyager](https://github.com/APIs-guru/graphql-voyager), [InQL](https://github.com/doyensec/inql) or [graphql-path-enum](https://gitlab.com/dee-see/graphql-path-enum). pip install clairvoyance clairvoyance https://rickandmortya
+Not derived automatically - see [upstream documentation](https://github.com/nikitastupin/clairvoyance). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

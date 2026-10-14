@@ -16,32 +16,10 @@ title: "bentoml - reference"
 
 `bentoml` - BentoML — model serving and inference-API packaging.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-# Requires Python≥3.9
-pip install -U bentoml
-```
-
-```
-pip install torch transformers  # additional dependencies for local run
-```
-
-### DESCRIPTION (upstream)
-
-🍱 Build model inference APIs and multi-model serving systems with any open-source or custom AI models. 👉 [Join our forum](https://forum.modular.com/c/bento/31)! BentoML is a Python library for building online serving systems optimized for AI apps and model inference. - **🍱 Easily build APIs for Any AI/ML Model.** Turn any model inference script into a REST API server with just a few lines of code and standard Python type hints. - **🐳 Docker Containers made simple.** No more dependency hell! Manage your environments, dependencies and model versions with a simple config file. BentoML automatically generates Docker images, ensures reproducibility, and simplifies how you deploy to different envi
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (3 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/bentoml/BentoML). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

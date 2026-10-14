@@ -16,25 +16,10 @@ title: "jd-gui - reference"
 
 `jd-gui` - Java decompiler with a standalone graphical UI.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-> git clone https://github.com/java-decompiler/jd-gui.git
-> cd jd-gui
-> ./gradlew build
-```
-
-```
-> ./gradlew idea
-```
-
-### DESCRIPTION (upstream)
-
-JD-GUI, a standalone graphical utility that displays Java sources from CLASS files. - Java Decompiler projects home page: [http://java-decompiler.github.io](http://java-decompiler.github.io) - JD-GUI source code: [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui) JD-GUI is a standalone graphical utility that displays Java source codes of ".class" files. You can browse the reconstructed source code with the JD-GUI for instant access to methods and fields. > git clone https://github.com/java-decompiler/jd-gui.git > cd jd-gui > ./gradlew build generate : - _"build/libs/jd-gui-x.y.z.jar"_ - _"build/libs/jd-gui-x.y.z-min.jar"_ - _"build/distributions/jd-gui-win
+Not derived automatically - see [upstream documentation](https://github.com/java-decompiler/jd-gui). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

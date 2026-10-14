@@ -16,36 +16,10 @@ title: "picklescan - reference"
 
 `picklescan` - Picklescan — static security scanner for pickle/PyTorch model files: flags dangerous globals and unsafe opcodes.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install picklescan
-picklescan --huggingface ykilcher/totally-harmless-model
-```
-
-```
-https://huggingface.co/ykilcher/totally-harmless-model/resolve/main/pytorch_model.bin:archive/data.pkl: global import '__builtin__ eval' FOUND
------------ SCAN SUMMARY -----------
-Scanned files: 1
-Infected files: 1
-Dangerous globals: 1
-```
-
-### DESCRIPTION (upstream)
-
-Security scanner detecting Python Pickle files performing suspicious actions. Scan a malicious model on [Hugging Face](https://huggingface.co/): pip install picklescan picklescan --huggingface ykilcher/totally-harmless-model The scanner reports that the Pickle is calling `eval()` to execute arbitrary code: https://huggingface.co/ykilcher/totally-harmless-model/resolve/main/pytorch_model.bin:archive/data.pkl: global import '__builtin__ eval' FOUND Scanned files: 1 Infected files: 1 Dangerous globals: 1 The scanner can also load Pickles from local files, directories, URLs, and zip archives (a-la [PyTorch](https://pytorch.org/)): picklescan --path downloads/pytorch_model.bin picklescan --path d
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `test.yml`, `conda.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/mmaitre314/picklescan). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -55,4 +29,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v1.0.5-unstable-2026-09-01](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [v5e7ab22cb5bc59c4276820df5153829db4c751e8](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

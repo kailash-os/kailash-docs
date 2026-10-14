@@ -16,23 +16,10 @@ title: "uro - reference"
 
 `uro` - Declutters URL lists for crawling and pentesting.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pipx install uro
-```
-
-```
-cat urls.txt | uro
-```
-
-### DESCRIPTION (upstream)
-
-Using a URL list for security testing can be painful as there are a lot of URLs that have uninteresting/duplicate content; **uro** aims to solve that. It doesn't make any http requests to the URLs and removes: - incremental urls e.g. `/page/1/` and `/page/2/` - blog posts and similar human written content e.g. `/posts/a-brief-history-of-time` - urls with same path but parameter value difference e.g. `/page.php?id=1` and `/page.php?id=2` - images, js, css and other "useless" files The recommended way to install uro is as follows: pipx install uro > Note: If you are using an older version of python, use `pip` instead of `pipx` The quickest way to include uro in your workflow is to feed it data
+Not derived automatically - see [upstream documentation](https://github.com/s0md3v/uro). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

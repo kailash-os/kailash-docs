@@ -21,18 +21,6 @@ title: "apktool - reference"
 Not derived automatically - see [upstream documentation](https://github.com/iBotPeaches/Apktool). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-_This is the repository for Apktool. The website is at the [apktool.org](https://github.com/iBotPeaches/apktool.org) repository._ Apktool is a tool for reverse engineering third-party, closed, binary, Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes it possible to debug smali code step-by-step. It also makes working with apps easier thanks to project-like file structure and automation of some repetitive tasks such as building apk, etc. Apktool is **NOT** intended for piracy and other non-legal uses. It could be used for localizing and adding features, adding support for custom platforms, and other GOOD purposes. Just try
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `build.yml`, `test.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the

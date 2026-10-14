@@ -10,7 +10,7 @@ title: "sox - reference"
 | Category | [c-07-signal-sdr](../directory.qmd#cat-c-07-signal-sdr) |
 | Safety class | safe |
 | Licence | GPL-2.0-or-later |
-| Upstream | [github.com/sox-ng/sox](https://github.com/sox-ng/sox) |
+| Upstream | [sourceforge.net/projects/sox/](https://sourceforge.net/projects/sox/) |
 | Row kind | data pack (bundle description, not an invocation surface) |
 
 ### NAME

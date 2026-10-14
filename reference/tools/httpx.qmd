@@ -22,31 +22,10 @@ time - check upstream status before relying on it.
 
 `httpx` - Fast and multi-purpose HTTP toolkit.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-```
-
-```
-httpx -h
-```
-
-### DESCRIPTION (upstream)
-
-`httpx` is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the [retryablehttp](https://github.com/projectdiscovery/retryablehttp-go) library. It is designed to maintain result reliability with an increased number of threads. - Simple and modular code base making it easy to contribute. - Fast And fully configurable flags to probe multiple elements. - Supports multiple HTTP based probings. - Smart auto fallback from https to http by default. - Supports hosts, URLs and CIDR as input. - Handles edge cases doing retries, backoffs etc for handling WAFs. `httpx` requires **go >=1.25.0** to install successfully. Run the following command to get the repo: go install -v
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `config.yaml`, `secrets.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/projectdiscovery/httpx). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

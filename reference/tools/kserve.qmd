@@ -21,10 +21,6 @@ title: "kserve - reference"
 Not derived automatically - see [upstream documentation](https://github.com/kserve/kserve). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-KServe is a standardized distributed generative and predictive AI inference platform for scalable, multi-framework deployment on Kubernetes. KServe is being [used by many organizations](https://kserve.github.io/website/docs/community/adopters) and is a [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) incubating project. For more details, visit the [KServe website](https://kserve.github.io/website/). Single platform that unifies Generative and Predictive AI inference on Kubernetes. Simple enough for quick deployments, yet powerful enough to handle enterprise-scale AI workloads with advanced features. **Generative AI** * 🧮 **Optimized Backends**: Support for vLLM and llm-d for
-
 ### SEE ALSO
 
 - Category: [o-02-compute-serving-infrastructure](../directory.qmd#cat-o-02-compute-serving-infrastructure) in the

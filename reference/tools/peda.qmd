@@ -21,10 +21,6 @@ title: "peda - reference"
 Not derived automatically - see [upstream documentation](https://github.com/longld/peda). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-peda ==== PEDA - Python Exploit Development Assistance for GDB * Enhance the display of gdb: colorize and display disassembly codes, registers, memory information during debugging. * Add commands to support debugging and exploit development (for a full list of commands use `peda help`): * `aslr` -- Show/set ASLR setting of GDB * `checksec` -- Check for various security options of binary * `dumpargs` -- Display arguments passed to a function when stopped at a call instruction * `dumprop` -- Dump all ROP gadgets in specific memory range * `elfheader` -- Get headers information from debugged ELF file * `elfsymbol` -- Get non-debugging symbol information from an ELF file * `lookup` -- Search for
-
 ### SEE ALSO
 
 - Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the

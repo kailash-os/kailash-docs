@@ -21,10 +21,6 @@ title: "lynis - reference"
 Not derived automatically - see [upstream documentation](https://github.com/CISOfy/lynis). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-[Documentation] [Documentation]: https://cisofy.com/documentation/lynis/ Do you like this software? **Star the project** and become a [stargazer](https://github.com/CISOfy/lynis/stargazers). > Lynis - Security auditing and hardening tool, for UNIX-based systems. Lynis is a security auditing tool for systems based on UNIX like Linux, macOS, BSD, and others. It performs an **in-depth security scan** and runs on the system itself. The primary goal is to test security defenses and **provide tips for further system hardening**. It will also scan for general system information, vulnerable software packages, and possible configuration issues. Lynis was commonly used by system administrators and aud
-
 ### SEE ALSO
 
 - Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the

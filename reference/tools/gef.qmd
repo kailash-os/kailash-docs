@@ -21,18 +21,6 @@ title: "gef - reference"
 Not derived automatically - see [upstream documentation](https://github.com/hugsy/gef). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-`GEF` (pronounced ʤɛf - "Jeff") is a set of commands for x86/64, ARM, MIPS, PowerPC and SPARC to assist exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime. Simply make sure you have [GDB 10.0 or higher](https://www.gnu.org/s/gdb) compiled with Python3.10+ bindings, then: $ bash -c "$(curl -fsSL https://gef.blah.cat/sh)" $ bash -c "$(wge
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `generate-docs.yml`, `generate-docs.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-06-reverse-engineering](../directory.qmd#cat-c-06-reverse-engineering) in the

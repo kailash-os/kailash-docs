@@ -21,10 +21,6 @@ title: "pyrit - reference"
 Not derived automatically - see [upstream documentation](https://github.com/microsoft/PyRIT). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems. - Check out our [website](https://microsoft.github.io/PyRIT/) for more information about how to use, install, or contribute to PyRIT. - Review our [security policy](https://github.com/microsoft/PyRIT/security/policy) to report vulnerabilities privately through the Microsoft Security Response Center. - Visit our [Discord server](https://discord.gg/9fMpq3tc8u) to chat with the team and community. This project may contain trademarks or logos for projects, products, or services. Authorized use of Mi
-
 ### SEE ALSO
 
 - Category: [a-02-prompt-injection-jailbreaks](../directory.qmd#cat-a-02-prompt-injection-jailbreaks) in the
@@ -32,4 +28,4 @@ The Python Risk Identification Tool for generative AI (PyRIT) is an open source 
 
 ---
 
-ref: [v1.2.0.dev0-unstable-2026-10-10](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [vf916d8ee5df7b2e9859ff2c1ffef596d993db0d2](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

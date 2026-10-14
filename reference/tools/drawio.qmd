@@ -21,10 +21,6 @@ title: "drawio - reference"
 Not derived automatically - see [upstream documentation](https://github.com/jgraph/drawio). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-draw.io is a configurable diagramming and whiteboarding application, jointly owned and developed by draw.io Ltd (previously named JGraph) and draw.io AG. We also run a production deployment at https://app.diagrams.net. The source code in this repository is licensed under the [Apache License 2.0](LICENSE). The icon sets, stencil libraries, and diagram templates are provided under the following terms: > The icon sets and stencil libraries included in this software, and any derivatives thereof (including conversions to other formats, traced reproductions, substantially similar visual representations, or AI-generated images created using these icons as reference or training input), may not be us
-
 ### SEE ALSO
 
 - Category: [o-06-documentation-reporting-authoring](../directory.qmd#cat-o-06-documentation-reporting-authoring) in the

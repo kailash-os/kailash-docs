@@ -21,10 +21,6 @@ title: "maskgen - reference"
 Not derived automatically - see [upstream documentation](https://github.com/iphelix/pack). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-Password Analysis and Cracking Kit by Peter Kacherginsky (iphelix) ================================================================== PACK (Password Analysis and Cracking Toolkit) is a collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics. The toolkit generates valid input files for Hashcat family of password crackers. NOTE: The toolkit itself is not able to crack passwords, but instead designed to make operation of password crackers more efficient. Selecting passwords lists for analysis ====================================== Before we can begin
-
 ### SEE ALSO
 
 - Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the

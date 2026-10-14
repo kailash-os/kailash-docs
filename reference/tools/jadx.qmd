@@ -16,31 +16,10 @@ title: "jadx - reference"
 
 `jadx` - Dex to Java decompiler.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-  sudo pacman -S jadx
-```
-
-```
-  brew install jadx
-```
-
-### DESCRIPTION (upstream)
-
-**jadx** - Dex to Java decompiler Command-line and GUI tools for producing Java source code from Android Dex and APK files > [!WARNING] > Please note that in most cases **jadx** can't decompile 100% of the code, so errors will occur.<br /> > Check the [Troubleshooting guide](https://github.com/skylot/jadx/wiki/Troubleshooting-Q&A#decompilation-issues) for workarounds. **Main features:** - decompile Dalvik bytecode to Java code from APK, dex, aab, apks, apkm, xapk and zip files - also decompile Java bytecode (jar, class, aar) and smali files - decode `AndroidManifest.xml` and other resources from `resources.arsc` - deobfuscator included **jadx-gui features:** - view decompiled code with synta
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `build-artifacts.yml`, `--config`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/skylot/jadx). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

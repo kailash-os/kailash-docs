@@ -16,34 +16,10 @@ title: "quarto - reference"
 
 `quarto` - Quarto — open-source scientific and technical publishing system.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-git clone https://github.com/quarto-dev/quarto-cli
-cd quarto-cli
-./configure.sh
-```
-
-```
-cd quarto-cli
-git pull
-```
-
-### DESCRIPTION (upstream)
-
-Quarto is an open-source scientific and technical publishing system built on [Pandoc](https://pandoc.org). Quarto documents are authored using [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy to write plain text format. In addition to the core capabilities of Pandoc, Quarto includes: 1.  Embedding code and output from Python, R, Julia, and JavaScript via integration with [Jupyter](https://jupyter.org/), [Knitr](https://yihui.org/knitr/), and [Observable](https://github.com/observablehq/). 2.  A variety of extensions to Pandoc Markdown useful for technical writing including cross-references, sub-figures, layout panels, hoverable citations and footnotes, callouts, and more. 3.  A pr
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `create-release.yml`, `create-release.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/quarto-dev/quarto-cli). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -16,23 +16,10 @@ title: "ollama - reference"
 
 `ollama` - Ollama — run LLMs locally (primary home; documented tiny test model).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
-```
-irm https://ollama.com/install.ps1 | iex
-```
-
-### DESCRIPTION (upstream)
-
-Start building with open models. Access the latest releases locally or in the cloud with complete privacy. curl -fsSL https://ollama.com/install.sh | sh or [download manually](https://ollama.com/download/Ollama.dmg) irm https://ollama.com/install.ps1 | iex or [download manually](https://ollama.com/download/OllamaSetup.exe) curl -fsSL https://ollama.com/install.sh | sh The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub. - [ollama-python](https://github.com/ollama/ollama-python) - [ollama-js](https://github.com/ollama/ollama-js) - [Discord](https://discord.gg/ollama) - [𝕏 (Twitter)](https://x.com/ollama) - [Reddit](https://redd
+Not derived automatically - see [upstream documentation](https://github.com/ollama/ollama). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

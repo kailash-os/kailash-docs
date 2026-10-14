@@ -16,31 +16,10 @@ title: "sqlitebrowser - reference"
 
 `sqlitebrowser` - DB Browser for SQLite — artefact inspection front-end.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-choco install sqlitebrowser
-```
-
-```
-winget install -e --id DBBrowserForSQLite.DBBrowserForSQLite
-```
-
-### DESCRIPTION (upstream)
-
-- [DB Browser for SQLite](#db-browser-for-sqlite) - [Table of Contents](#table-of-contents) - [What it is](#what-it-is) - [What it is not](#what-it-is-not) - [Wiki](#wiki) - [Continuous, Nightly builds](#continuous-nightly-builds) - [Windows](#windows) - [Continuous, Nightly builds](#continuous-nightly-builds-1) - [macOS](#macos) - [Stable release](#stable-release) - [Continuous, Nightly builds](#continuous-nightly-builds-2) - [Linux](#linux) - [Arch Linux](#arch-linux) - [Debian](#debian) - [Fedora](#fedora) - [openSUSE](#opensuse) - [Ubuntu and Derivatives](#ubuntu-and-derivatives) - [Stable release](#stable-release-1) - [Nightly builds](#nightly-builds) - [Other Linux](#other-linux) - [Fr
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `codeql.yml`, `codeql.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/sqlitebrowser/sqlitebrowser). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

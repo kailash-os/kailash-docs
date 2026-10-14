@@ -16,23 +16,10 @@ title: "code-server - reference"
 
 `code-server` - VS Code in the browser.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
-```
-
-```
-curl -fsSL https://code-server.dev/install.sh | sh
-```
-
-### DESCRIPTION (upstream)
-
-Run [VS Code](https://github.com/Microsoft/vscode) on any machine anywhere and access it in the browser. - Code on any device with a consistent development environment - Use cloud servers to speed up tests, compilations, downloads, and more - Preserve battery life when you're on the go; all intensive tasks run on your server See [requirements](https://coder.com/docs/code-server/latest/requirements) for minimum specs, as well as instructions on how to set up a Google VM on which you can install code-server. **TL;DR:** Linux machine with WebSockets enabled, 1 GB RAM, and 2 vCPUs There are five ways to get started: 1. Using the [install script](https://github.com/coder/code-server/blob/main/ins
+Not derived automatically - see [upstream documentation](https://github.com/coder/code-server). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

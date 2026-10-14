@@ -16,35 +16,10 @@ title: "mcp-inspector - reference"
 
 `mcp-inspector` - MCP Inspector — visual testing tool for MCP servers (dogfood duty in CI; licence MIT→Apache-2.0 transition).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-npx @modelcontextprotocol/inspector                   # web UI (default)
-npx @modelcontextprotocol/inspector --cli             # CLI
-npx @modelcontextprotocol/inspector --tui             # TUI
-npx -p @modelcontextprotocol/inspector mcpdo --help   # mcpdo
-```
-
-```
-npm install          # at the repo root; postinstall cascades into every client
-npm run build        # web → cli → tui → launcher
-```
-
-### DESCRIPTION (upstream)
-
-A developer tool for inspecting [Model Context Protocol](https://modelcontextprotocol.io) (MCP) servers. It ships as a single package, `@modelcontextprotocol/inspector`, that provides four ways to inspect a server: - **Web** — a Vite + React + [Mantine](https://mantine.dev) single-page app with a Node backend. - **CLI** — a scriptable command-line client for automation, CI, and fast agent feedback loops. - **TUI** — an interactive terminal UI built with [Ink](https://github.com/vadimdemedes/ink). - **mcpdo** _(experimental)_ — a connection CLI: connect once, then run many commands against the named connection through an implicit local daemon. See [`clients/mcpdo`](https://github.com/modelcon
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `--config`, `--config`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/modelcontextprotocol/inspector). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 
@@ -53,4 +28,4 @@ is the detection record, not the page.
 
 ---
 
-ref: [v2.10.1](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14
+ref: [pin](https://github.com/kailash-os/kailash-packages/blob/main/nvfetcher/_sources/generated.nix) - verified 2026-10-14

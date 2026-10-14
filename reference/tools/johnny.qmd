@@ -21,10 +21,6 @@ title: "johnny - reference"
 Not derived automatically - see [upstream documentation](https://github.com/openwall/johnny). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-Overview ======== Johnny the open source cross-platform GUI frontend for John the Ripper, the popular password cracker, written in C++ using the Qt framework. Johnny's aim is to automate and simplify the password cracking routine on the Desktop as well as add extra functionality like session management and easy hash/password management, on top of the immense capabilities and features offered by John the Ripper. The application uses John The Ripper for the actual work, thus it needs to be installed on your system. Official core (proper) version and the community-enhanced version (jumbo) are both supported. The latter exposes more functionality like extra cracking modes and hash types support.
-
 ### SEE ALSO
 
 - Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the

@@ -16,33 +16,10 @@ title: "giskard - reference"
 
 `giskard` - Giskard — open-source evaluation and testing library for LLM agents (scan, tests, red-reporting).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install giskard           # checks (+ agents, llm, core)
-pip install "giskard[scan]"   # + vulnerability / quality scan
-pip install "giskard[openai]" # provider SDK for LLM judges / generators
-```
-
-```
-pip install giskard-checks
-```
-
-### DESCRIPTION (upstream)
-
-> [!IMPORTANT] > **Giskard v3** is a fresh rewrite designed for dynamic, multi-turn testing of AI agents. This release drops heavy dependencies for better efficiency while introducing a more powerful AI vulnerability scanner and enhanced RAG evaluation — both now shipping natively in `giskard-scan`, with no dependency on v2. Only the legacy scan for **tabular/ML models** remains v2-only. > **Giskard v2 remains available but is no longer actively maintained.** > Follow progress → [Read the v3 Announcement](https://github.com/orgs/Giskard-AI/discussions/2250) · [Roadmap](https://github.com/Giskard-AI/giskard-oss/issues/2252) pip install giskard           # checks (+ agents, llm, core) pip inst
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/Giskard-AI/giskard). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

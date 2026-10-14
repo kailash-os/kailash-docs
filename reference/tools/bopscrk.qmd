@@ -16,25 +16,10 @@ title: "bopscrk - reference"
 
 `bopscrk` - Smart wordlist generator that combines target-related words with transformations.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install bopscrk
-```
-
-```
-git clone --recurse-submodules https://github.com/r3nt0n/bopscrk
-cd bopscrk
-pip install -r requirements.txt
-```
-
-### DESCRIPTION (upstream)
-
-This documentation was written using Best-README-Template by othneildrew https://github.com/othneildrew/ https://github.com/othneildrew/Best-README-Template/edit/master/README.md Thanks dude :) --> Generate smart and powerful wordlists for targeted attacks · · + **Targeted-attack wordlist creator**: introduce personal info related to target, combines every word and transforms results into possible passwords. The *lyricpass* module allows to **search lyrics related to artists** and include them to the wordlists. + **Customizable case** and **leet transforms**: create **custom charsets** and **transforms patterns** trough a simple **config file**. + **Interactive mode** and **one-line command
+Not derived automatically - see [upstream documentation](https://github.com/r3nt0n/bopscrk). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

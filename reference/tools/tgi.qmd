@@ -16,39 +16,10 @@ title: "tgi - reference"
 
 `tgi` - text-generation-inference (Hugging Face TGI) — LLM serving runtime.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-model=HuggingFaceH4/zephyr-7b-beta
-# share a volume with the Docker container to avoid downloading weights every run
-volume=$PWD/data
-
-docker run --gpus all --shm-size 1g -p 8080:80 -v $volume:/data \
-    ghcr.io/huggingface/text-generation-inference:3.3.5 --model-id $model
-```
-
-```
-curl 127.0.0.1:8080/generate_stream \
-    -X POST \
-    -d '{"inputs":"What is Deep Learning?","parameters":{"max_new_tokens":20}}' \
-    -H 'Content-Type: application/json'
-```
-
-### DESCRIPTION (upstream)
-
-> [!CAUTION] > text-generation-inference is now in maintenance mode. Going forward, we will accept pull requests for minor bug fixes, documentation improvements and lightweight maintenance tasks. > > TGI has initiated the movement for optimized inference engines to rely on a `transformers` model architectures. This approach is now adopted by downstream inference engines, which we contribute to and recommend using going forward: [vllm](https://github.com/vllm-project/vllm), [SGLang](https://github.com/sgl-project/sglang), as well as local engines with inter-compatibility such as llama.cpp or MLX. A Rust, Python and gRPC server for text generation inference. Used in production at [Hugging Face
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `environment variable`, `environment variable`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/huggingface/text-generation-inference). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

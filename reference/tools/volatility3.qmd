@@ -16,23 +16,10 @@ title: "volatility3 - reference"
 
 `volatility3` - Memory forensics framework (Volatility 3).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-    pip install --user -e ".[full]"
-```
-
-```
-    vol -h
-```
-
-### DESCRIPTION (upstream)
-
-Volatility is the world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples. The extraction techniques are performed completely independent of the system being investigated but offer visibility into the runtime state of the system. The framework is intended to introduce people to the techniques and complexities associated with extracting digital artifacts from volatile memory samples and provide a platform for further work into this exciting area of research. In 2019, the Volatility Foundation released a complete rewrite of the framework, Volatility 3. The project was intended to address many of the technical and performance challenges associated
+Not derived automatically - see [upstream documentation](https://github.com/volatilityfoundation/volatility3). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

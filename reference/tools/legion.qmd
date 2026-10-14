@@ -10,10 +10,16 @@ title: "legion - reference"
 | Category | [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) |
 | Safety class | safe |
 | Licence | GPL-3.0-only |
+| Upstream | [github.com/gnebbia/legion](https://github.com/gnebbia/legion) |
 
 ### NAME
 
 `legion` - Semi-automated network pentesting framework with a GUI.
+
+### SYNOPSIS
+
+Not derived automatically - see [upstream documentation](https://github.com/gnebbia/legion). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

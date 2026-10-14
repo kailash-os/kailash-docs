@@ -16,29 +16,10 @@ title: "vllm - reference"
 
 `vllm` - vLLM — high-throughput, memory-efficient LLM inference and serving engine (native at the pin; plan Appendix A listed bespoke).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-uv pip install vllm
-vllm download-kernels  # precompiled kernels for faster startup
-```
-
-```
-@inproceedings{kwon2023efficient,
-  title={Efficient Memory Management for Large Language Model Serving with PagedAttention},
-  author={Woosuk Kwon and Zhuohan Li and Siyuan Zhuang and Ying Sheng and Lianmin Zheng and Cody Hao Yu and Joseph E. Gonzalez and Hao Zhang and Ion Stoica},
-  booktitle={Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles},
-  year={2023}
-}
-```
-
-### DESCRIPTION (upstream)
-
-Easy, fast, and cheap LLM serving for everyone 🔥 We have built a vLLM website to help you get started with vLLM. Please visit [vllm.ai](https://vllm.ai) to learn more. For events, please visit [vllm.ai/events](https://vllm.ai/events) to join us. vLLM is a fast and easy-to-use library for LLM inference and serving. Originally developed in the [Sky Computing Lab](https://sky.cs.berkeley.edu) at UC Berkeley, vLLM has grown into one of the most active open-source AI projects built and maintained by a diverse community of many dozens of academic institutions and companies from over 2000 contributors. vLLM is fast with: - State-of-the-art serving throughput - Efficient management of attention key
+Not derived automatically - see [upstream documentation](https://github.com/vllm-project/vllm). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

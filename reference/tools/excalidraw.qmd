@@ -16,21 +16,10 @@ title: "excalidraw - reference"
 
 `excalidraw` - Excalidraw — virtual whiteboard for hand-drawn-style diagrams.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-npm install react react-dom @excalidraw/excalidraw
-# or
-yarn add react react-dom @excalidraw/excalidraw
-```
-
-### DESCRIPTION (upstream)
-
-An open source virtual hand-drawn style whiteboard. </br> Collaborative and end-to-end encrypted. </br> Create beautiful hand-drawn like diagrams, wireframes, or whatever you like. The Excalidraw editor (npm package) supports: - 💯&nbsp;Free & open-source. - 🎨&nbsp;Infinite, canvas-based whiteboard. - ✍️&nbsp;Hand-drawn like style. - 🌓&nbsp;Dark mode. - 🏗️&nbsp;Customizable. - 📷&nbsp;Image support. - 😀&nbsp;Shape libraries support. - 🌐&nbsp;Localization (i18n) support. - 🖼️&nbsp;Export to PNG, SVG & clipboard. - 💾&nbsp;Open format - export drawings as an `.excalidraw` json file. - ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser... - ➡️&nbsp;Arrow-bindi
+Not derived automatically - see [upstream documentation](https://github.com/excalidraw/excalidraw). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

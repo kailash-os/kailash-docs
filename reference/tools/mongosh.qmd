@@ -16,32 +16,10 @@ title: "mongosh - reference"
 
 `mongosh` - MongoDB Shell — front-end enumeration support.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-curl -fsSL https://raw.githubusercontent.com/mongodb-js/mongosh/refs/heads/main/download_latest.sh | sh
-```
-
-```
-npm run bootstrap
-npm run compile-cli
-```
-
-### DESCRIPTION (upstream)
-
-This repository is a monorepo for all the various components in the MongoDB Shell across all environments (REPL, Browser, Compass, etc). For our official documentation, please visit [MongoDB Docs page](https://mongodb.com/docs/mongodb-shell). MongoDB Shell works with MongoDB servers >= 4.0. You can get the release tarball from our [Downloads Page](https://www.mongodb.com/try/download/shell). We currently maintain MongoDB Shell on three different platforms - Windows (zip), MacOS (zip) and Linux (tgz, deb and rpm). Once downloaded, you will have to extract the binary and add it to your PATH variable. For detailed instructions for each of our supported platforms, please visit [installation docu
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `environment variable`, `environment variables`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/mongodb-js/mongosh). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

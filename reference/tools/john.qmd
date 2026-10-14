@@ -21,10 +21,6 @@ title: "john - reference"
 Not derived automatically - see [upstream documentation](https://github.com/openwall/john). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-John the Ripper =============== This is the community-enhanced, "jumbo" version of John the Ripper. It has a lot of code, documentation, and data contributed by jumbo developers and the user community.  It is easy for new code to be added to jumbo, and the quality requirements are low, although lately we've started subjecting all contributions to quite some automated testing. This means that you get a lot of functionality that is not necessarily "mature", which in turn means that bugs in this code are to be expected. John the Ripper homepage is: https://www.openwall.com/john/ If you have any comments on this release or on JtR in general, please join the john-users mailing list and post in th
-
 ### SEE ALSO
 
 - Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the

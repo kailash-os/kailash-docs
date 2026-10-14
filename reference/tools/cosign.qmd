@@ -16,39 +16,10 @@ title: "cosign - reference"
 
 `cosign` - Sigstore cosign — container and binary signing and transparency.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ git clone https://github.com/sigstore/cosign
-$ cd cosign
-$ go install ./cmd/cosign
-$ $(go env GOPATH)/bin/cosign
-```
-
-```
-FROM ghcr.io/sigstore/cosign/cosign:v2.4.1 as cosign-bin
-
-# Source: https://github.com/chainguard-images/images/tree/main/images/static
-FROM cgr.dev/chainguard/static:latest
-COPY --from=cosign-bin /ko-app/cosign /usr/local/bin/cosign
-ENTRYPOINT [ "cosign" ]
-```
-
-### DESCRIPTION (upstream)
-
-Signing OCI containers (and other artifacts) using [Sigstore](https://sigstore.dev/)! Cosign aims to make signatures **invisible infrastructure**. Cosign supports: * "Keyless signing" with the Sigstore public good Fulcio certificate authority and Rekor transparency log (default) * Hardware and KMS signing * Signing with a cosign generated encrypted private/public keypair * Container Signing, Verification and Storage in an OCI registry. * Bring-your-own PKI `Cosign` is developed as part of the [`sigstore`](https://sigstore.dev) project. We also use a [slack channel](https://sigstore.slack.com)! Click [here](https://join.slack.com/t/sigstore/shared_invite/zt-47srvpyn6-j8Ek5hGBwKN32IjLw8BvYA) f
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (6 matches, e.g. `e2e-tests.yml`, `e2e-tests.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/sigstore/cosign). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

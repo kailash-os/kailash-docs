@@ -16,35 +16,10 @@ title: "syft - reference"
 
 `syft` - Anchore Syft — SBOM generation CLI for container images and filesystems.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-curl -sSfL https://get.anchore.io/syft | sudo sh -s -- -b /usr/local/bin
-```
-
-```
-# container image
-syft alpine:latest
-
-# directory
-syft ./my-project
-```
-
-### DESCRIPTION (upstream)
-
-**A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems. Exceptional for vulnerability detection when used with a scanner like [Grype](https://github.com/anchore/grype).** &nbsp;<a href="https://github.com/anchore/syft/actions/workflows/validations.yaml" target="_blank"><img alt="Validations" src="https://github.com/anchore/syft/actions/workflows/validations.yaml/badge.svg"></a>&nbsp; &nbsp;<a href="https://github.com/anchore/syft/releases/latest" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/release/anchore/syft.svg"></a>&nbsp; &nbsp;<a href="https://github.com/anchore/syft" target="_blank"><img alt=
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `validations.yaml`, `validations.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/anchore/syft). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

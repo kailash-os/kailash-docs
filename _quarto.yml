@@ -37,7 +37,6 @@ book:
         - reference/coverage.qmd
         - reference/garak.qmd
     - part: "Layer CLASSIC — tools"
-    - reference/tools/ais.qmd
     - reference/tools/amass.qmd
     - reference/tools/angr.qmd
     - reference/tools/apktool.qmd
@@ -48,7 +47,6 @@ book:
     - part: reference/tools/assetfinder.qmd
       chapters:
         - reference/config/assetfinder.qmd
-    - reference/tools/asvs-verification-toolkit.qmd
     - reference/tools/autopsy.qmd
     - reference/tools/beef-xss.qmd
     - reference/tools/binwalk.qmd
@@ -121,7 +119,6 @@ book:
     - part: reference/tools/librosa.qmd
       chapters:
         - reference/config/librosa.qmd
-    - reference/tools/llm-fuzzer.qmd
     - reference/tools/lynis.qmd
     - reference/tools/maltego-community.qmd
     - reference/tools/maskgen.qmd
@@ -143,7 +140,6 @@ book:
     - part: reference/tools/nuclei.qmd
       chapters:
         - reference/config/nuclei.qmd
-    - reference/tools/oauth-mcp-prober.qmd
     - reference/tools/ophcrack.qmd
     - reference/tools/peass-ng.qmd
     - reference/tools/peda.qmd
@@ -171,7 +167,6 @@ book:
     - reference/tools/rkhunter.qmd
     - reference/tools/rsmangler.qmd
     - reference/tools/rustscan.qmd
-    - reference/tools/sdl3-stream-fuzzer.qmd
     - reference/tools/searchsploit.qmd
     - reference/tools/seclists.qmd
     - reference/tools/sherlock.qmd
@@ -209,10 +204,8 @@ book:
     - reference/tools/unix-privesc-check.qmd
     - reference/tools/uro.qmd
     - reference/tools/volatility3.qmd
-    - reference/tools/vulnerable-llm-apps.qmd
     - reference/tools/wafw00f.qmd
     - reference/tools/wapiti.qmd
-    - reference/tools/webshell-analysis-pack.qmd
     - reference/tools/weevely.qmd
     - reference/tools/wfuzz.qmd
     - reference/tools/whatweb.qmd
@@ -221,39 +214,23 @@ book:
         - reference/config/zaproxy.qmd
     - reference/tools/zenmap.qmd
     - part: "Layer ATTACK — tools"
-    - reference/tools/adversarial-clothing.qmd
-    - reference/tools/adversarial-patches-collection.qmd
     - reference/tools/agent-dojo.qmd
-    - reference/tools/ai-gateway-bypass.qmd
     - reference/tools/art.qmd
-    - reference/tools/audio-voice-clone-injector.qmd
-    - reference/tools/camera-adversarial-toolkit.qmd
     - reference/tools/cleverhans.qmd
-    - reference/tools/colab-crawler.qmd
     - part: reference/tools/counterfit.qmd
       chapters:
         - reference/config/counterfit.qmd
-    - reference/tools/data-exfil-via-poison.qmd
     - reference/tools/foolbox.qmd
     - part: reference/tools/garak.qmd
       chapters:
         - reference/config/garak.qmd
-    - reference/tools/gguf-template-inspector.qmd
     - part: reference/tools/guarddog.qmd
       chapters:
         - reference/config/guarddog.qmd
-    - reference/tools/hf-repo-inspector.qmd
-    - reference/tools/huggingface-org-scan.qmd
-    - reference/tools/inj3ct-llm.qmd
     - reference/tools/jailbreak-payloads.qmd
     - reference/tools/knockoffnets.qmd
-    - reference/tools/kserve-exploit.qmd
-    - reference/tools/langchain-vuln-hunter.qmd
     - reference/tools/libertas-prompts.qmd
-    - reference/tools/llm-agent-fuzzer.qmd
     - reference/tools/llm-jailbreak-bench.qmd
-    - reference/tools/llm-recon.qmd
-    - reference/tools/llm-red-team-col.qmd
     - reference/tools/mcp-guardian.qmd
     - part: reference/tools/mcp-remote.qmd
       chapters:
@@ -261,50 +238,25 @@ book:
     - part: reference/tools/mcp-scan.qmd
       chapters:
         - reference/config/mcp-scan.qmd
-    - reference/tools/mcp-unsafe-deser-probe.qmd
     - reference/tools/mcpoison.qmd
-    - reference/tools/mlflow-bypass.qmd
-    - reference/tools/model-extraction-attack.qmd
     - part: reference/tools/modelscan.qmd
       chapters:
         - reference/config/modelscan.qmd
-    - reference/tools/namespace-reuse-check.qmd
-    - reference/tools/ollama-pwn.qmd
     - part: reference/tools/picklescan.qmd
       chapters:
         - reference/config/picklescan.qmd
-    - reference/tools/poison-dataset-builder.qmd
-    - reference/tools/poisoned-skill-pack.qmd
     - reference/tools/privacy-meter.qmd
-    - reference/tools/prompt-backdoor-tool.qmd
     - part: reference/tools/promptfoo.qmd
       chapters:
         - reference/config/promptfoo.qmd
     - reference/tools/pyrit.qmd
-    - reference/tools/recon-ai.qmd
-    - reference/tools/safetensors-checker.qmd
-    - reference/tools/shadow-ray.qmd
-    - reference/tools/split-view-replay.qmd
     - reference/tools/tf-privacy.qmd
-    - reference/tools/torch-load-poc.qmd
-    - reference/tools/torchserve-pwn.qmd
-    - reference/tools/triton-pwn.qmd
     - reference/tools/trojai-toolkit.qmd
-    - reference/tools/trojan-lm-toolkit.qmd
     - part: reference/tools/trufflehog.qmd
       chapters:
         - reference/config/trufflehog.qmd
-    - reference/tools/vector-db-ripper.qmd
-    - reference/tools/vllm-pwn.qmd
-    - reference/tools/vlm-image-injector.qmd
     - part: "Layer DEFENCE — tools"
-    - reference/tools/ai-act-compliance-checker.qmd
-    - reference/tools/ai-incident-playbook-packs.qmd
     - reference/tools/aif360.qmd
-    - reference/tools/aisvs-1.0-toolkit.qmd
-    - reference/tools/atlas-case-study-explorer.qmd
-    - reference/tools/atlas-visualiser.qmd
-    - reference/tools/canary-token-generator.qmd
     - part: reference/tools/cdxgen.qmd
       chapters:
         - reference/config/cdxgen.qmd
@@ -315,46 +267,32 @@ book:
     - reference/tools/deepeval.qmd
     - reference/tools/evidently.qmd
     - reference/tools/fairlearn.qmd
-    - reference/tools/gaskunk.qmd
-    - reference/tools/genai-threat-modelling-templates.qmd
-    - reference/tools/genai-vendor-review-form.qmd
     - reference/tools/giskard.qmd
     - reference/tools/grype.qmd
     - part: reference/tools/guardrails-ai.qmd
       chapters:
         - reference/config/guardrails-ai.qmd
-    - reference/tools/hf-repo-auditor.qmd
     - reference/tools/huggingface-evaluate.qmd
-    - reference/tools/iso-42001-templates.qmd
-    - reference/tools/kailash-verifier.qmd
-    - reference/tools/llm-firewall.qmd
     - reference/tools/llm-guard.qmd
-    - reference/tools/llm-top10-toolkit.qmd
     - part: reference/tools/lm-eval-harness.qmd
       chapters:
         - reference/config/lm-eval-harness.qmd
     - reference/tools/maestro.qmd
-    - reference/tools/mlsvs-toolkit.qmd
     - reference/tools/model-card-toolkit.qmd
     - reference/tools/modelsign.qmd
     - part: reference/tools/nemo-guardrails.qmd
       chapters:
         - reference/config/nemo-guardrails.qmd
-    - reference/tools/nist-ai-rmf-toolkit.qmd
     - reference/tools/otel-ai.qmd
     - reference/tools/phoenix.qmd
-    - reference/tools/prompt-injection-detector-bert.qmd
     - part: reference/tools/rebuff.qmd
       chapters:
         - reference/config/rebuff.qmd
     - reference/tools/robustbench.qmd
-    - reference/tools/sigstore-tools.qmd
-    - reference/tools/stride-ai-worksheet.qmd
     - reference/tools/syft.qmd
     - part: reference/tools/trivy.qmd
       chapters:
         - reference/config/trivy.qmd
-    - reference/tools/whisper-gate.qmd
     - reference/tools/whylogs.qmd
     - part: "Layer OPS — tools"
     - reference/tools/anthropic-python.qmd
@@ -377,20 +315,16 @@ book:
     - part: reference/tools/feast.qmd
       chapters:
         - reference/config/feast.qmd
-    - reference/tools/gguf-quantiser.qmd
     - reference/tools/git-lfs.qmd
     - part: reference/tools/google-genai.qmd
       chapters:
         - reference/config/google-genai.qmd
-    - reference/tools/headless-agent.qmd
     - reference/tools/hexstrike-ai.qmd
-    - reference/tools/insecure-mcp-lab.qmd
     - reference/tools/jax.qmd
     - reference/tools/jina-embeddings-cli.qmd
     - part: reference/tools/k3s.qmd
       chapters:
         - reference/config/k3s.qmd
-    - reference/tools/kailash-container.qmd
     - reference/tools/kailash-mcp.qmd
     - reference/tools/kedro.qmd
     - reference/tools/kedro-datasets.qmd
@@ -405,7 +339,6 @@ book:
     - part: reference/tools/llama.cpp.qmd
       chapters:
         - reference/config/llama.cpp.qmd
-    - reference/tools/malicious-mcp-poc.qmd
     - reference/tools/mcp-inspector.qmd
     - reference/tools/mcp-kali-server.qmd
     - reference/tools/mdbook.qmd

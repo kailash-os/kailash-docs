@@ -16,19 +16,10 @@ title: "polars - reference"
 
 `polars` - Polars — extremely fast DataFrame query engine written in Rust.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install polars
-```
-
-### DESCRIPTION (upstream)
-
-- - - - Polars is an analytical query engine for DataFrames, written in Rust. It is designed to be fast, easy to use and expressive. Key features are: - **Fast**: written from the ground up in Rust with multi-threaded, vectorized (SIMD) execution - **Lazy & eager execution**: with query optimization out of the box - **Larger-than-RAM**: the streaming engine processes datasets that don't fit in memory - **Expressive API**: compose complex queries with powerful expressions - **Extensible**: extend Polars natively with custom code through - **Multi-language**: bindings for Python, Rust, Node.js, R, and SQL - **GPU support**: optionally accelerate queries on NVIDIA GPUs - **Interoperable**: uses
+Not derived automatically - see [upstream documentation](https://github.com/pola-rs/polars). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

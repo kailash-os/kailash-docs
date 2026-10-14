@@ -16,33 +16,10 @@ title: "qdrant - reference"
 
 `qdrant` - Qdrant — vector database and vector search engine.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-docker run -p 6333:6333 qdrant/qdrant
-```
-
-```
-from qdrant_client import QdrantClient
-
-client = QdrantClient(url="http://localhost:6333")
-```
-
-### DESCRIPTION (upstream)
-
-**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database. It provides a production-ready service with a convenient API to store, search, and manage points—vectors with an additional payload. Qdrant is tailored for extended filtering support, making it useful for all sorts of neural-network or semantic-based matching, faceted search, and other applications. Qdrant is written in Rust 🦀, which makes it fast and reliable even under high load. See [benchmarks](https://qdrant.tech/benchmarks/). With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more! Qdrant is also available a
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `rust.yml`, `rust.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/qdrant/qdrant). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

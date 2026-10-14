@@ -16,38 +16,10 @@ title: "spiderfoot - reference"
 
 `spiderfoot` - OSINT automation platform — collects intel about a target from public sources.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
- wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
- tar zxvf v4.0.tar.gz
- cd spiderfoot-4.0
- pip3 install -r requirements.txt
- python3 ./sf.py -l 127.0.0.1:5001
-```
-
-```
- git clone https://github.com/smicallef/spiderfoot.git
- cd spiderfoot
- pip3 install -r requirements.txt
- python3 ./sf.py -l 127.0.0.1:5001
-```
-
-### DESCRIPTION (upstream)
-
-**SpiderFoot** is an open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate. SpiderFoot has an embedded web-server for providing a clean and intuitive web-based interface but can also be used completely via the command-line.  It's written in **Python 3** and **MIT-licensed**. - Web based UI or CLI - Over 200 modules (see below) - Python 3.7+ - YAML-configurable [correlation engine](https://github.com/smicallef/spiderfoot/tree/HEAD/correlations/README.md) with [37 pre-defined rules](/correlations) - CSV/JSON/GEXF export - API key export/import - SQLite back
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `template.yaml`, `template.yaml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/smicallef/spiderfoot). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

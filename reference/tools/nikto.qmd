@@ -21,18 +21,6 @@ title: "nikto - reference"
 Not derived automatically - see [upstream documentation](https://github.com/sullo/nikto). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-nikto ===== Nikto web server scanner  - https://cirt.net/Nikto2 Full documentation - https://github.com/sullo/nikto/wiki Run normally: ~~~ git clone https://github.com/sullo/nikto cd nikto/program ./nikto.pl -h http://www.example.com perl nikto.pl -h http://www.example.com ~~~ Run as a Docker container from Docker Hub: `docker pull hackllc/nikto:latest` Or from ghcr.io: `docker pull ghcr.io/sullo/nikto:latest` Run as a Docker container from Dockerfile: ~~~bash git clone https://github.com/sullo/nikto.git cd nikto docker build -t hackllc/nikto . docker run --rm hackllc/nikto docker run --rm hackllc/nikto -h http://www.example.com docker run --rm -v $(pwd):/tmp hackllc/nikto -h http://www.exam
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `nikto.conf`, `nikto.conf`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the

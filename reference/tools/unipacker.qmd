@@ -16,24 +16,10 @@ title: "unipacker - reference"
 
 `unipacker` - Automatic and platform-independent unpacker for Windows binaries.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip3 install unipacker
-unipacker
-```
-
-```
-docker run -it -v ~/local_samples:/root/unipacker/local_samples vfsrfs/unipacker
-```
-
-### DESCRIPTION (upstream)
-
-_   _         __  _  __                    _ \___/|_| |_|| |  |_|  | || .__/ \__,_|\___|_|\_\___|_| \_\     /_/ | | The usage of runtime packers by malware authors is very common, as it is a technique that helps to hinder analysis. Furthermore, packers are a challenge for antivirus products, as they make it impossible to identify malware by signatures or hashes alone. In order to be able to analyze a packed malware sample, it is often required to unpack the binary. Usually this means, that the analyst will have to manually unpack the binary by using dynamic analysis techniques (Tools: OllyDbg, x64Dbg). There are also some approaches for automatic unpacking, but they are all only available fo
+Not derived automatically - see [upstream documentation](https://github.com/unipacker/unipacker). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

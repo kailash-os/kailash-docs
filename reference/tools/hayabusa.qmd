@@ -22,24 +22,10 @@ time - check upstream status before relying on it.
 
 `hayabusa` - Windows event-log fast forensics timeline generator.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-Usage: hayabusa [OPTIONS]
-
-Options:
-  -d, --daemon     Run as daemon
-  -b, --benchmark  On exit print the execution time, for benchmarking
-  -h, --help       Print help
-```
-
-### DESCRIPTION (upstream)
-
-Hayabusa is a swift rust fetch program. When configured for speed it boasts an internal runtime of under 2ms. Despite its speed, this is a fully featured fetch, unlike many of its brethren. It is also extremely configurable, enabling near infinite customization. The level of customization is from the fact that the config file is a lua script in the users config directory. The program is split into a user facing binary and a system service daemon. The daemon is responsible for gathering the system information ahead of time and having it prepared for the user facing binary. This binary then injects said system information into the lua script and extracts the result. While the ascii art is embe
+Not derived automatically - see [upstream documentation](https://github.com/notarin/hayabusa). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

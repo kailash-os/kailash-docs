@@ -22,36 +22,10 @@ time - check upstream status before relying on it.
 
 `findomain` - Fastest cross-platform subdomain enumerator.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-Host: KVM/QEMU (Standard PC (i440FX + PIIX, 1996) pc-i440fx-3.1)
-Kernel: 5.2.6-arch1-1-ARCH
-CPU: Intel (Skylake, IBRS) (4) @ 2.904GHz
-Memory: 139MiB / 3943MiB
-```
-
-```
-subfinder -d example.com -silent > subfinder.txt
-amass enum -d example.com && amass subs -d example.com -names -show > amass.txt
-findomain -t example.com --import-subdomains subfinder.txt amass.txt -r
-```
-
-### DESCRIPTION (upstream)
-
-The complete solution for domain recognition. Supports screenshotting, port scanning, importing data from other tools, subdomain monitoring, and more. Be alerted on your findings through services such as Discord, Slack, and Telegram. Multiple API Keys for sources and much more. The following table demonstrates features that are available in the premium version (but not the free version) of Findomain. It aims to gives you an idea of why you should use Findomain and what it can do for you. The domain used for the test was aol.com. The details of the [BlackArch](https://blackarch.org) virtual machine used in the test are outlined below: Host: KVM/QEMU (Standard PC (i440FX + PIIX, 1996) pc-i440f
-
-### OPTIONS (upstream README)
-
-| Flag | Meaning |
-|---|---|
-| `--source` | timeout` (default 30) is the number of seconds a single request to |
-| `--source` | budget` (default 300) is the number of seconds the whole search may |
-| `--archive` | budget` (default 20) is the number of seconds the archive indexes |
+Not derived automatically - see [upstream documentation](https://github.com/findomain/findomain). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

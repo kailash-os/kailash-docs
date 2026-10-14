@@ -21,10 +21,6 @@ title: "dnsmap - reference"
 Not derived automatically - see [upstream documentation](https://github.com/resurrecting-open-source-projects/dnsmap). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-dnsmap needs your help. **If you are a programmer** and if you want to help a nice project, this is your opportunity. dnsmap was imported from some tarballs (the original homepage[1] and developers are inactive). After this, all patches found in Debian project and other places for this program were applied. All initial work was registered in ChangeLog file (version 1.6 and later releases). dnsmap is being packaged in Debian[2] Project. If you are interested to help dnsmap, read the [CONTRIBUTING.md](https://github.com/resurrecting-open-source-projects/dnsmap/tree/HEAD/CONTRIBUTING.md) file. [1]: https://code.google.com/archive/p/dnsmap/ [2]: https://tracker.debian.org/pkg/dnsmap dnsmap scans
-
 ### SEE ALSO
 
 - Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the

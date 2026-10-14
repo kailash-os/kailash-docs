@@ -16,33 +16,10 @@ title: "otel-ai - reference"
 
 `otel-ai` - OpenLLMetry — OpenTelemetry instrumentation for LLM applications (traceloop; plumbs AI traces into OTel backends).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install traceloop-sdk
-```
-
-```
-from traceloop.sdk import Traceloop
-
-Traceloop.init()
-```
-
-### DESCRIPTION (upstream)
-
-**🎉 New**: Our semantic conventions are now part of OpenTelemetry! Join the [discussion](https://github.com/open-telemetry/community/blob/1c71595874e5d125ca92ec3b0e948c4325161c8a/projects/llm-semconv.md) and help us shape the future of LLM observability. Looking for the JS/TS version? Check out [OpenLLMetry-JS](https://github.com/traceloop/openllmetry-js). OpenLLMetry is a set of extensions built on top of [OpenTelemetry](https://opentelemetry.io/) that gives you complete observability over your LLM application. Because it uses OpenTelemetry under the hood, [it can be connected to your existing observability solutions](https://www.traceloop.com/docs/openllmetry/integrations/introduction) - D
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/traceloop/openllmetry). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

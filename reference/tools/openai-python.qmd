@@ -16,43 +16,10 @@ title: "openai-python - reference"
 
 `openai-python` - OpenAI Python SDK.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-# install from PyPI
-pip install openai
-```
-
-```
-from openai import OpenAI
-from openai.auth import azure_managed_identity_token_provider
-
-client = OpenAI(
-    workload_identity={
-        "identity_provider_id": "idp-123",
-        "service_account_id": "sa-456",
-        "provider": azure_managed_identity_token_provider(
-            resource="https://management.azure.com/",
-        ),
-    },
-)
-```
-
-### DESCRIPTION (upstream)
-
-The OpenAI Python library provides convenient access to the OpenAI REST API from any Python 3.10+ application. The library includes type definitions for all request params and response fields, and offers both synchronous and asynchronous clients powered by [HTTPX2](https://httpx2.pydantic.dev/). It is generated from our [OpenAPI specification](https://github.com/openai/openai-openapi). The REST API documentation can be found on [platform.openai.com](https://platform.openai.com/docs/api-reference). The full API of this library can be found in [api.md](https://github.com/openai/openai-python/tree/HEAD/api.md). pip install openai The full API of this library can be found in [api.md](https://git
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (8 matches, e.g. `environment variable`, `environment variable`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/openai/openai-python). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

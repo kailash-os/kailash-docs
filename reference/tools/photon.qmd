@@ -16,26 +16,10 @@ title: "photon - reference"
 
 `photon` - Lightning-fast web crawler extracting URLs and OSINT intel.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ git clone https://github.com/s0md3v/Photon.git
-$ cd Photon
-$ docker build -t photon .
-$ docker run -it --name photon photon:latest -u google.com
-```
-
-```
-$ docker run -it --name photon -v "$PWD:/Photon/google.com" photon:latest -u google.com
-```
-
-### DESCRIPTION (upstream)
-
-Photon alt="pypi"> Photon can extract the following data while crawling: - URLs (in-scope & out-of-scope) - URLs with parameters (`example.com/gallery.php?id=2`) - Intel (emails, social media accounts, amazon buckets etc.) - Files (pdf, png, xml etc.) - Secret keys (auth/API keys & hashes) - JavaScript files & Endpoints present in them - Strings matching custom regex pattern - Subdomains & DNS related data The extracted information is saved in an organized manner or can be [exported as json](https://github.com/s0md3v/Photon/wiki/Usage#export-formatted-result). Control timeout, delay, add seeds, exclude URLs matching a regex pattern and other cool stuff. The extensive range of [options](https
+Not derived automatically - see [upstream documentation](https://github.com/s0md3v/Photon). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

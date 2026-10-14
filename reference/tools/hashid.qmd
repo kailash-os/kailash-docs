@@ -21,10 +21,6 @@ title: "hashid - reference"
 Not derived automatically - see [upstream documentation](https://github.com/psypanda/hashID). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-hashID \| hash-identifier ========================= Identify the different types of hashes used to encrypt data and especially passwords. This replaces `hash-identifier <http://code.google.com/p/hash-identifier/>`__, which is outdated! hashID is a tool written in Python 3 which supports the identification of over 220 unique hash types using regular expressions. A detailed list of supported hashes can be found `here <https://github.com/psypanda/hashID/blob/master/doc/HASHINFO.xlsx>`__. It is able to identify a single hash, parse a file or read multiple files in a directory and identify the hashes within them. hashID is also capable of including the corresponding `hashcat <https://hashcat.net/
-
 ### SEE ALSO
 
 - Category: [c-05-password-offline-credential](../directory.qmd#cat-c-05-password-offline-credential) in the

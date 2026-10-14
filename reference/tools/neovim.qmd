@@ -16,25 +16,10 @@ title: "neovim - reference"
 
 `neovim` - Neovim — Vim-fork focused on extensibility.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-make CMAKE_BUILD_TYPE=RelWithDebInfo
-sudo make install
-```
-
-```
-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=/full/path/
-make install
-```
-
-### DESCRIPTION (upstream)
-
-Neovim is a project that seeks to aggressively refactor [Vim](https://www.vim.org/) in order to: - Simplify maintenance and encourage [contributions](https://github.com/neovim/neovim/tree/HEAD/CONTRIBUTING.md) - Split the work between multiple developers - Enable [advanced UIs] without modifications to the core - Maximize [extensibility](https://neovim.io/doc/user/api-ui-events.html#api-ui-events) See the [Introduction](https://github.com/neovim/neovim/wiki/Introduction) wiki page and [Roadmap] for more information. Features - Modern [GUIs](https://github.com/neovim/neovim/wiki/Related-projects#gui) - [API access](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) from any l
+Not derived automatically - see [upstream documentation](https://github.com/neovim/neovim). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

@@ -16,23 +16,10 @@ title: "robustbench - reference"
 
 `robustbench` - RobustBench — standardized adversarial-robustness benchmark suite (model zoo + attacks); MIT code, per-model weight licences vary.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-pip install git+https://github.com/RobustBench/robustbench.git
-```
-
-```
-pip install git+https://github.com/RobustBench/robustbench.git@v1.0
-```
-
-### DESCRIPTION (upstream)
-
-**Francesco Croce\* (University of Tübingen), Maksym Andriushchenko\* (EPFL), Vikash Sehwag\* (Princeton University), Edoardo Debenedetti\* (EPFL), Nicolas Flammarion (EPFL), Mung Chiang (Purdue University), Prateek Mittal (Princeton University), Matthias Hein (University of Tübingen)** **Leaderboard**: [https://robustbench.github.io/](https://robustbench.github.io/) **Paper:** [https://arxiv.org/abs/2010.09670](https://arxiv.org/abs/2010.09670) **❗Note❗: if you experience problems with the automatic downloading of the models from Google Drive, install the latest version of `RobustBench` via `pip install git+https://github.com/RobustBench/robustbench.git`.** - **May 2022**: We have extended
+Not derived automatically - see [upstream documentation](https://github.com/RobustBench/robustbench). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

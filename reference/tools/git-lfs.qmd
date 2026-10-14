@@ -16,23 +16,10 @@ title: "git-lfs - reference"
 
 `git-lfs` - Git Large File Storage — versioning large artefacts (weights, datasets).
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ mise use --global git-lfs@latest
-```
-
-```
-$ ./install.sh
-```
-
-### DESCRIPTION (upstream)
-
-[ci_badge]: https://github.com/git-lfs/git-lfs/workflows/CI/badge.svg [ci_url]: https://github.com/git-lfs/git-lfs/actions?query=workflow%3ACI [Git LFS](https://git-lfs.github.com) is a command line extension and [specification](https://github.com/git-lfs/git-lfs/tree/HEAD/docs/spec.md) for managing large files with Git. The client is written in Go, with pre-compiled binaries available for Mac, Windows, Linux, and FreeBSD. Check out the [website](http://git-lfs.github.com) for an overview of features. Debian and RPM packages are available from packagecloud, see the [Linux installation instructions](https://github.com/git-lfs/git-lfs/tree/HEAD/INSTALLING.md). [Homebrew](https://brew.sh) bottl
+Not derived automatically - see [upstream documentation](https://github.com/git-lfs/git-lfs). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

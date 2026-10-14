@@ -21,18 +21,6 @@ title: "dvc - reference"
 Not derived automatically - see [upstream documentation](https://github.com/iterative/dvc). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-`Website <https://dvc.org>`_ • `Docs <https://dvc.org/doc>`_ • `Blog <http://blog.dataversioncontrol.com>`_ • `Tutorial <https://dvc.org/doc/get-started>`_ • `Related Technologies <https://dvc.org/doc/user-guide/related-technologies>`_ • `How DVC works`_ • `VS Code Extension`_ • `Installation`_ • `Contributing`_ • `Community and Support`_ **Data Version Control** or **DVC** is a command line tool and `VS Code Extension`_ to help you develop reproducible machine learning projects: Store them in your cloud storage but keep their version info in your Git repo. When you make changes, only run the steps impacted by those changes. Quick start =========== Please read our `Command Reference <https:/
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (5 matches, e.g. `params.yaml`, `/etc/apt/sources.list.d/dvc.list`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [o-01-mlops-ml-engineering](../directory.qmd#cat-o-01-mlops-ml-engineering) in the

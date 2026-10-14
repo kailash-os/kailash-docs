@@ -21,10 +21,6 @@ title: "fairlearn - reference"
 Not derived automatically - see [upstream documentation](https://github.com/fairlearn/fairlearn). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-Fairlearn ========= Fairlearn is a Python package that empowers developers of artificial intelligence (AI) systems to assess their system's fairness and mitigate any observed unfairness issues. Fairlearn contains mitigation algorithms as well as metrics for model assessment. Besides the source code, this repository also contains Jupyter notebooks with examples of Fairlearn usage. Website: https://fairlearn.org/ -  `What we mean by *fairness* <#what-we-mean-by-fairness>`__ -  `Overview of Fairlearn <#overview-of-fairlearn>`__ -  `Getting started with fairlearn <#getting-started-with-fairlearn>`__ -  `Maintainers <#maintainers>`__ -  `Code of conduct <#code-of-conduct>`__ -  `Issues <#issues>`
-
 ### SEE ALSO
 
 - Category: [d-03-assurance-evals-benchmarks](../directory.qmd#cat-d-03-assurance-evals-benchmarks) in the

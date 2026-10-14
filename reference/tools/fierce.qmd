@@ -16,35 +16,10 @@ title: "fierce - reference"
 
 `fierce` - DNS reconnaissance for locating non-contiguous IP space.
 
-### SYNOPSIS & usage
+### SYNOPSIS
 
-*Derived from the upstream README at generation
-time; verify against `--help` where the tool is
-installed.*
-
-```
-$ python -m pip install fierce
-$ fierce -h
-```
-
-```
-$ git clone https://github.com/mschwager/fierce.git
-$ cd fierce
-$ python -m pip install dnspython==1.16.0
-$ python fierce/fierce.py -h
-```
-
-### DESCRIPTION (upstream)
-
-Fierce is a `DNS` reconnaissance tool for locating non-contiguous IP space. Useful links: * [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) * [Domain Names - Concepts and Facilities](https://tools.ietf.org/html/rfc1034) * [Domain Names - Implementation and Specification](https://tools.ietf.org/html/rfc1035) * [Threat Analysis of the Domain Name System (DNS)](https://tools.ietf.org/html/rfc3833) * [Name Servers (NS)](https://en.wikipedia.org/wiki/Domain_Name_System#Name_servers) * [State of Authority Record (SOA)](https://en.wikipedia.org/wiki/List_of_DNS_record_types#SOA) * [Zone Transfer](https://en.wikipedia.org/wiki/DNS_zone_transfer) * [DNS Zone Transfer Prot
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (2 matches, e.g. `ci.yml`, `ci.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
+Not derived automatically - see [upstream documentation](https://github.com/mschwager/fierce). This page does not
+hand-copy flags (generation contract, ADR-0001).
 
 ### SEE ALSO
 

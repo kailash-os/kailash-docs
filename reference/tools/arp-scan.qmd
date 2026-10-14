@@ -21,18 +21,6 @@ title: "arp-scan - reference"
 Not derived automatically - see [upstream documentation](https://github.com/royhills/arp-scan). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-*arp-scan* is a network scanning tool that uses the ARP protocol to discover and fingerprint IPv4 hosts on the local network. It is available for Linux, BSD, macOS and Solaris under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) licence. This is `README.md` for *arp-scan* version `1.10.1-git`. *arp-scan* uses the GNU *automake* and *autoconf* tools. The installation process from the latest *github* source is: - `git clone https://github.com/royhills/arp-scan.git` to obtain the latest source code. - `cd arp-scan` to enter the source code directory. - `autoreconf --install` to generate a configure file (if you don't have `autoreconf` you can download a tarball instead as detailed be
-
-### CONFIGURATION (detected)
-
-Config-surface markers detected in the upstream
-README (4 matches, e.g. `c-cpp.yml`, `c-cpp.yml`).
-A full config reference page for this tool is
-queued under the config-page policy — this line
-is the detection record, not the page.
-
 ### SEE ALSO
 
 - Category: [c-01-information-gathering](../directory.qmd#cat-c-01-information-gathering) in the

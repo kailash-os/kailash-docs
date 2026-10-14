@@ -21,10 +21,6 @@ title: "wapiti - reference"
 Not derived automatically - see [upstream documentation](https://github.com/wapiti-scanner/wapiti). This page does not
 hand-copy flags (generation contract, ADR-0001).
 
-### DESCRIPTION (upstream)
-
-================================== Wapiti - Web Vulnerability Scanner ================================== .. image:: https://img.shields.io/pypi/v/wapiti3?label=PyPI&logo=PyPI&logoColor=white&color=blue :alt: PyPI version :target: https://pypi.python.org/pypi/wapiti3 .. image:: https://img.shields.io/pypi/pyversions/wapiti3 :alt: Supported Python versions :target: https://github.com/wapiti-scanner/wapiti/blob/master/INSTALL.md .. image:: https://img.shields.io/github/license/wapiti-scanner/wapiti :alt: License: GPL-2.0 :target: https://github.com/wapiti-scanner/wapiti/blob/master/LICENSE .. image:: https://img.shields.io/pypi/dd/wapiti3 :alt: Downloads per day on PyPi :target: https://pypi.py
-
 ### SEE ALSO
 
 - Category: [c-02-vulnerability-analysis](../directory.qmd#cat-c-02-vulnerability-analysis) in the
