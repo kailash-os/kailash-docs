@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Kailash OS Documentation"
-  author: "Kailash OS Project"
+  author: "Shain Singh"
   description: >-
     User and administrator guide for Kailash OS — a NixOS-based Linux
     distribution for AI security work: what it is, how it is built and
