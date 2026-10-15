@@ -6,7 +6,10 @@ the system is, how it is built and governed, how to run it, and (as the
 reference section lands) how to invoke every tool in its catalogue.
 
 The distribution's main site is [kailash.site](https://kailash.site);
-this site lives at `docs.kailash.tools`.
+this site lives at `docs.kailash.tools`. Task-oriented, worked recipes
+for running the system live in the companion
+[Kailash OS Cookbook](https://book.kailash.tools) — the guide tells you
+what a tool is, the cookbook shows how to use it.
 
 ## How the documentation is organised
 
